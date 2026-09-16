@@ -9,25 +9,25 @@ import fetch_data as fd  # noqa: E402
 MES = "2026-09"
 
 fake_contacts = [
-    {"id": "1", "properties": {"canal": "Whatsapp", "hs_createdate": f"{MES}-01T00:00:00Z", "firstname": "Ana", "lastname": "Ruiz"}},
-    {"id": "2", "properties": {"canal": "Facebook", "hs_createdate": f"{MES}-02T00:00:00Z", "firstname": "Luis", "lastname": "Perez"}},
-    {"id": "3", "properties": {"canal": "Facebook", "hs_createdate": f"{MES}-03T00:00:00Z", "firstname": "Rosa", "lastname": "Diaz"}},
+    {"id": "1", "properties": {"canal": "Whatsapp", "createdate": f"{MES}-01T00:00:00Z", "firstname": "Ana", "lastname": "Ruiz"}},
+    {"id": "2", "properties": {"canal": "Facebook", "createdate": f"{MES}-02T00:00:00Z", "firstname": "Luis", "lastname": "Perez"}},
+    {"id": "3", "properties": {"canal": "Facebook", "createdate": f"{MES}-03T00:00:00Z", "firstname": "Rosa", "lastname": "Diaz"}},
 ]
 
 fake_deals = [
     {
         "id": "d1",
-        "properties": {"dealname": "Deal Ana", "dealstage": "appointmentscheduled", "hs_createdate": f"{MES}-01T00:00:00Z"},
+        "properties": {"dealname": "Deal Ana", "dealstage": "appointmentscheduled", "createdate": f"{MES}-01T00:00:00Z"},
         "associations": {"contacts": {"results": [{"id": "1"}]}},
     },
     {
         "id": "d2",
-        "properties": {"dealname": "Deal Luis", "dealstage": "closedwon", "hs_createdate": f"{MES}-02T00:00:00Z"},
+        "properties": {"dealname": "Deal Luis", "dealstage": "closedwon", "createdate": f"{MES}-02T00:00:00Z"},
         "associations": {"contacts": {"results": [{"id": "2"}]}},
     },
     {
         "id": "d3",
-        "properties": {"dealname": "Deal Rosa", "dealstage": "closedlost", "hs_createdate": f"{MES}-03T00:00:00Z"},
+        "properties": {"dealname": "Deal Rosa", "dealstage": "closedlost", "createdate": f"{MES}-03T00:00:00Z"},
         "associations": {"contacts": {"results": [{"id": "3"}]}},
     },
 ]

@@ -102,7 +102,7 @@ def fetch_hubspot_contacts():
     log("descargando contactos de HubSpot...")
     contacts = hubspot_paginate(
         "/crm/v3/objects/contacts",
-        ["canal", "hs_createdate", "firstname", "lastname", "email"],
+        ["canal", "createdate", "firstname", "lastname", "email"],
     )
     log(f"  {len(contacts)} contactos descargados")
     return contacts
@@ -112,7 +112,7 @@ def fetch_hubspot_deals():
     log("descargando negocios (deals) de HubSpot...")
     deals = hubspot_paginate(
         "/crm/v3/objects/deals",
-        ["dealname", "dealstage", "pipeline", "hs_createdate", "closedate", "amount"],
+        ["dealname", "dealstage", "pipeline", "createdate", "closedate", "amount"],
         extra_params="&associations=contacts",
     )
     log(f"  {len(deals)} negocios descargados")
@@ -157,7 +157,7 @@ def build_dataset():
         props = c.get("properties", {})
         canal = props.get("canal")
         fuente = canal_a_fuente.get(canal, fuente_default)
-        mes = month_key(props.get("hs_createdate"))
+        mes = month_key(props.get("createdate"))
         if not mes:
             continue
         meses_vistos.add(mes)
@@ -167,7 +167,7 @@ def build_dataset():
     for d in deals:
         props = d.get("properties", {})
         dealstage = props.get("dealstage")
-        mes = month_key(props.get("hs_createdate"))
+        mes = month_key(props.get("createdate"))
         if not mes:
             continue
         meses_vistos.add(mes)
