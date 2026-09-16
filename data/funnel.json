@@ -1,0 +1,48 @@
+{
+  "generado": "2026-09-16T13:03:10.641223+00:00",
+  "meses": {
+    "2026-09": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "metas": {
+        "contactos": {
+          "Comercial": 30,
+          "MKT Pauta": 93,
+          "LinkedIn PACS": 10
+        },
+        "reuniones": 8,
+        "propuestas": 8,
+        "ventas": {
+          "Comercial": 1,
+          "MKT Pauta": 1,
+          "LinkedIn PACS": 1
+        }
+      },
+      "detalle": []
+    }
+  }
+}

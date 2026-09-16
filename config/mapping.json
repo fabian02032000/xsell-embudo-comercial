@@ -1,0 +1,49 @@
+{
+  "_comentario": "Este archivo controla cómo se arma el embudo. Se puede editar sin tocar código. Pide ayuda a Claude si quieres cambiar algo aquí.",
+
+  "canal_a_fuente": {
+    "Facebook": "MKT Pauta",
+    "Página web ( formulario)": "MKT Pauta",
+    "Correo": "MKT Pauta",
+    "Chat online": "MKT Pauta",
+    "Whatsapp": "Comercial",
+    "Recomendado": "Comercial",
+    "Referido": "Comercial",
+    "Campaña OUT": "Comercial",
+    "Central Telefónica": "Comercial",
+    "LinkedIn": "Comercial"
+  },
+  "fuente_por_defecto": "Comercial",
+
+  "_comentario_etapas": "Cada etapa de HubSpot se mapea a un número: 0=Contactos/Leads, 1=Reuniones Agendadas, 2=Propuestas Enviadas, 3=Ventas Cerradas. null = no cuenta en el embudo principal (pero sí aparece en el detalle de abajo con su nombre real, ej. Descartada o Stand By).",
+  "etapa_hubspot_a_nivel": {
+    "1275439753": 0,
+    "appointmentscheduled": 1,
+    "qualifiedtobuy": 2,
+    "decisionmakerboughtin": 2,
+    "contractsent": 2,
+    "closedwon": 3,
+    "44cdeaeb-93ef-4f46-a125-d47bfb1a7694": 3,
+    "1194313252": 2,
+    "closedlost": null,
+    "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a": null
+  },
+
+  "_comentario_pacs": "Etapas del método PACS (repo de LinkedIn). Si aparece una etapa nueva que no está aquí, se cuenta como nivel 0 (Contactos) por defecto.",
+  "etapa_pacs_a_nivel": {
+    "Identificado": 0,
+    "Contactado": 0,
+    "Conectado": 1,
+    "En conversación": 1,
+    "Reunión Agendada": 1,
+    "Propuesta": 2,
+    "Cliente": 3
+  },
+
+  "metas_mensuales_default": {
+    "contactos": { "Comercial": 30, "MKT Pauta": 93, "LinkedIn PACS": 10 },
+    "reuniones": 8,
+    "propuestas": 8,
+    "ventas": { "Comercial": 1, "MKT Pauta": 1, "LinkedIn PACS": 1 }
+  }
+}
