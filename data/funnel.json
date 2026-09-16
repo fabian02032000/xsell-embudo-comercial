@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-16T13:54:59.273299+00:00",
+  "generado": "2026-09-16T16:11:59.988128+00:00",
   "meses": {
     "2018-08": {
       "fuentes": {
@@ -20802,7 +20802,7 @@
     "2026-09": {
       "fuentes": {
         "Comercial": {
-          "contactos": 63,
+          "contactos": 64,
           "reuniones": 1,
           "propuestas": 0,
           "ventas": 0
@@ -20821,7 +20821,7 @@
         }
       },
       "total": {
-        "contactos": 70,
+        "contactos": 71,
         "reuniones": 1,
         "propuestas": 0,
         "ventas": 0
@@ -21315,5 +21315,6883 @@
         }
       ]
     }
-  }
+  },
+  "clientes_antiguos": [
+    {
+      "deal_id": "376069283",
+      "negocio": "CONCAR S.A- SOLICITUD DE TRABAJO",
+      "contacto": "Ricardo Quispe Bastidas",
+      "email": "ricquisbastidas@hotmail.com"
+    },
+    {
+      "deal_id": "376069505",
+      "negocio": "INVERCEM PERÚ: LOGÍSTICO Y RRHH",
+      "contacto": "Paola Boitano Boitano",
+      "email": "pboitano@invercemperu.com"
+    },
+    {
+      "deal_id": "376077171",
+      "negocio": "OB CORPORATION- VENDEDORAS DE CAMPO",
+      "contacto": "Luis Hinojosa",
+      "email": "luishinojosa194@gmail.com"
+    },
+    {
+      "deal_id": "376077216",
+      "negocio": "PLENUM RETAIL",
+      "contacto": "Alejandro Flores",
+      "email": "eduardo22flores@gmail.com"
+    },
+    {
+      "deal_id": "377845510",
+      "negocio": "MEE CHILE",
+      "contacto": "Sandra Diaz",
+      "email": "sdiaz@mee.cl"
+    },
+    {
+      "deal_id": "377845765",
+      "negocio": "ESUCAP: VENDEDORES Y SUPERVISOR",
+      "contacto": "Mario Veliz Gonzales",
+      "email": "esucap_peru@hotmail.com"
+    },
+    {
+      "deal_id": "377845988",
+      "negocio": "GYAKIVA BUSINESS: ASISTENTE COMERCIAL",
+      "contacto": "Jesmary Colmenares",
+      "email": "asistente@gyakiva.com"
+    },
+    {
+      "deal_id": "377846873",
+      "negocio": "FALCONSYSTEM: EJECUTIVO COMERCIAL",
+      "contacto": "Heidi Atoche Atoche",
+      "email": "supervisorventas@falconsystems.com.pe"
+    },
+    {
+      "deal_id": "378326455",
+      "negocio": "CENTRO NAVAL DEL PERÚ- BIENESTAR Y RRHH",
+      "contacto": "Diego Rivas",
+      "email": "planillas@centronaval.org.pe"
+    },
+    {
+      "deal_id": "378459611",
+      "negocio": "SOLUMA- ENCUESTAS PROSPECTOS",
+      "contacto": "Claudia Choque",
+      "email": "claudia.solunax@gmail.com"
+    },
+    {
+      "deal_id": "378470702",
+      "negocio": "YACHAY",
+      "contacto": "Rocio Silva",
+      "email": "ro.silvahurtado@gmail.com"
+    },
+    {
+      "deal_id": "379094397",
+      "negocio": "DXN2U: QNEX",
+      "contacto": "Mary Rivera",
+      "email": "mary_rivera@dxn2u.com"
+    },
+    {
+      "deal_id": "379117809",
+      "negocio": "PRECISIÓN PERÚ: ACTUALIZACIÓN DE DATOS",
+      "contacto": "César Sandoval",
+      "email": "cesar76sandoval@gmail.com"
+    },
+    {
+      "deal_id": "379230109",
+      "negocio": "TRANSPORTE VILLA HIJOS:  CONDUCTORES AIIIC",
+      "contacto": "Mary Villa Rodriguez",
+      "email": "maryvilla.rod21@gmail.com"
+    },
+    {
+      "deal_id": "379307337",
+      "negocio": "TRADUCCIONES: TELEVENTAS Y ATC",
+      "contacto": "Marina Benites",
+      "email": "informes@traducciones.com.pe"
+    },
+    {
+      "deal_id": "379308886",
+      "negocio": "CONSTRUCTORA REEVE: COLABORADOR RRHH",
+      "contacto": "Amhed Vargas",
+      "email": "amhedvargas@gmail.com"
+    },
+    {
+      "deal_id": "379312700",
+      "negocio": "TOULOUSE: ACTUALIZACIÓN DE DATOS",
+      "contacto": "Antonelli Calizaya",
+      "email": "acalizaya@tls.edu.pe"
+    },
+    {
+      "deal_id": "379312860",
+      "negocio": "NEXT GROUP: ATENCIÓN DE LLAMADAS",
+      "contacto": "Paolo Leiva",
+      "email": "pleiva@nextgroupperu.com"
+    },
+    {
+      "deal_id": "379313119",
+      "negocio": "RELUX: COLA 8 POSICIONES",
+      "contacto": "Ysidro Ramos",
+      "email": "yramos@relux.pe"
+    },
+    {
+      "deal_id": "379315606",
+      "negocio": "BARRERA Y ASOCIADOS: SUPERVISOR DE VENTAS",
+      "contacto": "Manuel Effio Noel",
+      "email": "reffio@factortributario.com"
+    },
+    {
+      "deal_id": "379320474",
+      "negocio": "FONAFUN: QNEX",
+      "contacto": "CHRISTHIAM GONZALES",
+      "email": "christhiamg@gmail.com"
+    },
+    {
+      "deal_id": "379438380",
+      "negocio": "UNIVERSITARIO: IL",
+      "contacto": "Jorge Uribe",
+      "email": "jorge.uribe@universitario.pe"
+    },
+    {
+      "deal_id": "380838104",
+      "negocio": "PERU MONEY- CAJEROS PLAZO CERO",
+      "contacto": "Edwin Chavez",
+      "email": "edwin.chavez@perumoney.pe"
+    },
+    {
+      "deal_id": "380877130",
+      "negocio": "CASA & IDEAS: CAJEROS, VENDEDORES PLAZO CERO",
+      "contacto": "Yandy Barreto Narrea",
+      "email": "yandy.barreto@casaideas.com"
+    },
+    {
+      "deal_id": "382752599",
+      "negocio": "PARQUE DEL RECUERDO: SERVICE DESK",
+      "contacto": "Sandro Lopez",
+      "email": "slopeztorres@parquedelrecuerdo.org"
+    },
+    {
+      "deal_id": "384178327",
+      "negocio": "ADMINISTRADORA DEL COMERCIO- RECEPCIONISTA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "384378008",
+      "negocio": "UAP: ATENCIÓN ALUMNOS",
+      "contacto": "Roy Huarcaya",
+      "email": "r_huarcaya_l@uap.edu.pe"
+    },
+    {
+      "deal_id": "384378247",
+      "negocio": "STEP TO BUSINESS: CURSOS ADMINISTRATIVOS",
+      "contacto": "Yudan Wesly Meza Cuisano",
+      "email": "wesly.meza@hotmail.com"
+    },
+    {
+      "deal_id": "385873759",
+      "negocio": "SMART FACTORY: QNEX",
+      "contacto": "Armando Oliveros",
+      "email": "ventas2@smartfactorysac.com.pe"
+    },
+    {
+      "deal_id": "385873773",
+      "negocio": "OSWALDO BARQUERO: QNEX",
+      "contacto": "Oswaldo Barquero",
+      "email": "oswaldo_barquero@hotmail.com"
+    },
+    {
+      "deal_id": "385873803",
+      "negocio": "FERNANDO: QNEX",
+      "contacto": "Fernando",
+      "email": "fernandogm2701@gmail.com"
+    },
+    {
+      "deal_id": "385881823",
+      "negocio": "REMAX- 30 ASESORES INMOBILIARIOS",
+      "contacto": "Mariela Camino",
+      "email": "marielacaminoruete@gmail.com"
+    },
+    {
+      "deal_id": "388272235",
+      "negocio": "INTERVACATION CLUB- CITAS",
+      "contacto": "Evelio Gutierrez",
+      "email": "evelio39@hotmail.com"
+    },
+    {
+      "deal_id": "389109941",
+      "negocio": "PAOLO VALERA- CONSULTORIOS",
+      "contacto": "Marisela Balarezo",
+      "email": "marisela@paolovalera.com"
+    },
+    {
+      "deal_id": "389110230",
+      "negocio": "INST. LIBERTADOR- CURSOS",
+      "contacto": "Randy Sacramento",
+      "email": "rsacramento@libertador.edu.pe"
+    },
+    {
+      "deal_id": "391406188",
+      "negocio": "SERVISEGUR- SUPERVISOR/ COORDINADOR",
+      "contacto": "Cristel García",
+      "email": "comercial@servisegur.com.pe"
+    },
+    {
+      "deal_id": "391475123",
+      "negocio": "TGC- SERV. DE LIMPIEZA",
+      "contacto": "Cecilia Garcia",
+      "email": "ceci-net@hotmail.com"
+    },
+    {
+      "deal_id": "393336064",
+      "negocio": "SEALAND: PAYROLL",
+      "contacto": "Maria Isabel Ordinola",
+      "email": "iordinola@sealand.com.pe"
+    },
+    {
+      "deal_id": "394348163",
+      "negocio": "LUTHERAN WORLD RELIEF: TI",
+      "contacto": "Myron Burkholder",
+      "email": "mburkholder@lwr.org"
+    },
+    {
+      "deal_id": "394458146",
+      "negocio": "ELECTRODATA: CLÍNICA",
+      "contacto": "Oscar Muñoz",
+      "email": "omunoz@electrodata.com.pe"
+    },
+    {
+      "deal_id": "394458177",
+      "negocio": "CENTRO MÉDICO EL TREBOL: CONSULTORIOS",
+      "contacto": "Madeline Guerrero Fontenla",
+      "email": "asistenteadministracion@centromedicoeltrebol.com"
+    },
+    {
+      "deal_id": "394542005",
+      "negocio": "CHICKENJAUS INBOUND",
+      "contacto": "Erika Cornejo",
+      "email": "central@chickenjaus.com.pe"
+    },
+    {
+      "deal_id": "394873962",
+      "negocio": "NCH: ANALISTA DE COBRANZA",
+      "contacto": "Estefania Chauca",
+      "email": "estefania.chauca@nch.com"
+    },
+    {
+      "deal_id": "396553394",
+      "negocio": "FUNDO ZEVALLOS- IMPULSADORAS",
+      "contacto": "Stefany Hassinger",
+      "email": "hassingerstf@hotmail.com"
+    },
+    {
+      "deal_id": "397177040",
+      "negocio": "FRANCISCO CRUZ: PEDIDOS",
+      "contacto": "Francisco Cruz",
+      "email": "rm3775544@gmail.com"
+    },
+    {
+      "deal_id": "397372424",
+      "negocio": "D&M: TELEVENTAS CURSOS",
+      "contacto": "Diana Huaytalla Cotrina",
+      "email": "dianne.hc6@gmail.com"
+    },
+    {
+      "deal_id": "397447774",
+      "negocio": "SAMS CLUB: ASESORAS DE VENTA",
+      "contacto": "Medalit Mirian Villa Orduña Trujillo",
+      "email": "info@pymeworldsoftware.com"
+    },
+    {
+      "deal_id": "398494953",
+      "negocio": "AMERICA TSI: PAYROLL",
+      "contacto": "Diana Crosby",
+      "email": "americatsi.dcc@gmail.com"
+    },
+    {
+      "deal_id": "398612471",
+      "negocio": "ALFA LAVAL: AYUDANTES MECÁNICOS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "399084334",
+      "negocio": "NOTARÍA MARIO GUTIERREZ: COLAS",
+      "contacto": "Mario Gutierrez",
+      "email": "almaguga.mg@gmail.com"
+    },
+    {
+      "deal_id": "399116159",
+      "negocio": "FUNDO ZEVALLOS: R&S IMPULSADORAS",
+      "contacto": "Stefany Hassinger",
+      "email": "hassingerstf@hotmail.com"
+    },
+    {
+      "deal_id": "399348940",
+      "negocio": "D&M: TELEOPERADORES CURSOS",
+      "contacto": "Diana Huaytalla Cotrina",
+      "email": "dianne.hc6@gmail.com"
+    },
+    {
+      "deal_id": "399798442",
+      "negocio": "GMASSA PROYECTOS: EJECUTIVA DE VENTAS",
+      "contacto": "Gianmarco Massa",
+      "email": "gmassa.proyectosintegrales@hotmail.com"
+    },
+    {
+      "deal_id": "402549752",
+      "negocio": "RENZO ALVARADO: DATOS PARTIDOS",
+      "contacto": "Renzo Alvarado",
+      "email": "renzo.alvarado.guimaray@gmail.com"
+    },
+    {
+      "deal_id": "402640249",
+      "negocio": "LA POSITIVA SEGUROS: R&S",
+      "contacto": "Carla Morales",
+      "email": "carla.morales@lapositiva.com.pe"
+    },
+    {
+      "deal_id": "402646423",
+      "negocio": "GRUPO VITAL: MOTORIZADO",
+      "contacto": "Rober Paitan",
+      "email": "rpaitan@grupovital.com.pe"
+    },
+    {
+      "deal_id": "402654279",
+      "negocio": "SES NET: TELEVENTAS SOFTWARE",
+      "contacto": "Karla Monzón",
+      "email": "karla.monzon@sesnetperu.com"
+    },
+    {
+      "deal_id": "402914166",
+      "negocio": "DYSTAR: ENCARGADO ALMACÉN",
+      "contacto": "Anthoanette Medina",
+      "email": "medina.anthoanette@dystar.com"
+    },
+    {
+      "deal_id": "402967318",
+      "negocio": "APART HOTEL: RECEPCIONISTA/ CHEF",
+      "contacto": "Fabian Venegas",
+      "email": "fvenegas5@hotmail.com"
+    },
+    {
+      "deal_id": "403869689",
+      "negocio": "ANTARES: TI PERMANENTE",
+      "contacto": "Julio Cesar Meza Martinez",
+      "email": "gerencia@antaressac.com"
+    },
+    {
+      "deal_id": "404232731",
+      "negocio": "GRUPO SANTILLANA: LLAMADAS CAMPAÑA",
+      "contacto": "Gloria Patricia Sánchez",
+      "email": "gpsanchez@santillana.com"
+    },
+    {
+      "deal_id": "404745961",
+      "negocio": "RJHM: CONFIGURACIÓN 6 PCS",
+      "contacto": "Italo Chavez Rey",
+      "email": "italochavezrey@gmail.com"
+    },
+    {
+      "deal_id": "404777728",
+      "negocio": "MP SOLUCIONES: ALMACENERO/ TÉCNICO",
+      "contacto": "Maribel Aymituma del Aguila",
+      "email": "operaciones@mpsoluciones.com.pe"
+    },
+    {
+      "deal_id": "404797644",
+      "negocio": "CAPITALE: TI",
+      "contacto": "Jessica Herrera Espinoza",
+      "email": "jherrera@capitale.pe"
+    },
+    {
+      "deal_id": "404911687",
+      "negocio": "TOTTUS: PLAYAS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "404930248",
+      "negocio": "LAND SEA CONTROL: SOPORTE TÉCNICO",
+      "contacto": "Guimel Quiñones Fernández",
+      "email": "administracion@landseacontrol.com"
+    },
+    {
+      "deal_id": "412165499",
+      "negocio": "GAS SYSTEMS: PERSONAL GRIFOS",
+      "contacto": "Karen Chanta",
+      "email": "proyectos@gassystems.com.pe"
+    },
+    {
+      "deal_id": "413514563",
+      "negocio": "ANOVO: TI SWITCHES",
+      "contacto": "Martin Carcamo",
+      "email": "martin.carcamo@ingrammicro.com"
+    },
+    {
+      "deal_id": "413514720",
+      "negocio": "IEC GROUP: ÁREA DE MARKETING",
+      "contacto": "Luis Anibal Gamarra Meza",
+      "email": "luis.gamarra@iecgroup.com.pe"
+    },
+    {
+      "deal_id": "413518777",
+      "negocio": "IXPERY: CENTRO MÉDICO 8 POSICIONES",
+      "contacto": "Alex Chonlon",
+      "email": "alexchonlon@ixpery.com"
+    },
+    {
+      "deal_id": "413719405",
+      "negocio": "FARENET: PAYROLL",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "414090582",
+      "negocio": "MAKRO: REPONEDORES/ DEGUSTADORAS",
+      "contacto": "Olsen Saravia Arana",
+      "email": "osaravia@makro.com.pe"
+    },
+    {
+      "deal_id": "414111981",
+      "negocio": "FARWEST: TI SOFTWARES",
+      "contacto": "Flavio Calda Novak",
+      "email": "fcalda@farwest.pe"
+    },
+    {
+      "deal_id": "414763503",
+      "negocio": "CONCEPCIÓN: LLAMADAS PREMIOS",
+      "contacto": "Bravis Flores",
+      "email": "admin@concepcion.pe"
+    },
+    {
+      "deal_id": "416638624",
+      "negocio": "DICAR: APOYO TI Y AUTOCAD",
+      "contacto": "Claudia Cadillo Rojo",
+      "email": "ccadillo@dicarlogistic.pe"
+    },
+    {
+      "deal_id": "417305967",
+      "negocio": "ECOAMAZONIA: TRABAJADORES",
+      "contacto": "Juan Toledo",
+      "email": "gerencia@ecoamazonia.com"
+    },
+    {
+      "deal_id": "417345090",
+      "negocio": "UNIMED DEL PERU: DERIVACIÓN LLAMADAS",
+      "contacto": "Cristi Gago",
+      "email": "cgago@unimed.com.pe"
+    },
+    {
+      "deal_id": "419298406",
+      "negocio": "GRUPO GTD: LIMPIEZA",
+      "contacto": "Karina Vega Cuzcano",
+      "email": "karina.vega@grupogtd.com"
+    },
+    {
+      "deal_id": "419578877",
+      "negocio": "SELLERT: PANTALLAS",
+      "contacto": "Juan Carlos Mendoza",
+      "email": "juan.mendoza@sellert.com"
+    },
+    {
+      "deal_id": "419688449",
+      "negocio": "ATLAS COPCO: GRABACIÓN AUDIO LLAMADAS",
+      "contacto": "Claudia Bravo",
+      "email": "claudia.bravo@pe.atlascopco.com"
+    },
+    {
+      "deal_id": "420829672",
+      "negocio": "PROYECTOS MULTIMEDIA: CLIENTE FINANCIERO",
+      "contacto": "Tomas Corro",
+      "email": "tcorro@proyectos-multimedia.com"
+    },
+    {
+      "deal_id": "421550826",
+      "negocio": "GTD: MUTUUM",
+      "contacto": "Fernando Maturana",
+      "email": "fmaturana@grupogtd.com"
+    },
+    {
+      "deal_id": "425049429",
+      "negocio": "IBK: DOCUMENTACIÓN PRÉSTAMOS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "425796642",
+      "negocio": "SOFTMARK: PROPUESTA CLIENTE",
+      "contacto": "Adriana Jarama",
+      "email": "ajarama@softmarkperu.com"
+    },
+    {
+      "deal_id": "427012265",
+      "negocio": "PROMELSA: ENCUESTAS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "428921580",
+      "negocio": "GRUPO LA REPÚBLICA: CAMPAÑA 24HR",
+      "contacto": "Daniel Espinoza Alvarez",
+      "email": "daniel.espinoza@glr.pe"
+    },
+    {
+      "deal_id": "429079604",
+      "negocio": "SANAMENTE: TAREAS CONSULTORIO",
+      "contacto": "Zivka Rodriguez",
+      "email": "zivka.rodriguez@marketeate.com"
+    },
+    {
+      "deal_id": "429590534",
+      "negocio": "XCUSTOMER360: CALIDAD",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "432791201",
+      "negocio": "VIDA FÁCIL: ADMINISTRACIÓN DE EDIFICIOS",
+      "contacto": "Byron Arriola",
+      "email": "ba@vidafacil.com.pe"
+    },
+    {
+      "deal_id": "432797969",
+      "negocio": "SOUTHERN PERÚ: PRUEBAS PSICOLÓGICAS",
+      "contacto": "Maira Holguin",
+      "email": "practicante.rrhh.spm@spm.pe"
+    },
+    {
+      "deal_id": "436810819",
+      "negocio": "HEINZ GLAS: PLANILLAS",
+      "contacto": "Selena Torres",
+      "email": "selene.torres@heinz-glas.com"
+    },
+    {
+      "deal_id": "436890804",
+      "negocio": "ADSERCO: R&S PERSONAL DE LIMPIEZA",
+      "contacto": "Nancy",
+      "email": "nbarra@adsercom.com"
+    },
+    {
+      "deal_id": "439136158",
+      "negocio": "AUPAR: VENTA DE CURSOS",
+      "contacto": "Lizbeth Vilchez",
+      "email": "lizbeth.vilchez@gmail.com"
+    },
+    {
+      "deal_id": "439323670",
+      "negocio": "T-LIMPIO: TÉCNICO PERMANENTE PART TIME",
+      "contacto": "Carlos Cañamero.",
+      "email": "orodriguez@tlimpio.com"
+    },
+    {
+      "deal_id": "442284265",
+      "negocio": "MYTC ABOGADOS: ANTIVIRUS",
+      "contacto": "Julio Esteban Velarde",
+      "email": "jvelarde@mytcabogados.com"
+    },
+    {
+      "deal_id": "442284640",
+      "negocio": "PEAK DMC- MANT. HARDWARE",
+      "contacto": "Alissa Osores",
+      "email": "alissa.osores@peakdmc.com"
+    },
+    {
+      "deal_id": "446916934",
+      "negocio": "NIELSEN & SMITH: ASISTENTE ADM/ CM",
+      "contacto": "Mario Rodriguez M",
+      "email": "mario.morillas@hotmail.com"
+    },
+    {
+      "deal_id": "455787037",
+      "negocio": "SERV GEOGRAFICOS Y MEDIO AMBIENTE SAC- MANTENIMIENTO PCS",
+      "contacto": "Jhon Peña Garcia",
+      "email": "taiyocorp@yahoo.es"
+    },
+    {
+      "deal_id": "456001299",
+      "negocio": "INTECSA: LLAMADAS INFORMACIÓN",
+      "contacto": "Maikol Berbesi",
+      "email": "mberbesi@intecsa.com.pe"
+    },
+    {
+      "deal_id": "456222702",
+      "negocio": "PROTECTA: TLMK BELCORP",
+      "contacto": "Manuel Fernández",
+      "email": "mfernandez@protectasecurity.pe"
+    },
+    {
+      "deal_id": "459383083",
+      "negocio": "TELEAVANCE: TELEOPERADORES MIGRACIÓN",
+      "contacto": "Cristiam Culqui Tejedo",
+      "email": "procesos@teleavance.com"
+    },
+    {
+      "deal_id": "460502156",
+      "negocio": "ESSALUD: SERVICE DESK",
+      "contacto": "Iván Llaque",
+      "email": "ivan.llaque@essalud.gob.pe"
+    },
+    {
+      "deal_id": "462993257",
+      "negocio": "APDOS: SOPORTE 4 PCS",
+      "contacto": "Jaime Palacios",
+      "email": "jaime_ab_pa@hotmail.com"
+    },
+    {
+      "deal_id": "463130805",
+      "negocio": "SANTA LUISA: TRAMITADOR",
+      "contacto": "Jesus Puño Rojas",
+      "email": "jpuno@santa-luisa.com"
+    },
+    {
+      "deal_id": "465605286",
+      "negocio": "VOLTRA: SOPORTE 20 PCS",
+      "contacto": "Ronald Porto",
+      "email": "ronald.porto@voltra.pe"
+    },
+    {
+      "deal_id": "466380648",
+      "negocio": "AYHOROS: PERSONAL DE SEGURIDAD",
+      "contacto": "Orlando Santos",
+      "email": "recursoshumanos@ayhoros.com"
+    },
+    {
+      "deal_id": "466727020",
+      "negocio": "TEQUECRUNCH: MOTORIZADO",
+      "contacto": "Fernando",
+      "email": "tequecrunchdelivery@gmail.com"
+    },
+    {
+      "deal_id": "471552905",
+      "negocio": "HAPPYLAND: PROSPECCIÓN",
+      "contacto": "Milagros Carbajal",
+      "email": "jefe.producto@happyland.pe"
+    },
+    {
+      "deal_id": "471738389",
+      "negocio": "Mitsubishi Company",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "474228068",
+      "negocio": "TOTTUS: PILOTO IMPULSADORAS",
+      "contacto": "Karen Yomona Quiroz",
+      "email": "kyomona@tottus.com.pe"
+    },
+    {
+      "deal_id": "479827641",
+      "negocio": "ARIGAL: MAILING/ LLAMADAS INVITACIÓN",
+      "contacto": "Rafael Galdos Lora",
+      "email": "rafaelgaldoslora@gmail.com"
+    },
+    {
+      "deal_id": "493364373",
+      "negocio": "HAPPYLAND: INTRANET",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "493951726",
+      "negocio": "VDR: TELEMARKETING",
+      "contacto": "Karina Cruces",
+      "email": "comercial@vdrasistencias.com.pe"
+    },
+    {
+      "deal_id": "509487373",
+      "negocio": "OFERTAS PLAZA: EJECUTIVAS DE VENTA",
+      "contacto": "Eduardo Bustamante",
+      "email": "ebustamante@ofertasplaza.com"
+    },
+    {
+      "deal_id": "509796070",
+      "negocio": "IGPP- PERSONAL VENTAS/ ATC",
+      "contacto": "Katherine Sánchez",
+      "email": "katherinesanchez@icip.pe"
+    },
+    {
+      "deal_id": "510764749",
+      "negocio": "AGRONEGOCIOS LA GRAMA: ADMINISTRADOR DE PLANTA",
+      "contacto": "MIRYAN VICENTE YACOLCA",
+      "email": "m.vicente.lagrama@gmail.com"
+    },
+    {
+      "deal_id": "520059924",
+      "negocio": "INDECOPI: QNEX SAAS",
+      "contacto": "Percy Barrientos",
+      "email": "pbarrientos@indecopi.gob.pe"
+    },
+    {
+      "deal_id": "522579008",
+      "negocio": "ABRAHAM LINCOLN: MANTENIMIENTO EQUIPOS",
+      "contacto": "Alberto Garcia",
+      "email": "agarciat@abrahamlincoln.edu.pe"
+    },
+    {
+      "deal_id": "527579827",
+      "negocio": "BITÁCORA MEDIA: COMUNITY MANAGER",
+      "contacto": "Daniel Cam",
+      "email": "dcam@bitacoramedia.com"
+    },
+    {
+      "deal_id": "532189247",
+      "negocio": "ESSALUD: QNEXT+ LIMA",
+      "contacto": "David Huamani",
+      "email": "david.huamani@essalud.gob.pe"
+    },
+    {
+      "deal_id": "532606066",
+      "negocio": "CINEYCER: EMISIÓN DE LLAMADAS",
+      "contacto": "Carolina Palomino",
+      "email": "asistente.huancayo@cineycersac.com"
+    },
+    {
+      "deal_id": "533240189",
+      "negocio": "ALFASEGUR: ASISTENTE DERIVACIONES",
+      "contacto": "Israel Rodríguez",
+      "email": "ventas@alfasegur.com"
+    },
+    {
+      "deal_id": "533418359",
+      "negocio": "ALFASEGUR: RECEPCIÓN DE LLAMADAS",
+      "contacto": "Israel Rodríguez",
+      "email": "ventas@alfasegur.com"
+    },
+    {
+      "deal_id": "539849171",
+      "negocio": "INDUSTRIAS DIONICIO: MANEJO DE REDES MAO",
+      "contacto": "Roxana Minaya",
+      "email": "rminaya.e@gmail.com"
+    },
+    {
+      "deal_id": "539849255",
+      "negocio": "VENTURA SOLUCIONES: AGENDAMIENTO DE CITAS",
+      "contacto": "María José Chávez",
+      "email": "mchavez@vsperu.com"
+    },
+    {
+      "deal_id": "539864867",
+      "negocio": "ATM TECNOCOM: GERENTE COMERCIAL",
+      "contacto": "Grecia Villafuerte",
+      "email": "grvl2708@gmail.com"
+    },
+    {
+      "deal_id": "539896961",
+      "negocio": "KRONOS: PERSONAL MÉDICO PROVINCIAS",
+      "contacto": "Nelson Peladez",
+      "email": "recursoshumanoskronos@gmail.com"
+    },
+    {
+      "deal_id": "540506146",
+      "negocio": "EXITOSAMENTE: AGENDAMIENTO DE CITAS MAO",
+      "contacto": "Jorge Machicado",
+      "email": "jorge.machicado@exitosamente.win"
+    },
+    {
+      "deal_id": "548422856",
+      "negocio": "LP: LÍNEA POSITIVA",
+      "contacto": "ARTURO OSWALDO RODRÍGUEZ",
+      "email": "arturo.rodriguez@lapositiva.com.pe"
+    },
+    {
+      "deal_id": "553053336",
+      "negocio": "ANN NOVOA: SOPORTE A PC E IMPRESORAS",
+      "contacto": "Ann Claudet Novoa Mendoza",
+      "email": "ann.claudet@gmail.com"
+    },
+    {
+      "deal_id": "553072890",
+      "negocio": "JOSUE CAMPOSANO: CABINAS HELPY",
+      "contacto": "Josue Camposano",
+      "email": "bcamposanotorres@gmail.com"
+    },
+    {
+      "deal_id": "553114849",
+      "negocio": "JEFFERSON CHAVEZ: SOPORTE",
+      "contacto": "Jefferson Chavez bustamante",
+      "email": "jefry2704@hotmail.com"
+    },
+    {
+      "deal_id": "553121024",
+      "negocio": "SOPALE: MANT, HARDWARE Y SOFTWARE",
+      "contacto": "Glenda Ruiz",
+      "email": "glenda@ivisa.com"
+    },
+    {
+      "deal_id": "556184267",
+      "negocio": "ADELA: PERSONAL DE OFIC. Y LIMPIEZA",
+      "contacto": "Karol Cucche",
+      "email": "karolcucchecabana@gmail.com"
+    },
+    {
+      "deal_id": "569709343",
+      "negocio": "PRESTALATINO: IN/ OUT ATC",
+      "contacto": "Natalia Nakhmanson",
+      "email": "natalya.nakhmanson@yandex.ru"
+    },
+    {
+      "deal_id": "570312864",
+      "negocio": "ROSSYMAR RIVAS: MANTENIMIENTO PC",
+      "contacto": "Rossymar Rivas",
+      "email": "huancatex@yahoo.es"
+    },
+    {
+      "deal_id": "574727005",
+      "negocio": "FARES YURIS: MANTENIMIENTO SOFTWARE",
+      "contacto": "Fares Yuris",
+      "email": "faresyunis5083@gmail.com"
+    },
+    {
+      "deal_id": "574824219",
+      "negocio": "EDGARDO BONABETH: INSTALALACIÓN DE OFFICE",
+      "contacto": "Edgardo Bonabeth",
+      "email": "egdardito33_34@hotmail.com"
+    },
+    {
+      "deal_id": "576939376",
+      "negocio": "YELLOW: TICKETERA EVENTO",
+      "contacto": "Antonella Noronha",
+      "email": "produccion1@yellow.com.pe"
+    },
+    {
+      "deal_id": "577404165",
+      "negocio": "SODIMAC: ESTIBADORES PUCALLPA",
+      "contacto": "Katherine Sophia Campo Acosta",
+      "email": "kcampoa@sodimac.com.pe"
+    },
+    {
+      "deal_id": "577474868",
+      "negocio": "CLÍNICA CLAS GREGORIO GRIMA: 4 LICENCIAS AREQUIPA",
+      "contacto": "Carmen Alegria",
+      "email": "mrhunter@saludarequipa.gob.pe"
+    },
+    {
+      "deal_id": "578824136",
+      "negocio": "GOLDEN RIVER: JEFE DE RRHH",
+      "contacto": "Julie Bautista Loayza",
+      "email": "julie.bautista@mineraconfianza.com"
+    },
+    {
+      "deal_id": "579124176",
+      "negocio": "ICIP: PERSONAL DE VENTAS Y ATC",
+      "contacto": "mkt@icip.pe",
+      "email": "mkt@icip.pe"
+    },
+    {
+      "deal_id": "579210727",
+      "negocio": "HABACUC: JEFE DE TALENTO H. LA LIBERTAD",
+      "contacto": "Jaime Triveño Yengle",
+      "email": "asistenteg-habacuc@outlook.com"
+    },
+    {
+      "deal_id": "579319503",
+      "negocio": "URTH APPAREL: SOPORTE A PCS",
+      "contacto": "Claudia",
+      "email": "claudia@urthapparel.com"
+    },
+    {
+      "deal_id": "581205291",
+      "negocio": "BERMAD PERÚ: SOPORTE A PCS",
+      "contacto": "Diego Rojas Mendizabal",
+      "email": "drojas@bermadperu.com"
+    },
+    {
+      "deal_id": "584138602",
+      "negocio": "MOWA: LLAMADAS OUT VENTAS/CITAS",
+      "contacto": "Yamila Lazaro Rodriguez",
+      "email": "ylazaro@mowa.com.pe"
+    },
+    {
+      "deal_id": "585430870",
+      "negocio": "NETCALL: P&C",
+      "contacto": "Alonso Chávez-Molina",
+      "email": "alonso@netcallperu.com"
+    },
+    {
+      "deal_id": "585679467",
+      "negocio": "KLAUS SCHRADER: MANT. HARDWARE PC",
+      "contacto": "Klaus Schrader",
+      "email": "klausschraderval@hotmail.com"
+    },
+    {
+      "deal_id": "588566217",
+      "negocio": "CCE: GESTIÓN ADMINISTRATIVA",
+      "contacto": "Ion Benito Pastrian",
+      "email": "adm.cce@outlook.com"
+    },
+    {
+      "deal_id": "589074138",
+      "negocio": "PURATOS: PLANILLAS",
+      "contacto": "Erick Hinostroza",
+      "email": "ehinostroza@puratos.com"
+    },
+    {
+      "deal_id": "605612078",
+      "negocio": "BITEL: LÍNEA 123 ATC",
+      "contacto": "joel asmat",
+      "email": "joel.asmat@bitel.com.pe"
+    },
+    {
+      "deal_id": "619211352",
+      "negocio": "TRANS: PERSONAL SOPORTE TÉCNICO",
+      "contacto": "Milagros Herrera",
+      "email": "mherrera@trans.com.pe"
+    },
+    {
+      "deal_id": "627782087",
+      "negocio": "PAYLESS: R&S VENDEDORES PART TIME",
+      "contacto": "Sandra",
+      "email": "sandra.delrio@payless.com"
+    },
+    {
+      "deal_id": "627838687",
+      "negocio": "PRODUCTOS ENCURTIDOS: ENCARGADO DE FINANZAS",
+      "contacto": "Eilen Molina",
+      "email": "emolina@consolidaconsultores.com"
+    },
+    {
+      "deal_id": "627838735",
+      "negocio": "KANAL: MAO ADMINISTRATIVO",
+      "contacto": "Adrian Guevara",
+      "email": "contacto@kanal.pe"
+    },
+    {
+      "deal_id": "627839329",
+      "negocio": "CARLOS CASMA: SOPORTE PC´S",
+      "contacto": "carlos casma",
+      "email": "carloscasma@hotmail.com"
+    },
+    {
+      "deal_id": "663950964",
+      "negocio": "FLORA Y FAUNA: ENCUESTAS CLIENTES",
+      "contacto": "María Herrera Leveratto",
+      "email": "mariah@produsana.com"
+    },
+    {
+      "deal_id": "717240481",
+      "negocio": "CHUBB: TELEMARKETING",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "720064228",
+      "negocio": "IBK: DISTRIBUCIÓN VALIJAS",
+      "contacto": "Sandy Morales",
+      "email": "smoralescon@intercorp.com.pe"
+    },
+    {
+      "deal_id": "742939230",
+      "negocio": "CLÍNICA SAN PABLO: TELEVENTAS",
+      "contacto": "Julio Donayre",
+      "email": "jdonayre@sanpablo.com.pe"
+    },
+    {
+      "deal_id": "745736642",
+      "negocio": "CEPEFODES: SOPORTE PROCESO DE VENTAS",
+      "contacto": "Oscar Basurco",
+      "email": "oscarbasurco@yahoo.es"
+    },
+    {
+      "deal_id": "755619725",
+      "negocio": " CLÍNICA SJDD: PLANILLAS Y BIENESTAR",
+      "contacto": "Jhoana Rios Ku Hop",
+      "email": "jhoana.rios@sanjuandedios.pe"
+    },
+    {
+      "deal_id": "757011748",
+      "negocio": "AEA: HOTELERÍA CC",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "759924080",
+      "negocio": "CLARO: FFVV CORPORATIVA",
+      "contacto": "Milton Zamudio",
+      "email": "mzamudio@claro.com.pe"
+    },
+    {
+      "deal_id": "761672901",
+      "negocio": "RPP: ATENCIÓN ROTAFONO",
+      "contacto": "Ernesto Leyva Freundt",
+      "email": "eleyva@gruporpp.com.pe"
+    },
+    {
+      "deal_id": "786424735",
+      "negocio": "LIDEM PERÚ: PERSONAL OPERATIVO",
+      "contacto": "Freddy SilvaTocto",
+      "email": "fsilva@lidemperu.com.pe"
+    },
+    {
+      "deal_id": "792330189",
+      "negocio": "QNEXT: ESSALUD RED ASISTENCIAL APURIMAC",
+      "contacto": "David Yañez Davila",
+      "email": "davidyanezdavila@gmail.com"
+    },
+    {
+      "deal_id": "794842777",
+      "negocio": "QNEXT: ESSALUD RED ASISTENCIAL PASCO",
+      "contacto": "Jorge Romero Machado",
+      "email": "jorge.romero@essalud.gob.pe"
+    },
+    {
+      "deal_id": "797187980",
+      "negocio": "QNEXT: ESSALUD RED ASISTENCIAL TUMBES",
+      "contacto": "Zito Leon Davila",
+      "email": "zito.leon@essalud.gob.pe"
+    },
+    {
+      "deal_id": "797265306",
+      "negocio": "QNEXT: JUAN ZEGARRA- ESSALUD TACNA",
+      "contacto": "juan zegarra",
+      "email": "juanzegarral@mgasociados.pe"
+    },
+    {
+      "deal_id": "797809542",
+      "negocio": "QNEXT +: ESSALUD RED ASISTENCIAL LA LIBERTAD",
+      "contacto": "Rolan Calderón Ushiñahua",
+      "email": "rolan.calderon@essalud.gob.pe"
+    },
+    {
+      "deal_id": "797816019",
+      "negocio": "QNEXT +: ESSALUD RED ASISTENCIAL JUNÍN",
+      "contacto": "Augusto Carhuancho Aldecoa",
+      "email": "alexander.carhuancho@essalud.gob.pe"
+    },
+    {
+      "deal_id": "799266305",
+      "negocio": "MARSH: TELECOBRANZAS",
+      "contacto": "Mariano Carbonell O'brien",
+      "email": "mariano.carbonell@marsh.com"
+    },
+    {
+      "deal_id": "800161652",
+      "negocio": "ENTEL: ENCUESTAS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "800203199",
+      "negocio": "PACÍFICO: TELEVENTAS",
+      "contacto": "Sahara Vinas",
+      "email": "svinas@pacifico.com.pe"
+    },
+    {
+      "deal_id": "807634185",
+      "negocio": "PROTECTA: ANALISTA TEMPORAL",
+      "contacto": "Manuel Fernández",
+      "email": "mfernandez@protectasecurity.pe"
+    },
+    {
+      "deal_id": "809722095",
+      "negocio": "BCP : PROMOTORES ATC",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "823556247",
+      "negocio": "ESSALUD: RED ASISTENCIAL MOYOBAMBA",
+      "contacto": "Nelda Pinedo Rodriguez",
+      "email": "nelda.pinedo@essalud.gob.pe"
+    },
+    {
+      "deal_id": "823576662",
+      "negocio": "MENORCA: ACTUALIZACIÓN DATOS CLIENTES",
+      "contacto": "Sharon Ramos",
+      "email": "sramos@menorca.com.pe"
+    },
+    {
+      "deal_id": "823590685",
+      "negocio": "WALTER GARCÍA: MAO TELEMARKETING",
+      "contacto": "Walter Garcia Ramirez",
+      "email": "3e.waltergarcia@gmail.com"
+    },
+    {
+      "deal_id": "830080483",
+      "negocio": "MARCO EYZAGUIRRE: QNEXT´+ CENTRO MÉDICO PIURA",
+      "contacto": "marco eyzaguirre",
+      "email": "marco.eyzaguirre.cockburn@gmail.com"
+    },
+    {
+      "deal_id": "836594831",
+      "negocio": "MAO: KARLA COSTA",
+      "contacto": "Karla Costa",
+      "email": "karlacosta87@gmail.com"
+    },
+    {
+      "deal_id": "844392714",
+      "negocio": "ESSALUD: RED ASISTENCIAL ANCASH",
+      "contacto": "Juana Manujuan Linares",
+      "email": "juana.majuan@essalud.gob.pe"
+    },
+    {
+      "deal_id": "845706806",
+      "negocio": "ESSALUD: RED ASISTENCIAL PUNO",
+      "contacto": "erick.gamero@essalud.gob.pe",
+      "email": "erick.gamero@essalud.gob.pe"
+    },
+    {
+      "deal_id": "845720238",
+      "negocio": "ESSALUD: RED ASISTENCIAL PIURA",
+      "contacto": "gustavo.benites@essalud.gob.pe",
+      "email": "gustavo.benites@essalud.gob.pe"
+    },
+    {
+      "deal_id": "845720268",
+      "negocio": "ESSALUD: RED ASISTENCIAL HUARAZ",
+      "contacto": "David Villanque",
+      "email": "david.villanque@essalud.gob.pe"
+    },
+    {
+      "deal_id": "845881877",
+      "negocio": "ESSALUD: RED ASISTENCIAL HUANCAVELICA",
+      "contacto": "Wilfredo Lopez",
+      "email": "wilfredo.lopez@essalud.gob.pe"
+    },
+    {
+      "deal_id": "846109519",
+      "negocio": "ESSALUD: RED ASISTENCIAL TARAPOTO",
+      "contacto": "Yoly Mozombite Vargas",
+      "email": "yolymozombite@hotmail.com"
+    },
+    {
+      "deal_id": "846155067",
+      "negocio": "ESSALUD: RED ASISTENCIAL CAJAMARCA",
+      "contacto": "NANCY SANGAY TUCTO",
+      "email": "externo.nsangay@essalud.gob.pe"
+    },
+    {
+      "deal_id": "846156097",
+      "negocio": "ESSALUD: RED ASISTENCIAL TACNA",
+      "contacto": "iscasasm@gmail.com",
+      "email": "iscasasm@gmail.com"
+    },
+    {
+      "deal_id": "846229861",
+      "negocio": "ESSALUD: RES ASISTENCIAL IQUITOS",
+      "contacto": "Jose Fernandez Ordoñez",
+      "email": "jose.fernandezor@essalud.gob.pe"
+    },
+    {
+      "deal_id": "874396654",
+      "negocio": "SERVIDORES: ANEXOS, RACKEO Y CONEXIÓN",
+      "contacto": "Julio Cesar Mantilla",
+      "email": "julio.mantilla@ingrammicro.com"
+    },
+    {
+      "deal_id": "876156478",
+      "negocio": "ESSALUD: MÓDULOS GESTIÓN",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "895422989",
+      "negocio": "ANOVO: MANTENIMIENTO SOFTWARE PCS",
+      "contacto": "Julio Cesar Mantilla",
+      "email": "julio.mantilla@ingrammicro.com"
+    },
+    {
+      "deal_id": "897566671",
+      "negocio": "KURIACOOP: COLOCACIÓN CRÉDITOS CONVENIO",
+      "contacto": "Jean Pierre Diaz",
+      "email": "jdiaz@kuria.pe"
+    },
+    {
+      "deal_id": "907540260",
+      "negocio": "CHUCK E. CHEESE'S: ENCUESTAS SATISFACCIÓN",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "925587008",
+      "negocio": "CLARO: ATC TELEPRESENCIA",
+      "contacto": "Iván Gastiaburu",
+      "email": "ivan.gastiaburu@claro.com.pe"
+    },
+    {
+      "deal_id": "928868184",
+      "negocio": "CONSIENTEMENTE: MAO DOCUMENTACION",
+      "contacto": "Catalina Pineda",
+      "email": "cpineda@consientemente.co"
+    },
+    {
+      "deal_id": "936033673",
+      "negocio": "DIXSIS: TELEVENTA INBOUND",
+      "contacto": "Mariano Moral",
+      "email": "mariano.moral@dixsis.com"
+    },
+    {
+      "deal_id": "951609922",
+      "negocio": "CEVICHERIA NANDO EL BURRERO: PLANILLAS MOZOS",
+      "contacto": "Mario Gamarra",
+      "email": "nandoelburrero@gmail.com"
+    },
+    {
+      "deal_id": "962375696",
+      "negocio": "OPEN PLAZA: ATC JUEGOS NIÑOS",
+      "contacto": "Cinthia Katherine Garcia Jimenez",
+      "email": "ckgarcia@openplaza.com.pe"
+    },
+    {
+      "deal_id": "985432319",
+      "negocio": "NEXLOT: CC ATC",
+      "contacto": "Elizabeth Ramos",
+      "email": "elizabeth.ramos@juegaperu.com"
+    },
+    {
+      "deal_id": "1021037424",
+      "negocio": "RIB CONSULTORES: TESTS PSICOLÓGICOS DOCENTES",
+      "contacto": "Miguel Ruiz",
+      "email": "innovacionydesarrollo@ribconsultores.com"
+    },
+    {
+      "deal_id": "1023884082",
+      "negocio": "PROVEFABRICA: AYUDANTES DE BODEGA",
+      "contacto": "Nancy Maquín",
+      "email": "n_maquin@provefabrica.com"
+    },
+    {
+      "deal_id": "1033735988",
+      "negocio": "PEDRO RUIZ: DIAGNÓSTICO Y SOPORTE PC",
+      "contacto": "Pedro Ruiz Rosales",
+      "email": "pedro_e_ruiz@hotmail.com"
+    },
+    {
+      "deal_id": "1043669973",
+      "negocio": "ESSALUD: INTERMEDIACIÓN CC",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "1043913277",
+      "negocio": "LA POSITIVA: CALL CENTER AMIGO POSITIVO",
+      "contacto": "Sandra Huillcanahui Lopez",
+      "email": "sandra.huillcanahui@lapositiva.com.pe"
+    },
+    {
+      "deal_id": "1045621807",
+      "negocio": "CSJDD: TELEOPERADORAS VENTA",
+      "contacto": "Geraldine Paola Bedoya Guerrero",
+      "email": "geraldine.bedoya@sanjuandedios.pe"
+    },
+    {
+      "deal_id": "1046068968",
+      "negocio": "MITSUI: ATC 24/7",
+      "contacto": "Sandro Eugenio Vallebuona Monge",
+      "email": "svallebuona@mitsuiautomotriz.com"
+    },
+    {
+      "deal_id": "1047494520",
+      "negocio": "MAYORSA: OPERARIOS",
+      "contacto": "Manuel Berrocal",
+      "email": "mberrocal@smu.pe"
+    },
+    {
+      "deal_id": "1050826670",
+      "negocio": "CULQUI: CC ATC",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "1058136216",
+      "negocio": "PODER JUDICIAL: ATENCIÓN DE COLAS LA LIBERTAD",
+      "contacto": "Maria Gabriela Moreno",
+      "email": "mmorenor@pj.gob.pe"
+    },
+    {
+      "deal_id": "1058376313",
+      "negocio": "ATISA: IMPULSADORA FERIA HORECA",
+      "contacto": "Hermelinda Filomeno",
+      "email": "herofias@gmail.com"
+    },
+    {
+      "deal_id": "1059208286",
+      "negocio": "RICARDO CHALCO: TELEVENTAS IN",
+      "contacto": "Ricardo Chalco Arteaga",
+      "email": "clau114@hotmail.com"
+    },
+    {
+      "deal_id": "1061711762",
+      "negocio": "UPN: ENCUESTAS NO MATRICULADOS",
+      "contacto": "Alex Martin Iglesias",
+      "email": "alex.iglesias@laureate.pe"
+    },
+    {
+      "deal_id": "1063872142",
+      "negocio": "MAREAUTO AVIS: IMPLEMENTACIÓN CRM",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "1064121453",
+      "negocio": "CHUGUR QUESOS: MERCADERISTAS/ IMPULSADORAS",
+      "contacto": "Juvenal Diaz Diaz",
+      "email": "distribucion@chugurquesos.com"
+    },
+    {
+      "deal_id": "1064317406",
+      "negocio": "MARCO ANTONIO RAMOS: CONFIGURACIÓN PC",
+      "contacto": "Marco Antonio Ramos Fernandez",
+      "email": "marco6240@gmail.com"
+    },
+    {
+      "deal_id": "1066611895",
+      "negocio": "ANA ROMERO: INTERMEDIACIÓN EQUIPO COMERCIAL",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "1074697895",
+      "negocio": "MÓNICA ALIAGA: MAO",
+      "contacto": "Mónica Aliaga",
+      "email": "monica.aliaga@lapositiva.com.pe"
+    },
+    {
+      "deal_id": "1075177735",
+      "negocio": "HOTEL LOS DELFINES: OUTBOUND VENTA SERVICIOS",
+      "contacto": "Julio  Dietz",
+      "email": "jdietz@losdelfineshotel.com.pe"
+    },
+    {
+      "deal_id": "1080663593",
+      "negocio": "EUROFLEX: R&S PERSONAL ADMINISTRATIVO",
+      "contacto": "July Manrique Guillen",
+      "email": "jmanrique@euroflex.pe"
+    },
+    {
+      "deal_id": "1091446253",
+      "negocio": "ZINSA: ACTUALIZACIÓN DE DATOS",
+      "contacto": "Andrea Rivero Verme",
+      "email": "andrea.rivero@zinsa.com.pe"
+    },
+    {
+      "deal_id": "1096406053",
+      "negocio": "JARDINES DE LA PAZ : PLANILLAS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "1099406735",
+      "negocio": "CYBORG: HOSPITAL UCAYALI",
+      "contacto": "robert lazo",
+      "email": "ventas.cyborg@hotmail.com"
+    },
+    {
+      "deal_id": "1128592620",
+      "negocio": "RAPPI: PLATAFORMA MAO",
+      "contacto": "Micaela Ferrero Pizarro",
+      "email": "micaela.ferrero@rappi.com"
+    },
+    {
+      "deal_id": "1128910427",
+      "negocio": "SODIMAC: ACONDICIONADO PRODUCTOS",
+      "contacto": "José Miguel Martínez",
+      "email": "jmartinezv@sodimac.com.pe"
+    },
+    {
+      "deal_id": "1135407420",
+      "negocio": "VICTOR MONTEVERDE: MAO AGENDAMIENTO DE CITAS",
+      "contacto": "Victor Monteverde",
+      "email": "vmonteverde@tgl.com.pe"
+    },
+    {
+      "deal_id": "1135459869",
+      "negocio": "JIM DANTAS: TICKETERA TERCERO",
+      "contacto": "Jim Dantas Ramirez",
+      "email": "jimdantas@hotmail.com"
+    },
+    {
+      "deal_id": "1167049481",
+      "negocio": "ANOVO: INSTALACIÓN Y CONFIGURACIÓN DE MS",
+      "contacto": "Martin Carcamo",
+      "email": "martin.carcamo@ingrammicro.com"
+    },
+    {
+      "deal_id": "1191695825",
+      "negocio": "INDEPENDENCIA: COBRANZAS",
+      "contacto": "Ana Maria",
+      "email": ""
+    },
+    {
+      "deal_id": "1195351295",
+      "negocio": "IKIGAI: ENCUESTAS CLIENTES",
+      "contacto": "José Gallegos",
+      "email": "jgallegos@ikigailab.pe"
+    },
+    {
+      "deal_id": "1205478620",
+      "negocio": "JHON ESPINOZA: TICKETERA MUNICIPIO UCAYALI",
+      "contacto": "Jhon Robinson Espinoza Garcia",
+      "email": "jhonzagarcia8@gmail.com"
+    },
+    {
+      "deal_id": "1210868940",
+      "negocio": "SUNARP CUSCO: TICKETERA",
+      "contacto": "Elvis Raineiro Ancalle Villcas",
+      "email": "practicante.eancalle_cusco@sunarp.gob.pe"
+    },
+    {
+      "deal_id": "1241101506",
+      "negocio": "UNIVERSIDAD CIENTÍFICA DEL SUR: CONSULTORIO DENTAL",
+      "contacto": "Javier Alonso Ramirez Avalos",
+      "email": "jramirezav@cientifica.edu.pe"
+    },
+    {
+      "deal_id": "1245524204",
+      "negocio": "LUCET: R&S JEFE DE PRODUCCIÓN",
+      "contacto": "Gonzalo Espinoza",
+      "email": "reclutamientoyseleccion@lucet.com.pe"
+    },
+    {
+      "deal_id": "1297715116",
+      "negocio": "CLÍNICA AVIVA: SISTEMA DE COLAS",
+      "contacto": "Juan Figueroa",
+      "email": "juan.figueroa@aviva.pe"
+    },
+    {
+      "deal_id": "1379555009",
+      "negocio": "CNC: AUXILIAR ARCHIVO",
+      "contacto": "Gianmarco Torres",
+      "email": "gtorres@chocolates.pe"
+    },
+    {
+      "deal_id": "1381088910",
+      "negocio": "BEC: RECEPCIÓN LLAMADAS",
+      "contacto": "pedro@businecon.com",
+      "email": "pedro@businecon.com"
+    },
+    {
+      "deal_id": "1398226985",
+      "negocio": "CLINICA CAYETANO: QNEXT +",
+      "contacto": "Marianela Pérez Merino",
+      "email": "logistica@clinicacayetanoheredia.com"
+    },
+    {
+      "deal_id": "1418201693",
+      "negocio": "ESSALUD: QNEXT PLUS",
+      "contacto": "Diosanto Alvarado",
+      "email": "diosanto.alvarado@essalud.gob.pe"
+    },
+    {
+      "deal_id": "1429000655",
+      "negocio": "AYNITECH: DESARROLLADOR WEB",
+      "contacto": "Maria Lopez",
+      "email": "mlopez@aynitech.com"
+    },
+    {
+      "deal_id": "1451438187",
+      "negocio": "NOTARÍA GÓMEZ ANAYA: TICKETERA",
+      "contacto": "Malú Tueros",
+      "email": "mtueros@notariagomezanaya.com"
+    },
+    {
+      "deal_id": "1465292304",
+      "negocio": "ENTEL: QNEXT+",
+      "contacto": "Emanuel Peña",
+      "email": "emanuel.pena@entel.pe"
+    },
+    {
+      "deal_id": "1508745196",
+      "negocio": "CENCOSUD: COBRANZAS",
+      "contacto": "Miguel De La Flor",
+      "email": "miguel.delaflorramirez@cencosudscotiabank.pe"
+    },
+    {
+      "deal_id": "1524366023",
+      "negocio": "ROTOPLAS: QNEXT PLUS",
+      "contacto": "Angel Bardalez",
+      "email": "abardalez@rotoplas.com"
+    },
+    {
+      "deal_id": "1524820955",
+      "negocio": "XCUSTOMER 360: GESTIÓN COMERCIAL",
+      "contacto": "Luiz Gianasella",
+      "email": "lgianesella@xcustomer360.com"
+    },
+    {
+      "deal_id": "1574424677",
+      "negocio": "SEDAPAR: QNEXT PLUS",
+      "contacto": "CARLOS ALBERTO MONJE",
+      "email": "carlosmove1@hotmail.com"
+    },
+    {
+      "deal_id": "1579246041",
+      "negocio": "EXP. SAN ALBERTO: R&S PERSONAL OPERATIVO",
+      "contacto": "Santiago Torres T.",
+      "email": "santiago@expsanalberto.cl"
+    },
+    {
+      "deal_id": "1586578581",
+      "negocio": "MUNICIPALIDAD DE CANETE: QNEXT+",
+      "contacto": "Rodrigo Castilla",
+      "email": "rcastilla@municanete.gob.pe"
+    },
+    {
+      "deal_id": "1596832070",
+      "negocio": "SUNASS: QNEXT+",
+      "contacto": "Daniel Eduardo Torres Castro",
+      "email": "dtorres@sunass.gob.pe"
+    },
+    {
+      "deal_id": "1598638378",
+      "negocio": "MARSAR: HELPY",
+      "contacto": "Edmine Cueva",
+      "email": "ecueva@marsar.net"
+    },
+    {
+      "deal_id": "1605482124",
+      "negocio": "UNIVERSIDAD WIENER: QNEXT+",
+      "contacto": "Tomas Corro",
+      "email": "tcorro@proyectos-multimedia.com"
+    },
+    {
+      "deal_id": "1635918847",
+      "negocio": "RAPPI: SERVICIOS MULTIPLES 96 PCS",
+      "contacto": "César Vásquez Elera",
+      "email": "seguridad.general@rappi.com"
+    },
+    {
+      "deal_id": "1677727650",
+      "negocio": "QNEXT+: BANCO AZTECA",
+      "contacto": "Luis Felipe Rios",
+      "email": "felipe.rios@frproduccion.com"
+    },
+    {
+      "deal_id": "1679432958",
+      "negocio": "CITY CLUB PUNTOS: STAFFING",
+      "contacto": "Carmen Huamán",
+      "email": "atencion.citypuntosclub@gmail.com"
+    },
+    {
+      "deal_id": "1679562405",
+      "negocio": "LUZ DEL SUR: QNEXT+",
+      "contacto": "Raul Poma",
+      "email": "rpoma@luzdelsur.com.pe"
+    },
+    {
+      "deal_id": "1683982670",
+      "negocio": "D'GALLIA: QNEXT+ ",
+      "contacto": "Cristhian Salazar",
+      "email": "csalazar@dgallia.edu.pe"
+    },
+    {
+      "deal_id": "1703586104",
+      "negocio": "LP: KALLPA",
+      "contacto": "Julissa Vildoso Escalante Escalante",
+      "email": "julissa.vildoso@lapositiva.com.pe"
+    },
+    {
+      "deal_id": "1707162599",
+      "negocio": "GOB. REG. DEL CALLAO: QNEXT+",
+      "contacto": "Maricarmen Galvez",
+      "email": "mgalvez@red-itt.com"
+    },
+    {
+      "deal_id": "1709015119",
+      "negocio": "BIONI-CARE: TLMK",
+      "contacto": "Ana Isabel Buitrago",
+      "email": "aisa.buitrago@bioni-care.com"
+    },
+    {
+      "deal_id": "1709020011",
+      "negocio": "LP: PG VENTAS",
+      "contacto": "Julissa Vildoso Escalante Escalante",
+      "email": "julissa.vildoso@lapositiva.com.pe"
+    },
+    {
+      "deal_id": "1726708303",
+      "negocio": "SODIMAC: INTERMEDIACIÓN CHICLAYO",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "1760945933",
+      "negocio": "ANOVO: INSTALACIÓN OFFICE",
+      "contacto": "Julio Cesar Mantilla",
+      "email": "julio.mantilla@ingrammicro.com"
+    },
+    {
+      "deal_id": "1762504485",
+      "negocio": "ANOVO: SOPORTE PRESENCIAL HELPY PROVINCIAS",
+      "contacto": "Julio Cesar Mantilla",
+      "email": "julio.mantilla@ingrammicro.com"
+    },
+    {
+      "deal_id": "1786494187",
+      "negocio": "TOTTUS: IMPULSACIÓN HIGIENE",
+      "contacto": "Paola Quelopana",
+      "email": "pquelopana@tottus.com.pe"
+    },
+    {
+      "deal_id": "1808876665",
+      "negocio": "KMJK: R&S EJECUTIVOS DE VENTA",
+      "contacto": "Gianina De Luise",
+      "email": "gianina@kmjk.pe"
+    },
+    {
+      "deal_id": "1810095217",
+      "negocio": "ELIAS VLADIMIR: QNEXT+",
+      "contacto": "elias vladimir churata roque",
+      "email": "vlady24251@gmail.com"
+    },
+    {
+      "deal_id": "1814102744",
+      "negocio": "SYSTEMATIC: HELPY",
+      "contacto": "Pedro Cajo",
+      "email": "pedrocajo@icloud.com"
+    },
+    {
+      "deal_id": "1826221497",
+      "negocio": "COMAQSUR: A&F",
+      "contacto": "Estanislao Guillen Chancañahua",
+      "email": "eguillen@comaqsur.com"
+    },
+    {
+      "deal_id": "1904948530",
+      "negocio": "ELIAN AMBROCIO: HELPY",
+      "contacto": "Elian Ambrocio leon",
+      "email": "leon.ambrocio.77@gmail.com"
+    },
+    {
+      "deal_id": "1920462713",
+      "negocio": "PLANIYA: M.ANGEL NUÑEZ",
+      "contacto": "miguel angel nuñez minaya",
+      "email": "manm_2511@hotmail.es"
+    },
+    {
+      "deal_id": "1942539147",
+      "negocio": "QNEXT+: LA POSITIVA ILLARIY",
+      "contacto": "Alfredo Heysen",
+      "email": "mheyseny@lapositivavida.com.pe"
+    },
+    {
+      "deal_id": "1942594346",
+      "negocio": "ALICORP: CENTRAL DE PEDIDOS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "1942602976",
+      "negocio": "DON MAMINO: CENTRAL DE PEDIDOS",
+      "contacto": "Katia Vidal",
+      "email": "kvidal@donmamino.com"
+    },
+    {
+      "deal_id": "1943127619",
+      "negocio": "HELPY: MARCOS MATOS",
+      "contacto": "Marcos Matos Lévano",
+      "email": "marcosmatos2309@gmail.com"
+    },
+    {
+      "deal_id": "1946880289",
+      "negocio": "ECO TOWER CONSTRUCTORA: ENCUESTAS",
+      "contacto": "jose luis Sousa",
+      "email": "jlsousa@ecotower.com.pe"
+    },
+    {
+      "deal_id": "1951935296",
+      "negocio": "DON MAMINO: DELIVERY",
+      "contacto": "Katia Vidal",
+      "email": "kvidal@donmamino.com"
+    },
+    {
+      "deal_id": "1965748148",
+      "negocio": "SODIMAC: ESTIBADORES- DESESTIBADORES LURÍN",
+      "contacto": "José Miguel Martínez",
+      "email": "jmartinezv@sodimac.com.pe"
+    },
+    {
+      "deal_id": "1967004701",
+      "negocio": "HISPANA IDIOMAS: HELPY",
+      "contacto": "Katherine Mujica",
+      "email": "kmujica@hispanaidiomas.com"
+    },
+    {
+      "deal_id": "1967031464",
+      "negocio": "HELPY: MARCO ALFARO",
+      "contacto": "Marco Alfaro",
+      "email": "marcoalfaro1773@gmail.com"
+    },
+    {
+      "deal_id": "1967179111",
+      "negocio": "QNEXT+: EDDISON GONZALES JORDAN",
+      "contacto": "EDDISON GONZALES JORDAN",
+      "email": "gonzaleseddison@hotmail.com"
+    },
+    {
+      "deal_id": "1973254080",
+      "negocio": "JOSE REYES: HELPY",
+      "contacto": "Jose Reyes Gps",
+      "email": "talentustechnology@hotmail.com"
+    },
+    {
+      "deal_id": "1973852019",
+      "negocio": "MARCO VALNZ: HELPY",
+      "contacto": "Marco Valnz",
+      "email": "marco.valnz@gmail.com"
+    },
+    {
+      "deal_id": "1979702675",
+      "negocio": "LUIS BICEÑO: HELPY",
+      "contacto": "Luis Gerardo Briceño",
+      "email": "lbricenod@gmail.com"
+    },
+    {
+      "deal_id": "1985408567",
+      "negocio": "MIDIS: QNEXT+",
+      "contacto": "Yusara Gutarra",
+      "email": "ygutarra@midis.gob.pe"
+    },
+    {
+      "deal_id": "1988372572",
+      "negocio": "LISTO: CENTRAL DE PEDIDOS",
+      "contacto": "Doris Hutarra",
+      "email": "dhutarra@pecsa.com.pe"
+    },
+    {
+      "deal_id": "1988458627",
+      "negocio": "FLORA & FAUNA: CENTRAL DE PEDIDOS",
+      "contacto": "Efrain Wong",
+      "email": "efrainw@produsana.com"
+    },
+    {
+      "deal_id": "1994066621",
+      "negocio": "JP RESTAURANTES: CENTRAL DE PEDIDOS",
+      "contacto": "Rodrigo Valdez",
+      "email": "rodrigo@jaimepesaque.com"
+    },
+    {
+      "deal_id": "1994867147",
+      "negocio": "CULQI: ENCUESTA CLIENTES",
+      "contacto": "Carlos Ríos",
+      "email": "carlos.rios@culqi.com"
+    },
+    {
+      "deal_id": "2006161866",
+      "negocio": "SAN ANTONIO: CENTRAL DE PEDIDOS",
+      "contacto": "Fernando Carriquiry",
+      "email": "fcarriquiry@pasteleriasanantonio.com"
+    },
+    {
+      "deal_id": "2014776381",
+      "negocio": "AVISUR: HELPY",
+      "contacto": "Francisco Lazo",
+      "email": "fferlazo@hotmail.com"
+    },
+    {
+      "deal_id": "2017485454",
+      "negocio": "REPSOL: 3ERIZA BOX",
+      "contacto": "Tania Flores",
+      "email": "taniaflorespuc@yahoo.es"
+    },
+    {
+      "deal_id": "2022145009",
+      "negocio": "BOARD: CALL CENTER TURNO NOCHE",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "2023011724",
+      "negocio": "CLÍNICA SANTO DOMINGO: QNEXT+",
+      "contacto": "miguel terreros",
+      "email": "terrerosmiguel@gmail.com"
+    },
+    {
+      "deal_id": "2071771610",
+      "negocio": "PORTACION PROVEEDORES TELECOMUNICACIONES: HELPY",
+      "contacto": "Angel Julca Roca",
+      "email": "angeljulcar@gmail.com"
+    },
+    {
+      "deal_id": "2212625763",
+      "negocio": "TECNO: 3ERIZA BOX",
+      "contacto": "Daniel Patroni",
+      "email": "dpatroniv@gmail.com"
+    },
+    {
+      "deal_id": "2230573781",
+      "negocio": "HELPY: A & K Integral Logistics",
+      "contacto": "Christian Medina",
+      "email": "cvmq28@hotmail.com"
+    },
+    {
+      "deal_id": "2230800648",
+      "negocio": "WILSON REYES: HELPY",
+      "contacto": "Wilson Reyes Méndez",
+      "email": "wilsonreyesm@gmail.com"
+    },
+    {
+      "deal_id": "2231470217",
+      "negocio": "TECNISAL: HELPY",
+      "contacto": "Julio César Abreu",
+      "email": "babalawo.venezuela@gmail.com"
+    },
+    {
+      "deal_id": "2237498188",
+      "negocio": "COLEGIO LUDWIG SCHOOL: HELPY",
+      "contacto": "Jhon Albornoz",
+      "email": "albornozjhon1@hotmail.com"
+    },
+    {
+      "deal_id": "2238874766",
+      "negocio": "RIPLEY",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "2238900726",
+      "negocio": "FONOEMPRESA: 3ERIZA BOX",
+      "contacto": "Jorge Luis Olivera",
+      "email": "jorge.olivera@phloxnetworks.com"
+    },
+    {
+      "deal_id": "2239153824",
+      "negocio": "MARYCIELO YS: 3ERIZA BOX",
+      "contacto": "Marycielo Ys",
+      "email": "cieloys14@gmail.com"
+    },
+    {
+      "deal_id": "2242285266",
+      "negocio": "GRUPO DISTRILUZ: TALENT QR",
+      "contacto": "Carlos Saenz Aranda",
+      "email": "csaenza@distriluz.com.pe"
+    },
+    {
+      "deal_id": "2246729055",
+      "negocio": "MUNDO DE INVERSIONES JHON HEISTER: HELPY",
+      "contacto": "Jhon Babilonia Delgado",
+      "email": "heister21delgado@hotmail.com"
+    },
+    {
+      "deal_id": "2260783628",
+      "negocio": "EXTINSAFE: HELPY",
+      "contacto": "Renzo  Zaferson",
+      "email": "extintores@extinsafe.com"
+    },
+    {
+      "deal_id": "2261092915",
+      "negocio": "DISTRIBUIDOR SKY: A&F MYPES",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "2262648966",
+      "negocio": "BUENO: ATC",
+      "contacto": "Javier Maggiolo",
+      "email": "javier.maggiolo@mambo.pe"
+    },
+    {
+      "deal_id": "2263433589",
+      "negocio": "AGS AMÉRICAS: TALENT QR",
+      "contacto": "Daniel Rodriguez",
+      "email": "cdrodriguez@agsamericas.com"
+    },
+    {
+      "deal_id": "2263642235",
+      "negocio": "INFORTEC SAC: HELPY",
+      "contacto": "Pablo Tamany",
+      "email": "juantamanicanayo@gmail.com"
+    },
+    {
+      "deal_id": "2264817084",
+      "negocio": "INVERSIONES LA CRUZ: 3ERIZA BOX",
+      "contacto": "ROSA VELASQUEZ",
+      "email": "rvelasquez@ilc.com.pe"
+    },
+    {
+      "deal_id": "2265095141",
+      "negocio": "GRANJA AZUL: CENTRAL DE PEDIDOS",
+      "contacto": "César Sevilla",
+      "email": "csevilla@granja-azul.com"
+    },
+    {
+      "deal_id": "2267446093",
+      "negocio": "MINSA: QNEXT+",
+      "contacto": "Luis Miguel Castellanos Heredia",
+      "email": "oga140@minsa.gob.pe"
+    },
+    {
+      "deal_id": "2267446457",
+      "negocio": "PIVOT POINT: 3ERIZA BOX",
+      "contacto": "Lesly La Serna Flores",
+      "email": "llasernaflores@gmail.com"
+    },
+    {
+      "deal_id": "2269130948",
+      "negocio": "ABIGAIL ZAMORA: 3ERIZA BOX",
+      "contacto": "Abigail Zamora",
+      "email": "abi2462@gmail.com"
+    },
+    {
+      "deal_id": "2273359012",
+      "negocio": "COLEGIO WEBERBAUER: 3ERIZA BOX",
+      "contacto": "Martha Murguia",
+      "email": "mmurguia@weberbauer.edu.pe"
+    },
+    {
+      "deal_id": "2274652198",
+      "negocio": "JOSSY ASTOCAZA: 3ERIZA BOX",
+      "contacto": "Jossy Astocaza",
+      "email": "jossyam17@hotmail.com"
+    },
+    {
+      "deal_id": "2275741562",
+      "negocio": "KROMASOL: 3ERIZA BOX",
+      "contacto": "Raul Chumpitaz",
+      "email": "soluciones.staffperu@kromasol.com"
+    },
+    {
+      "deal_id": "2276229532",
+      "negocio": "RENEGOCIA: QNEXT+",
+      "contacto": "William Chu",
+      "email": "wchu@renegocia.pe"
+    },
+    {
+      "deal_id": "2276311648",
+      "negocio": "HEPY: Almacenes Mantaro SAC",
+      "contacto": "Ronald Rosas G",
+      "email": "ronaldrosas1306@gmail.com"
+    },
+    {
+      "deal_id": "2278702865",
+      "negocio": "CLARO: DELIVERY TELEVENTAS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "2281012171",
+      "negocio": "HELPY: Angel Leon",
+      "contacto": "Angel Leon",
+      "email": "angelgeleon@gmail.com"
+    },
+    {
+      "deal_id": "2282812506",
+      "negocio": "HELPY: KPD Inversiones S.A.C",
+      "contacto": "Emilio Uculmana",
+      "email": "utataje@hotmail.com"
+    },
+    {
+      "deal_id": "2286638579",
+      "negocio": "CHACRAITA: 3ERIZA BOX",
+      "contacto": "Claudia Yarleque Ramos",
+      "email": "claudia_17_97@hotmail.com"
+    },
+    {
+      "deal_id": "2288637461",
+      "negocio": "ALBERTO BULLON: 3ERIZA BOX",
+      "contacto": "Alberto Bullon",
+      "email": "agbullon@gmail.com"
+    },
+    {
+      "deal_id": "2288641338",
+      "negocio": "HERBALIFE: 3ERIZA BOX",
+      "contacto": "Katherine Perales",
+      "email": "katherineper@herbalife.com"
+    },
+    {
+      "deal_id": "2288657914",
+      "negocio": "IIMP: 3ERIZA BOX",
+      "contacto": "Andrea Balbin Avalos",
+      "email": "andrea.balbin@iimp.org.pe"
+    },
+    {
+      "deal_id": "2299200623",
+      "negocio": "D'CARGO TRADE PERU: 3ERIZA BOX",
+      "contacto": "Dora Mejia",
+      "email": "gerencia@dcargoperu.com"
+    },
+    {
+      "deal_id": "2301109798",
+      "negocio": "KOMATSU: 3ERIZA BOX",
+      "contacto": "Jessica Rios Chinchay",
+      "email": "jessica.rios@kmmp.com.pe"
+    },
+    {
+      "deal_id": "2301188243",
+      "negocio": "NAVARRETE: 3ERIZA BOX",
+      "contacto": "JACQUELINE PALOMINO",
+      "email": "j.palomino@navarrete.com.pe"
+    },
+    {
+      "deal_id": "2301285655",
+      "negocio": "MERCADIA: 3ERIZA BOX",
+      "contacto": "Juan Carlos Guerrero",
+      "email": "jcguerrero@mercadia.com.pe"
+    },
+    {
+      "deal_id": "2304545168",
+      "negocio": "NAT SUPERFOODS: 3ERIZA BOX",
+      "contacto": "Hugo Gamarra",
+      "email": "ventas@nat.com.pe"
+    },
+    {
+      "deal_id": "2304849580",
+      "negocio": "JUAN CARLOS ROMERO: 3ERIZA BOX",
+      "contacto": "juan carlos romero gaspar",
+      "email": "juancarlosromerogaspar@gmail.com"
+    },
+    {
+      "deal_id": "2305006156",
+      "negocio": "MERCEDES MACEDO: 3ERIZA BOX",
+      "contacto": "Mercedes Macedo M.",
+      "email": "mercedesmacedo1@hotmail.com"
+    },
+    {
+      "deal_id": "2306133270",
+      "negocio": "CLINTON CUNO: 3ERIZA BOX",
+      "contacto": "Clinton Cuno quispe",
+      "email": "clintoncuno@gmail.com"
+    },
+    {
+      "deal_id": "2308804403",
+      "negocio": "XELAVIT ALLIANCE: 3ERIZA BOX",
+      "contacto": "DORA MEJIA",
+      "email": "administracion@xelavitalliance.com"
+    },
+    {
+      "deal_id": "2310083929",
+      "negocio": "HELPY: GRUPO KEYROD",
+      "contacto": "Francisco Fernando Rodriguez Gutierrez",
+      "email": "ffrg.proyectos@gmail.com"
+    },
+    {
+      "deal_id": "2310521827",
+      "negocio": "PEX PERÚ: 3ERIZA BOX",
+      "contacto": "Esteban Inchaustegui Valverde",
+      "email": "esteban.inchaustegui@limaexpresa.pe"
+    },
+    {
+      "deal_id": "2313107943",
+      "negocio": "HELPY: MARINA FASHION EIRL",
+      "contacto": "Alberto Paucar Loli",
+      "email": "albertpli@hotmail.com"
+    },
+    {
+      "deal_id": "2319975293",
+      "negocio": "INST. APOYO: 3ERIZA BOX",
+      "contacto": "Juan Carlos Herrera Castañeda",
+      "email": "jherrera@institutoapoyo.org.pe"
+    },
+    {
+      "deal_id": "2334952290",
+      "negocio": "HELPY: Luis Millan",
+      "contacto": "Luis Millan",
+      "email": "noezevallos@hotmail.com"
+    },
+    {
+      "deal_id": "2335090700",
+      "negocio": "HELPY: Administración de Inmuebles del Perú SAC",
+      "contacto": "Cesar Reyes",
+      "email": "cesar.reyespromotor@gmail.com"
+    },
+    {
+      "deal_id": "2337556078",
+      "negocio": "TOPSA: CC ATC",
+      "contacto": "Gabriela Corcuera",
+      "email": "g.corcuera@topsaretail.com.pe"
+    },
+    {
+      "deal_id": "2337582916",
+      "negocio": "DUCIS: TEK MOBILE E.I.R.L.",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "2341300316",
+      "negocio": "HELPY: UNITRAVEL",
+      "contacto": "Oscar Caruajulca",
+      "email": "racso088@hotmail.com"
+    },
+    {
+      "deal_id": "2356548357",
+      "negocio": "FORTE: 3ERIZA BOX",
+      "contacto": "Luis Rivas",
+      "email": "luis.rivas@forte.com.pe"
+    },
+    {
+      "deal_id": "2361595200",
+      "negocio": "HENNA CLUB: 3ERIZA BOX",
+      "contacto": "Katherine",
+      "email": "katty_48_1@hotmail.com"
+    },
+    {
+      "deal_id": "2361608437",
+      "negocio": "CYC ESTÉTICA: 3ERIZA BOX",
+      "contacto": "Claudia Alzamora",
+      "email": "ceci_clau11@hotmail.com"
+    },
+    {
+      "deal_id": "2361642970",
+      "negocio": "IMPORTACIONES CORNELIO: 3ERIZA BOX",
+      "contacto": "Cornelio Riveros Flores",
+      "email": "manejosintegralesa@gmail.com"
+    },
+    {
+      "deal_id": "2362727004",
+      "negocio": "HEFFERCO: 3ERIZA BOX",
+      "contacto": "carla marin",
+      "email": "hefferco@outlook.com"
+    },
+    {
+      "deal_id": "2363524826",
+      "negocio": "JUSTO YANCAN: 3ERIZA BOX",
+      "contacto": "Justo Yancan",
+      "email": "pachistore@protonmail.com"
+    },
+    {
+      "deal_id": "2382158991",
+      "negocio": "CLIENTE INCÓGNITO: UPC",
+      "contacto": "Jennifer Zapeda",
+      "email": "jennifer.zepeda@serviciosandinos.net"
+    },
+    {
+      "deal_id": "2382443017",
+      "negocio": "GONZALES ASTETE DIEGO AUGUSTO",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "2384615161",
+      "negocio": "J.A.T: 3ERIZA BOX",
+      "contacto": "Jesús Tovar",
+      "email": "tovarjesusalberto1992@gmail.com"
+    },
+    {
+      "deal_id": "2388384562",
+      "negocio": "JOCKEY CLUB: 3ERIZA BOX",
+      "contacto": "GIULIANNA ORELLANA PORRAS",
+      "email": "gorellana@jcp.org.pe"
+    },
+    {
+      "deal_id": "2388490550",
+      "negocio": "LOLIMSA: 3ERIZA BOX",
+      "contacto": "Nicolas Rojas",
+      "email": "nrojasdelafuente@lolimsa.com.pe"
+    },
+    {
+      "deal_id": "2388563498",
+      "negocio": "RANSA: 3ERIZA BOX",
+      "contacto": "FELIX CANTARO",
+      "email": "fcantarol@ransa.net"
+    },
+    {
+      "deal_id": "2393018086",
+      "negocio": "AUNA: 3ERIZA BOX",
+      "contacto": "Sheyla Diaz",
+      "email": "sdiazc@auna.pe"
+    },
+    {
+      "deal_id": "2396951278",
+      "negocio": "EL BRASERO: 3ERIZA BOX",
+      "contacto": "Carlos Zavaleta",
+      "email": "carlo.zavaleta@hotmail.com"
+    },
+    {
+      "deal_id": "2397072161",
+      "negocio": "CEDAPP: PLATAFORMA CC",
+      "contacto": "José Carlo Márquez",
+      "email": "josec.mmdl@gmail.com"
+    },
+    {
+      "deal_id": "2407870630",
+      "negocio": "ELÍAS CONDORI: 3ERIZA BOX",
+      "contacto": "Elias Condori puma",
+      "email": "pycocas2_ecp@hotmail.com"
+    },
+    {
+      "deal_id": "2407904241",
+      "negocio": "MELINA GUEVARA: 3ERIZA BOX",
+      "contacto": "Melina Guevara",
+      "email": "melinaguevara.remaxhabitat@gmail.com"
+    },
+    {
+      "deal_id": "2407994638",
+      "negocio": "HELPY: RZ Grupo Olam S.A.C",
+      "contacto": "Giannina Raraz",
+      "email": "giannina.raraz.28@gmail.com"
+    },
+    {
+      "deal_id": "2408029536",
+      "negocio": "MEDICAL ROMA: 3ERIZA BOX",
+      "contacto": "Nicolle Rodriguez",
+      "email": "nrodriguez@medicalroma.com.pe"
+    },
+    {
+      "deal_id": "2408083662",
+      "negocio": "JOSE MIGUEL ZAMALLOA: 3ERIZA BOX",
+      "contacto": "José Miguel Zamalloa Tirado",
+      "email": "josemzamalloat@hotmail.com"
+    },
+    {
+      "deal_id": "2408086882",
+      "negocio": "Vanessa: 3ERIZA BOX",
+      "contacto": "Vanessa",
+      "email": "sg.vanessa@hotmail.com"
+    },
+    {
+      "deal_id": "2408101268",
+      "negocio": "YURI FREDID: 3ERIZA BOX",
+      "contacto": "Yuri Fredid",
+      "email": "fredid_father@hotmail.com"
+    },
+    {
+      "deal_id": "2408105287",
+      "negocio": "PISCOS PERSONALIZADOS: 3ERIZA BOX",
+      "contacto": "Violeta",
+      "email": "logistica@piscospersonalizados.com"
+    },
+    {
+      "deal_id": "2408857031",
+      "negocio": "TP-LINK: 3ERIZA BOX",
+      "contacto": "Tatiana Ramirez",
+      "email": "tatiana.ramirez@tp-link.com"
+    },
+    {
+      "deal_id": "2416908376",
+      "negocio": "DUCIS: Servicio Regular Edwin Olivera",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "2441086857",
+      "negocio": "ECO CHIMENEAS: CONVERSIÓN DE LEADS",
+      "contacto": "Osvaldo Brizuela",
+      "email": ""
+    },
+    {
+      "deal_id": "2445873854",
+      "negocio": "KALDIS: 3ERIZA BOX",
+      "contacto": "Anthuanet",
+      "email": "anthuanet.artica@gmail.com"
+    },
+    {
+      "deal_id": "2455991934",
+      "negocio": "GIANINA NALVARTE: COUNTER VIRTUAL",
+      "contacto": "Gianina  Nalvarte Gonzales",
+      "email": "yarel16@hotmail.com"
+    },
+    {
+      "deal_id": "2456136617",
+      "negocio": "SULLAIR DEL PACIFICO: 3ERIZA BOX",
+      "contacto": "Grace Salazar Esparta",
+      "email": "importaciones@sullair.com.pe"
+    },
+    {
+      "deal_id": "2456351549",
+      "negocio": "ORIGEN PEREGRINO: 3ERIZA BOX",
+      "contacto": "Gonzalo Espinoza",
+      "email": "gonzalo@origenperegrino.com"
+    },
+    {
+      "deal_id": "2456384638",
+      "negocio": "KEYHOLE: 3ERIZA BOX",
+      "contacto": "Jose Miguel Icochea",
+      "email": "jmicochea@keyholeperu.com"
+    },
+    {
+      "deal_id": "2456384983",
+      "negocio": "IPB SAC: 3EIRZA BOX",
+      "contacto": "Johnny Romero",
+      "email": "jromero@ipbssac.com"
+    },
+    {
+      "deal_id": "2459928882",
+      "negocio": "ACCESO: QNEXT+",
+      "contacto": "Jany Alvarado",
+      "email": "jany.alvarado@acceso.com.pe"
+    },
+    {
+      "deal_id": "2465000549",
+      "negocio": "MERCANTIL: 3ERIZA BOX",
+      "contacto": "Milton Parra",
+      "email": "mparra@mercantil.com.pe"
+    },
+    {
+      "deal_id": "2470373513",
+      "negocio": "SODIMAC: 3ERIZA BOX",
+      "contacto": "Melissa Micaela Diaz Uceda",
+      "email": "mdiazu@sodimac.com.pe"
+    },
+    {
+      "deal_id": "2638568722",
+      "negocio": "GUILDIN: CC VENTAS",
+      "contacto": "Karen Sifuentes",
+      "email": "karen@guildin.com"
+    },
+    {
+      "deal_id": "2741232876",
+      "negocio": "BE SIFRAH: 3ERIZA BOX",
+      "contacto": "Carlos Mariscal",
+      "email": "cmariscal@besifrah.com"
+    },
+    {
+      "deal_id": "2741246690",
+      "negocio": "FARMEX: COMUNICACIÓN COLABORADORES",
+      "contacto": "Wilfredo Gameros Gameros",
+      "email": "wgameros@farmex.com.pe"
+    },
+    {
+      "deal_id": "2741248512",
+      "negocio": "HELPY: Peter Angulo Saavedra",
+      "contacto": "Peter Angulo Saavedra",
+      "email": "pangulos@gmail.com"
+    },
+    {
+      "deal_id": "2747869926",
+      "negocio": "EL FOGÓN DEL ASADOR: CONVERSIÓN DE LEADS",
+      "contacto": "Milagros Sánchez-Tirado Quijandría",
+      "email": "marketing@elfogondelasador.com.pe"
+    },
+    {
+      "deal_id": "2747990876",
+      "negocio": "CARP Y ASOCIADOS SCRL: 3ERIZA BOX",
+      "contacto": "javier Delgado",
+      "email": "jdelgado@carpyasociados.com"
+    },
+    {
+      "deal_id": "2748118146",
+      "negocio": "ENRIQUE LIAN: 3ERIZA BOX",
+      "contacto": "enrique lian",
+      "email": "enlike98422@gmail.com"
+    },
+    {
+      "deal_id": "2753235869",
+      "negocio": "IPESA: 3ERIZA BOX",
+      "contacto": "Rocio Palomino",
+      "email": "rperez@nettz.com"
+    },
+    {
+      "deal_id": "2760611278",
+      "negocio": "RENZO COSTA: 3ERIZA BOX",
+      "contacto": "LORENA GARCÍA",
+      "email": "lgarcia@renzocosta.com"
+    },
+    {
+      "deal_id": "2760725963",
+      "negocio": "CLOUDBOX: COUNTER VIRTUAL",
+      "contacto": "Juan Rojas Valdez",
+      "email": "juan@cloudbox.com.pe"
+    },
+    {
+      "deal_id": "2762909570",
+      "negocio": "ALMACENES MYRSA: 3ERIZA BOX",
+      "contacto": "RENATO",
+      "email": "rsotero@almacenesmyrsa.com"
+    },
+    {
+      "deal_id": "2762992921",
+      "negocio": "V-WRAPS: 3ERIZA BOX",
+      "contacto": "Rocío Merino",
+      "email": "r.merino@v-wraps.com"
+    },
+    {
+      "deal_id": "2763493215",
+      "negocio": "GERALDINE CCOILLO: 3ERIZA BOX",
+      "contacto": "Geraldine Ccoillo",
+      "email": "gncp_12@hotmail.com"
+    },
+    {
+      "deal_id": "2764626125",
+      "negocio": "LOVERS AND HATERS CLUB: 3ERIZA BOX",
+      "contacto": "Tatiana Arteta",
+      "email": "tatiarteta@loversandhatersclub.com"
+    },
+    {
+      "deal_id": "2765594695",
+      "negocio": "IBERO LIBRERÍAS: CV - CP",
+      "contacto": "Fiorella Diaz",
+      "email": "fdiaz@ibero.com.pe"
+    },
+    {
+      "deal_id": "2765724742",
+      "negocio": "MILAGROS SÁNCHEZ: CONVERSIÓN DE LEADS",
+      "contacto": "Milagros Sánchez-Tirado Quijandría",
+      "email": "marketing@elfogondelasador.com.pe"
+    },
+    {
+      "deal_id": "2777926703",
+      "negocio": "UGEL: 3ERIZA BOX",
+      "contacto": "Marianella Rosas Talledo",
+      "email": "mrosas@ugel03.gob.pe"
+    },
+    {
+      "deal_id": "2778135119",
+      "negocio": "CUSA: 3ERIZA BOX",
+      "contacto": "Danilho Rios Tapia",
+      "email": "drios@manuchar.com.pe"
+    },
+    {
+      "deal_id": "2778321020",
+      "negocio": "PANASA: 3ERIZA BOX",
+      "contacto": "LOURDES GODEFROY",
+      "email": "lgodefroy@panasa.com.pe"
+    },
+    {
+      "deal_id": "2778478322",
+      "negocio": "AIYUAPP: 3ERIZA CONVERSIÓN DE LEADS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "2779054500",
+      "negocio": "FABRICIO VIVANCO: 3ERIZA BOX",
+      "contacto": "Fabricio Vivanco",
+      "email": "per_viv@hotmail.com"
+    },
+    {
+      "deal_id": "2779106329",
+      "negocio": "SJR: 3ERIZA BOX",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "2782419340",
+      "negocio": "MIS CAPRICHOS: 3ERIZA BOX",
+      "contacto": "José Paulino",
+      "email": "jose.paulinoc@pucp.pe"
+    },
+    {
+      "deal_id": "2786765400",
+      "negocio": "TIITAN: 3ERIZA BOX",
+      "contacto": "MARISOL ORDONIO",
+      "email": "tiitansac@gmail.com"
+    },
+    {
+      "deal_id": "2786787000",
+      "negocio": "CHELA GOURMET: 3ERIZA BOX",
+      "contacto": "Maycold flores",
+      "email": "maycolichi@gmail.com"
+    },
+    {
+      "deal_id": "2792383314",
+      "negocio": "F MORENA: CENTRAL DE PEDIDOS",
+      "contacto": "GERALDO QUISPE",
+      "email": "geraldo.quisal@gmail.com"
+    },
+    {
+      "deal_id": "2792407366",
+      "negocio": "F MORENA: 3ERIZA BOX",
+      "contacto": "GERALDO QUISPE",
+      "email": "geraldo.quisal@gmail.com"
+    },
+    {
+      "deal_id": "2792417556",
+      "negocio": "EVELYN RAMOS: 3ERIZA BOX",
+      "contacto": "Evelyn Ramos",
+      "email": "evyramos.diaz@gmail.com"
+    },
+    {
+      "deal_id": "2808837603",
+      "negocio": "POLLERÍA ERICK: 3ERIZA BOX",
+      "contacto": "Yesenia",
+      "email": "ytapia123.ytc@gmail.com"
+    },
+    {
+      "deal_id": "2810548290",
+      "negocio": "RENOVABLE: 3ERIZA BOX",
+      "contacto": "Cesar Conzan",
+      "email": "cesarconzan@renovable-pe.com"
+    },
+    {
+      "deal_id": "2811004263",
+      "negocio": "MAPED: FFVV",
+      "contacto": "Jose Luis Villanueva",
+      "email": "jl.villanueva@maped.pe"
+    },
+    {
+      "deal_id": "2818016531",
+      "negocio": "ARIADNA YUPANQUI: COUNTER VIRTUAL",
+      "contacto": "Ariadna Yupanqui",
+      "email": "ariadna.yupanqui@gmail.com"
+    },
+    {
+      "deal_id": "2818051082",
+      "negocio": "AEA: CUESTIONARIO SOLIDARIDAD",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "2820451514",
+      "negocio": "KYAL SAC: 3ERIZA BOX",
+      "contacto": "Ronald Cerna",
+      "email": "ronaldcerna31@gmail.com"
+    },
+    {
+      "deal_id": "2830134306",
+      "negocio": "LIMADERMA: 3ERIZA BOX",
+      "contacto": "Violeta Lozano",
+      "email": "contacto@limaderma.com"
+    },
+    {
+      "deal_id": "2837531542",
+      "negocio": "IMPORTA PERÚ: 3ERIZA BOX",
+      "contacto": "Eduardo Loyola",
+      "email": "ventas@importaperu.com"
+    },
+    {
+      "deal_id": "2837556036",
+      "negocio": "TOMATE BTL: 3ERIZA BOX",
+      "contacto": "Kiara Rodrigues",
+      "email": "krodriguez@tomatebtl.com"
+    },
+    {
+      "deal_id": "2838982173",
+      "negocio": "BEKA: 3ERIZA BOX",
+      "contacto": "Marie Anne",
+      "email": "hola@beka.com.pe"
+    },
+    {
+      "deal_id": "2849331540",
+      "negocio": "Cliente Incógnito: SANA",
+      "contacto": "Carmen Sánchez Falconí",
+      "email": ""
+    },
+    {
+      "deal_id": "2849396160",
+      "negocio": "Cliente Incógnito: UNILABS",
+      "contacto": "Ericson Atalaya Sullon",
+      "email": ""
+    },
+    {
+      "deal_id": "2852319845",
+      "negocio": "VICTOR GABANCHO: 3ERIZA BOX",
+      "contacto": "Victor Gabancho",
+      "email": "victorgabancho@gmail.com"
+    },
+    {
+      "deal_id": "2852800255",
+      "negocio": "F3C: 3ERIZA BOX",
+      "contacto": "Vanessa Tacilla",
+      "email": "ventasperu@f3c.cl"
+    },
+    {
+      "deal_id": "2852805847",
+      "negocio": "BOB: 3ERIZA BOX",
+      "contacto": "Fredd Cisneros",
+      "email": "fredd@somosbob.com"
+    },
+    {
+      "deal_id": "2864828917",
+      "negocio": "CHEFSITO RESTAURANT: 3ERIZA BOX",
+      "contacto": "Cristhian Del Mazo Vicente",
+      "email": "delmazovicente21@gmail.com"
+    },
+    {
+      "deal_id": "2870025828",
+      "negocio": "JARSICSAC: 3ERIZA BOX",
+      "contacto": "Jair",
+      "email": "jvela@jarsicsac.com"
+    },
+    {
+      "deal_id": "2870070661",
+      "negocio": "COMIGASAC: 3ERIZA BOX",
+      "contacto": "Giuseppe Ascencios",
+      "email": "gascencios@comigasac.com"
+    },
+    {
+      "deal_id": "2870093125",
+      "negocio": "SAN PABLO: 3ERIZA BOX",
+      "contacto": "David Chávez",
+      "email": "dchavez@sanpablo.com.pe"
+    },
+    {
+      "deal_id": "2870116095",
+      "negocio": "CAFE BRITT: 3ERIZA BOX",
+      "contacto": "Luis Diego Carvajal",
+      "email": "lcarvajal@britt.com"
+    },
+    {
+      "deal_id": "2870134880",
+      "negocio": "BLACK LAMA: 3ERIZA BOX",
+      "contacto": "Daniel Alberto Sosa Barturen",
+      "email": "daniel.s@blacklama.pe"
+    },
+    {
+      "deal_id": "2882541686",
+      "negocio": "SAN HILARION: 3ERIZA BOX",
+      "contacto": "Edwin Christiam Yauri Milla",
+      "email": "eyauri@sanhilarion.com"
+    },
+    {
+      "deal_id": "2882560632",
+      "negocio": "RIELTEC: QNEXT+",
+      "contacto": "Daliana Cayama",
+      "email": "daliana.cayama@rieltec.com.ec"
+    },
+    {
+      "deal_id": "2883558671",
+      "negocio": "MNG Textiles",
+      "contacto": "Kathy Torres",
+      "email": "evelasquez@mngtextiles.com"
+    },
+    {
+      "deal_id": "2898229373",
+      "negocio": "PACIFIC LATAM: ENVÍO WHATSAPP",
+      "contacto": "Juan Carlos Allende",
+      "email": "administracion@pacificlatam.com"
+    },
+    {
+      "deal_id": "2902680067",
+      "negocio": "MATERNELLE: 3ERIZA BOX",
+      "contacto": "Miguel Pazos",
+      "email": "mpazos@maternelleperu.com"
+    },
+    {
+      "deal_id": "2910607064",
+      "negocio": "MINERA PARAÍSO: 3ERIZA BOX",
+      "contacto": "MARIA VILCHEZ",
+      "email": "mvilchez@mineraparaiso.com.pe"
+    },
+    {
+      "deal_id": "2912965047",
+      "negocio": "AUREA: 3ERIZA BOX",
+      "contacto": "Kaya Marina",
+      "email": "kmarina@aurea.com.pe"
+    },
+    {
+      "deal_id": "2913564697",
+      "negocio": "MASTERFIX: 3ERIZA BOX",
+      "contacto": "anthuanet garcia",
+      "email": "administracion@masterfix.com.pe"
+    },
+    {
+      "deal_id": "2920356610",
+      "negocio": "ROTOPLAS: ENCUESTAS",
+      "contacto": "Belén Vargas",
+      "email": "bvargas@rotoplas.com"
+    },
+    {
+      "deal_id": "2925376030",
+      "negocio": "CSJAN: QNEXT+",
+      "contacto": "Marco Roberto Linares Espinoza",
+      "email": "mlinarese@pj.gob.pe"
+    },
+    {
+      "deal_id": "2935862043",
+      "negocio": "Obras Marítimas SA",
+      "contacto": "Luis Velasquez",
+      "email": "lvelasquezarcia@gmail.com"
+    },
+    {
+      "deal_id": "2936160895",
+      "negocio": "IMPORTACIONES PEREZ: 3ERIZA BOX",
+      "contacto": "Ronald Perez",
+      "email": "ronald@importacionesperez.com"
+    },
+    {
+      "deal_id": "2936887744",
+      "negocio": "Desarrollo Y Competitividad A&M SAC",
+      "contacto": "Emilio Edmundo Pastrana Chalco",
+      "email": "epastranaconsultor@gmail.com"
+    },
+    {
+      "deal_id": "2947169996",
+      "negocio": "Helpy: Pacific Latam",
+      "contacto": "Abel Fernandez",
+      "email": "logistica@pacificlatam.com"
+    },
+    {
+      "deal_id": "2951298387",
+      "negocio": "TALENT QR: Notaria Medina Raggio",
+      "contacto": "Kristel Angeles",
+      "email": "administracion@notariamedinaraggio.com.pe"
+    },
+    {
+      "deal_id": "2952484411",
+      "negocio": "ALICORP: 3ERIZA BOX",
+      "contacto": "Hugo Misae Moreno Parra",
+      "email": "hmorenop@alicorp.com.pe"
+    },
+    {
+      "deal_id": "2952548764",
+      "negocio": "MYROS: 3ERIZA",
+      "contacto": "Myros",
+      "email": "mvlasicarubianes@hotmail.com"
+    },
+    {
+      "deal_id": "2952724932",
+      "negocio": "Helpy: Help Desk Technological Solutions SAC",
+      "contacto": "Jesus Gomez Denegri",
+      "email": "jagdenegri@gmail.com"
+    },
+    {
+      "deal_id": "2955751675",
+      "negocio": "DON REGALO: 3ERIZA BOX",
+      "contacto": "comercial@donregalo.pe",
+      "email": "comercial@donregalo.pe"
+    },
+    {
+      "deal_id": "2957276740",
+      "negocio": "Cliente Incógnito: Motored",
+      "contacto": "Carlos Saavedra Vasquez",
+      "email": "carlos.saavedra@motored.com.pe"
+    },
+    {
+      "deal_id": "2967630310",
+      "negocio": "CMVALKIRIA: 3ERIZA BOX",
+      "contacto": "Clelia Melendez",
+      "email": "cmelendez@cmvalkiria.com"
+    },
+    {
+      "deal_id": "2967899759",
+      "negocio": "HELPY: STEO INVERSIONES Y SERVICIOS GENERALES S.A.C.",
+      "contacto": "Jheral Tovar",
+      "email": "tovargave@gmail.com"
+    },
+    {
+      "deal_id": "2967903935",
+      "negocio": "HELPY: DELHEL S.A.C.",
+      "contacto": "Jorge Luis Avila",
+      "email": "jorge.avila.celada@gmail.com"
+    },
+    {
+      "deal_id": "2968116260",
+      "negocio": "IPP: 3ERIZA BOX",
+      "contacto": "Cielo Martinez",
+      "email": "20171706@ipp.pe"
+    },
+    {
+      "deal_id": "2968392833",
+      "negocio": "AUSTRADE: 3ERIZA",
+      "contacto": "RAFAEL RODRIGUEZ",
+      "email": "rafael.rodriguez@austrade.gov.au"
+    },
+    {
+      "deal_id": "2968393653",
+      "negocio": "TRECASAC: 3ERIZA BOX",
+      "contacto": "Pedro Andrés Vargas Lumbreras",
+      "email": "pvargas@trecasac.com"
+    },
+    {
+      "deal_id": "2968654217",
+      "negocio": "Talent QR: SBD SERVICIOS GENERALES S.A.C.",
+      "contacto": "Brenda Guerra Villanueva",
+      "email": "accounting@sbds.com.pe"
+    },
+    {
+      "deal_id": "2968683005",
+      "negocio": "HELPY: PANADERIAS PANIS",
+      "contacto": "César Martín Salazar",
+      "email": "panaderiapanis@gmail.com"
+    },
+    {
+      "deal_id": "2968748866",
+      "negocio": "HELPY: ASOCIATE PERÚ",
+      "contacto": "Richard Palomino Romano",
+      "email": "richardpalomino@asociateperu.com"
+    },
+    {
+      "deal_id": "2968970190",
+      "negocio": "DUCIS: ALONSO CHAVEZ l Distcel E.I.R.L.",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "2981459835",
+      "negocio": "CAROLY BOOKSTORE: 3ERIZA BOX",
+      "contacto": "Jose Chaparro",
+      "email": "jchaparro@carolybookstore.com"
+    },
+    {
+      "deal_id": "2981675900",
+      "negocio": "PROTEPETS: 3ERIZA BOX",
+      "contacto": "Jhasser Moncada",
+      "email": "info@protepets.com"
+    },
+    {
+      "deal_id": "2989639602",
+      "negocio": "LIBERTADOR: TLMK",
+      "contacto": "Andrés Rodríguez",
+      "email": "arodriguez@libertador.com.pe"
+    },
+    {
+      "deal_id": "3014413812",
+      "negocio": "FOOD FOR THE HUNGRY: 3ERIZA BOX",
+      "contacto": "Gissel Ronquillo Cox",
+      "email": "gronquillo@fh.org"
+    },
+    {
+      "deal_id": "3014842616",
+      "negocio": "Helpy:  Antares Clean",
+      "contacto": "Elvis Sanjinez Atoche",
+      "email": "elvis.sanjinez@gmail.com"
+    },
+    {
+      "deal_id": "3014922301",
+      "negocio": "Helpy: Indeci",
+      "contacto": "Jhon Gómez Neyra",
+      "email": "gomezneyra246@hotmail.com"
+    },
+    {
+      "deal_id": "3015108496",
+      "negocio": "Helpy: La Industria",
+      "contacto": "Manuel Gomez Silva",
+      "email": "mgomez@laindustria.net.pe"
+    },
+    {
+      "deal_id": "3015237205",
+      "negocio": "Helpy: Edwin Rojas Chiroque",
+      "contacto": "Edwin Rojas Chiroque",
+      "email": "edwinr_5@hotmail.com"
+    },
+    {
+      "deal_id": "3015242183",
+      "negocio": "AQUAOASIS: 3ERIZA BOX",
+      "contacto": "Johnny Echevarria",
+      "email": "jeb@aquaoasis.com.pe"
+    },
+    {
+      "deal_id": "3015795308",
+      "negocio": "Helpy: Integra Salud",
+      "contacto": "Moreno Coronado",
+      "email": "jmoreno@iso.com.pe"
+    },
+    {
+      "deal_id": "3016484324",
+      "negocio": "FISSA IMPORT: 3ERIZA BOX",
+      "contacto": "Victor Alva Barreto",
+      "email": "valva@fissaimport.com"
+    },
+    {
+      "deal_id": "3016484415",
+      "negocio": "SS GROUP PERÚ: 3ERIZA BOX",
+      "contacto": "NATALIA AREVALO",
+      "email": "j.arevalo@ssgroup-peru.com"
+    },
+    {
+      "deal_id": "3021921552",
+      "negocio": "GILDEMEISTER: PRECALIFICACIÓN CITAS",
+      "contacto": "José Quito",
+      "email": "jquito@gildemeister.pe"
+    },
+    {
+      "deal_id": "3022730773",
+      "negocio": "Helpy: Mercasa Perú",
+      "contacto": "Nicolas chipana evaristo",
+      "email": "nchipana@hotmail.com"
+    },
+    {
+      "deal_id": "3022943974",
+      "negocio": "Hepy: Niño Caina y Avila",
+      "contacto": "Diana Maria Gonzalez Garcia",
+      "email": "proyectos.nca@gmail.com"
+    },
+    {
+      "deal_id": "3022946452",
+      "negocio": "Helpy: Tuky Tusuy",
+      "contacto": "Luyo Casani",
+      "email": "luyocasaniespinoza@gmail.com"
+    },
+    {
+      "deal_id": "3022989757",
+      "negocio": "Helpy: RICH´S DE LOS ANDES SRL",
+      "contacto": "Miguel Angel Villanueva Santos",
+      "email": "mvillanuevasantos@gmail.com"
+    },
+    {
+      "deal_id": "3022990912",
+      "negocio": "Helpy: Drocersa S.A",
+      "contacto": "Daniel Valladares",
+      "email": "dvalladares@drocersa.com.pe"
+    },
+    {
+      "deal_id": "3027961130",
+      "negocio": "COVENDE: QNEXT+",
+      "contacto": "Asael Pariahuache",
+      "email": "info@covende.com"
+    },
+    {
+      "deal_id": "3029504568",
+      "negocio": "HELPY: Financiera CreSer",
+      "contacto": "Evelyn Luyo",
+      "email": "luyo_aragon@hotmail.com"
+    },
+    {
+      "deal_id": "3036229812",
+      "negocio": "WILMAN PRADO ZAVAYA: QNEXT+",
+      "contacto": "Wilman Prado Zavaya",
+      "email": "puertasrm@gmail.com"
+    },
+    {
+      "deal_id": "3043772195",
+      "negocio": "Helpy: Captus",
+      "contacto": "Gómez Sergio",
+      "email": "asergiogomez80@gmail.com"
+    },
+    {
+      "deal_id": "3044276091",
+      "negocio": "Helpy: Orlando Palacios",
+      "contacto": "Orlando Palacios",
+      "email": "orpalac72@hotmail.com"
+    },
+    {
+      "deal_id": "3044318307",
+      "negocio": "DECDATA: QNEXT+",
+      "contacto": "Luis Florian Bazan",
+      "email": "ventas6@decdata.net"
+    },
+    {
+      "deal_id": "3071281236",
+      "negocio": "DUCIS: Luciola Terrones Rios",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "3079347046",
+      "negocio": "SKBERGE: 3ERIZA BOX",
+      "contacto": "Bayron Gomez",
+      "email": "bgomez@skberge.pe"
+    },
+    {
+      "deal_id": "3083903545",
+      "negocio": "RPF: 3ERIZA BOX",
+      "contacto": "Ernesto Cespedes",
+      "email": "comercial@rpf.com.pe"
+    },
+    {
+      "deal_id": "3084457696",
+      "negocio": "DPROMART: 3ERIZA BOX",
+      "contacto": "ETHEL ALDANA",
+      "email": "administracion@dpromart.com"
+    },
+    {
+      "deal_id": "3084938398",
+      "negocio": "STUDIENPROJEKT: 3ERIZA BOX",
+      "contacto": "Daniel Ramos",
+      "email": "danielramos@studienprojekt.com"
+    },
+    {
+      "deal_id": "3092016190",
+      "negocio": "Talent QR: Securitec Perú l Backend Developer y Frontend Developer",
+      "contacto": "Frank Vasquez",
+      "email": ""
+    },
+    {
+      "deal_id": "3095093405",
+      "negocio": "Helpy: Jiastudio",
+      "contacto": "Roiser Dominguez",
+      "email": "reparo_pc@hotmail.com"
+    },
+    {
+      "deal_id": "3095115812",
+      "negocio": "Helpy: Julio Cesar Amaya Flores",
+      "contacto": "Julio Cesar Amaya Flores",
+      "email": "jcamaflo@hotmail.com"
+    },
+    {
+      "deal_id": "3095204746",
+      "negocio": "Helpy: AGS Innova Perú",
+      "contacto": "Walther Ramírez",
+      "email": "innovaperu@hotmail.com"
+    },
+    {
+      "deal_id": "3095322656",
+      "negocio": "Helpy: ACM Enterprise Solutions S.A.C",
+      "contacto": "Jóse Antonio Palacios",
+      "email": "josepalacios_1290@hotmail.com"
+    },
+    {
+      "deal_id": "3095369895",
+      "negocio": "Helpy: Tecprotel S.A.C",
+      "contacto": "Enrique Bernal Gonzales",
+      "email": "ebernal@tecprotel.com"
+    },
+    {
+      "deal_id": "3095467989",
+      "negocio": "Helpy:  Gustavo Gálvez",
+      "contacto": "Gustavo Gálvez",
+      "email": "ggalvezantinori@gmail.com"
+    },
+    {
+      "deal_id": "3095499111",
+      "negocio": "Helpy: Solederma",
+      "contacto": "Jorge Ramirez",
+      "email": "jorge.ramirez.yto@gmail.com"
+    },
+    {
+      "deal_id": "3131977882",
+      "negocio": "FERNANDO MATOS: QNEXT+",
+      "contacto": "Fernando Matos",
+      "email": "fernandomr421@gmail.com"
+    },
+    {
+      "deal_id": "3142845846",
+      "negocio": "Plan Base: UPC l Codificación de comentarios",
+      "contacto": "Elibett Montilla",
+      "email": "elibett.montilla@serviciosandinos.net"
+    },
+    {
+      "deal_id": "3167891027",
+      "negocio": "MIGUEL PERAUNA: 3ERIZA BOX",
+      "contacto": "Miguel Perauna",
+      "email": "elc.operaciones@gmail.com"
+    },
+    {
+      "deal_id": "3168139047",
+      "negocio": "Plan Base: UPC l Entrevistas",
+      "contacto": "Karla Saona Vega Saona Vega",
+      "email": "karla.saona@upc.pe"
+    },
+    {
+      "deal_id": "3168770877",
+      "negocio": "Helpy: Pedro cosa",
+      "contacto": "Pedro Cosa Rosales",
+      "email": "pcocarosales@gmail.com"
+    },
+    {
+      "deal_id": "3170749209",
+      "negocio": "Helpy l SYDGOD S.A.C.",
+      "contacto": "Dave Mer Mase",
+      "email": "daniel_3_441@hotmail.com"
+    },
+    {
+      "deal_id": "3172540290",
+      "negocio": "Helpy: GRUPO LYC S.A.C",
+      "contacto": "Richard",
+      "email": "remontesinos@gmail.com"
+    },
+    {
+      "deal_id": "3172610216",
+      "negocio": "Helpy: J&P PERIFERICOS S.A.C.",
+      "contacto": "Julio Flores Vicuña",
+      "email": "julioflores@jypsac.com"
+    },
+    {
+      "deal_id": "3172661871",
+      "negocio": "Helpy l Miyasava & Abogados S.A.C",
+      "contacto": "Daniel Jhordy Daza Romero",
+      "email": "dazadanieljhordy@gmail.com"
+    },
+    {
+      "deal_id": "3172809365",
+      "negocio": "Helpy l Instituto Peruano de Energía Nuclear - IPEN",
+      "contacto": "Jaime Lobo Inchaustegui",
+      "email": "jaime.lobo@outlook.com"
+    },
+    {
+      "deal_id": "3193638620",
+      "negocio": "CLARICIO PEÑA: 3ERIZA BOX",
+      "contacto": "Claricio Peña Medina",
+      "email": "admclarc@gmail.com"
+    },
+    {
+      "deal_id": "3197890244",
+      "negocio": "YANBAL: EBOX",
+      "contacto": "Yngrid Nacimiento",
+      "email": "yngrid.nacimiento@unique-yanbal.com"
+    },
+    {
+      "deal_id": "3198088364",
+      "negocio": "LEANDRO RIOS: 3ERIZA BOX",
+      "contacto": "Leandro Rios",
+      "email": "leandroriossanchez@gmail.com"
+    },
+    {
+      "deal_id": "3198091405",
+      "negocio": "KPD INVERSIONES: 3ERIZA BOX",
+      "contacto": "Emilio Uculmana",
+      "email": "utataje@kpd.pe"
+    },
+    {
+      "deal_id": "3203645046",
+      "negocio": "JARDÍN ABIERTO: EBOX",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "3204510263",
+      "negocio": "Pedro Huayta",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "3212637604",
+      "negocio": "GREEN REPUBLIC: 3ERIZA BOX",
+      "contacto": "Marco Infante",
+      "email": "marketing@greenrepublic.pe"
+    },
+    {
+      "deal_id": "3213330322",
+      "negocio": "FARMACIA UNIVERSAL: QNEXT+",
+      "contacto": "Rafael",
+      "email": "rcondeq@gmail.com"
+    },
+    {
+      "deal_id": "3213442801",
+      "negocio": "ALVARO: 3ERIZA BOX",
+      "contacto": "Alvaro",
+      "email": "alvarojmp@gmail.com"
+    },
+    {
+      "deal_id": "3214180799",
+      "negocio": "TEDX CONSULTING GROUP: QNEXT+",
+      "contacto": "Alfredo Belevan",
+      "email": "abelevan@tedxconsulting.com"
+    },
+    {
+      "deal_id": "3218097250",
+      "negocio": "Helpy l Visible",
+      "contacto": "Antonio Sulca Herencia",
+      "email": "antonio.sulca@gmail.com"
+    },
+    {
+      "deal_id": "3218183510",
+      "negocio": "Helpy l \tArpynet",
+      "contacto": "Rolando Contreras",
+      "email": "rcontreras@arpynet.com"
+    },
+    {
+      "deal_id": "3218211683",
+      "negocio": "Helpy l Centro de Idiomas CIVIME",
+      "contacto": "Guillerno Reyes Mendo",
+      "email": "reyesmendoguillermoraul@gmail.com"
+    },
+    {
+      "deal_id": "3221493776",
+      "negocio": "Helpy: GOGOO STORE",
+      "contacto": "Alexander Villa",
+      "email": "gogoostore1@gmail.com"
+    },
+    {
+      "deal_id": "3228212397",
+      "negocio": "Talent QR l DEPILZONE S.A.C. l Vendedores call center",
+      "contacto": "Joselyn Arance",
+      "email": "depilzone.logistica@gmail.com"
+    },
+    {
+      "deal_id": "3250291565",
+      "negocio": "NOTARIA RAMOS: QNEXT+",
+      "contacto": "Gian Carlo Davila Miraglia",
+      "email": "administracion@notariaramos.pe"
+    },
+    {
+      "deal_id": "3259536021",
+      "negocio": "TOUGHLINE: EBOX",
+      "contacto": "Sayuri Arista",
+      "email": "ventas@toughline.com"
+    },
+    {
+      "deal_id": "3259747476",
+      "negocio": "FAJITEX: EBOX",
+      "contacto": "giuliana",
+      "email": "giuliana.lazarte@fajitex.pe"
+    },
+    {
+      "deal_id": "3259777949",
+      "negocio": "HERALDOS NEGROS: EBOX",
+      "contacto": "Francisco Miyagi",
+      "email": "francisco.miyagi@heraldosnegros.com"
+    },
+    {
+      "deal_id": "3263650501",
+      "negocio": "VIAJES DEYA ENOSTICS: 3ERIZA BOX",
+      "contacto": "Kemberly Osorio",
+      "email": "kosorio@maskmasviajesdeyaenostics.com"
+    },
+    {
+      "deal_id": "3267585362",
+      "negocio": "COELPRA: 3ERIZA  BOX",
+      "contacto": "Giuliana Recoba Cordova",
+      "email": "g.recoba@coelpra.com"
+    },
+    {
+      "deal_id": "3300308288",
+      "negocio": "Talent QR l Analista Java y Arquitecto de software",
+      "contacto": "Johnny Antayhua",
+      "email": "johant.2188@gmail.com"
+    },
+    {
+      "deal_id": "3301676110",
+      "negocio": "COMDATA GROUP: EBOX",
+      "contacto": "David Minaya",
+      "email": "david.minaya@comdatagroup.com"
+    },
+    {
+      "deal_id": "3301677948",
+      "negocio": "DLC SOLUCIONES: EBOX",
+      "contacto": "Carlos De la Cruz",
+      "email": "gerencia@dlcsoluciones.com"
+    },
+    {
+      "deal_id": "3301680662",
+      "negocio": "ARGOTVISUAL: EBOX",
+      "contacto": "Andrea Cuba",
+      "email": "contacto@argotvisual.com"
+    },
+    {
+      "deal_id": "3301729601",
+      "negocio": "TATA CONSULTANCY SERVICES: EBOX",
+      "contacto": "JENNIFER DELGADO",
+      "email": "jennifer.delgado@tcs.com"
+    },
+    {
+      "deal_id": "3302686796",
+      "negocio": "CIL SOLUCIONES SRL",
+      "contacto": "William Umpire",
+      "email": "wil_alejo1208@hotmail.com"
+    },
+    {
+      "deal_id": "3302797727",
+      "negocio": "SYS PERÚ: QNEXT+",
+      "contacto": "Cesar Mestanza",
+      "email": "cesarmd@sysperu.pe"
+    },
+    {
+      "deal_id": "3305103978",
+      "negocio": "XYLEM: 3BOX",
+      "contacto": "Beatriz Nuñez",
+      "email": "beatriz.nunez.balvin@xyleminc.com"
+    },
+    {
+      "deal_id": "3307309517",
+      "negocio": "PJFARMA: EBOX",
+      "contacto": "Jhovany",
+      "email": "ventas@pjfarma.pe"
+    },
+    {
+      "deal_id": "3307370715",
+      "negocio": "UNIBANCA: EBOX",
+      "contacto": "PEDRO ZAMUDIO",
+      "email": "logistica@unibanca.com.pe"
+    },
+    {
+      "deal_id": "3310754380",
+      "negocio": "RASH PERÚ: EBOX",
+      "contacto": "Bianca Pérez Pérez",
+      "email": "bperez@rashperu.com"
+    },
+    {
+      "deal_id": "3310785902",
+      "negocio": "SALUMED: EBOX",
+      "contacto": "NOHELY VERDE",
+      "email": "administracion@salumed.pe"
+    },
+    {
+      "deal_id": "3326499185",
+      "negocio": "WE ARE: DELIVERY IBK",
+      "contacto": "Piero Mavila",
+      "email": "pmavila@arellano.pe"
+    },
+    {
+      "deal_id": "3349668119",
+      "negocio": "ROBERTO PANTIGOSO: QNEXT+",
+      "contacto": "Roberto Carlos Pantigoso Grados",
+      "email": "paztigozo@hotmail.com"
+    },
+    {
+      "deal_id": "3349690491",
+      "negocio": "Helpy: Constructora Urteaga S.A.C.",
+      "contacto": "Pepe Guevara",
+      "email": "pguevara@outlook.com"
+    },
+    {
+      "deal_id": "3349697706",
+      "negocio": "4B SOLUCIONES TI: EBOX",
+      "contacto": "Gerardo Coronado",
+      "email": "gcoronado@4b.com.pe"
+    },
+    {
+      "deal_id": "3355957727",
+      "negocio": "COPYCOM: Practicante técnico",
+      "contacto": "Henry Fernandez",
+      "email": "copycomperu@hotmail.com"
+    },
+    {
+      "deal_id": "3356441757",
+      "negocio": "CANVALSAC: EBOX",
+      "contacto": "Nathaly Aquino",
+      "email": "nmascaro@canvalsac.com"
+    },
+    {
+      "deal_id": "3356485864",
+      "negocio": "Helpy: Simplex Business Team",
+      "contacto": "Martin Alonso Huaman Ascanio",
+      "email": "martinnets@gmail.com"
+    },
+    {
+      "deal_id": "3360556167",
+      "negocio": "DELICANTO: EBOX",
+      "contacto": "Alicia Higa",
+      "email": "ah@delicantoperu.com"
+    },
+    {
+      "deal_id": "3372041610",
+      "negocio": "DULCE SORPRESA: EBOX",
+      "contacto": "Dayana Peña",
+      "email": "dayana@dulcesorpresaperu.com"
+    },
+    {
+      "deal_id": "3373558485",
+      "negocio": "FOVIPOL: QNEXT+",
+      "contacto": "EDWIN AMARANTO",
+      "email": "eamaranto@fovipol.gob.pe"
+    },
+    {
+      "deal_id": "3405276473",
+      "negocio": "SUPLY CHAIN SOLUTIONS: EBOX",
+      "contacto": "José Morales",
+      "email": "jmorales@scs.com.pe"
+    },
+    {
+      "deal_id": "3415158624",
+      "negocio": "Helpy: Jhon Arias",
+      "contacto": "Jhon Arias",
+      "email": "jhonpaul36@hotmail.com"
+    },
+    {
+      "deal_id": "3415284303",
+      "negocio": "MINAGRI: EBOX",
+      "contacto": "Glendy Muñoz",
+      "email": "oap_33@minagri.gob.pe"
+    },
+    {
+      "deal_id": "3426419810",
+      "negocio": "PRIMERA: EBOX",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "3445911418",
+      "negocio": "ERMIAL: EBOX",
+      "contacto": "James Ruiz",
+      "email": "jruiz@eranmial.com.pe"
+    },
+    {
+      "deal_id": "3446046260",
+      "negocio": "CD DISTRIBUCIÓN: EBOX",
+      "contacto": "carol lapa salas",
+      "email": "logistics.global@cddistribution.com"
+    },
+    {
+      "deal_id": "3450325381",
+      "negocio": "SODIMAC: ARMADO EXHIBICIONES",
+      "contacto": "José Miguel Martínez",
+      "email": "jmartinezv@sodimac.com.pe"
+    },
+    {
+      "deal_id": "3450365557",
+      "negocio": "JRZ PERÚ: EBOX",
+      "contacto": "Sandra Ghersi",
+      "email": "sandra.ghersi@jrzperu.com"
+    },
+    {
+      "deal_id": "3450411184",
+      "negocio": "TOURING: QNEXT+",
+      "contacto": "Luis Yaringano",
+      "email": "luis.yaringano@touring.pe"
+    },
+    {
+      "deal_id": "3450421941",
+      "negocio": "PROVEEDORES MINEROS: EBOX",
+      "contacto": "Luis Pizarro",
+      "email": "luispizarro@proveedoresmineros.com"
+    },
+    {
+      "deal_id": "3450518694",
+      "negocio": "SANDRA LOPEZ: EBOZ",
+      "contacto": "Sandra Lopez",
+      "email": "sandralg2803@gmail.com"
+    },
+    {
+      "deal_id": "3450528338",
+      "negocio": "IPB SAC: EBOX",
+      "contacto": "Manuel Zapata",
+      "email": "contacto@ipbssac.com"
+    },
+    {
+      "deal_id": "3450978595",
+      "negocio": "GRUPO FALABELLA: CARRYBOYS / CARGADORES",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "3488605141",
+      "negocio": "Helpy : Aida Valverde",
+      "contacto": "Aida Valverde",
+      "email": "valverde.aida@gmail.com"
+    },
+    {
+      "deal_id": "3501053348",
+      "negocio": "COISAC: EBOX",
+      "contacto": "Mary Barragán",
+      "email": "mcbb@coisac.com"
+    },
+    {
+      "deal_id": "3502835494",
+      "negocio": "SOICSAC: EBOX",
+      "contacto": "Consultoría e inversiones S.A.C",
+      "email": "mcbb@soicsac.com"
+    },
+    {
+      "deal_id": "3505508992",
+      "negocio": "KUNAK CONSULTINGL EBOX",
+      "contacto": "Sonia Gomez",
+      "email": "sgomez@kunak.com.pe"
+    },
+    {
+      "deal_id": "3505643667",
+      "negocio": "LA FABRIKA: EBOX",
+      "contacto": "JUANITA PARDO CUELLASAS",
+      "email": "jpardar@lafabrika.pe"
+    },
+    {
+      "deal_id": "3505707415",
+      "negocio": "PROYECTOS MULTIMEDIA: 6 TICKETERAS",
+      "contacto": "Luis Santos Garcia",
+      "email": "isantos@proyectos-multimedia.com"
+    },
+    {
+      "deal_id": "3505733266",
+      "negocio": "SULINGEIRL: EBOX",
+      "contacto": "Juan Carlos Espíritu Requena",
+      "email": "ventas@sulingeirl.com"
+    },
+    {
+      "deal_id": "3505838271",
+      "negocio": "DERCO: EBOX",
+      "contacto": "Junior Luque Landa",
+      "email": "junior.luque@derco.pe"
+    },
+    {
+      "deal_id": "3505908840",
+      "negocio": "ACCESORIOS AVENTURA: EBOX",
+      "contacto": "Marco Malca C",
+      "email": "gm_ventas@accesoriosaventura.com"
+    },
+    {
+      "deal_id": "3511364177",
+      "negocio": "Helpy : Guillermo Ramos",
+      "contacto": "Guillermo Ramos",
+      "email": "guillermo.ramos@gsperu.pe"
+    },
+    {
+      "deal_id": "3521788133",
+      "negocio": "HELPY: MARYOLY BABRBOZA",
+      "contacto": "Maryoly Barboza",
+      "email": "maryo_barboza@hotmail.com"
+    },
+    {
+      "deal_id": "3530226284",
+      "negocio": "KUSIPATA: EBOX",
+      "contacto": "Alessandra Rogi",
+      "email": "alessandra@kusipata.pe"
+    },
+    {
+      "deal_id": "3530350121",
+      "negocio": "PMS PROYECTOS: EBOX",
+      "contacto": "CARLA SANTIAGO",
+      "email": "csantiago@pmsproyectos.com.pe"
+    },
+    {
+      "deal_id": "3530440271",
+      "negocio": "SURTIFRESH: EBOX",
+      "contacto": "Raul Poncedeleon",
+      "email": "rponce@surtifresh.com"
+    },
+    {
+      "deal_id": "3543806379",
+      "negocio": "ANDOA: EBOX",
+      "contacto": "Vanesa Forno",
+      "email": "vanesa.forno@andoa.pe"
+    },
+    {
+      "deal_id": "3565214054",
+      "negocio": "Helpy: Paulo Barrantes",
+      "contacto": "Paulo Barrantes",
+      "email": "paulobarrantes8@gmail.com"
+    },
+    {
+      "deal_id": "3565477802",
+      "negocio": "Helpy: Javier Gutierrez",
+      "contacto": "Javier Gutierrez",
+      "email": "yogurtito@gmail.com"
+    },
+    {
+      "deal_id": "3565777884",
+      "negocio": "Helpy - Jhonny Amambal, Multiservicios innnova Amambal",
+      "contacto": "Jhonny Amambal",
+      "email": "informes@msiamambal.com"
+    },
+    {
+      "deal_id": "3578109421",
+      "negocio": "ROTOPLAS: CAMPAÑA NAVIDEÑA",
+      "contacto": "Belén Vargas",
+      "email": "bvargas@rotoplas.com"
+    },
+    {
+      "deal_id": "3582031956",
+      "negocio": "GRUPO FALABELLA: OPERACIONES LOGÍSTICAS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "3582882015",
+      "negocio": "SANNA: DELIVERY DOCTOR+",
+      "contacto": "Eduardo Zeppilli",
+      "email": "eduardo.zeppilli@sanna.pe"
+    },
+    {
+      "deal_id": "3603517310",
+      "negocio": "Helpy: Victor Soto",
+      "contacto": "Victor Soto",
+      "email": "azariasvsa@gmail.com"
+    },
+    {
+      "deal_id": "3614556648",
+      "negocio": "Helpy : Gerardo Cama",
+      "contacto": "Gerardo Cama",
+      "email": "gmcz.mp@gmail.com"
+    },
+    {
+      "deal_id": "3630984839",
+      "negocio": "Helpy: Efe",
+      "contacto": "Emmanuel Pacaud",
+      "email": "epacaud@efe-lc.com.pe"
+    },
+    {
+      "deal_id": "3652764398",
+      "negocio": "7 VIDAS: EBOX",
+      "contacto": "milkov 7vidas",
+      "email": "tiendaonline@cerveza7vidas.com"
+    },
+    {
+      "deal_id": "3657375223",
+      "negocio": "CONCEPT GOURMET: EBOX",
+      "contacto": "Alan Llanos Rios",
+      "email": "allanos@conceptgourmetpe.com"
+    },
+    {
+      "deal_id": "3657394343",
+      "negocio": "KPMG: eBox",
+      "contacto": "Luis Garay",
+      "email": "lgaray@kpmg.com"
+    },
+    {
+      "deal_id": "3669002763",
+      "negocio": "Helpy : Alvaro, Tulipanda.pe",
+      "contacto": "Alvaro B",
+      "email": "alvaro@tulipanda.pe"
+    },
+    {
+      "deal_id": "3731707658",
+      "negocio": "EVELYN GARCIA: CONVERSIÓN DE LEADS",
+      "contacto": "Evelyn Garcia",
+      "email": "mili2150@hotmail.com"
+    },
+    {
+      "deal_id": "3731851501",
+      "negocio": "SANIMAX: CONVERSIÓN DE LEADS",
+      "contacto": "Bruno Jácobo R.",
+      "email": "bjacobo@sanimax.pe"
+    },
+    {
+      "deal_id": "3731858870",
+      "negocio": "LO QUIERO TODO!: CONVERSIÓN DE LEADS",
+      "contacto": "Jenny HB",
+      "email": "jenhb_nan@yahoo.es"
+    },
+    {
+      "deal_id": "3732415068",
+      "negocio": "EL FOGÓN DEL ASADOR: EBOX",
+      "contacto": "Benjamin Alvarado Sánchez",
+      "email": "balvarado@elfogondelasador.com.pe"
+    },
+    {
+      "deal_id": "3732518688",
+      "negocio": "IGLAMSTORE: EBOX",
+      "contacto": "Giuliana Mendoza",
+      "email": "giuliana@iglamstore.com"
+    },
+    {
+      "deal_id": "3732608739",
+      "negocio": "WE ARE MAKERS: EBOX",
+      "contacto": "Kath Ramos",
+      "email": "katherine@wearemakers.xyz"
+    },
+    {
+      "deal_id": "3732723846",
+      "negocio": "ASC CORPORATION: EBOX",
+      "contacto": "Lucía Moreno",
+      "email": "lmoreno@acscorporation.pe"
+    },
+    {
+      "deal_id": "3732839593",
+      "negocio": "WIX: EBOX",
+      "contacto": "America Ncalix",
+      "email": "servicios@americancalix.com"
+    },
+    {
+      "deal_id": "3732841777",
+      "negocio": "CGB: EBOX",
+      "contacto": "Maria Martinez Sanchez",
+      "email": "administracion@cgb.com.pe"
+    },
+    {
+      "deal_id": "3732923694",
+      "negocio": "JORGE CHINCHAYAN: EBOX",
+      "contacto": "JorgeyGisela Chinchayán",
+      "email": "giselamuhlig@icloud.com"
+    },
+    {
+      "deal_id": "3762930810",
+      "negocio": "Helpy : Jose Gomez",
+      "contacto": "Jose Gomez",
+      "email": "jgomeztdm@gmail.com"
+    },
+    {
+      "deal_id": "3763940184",
+      "negocio": "SULPAYKI: EBOX",
+      "contacto": "Luis Alberto",
+      "email": "luis.saravia@pucp.pe"
+    },
+    {
+      "deal_id": "3805235340",
+      "negocio": "Helpy: José Luis Álvarez",
+      "contacto": "José Luis Álvarez Escobar",
+      "email": "esi.segurity@gmail.com"
+    },
+    {
+      "deal_id": "3808422297",
+      "negocio": "Helpy: Jonatan  Pacci",
+      "contacto": "Jonatan Paul Pacci Ramirez",
+      "email": "jpacciramirez@gmail.com"
+    },
+    {
+      "deal_id": "3840449872",
+      "negocio": "LUIS RONDON CONVERSIÓN DE LEADS",
+      "contacto": "Luis Rondon Santos",
+      "email": "luisalberto_10_u@hotmail.com"
+    },
+    {
+      "deal_id": "3843888162",
+      "negocio": "Helpy: Thamara Patroni",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "3858370469",
+      "negocio": "MARINA: CONVERSIÓN DE LEADS",
+      "contacto": "Marina Marca Luna",
+      "email": "marimar.luna@hotmail.com"
+    },
+    {
+      "deal_id": "3937074154",
+      "negocio": "OPEN INTERNACIONAL: EBOX",
+      "contacto": "Diana Paredes",
+      "email": "dianaparedes.lim@openinternacional.com"
+    },
+    {
+      "deal_id": "3938286103",
+      "negocio": "Helpy : Richard Ferro",
+      "contacto": "Richard Ferro",
+      "email": "rferro195@gmail.com"
+    },
+    {
+      "deal_id": "3943301073",
+      "negocio": "CLÍNICA MEGA SALUD: QNEXT+",
+      "contacto": "Ignacio Francisco Basombrio Cedano",
+      "email": "ibasombrio@clinicamegasalud.com"
+    },
+    {
+      "deal_id": "3945712513",
+      "negocio": "ONSORCINCOSORIO: EBOX",
+      "contacto": "Maria Leon",
+      "email": "supervisor@onsorcinconsorcio.pe"
+    },
+    {
+      "deal_id": "3951228304",
+      "negocio": "ANDRÉS CAMARA: CONVERSIÓN DE LEADS",
+      "contacto": "Andrés Cámara",
+      "email": "andresj_ch@hotmail.com"
+    },
+    {
+      "deal_id": "3951311034",
+      "negocio": "ADVANTECH COMPUTER: EBOX",
+      "contacto": "EDWIN ENRIQUE TAMARIZ ORTIZ",
+      "email": "ventas@advantechcomputer.com"
+    },
+    {
+      "deal_id": "3951340940",
+      "negocio": "CA BUSINESS: EBOX",
+      "contacto": "KATHERINE CHACON",
+      "email": "gerencia@cabusiness.pe"
+    },
+    {
+      "deal_id": "3951410280",
+      "negocio": "Helpy: Jhonathan",
+      "contacto": "Jhonathan",
+      "email": "jcpc1509@gmail.com"
+    },
+    {
+      "deal_id": "3951797852",
+      "negocio": "BIGMOND: EBOX",
+      "contacto": "Marco Davila",
+      "email": "marco.davila@bigmond.com"
+    },
+    {
+      "deal_id": "3951805221",
+      "negocio": "A&A INDUSTRIAL: EBOX",
+      "contacto": "Lissette Quispe",
+      "email": "lissetteq@ayaisp.com"
+    },
+    {
+      "deal_id": "3955758777",
+      "negocio": "Helpy:  Walter Tapia",
+      "contacto": "Walter Tapia",
+      "email": "team@gsiperu.io"
+    },
+    {
+      "deal_id": "3956443748",
+      "negocio": "Helpy: Rocio Vega",
+      "contacto": "Rocio Vega",
+      "email": "vegaq13@gmail.com"
+    },
+    {
+      "deal_id": "3956799980",
+      "negocio": "TRANSPACIFICO: EBOX",
+      "contacto": "Andre Solorzano Alegria",
+      "email": "asolorzano@transpacifico.pe"
+    },
+    {
+      "deal_id": "3958425931",
+      "negocio": "KARLA NIEVES: EBOX",
+      "contacto": "Karla Nieves",
+      "email": "karlakatherinenieves@gmail.com"
+    },
+    {
+      "deal_id": "3958426912",
+      "negocio": "TENIZ: EBOX",
+      "contacto": "Telmo Nizmaa",
+      "email": "tnizama@teniz.pe"
+    },
+    {
+      "deal_id": "3958443248",
+      "negocio": "BAR GOURMET PERÚ: EBOX",
+      "contacto": "Aldo Pérez Alvarado",
+      "email": "aldodavid@msn.com"
+    },
+    {
+      "deal_id": "3958445234",
+      "negocio": "P&R SMART SHOP: EBOX",
+      "contacto": "Cesar Ayala",
+      "email": "gerencia@prsmartshop.com"
+    },
+    {
+      "deal_id": "3961606094",
+      "negocio": "Talent QR: Banco Ripley Perú",
+      "contacto": "Heydi Hinostroza Hinostroza",
+      "email": "hhinostroza@bancoripley.com.pe"
+    },
+    {
+      "deal_id": "3965805235",
+      "negocio": "Cliente Incógnito: OLVA COURIER",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "3972433615",
+      "negocio": "Helpy: Luis Serpa",
+      "contacto": "Luis Felipe Serpa Casas",
+      "email": "luis.serpa@esstrategicpartners.com"
+    },
+    {
+      "deal_id": "3972865424",
+      "negocio": "Helpy: Luis Tenorio, GRUPO CLT",
+      "contacto": "Luis  Tenorio",
+      "email": "luistenoriof@gmail.com"
+    },
+    {
+      "deal_id": "3977385942",
+      "negocio": "AGROINVESTING: EBOX",
+      "contacto": "Betto D`Falcon",
+      "email": "alberto@agroinvesting.lat"
+    },
+    {
+      "deal_id": "3981962710",
+      "negocio": "IVÁN VÉLEZ: EBOX",
+      "contacto": "Iva?n Ve?lez",
+      "email": "ivan_velez92@hotmail.com"
+    },
+    {
+      "deal_id": "3982030507",
+      "negocio": "LESLIE PALACIOS: EBOX",
+      "contacto": "Leslie Palacios",
+      "email": "leslievpalacios@gmail.com"
+    },
+    {
+      "deal_id": "3982058322",
+      "negocio": "TTG: EBOX",
+      "contacto": "Julio Armas",
+      "email": "julio@ttg-globalgroup.com"
+    },
+    {
+      "deal_id": "3983504443",
+      "negocio": "ANTHONY: EBOX",
+      "contacto": "Anthony",
+      "email": "anthonysvc39@gmail.com"
+    },
+    {
+      "deal_id": "3983504633",
+      "negocio": "INMERSOGRILL: EBOX",
+      "contacto": "NORA MALDONADO",
+      "email": "admin@inmersogrill.com"
+    },
+    {
+      "deal_id": "3986328386",
+      "negocio": "RICARDO ALBERCA: CONVERSIÓN DE LEADS",
+      "contacto": "Ricardo Alberca",
+      "email": "rihealmo292017@gmail.com"
+    },
+    {
+      "deal_id": "3986564579",
+      "negocio": "LUCERO MENDOZA: CONVERSIÓN DE LEADS",
+      "contacto": "Lucero Mendoza",
+      "email": "bestronicperu@gmail.com"
+    },
+    {
+      "deal_id": "3986917605",
+      "negocio": "SOFTPORT: CONVERSIÓN DE LEADS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "3987074265",
+      "negocio": "ALDO ALMANZA: CONVERSIÓN DE LEADS",
+      "contacto": "Aldo Almanza",
+      "email": "aldo11111-aa@hotmail.com"
+    },
+    {
+      "deal_id": "3987415724",
+      "negocio": "GOOD HOPE: EBOX",
+      "contacto": "Nelly Paredes",
+      "email": "secretaria.gerente.logistica@goodhope.org.pe"
+    },
+    {
+      "deal_id": "3988513891",
+      "negocio": "TQR: Leemark",
+      "contacto": "Alexander Arias",
+      "email": "gerencia@limaleemark.club"
+    },
+    {
+      "deal_id": "3989951138",
+      "negocio": "Helpy: Cinso Comunicaciones",
+      "contacto": "Christopher Cesti",
+      "email": "ccesti@cinsocomunicaciones.com"
+    },
+    {
+      "deal_id": "4007270037",
+      "negocio": "Helpy: Wilfredo Colque",
+      "contacto": "Wilfredo Colque",
+      "email": "wilocolque@hotmail.com"
+    },
+    {
+      "deal_id": "4011795790",
+      "negocio": "TU HOME OFFICE: CONVERSIÓN DE LEADS",
+      "contacto": "Sylvia Lam",
+      "email": "sylvia.lam@mafer.com"
+    },
+    {
+      "deal_id": "4023765954",
+      "negocio": "EPACK: EBOX",
+      "contacto": "Wayner Abías Chávez Niño",
+      "email": "hola@epack.pe"
+    },
+    {
+      "deal_id": "4023822402",
+      "negocio": "PRONASEL: EBOX",
+      "contacto": "Ma del carmen Sandoval",
+      "email": "mcs@pronasel.com.pe"
+    },
+    {
+      "deal_id": "4024377246",
+      "negocio": "QyQ PROVEEDORES: EBOX",
+      "contacto": "Aaron Rojas",
+      "email": ""
+    },
+    {
+      "deal_id": "4024424538",
+      "negocio": "BARA UNLIMITED: EBOX",
+      "contacto": "Marcos Mauricio Rubin",
+      "email": "mrubin@baraunlimited.com"
+    },
+    {
+      "deal_id": "4027639515",
+      "negocio": "KACERA: EBOX",
+      "contacto": "ERICK",
+      "email": "erick.quispem@pucp.pe"
+    },
+    {
+      "deal_id": "4027736890",
+      "negocio": "TQR: Líder comercial - sysel",
+      "contacto": "Alfredo Castro",
+      "email": "alfredo.castro@sysel.com.pe"
+    },
+    {
+      "deal_id": "4040966261",
+      "negocio": "EMBARCADERO 41: EBOX",
+      "contacto": "Javier Mantilla",
+      "email": "javier.mantilla.22@hotmail.com"
+    },
+    {
+      "deal_id": "4043156870",
+      "negocio": "Ducis: Orbita Brand Consultant",
+      "contacto": "Jose Arguedas",
+      "email": "orbitaconsultant@gmail.com"
+    },
+    {
+      "deal_id": "4053391595",
+      "negocio": "MEDILASER PERU: EBOX",
+      "contacto": "MAYELA MELLADO",
+      "email": "administracion@grupopreventis.com.pe"
+    },
+    {
+      "deal_id": "4053413396",
+      "negocio": "ENRIQUE BENAVENTE: EBOX",
+      "contacto": "Enrique Benavente",
+      "email": "enriquembenaventeg@gmail.com"
+    },
+    {
+      "deal_id": "4054193629",
+      "negocio": "ALEJANDRO ARÍAS: EBOX",
+      "contacto": "Alejandro Arias",
+      "email": "aarias@ncomunica.com"
+    },
+    {
+      "deal_id": "4055081480",
+      "negocio": "Helpy: Rich de los Andes",
+      "contacto": "Luis Enrique",
+      "email": "larrieta@rich.com"
+    },
+    {
+      "deal_id": "4069945531",
+      "negocio": "EMPANACOMBI: EBOX",
+      "contacto": "diana romero",
+      "email": "atencionalcliente@empanacombi.com"
+    },
+    {
+      "deal_id": "4070610485",
+      "negocio": "LA SALHUMERIA: EBOX",
+      "contacto": "Cinthya La Cotera",
+      "email": "cinthyalacotera@gmail.com"
+    },
+    {
+      "deal_id": "4075742363",
+      "negocio": "CESAR LINARES: EBOX",
+      "contacto": "Cesar Linarez",
+      "email": "cesarlinarez89@gmail.com"
+    },
+    {
+      "deal_id": "4075743023",
+      "negocio": "MARIA JOSE: EBOX",
+      "contacto": "Maria Jose Pflucker",
+      "email": "mariajosepflucker@gmail.com"
+    },
+    {
+      "deal_id": "4075850090",
+      "negocio": "LA FABRICA PIZZERÍA MÓVIL",
+      "contacto": "La Fa?brica pizzeria movil",
+      "email": "gerencia.dpp@gmail.com"
+    },
+    {
+      "deal_id": "4075900605",
+      "negocio": "ELLIOTT NAVARRO: EBOX",
+      "contacto": "Elliott Navarro Martinez",
+      "email": "elliottyelita@gmail.com"
+    },
+    {
+      "deal_id": "4075971000",
+      "negocio": "FERNANDO: EBOX",
+      "contacto": "fernando",
+      "email": "fernandoruizdlc@gmail.com"
+    },
+    {
+      "deal_id": "4075971541",
+      "negocio": "MARIA KRALEWSKA: EBOX",
+      "contacto": "Pawel Canchaya-Kralewski",
+      "email": "pawel@mariakralewska.com.pe"
+    },
+    {
+      "deal_id": "4076543032",
+      "negocio": "LA BODEGA DEL MONTONERO: EBOX",
+      "contacto": "Luis Omar",
+      "email": "operaciones@labodegadelmontonero.com"
+    },
+    {
+      "deal_id": "4081776316",
+      "negocio": "D-HOME: EBOX",
+      "contacto": "Jorge Bravo Vargas",
+      "email": "jorge@dhome.shop"
+    },
+    {
+      "deal_id": "4081855673",
+      "negocio": "ECONOFARMA: 3-COMMERCE",
+      "contacto": "Alfredo Llanos",
+      "email": "jcompras@acfarma.biz"
+    },
+    {
+      "deal_id": "4115797537",
+      "negocio": "MIKE BOBADILLA: EBOX",
+      "contacto": "Mike Bobadilla",
+      "email": "michael.mb.1130@gmail.com"
+    },
+    {
+      "deal_id": "4116394781",
+      "negocio": "JC MEDICAL SUPPLIES: EBOX",
+      "contacto": "vanessa cornejo",
+      "email": "communitymanager@jcmedicalsupplies.com"
+    },
+    {
+      "deal_id": "4122035989",
+      "negocio": "NEWER: EBOX",
+      "contacto": "JHONATAN DOLORES",
+      "email": "j.dolores@newrer.edu.pe"
+    },
+    {
+      "deal_id": "4126991112",
+      "negocio": "RLA-LATAM: EBOX",
+      "contacto": "Sebastian San Francisco",
+      "email": "ssanfrancisco@rla-latam.com"
+    },
+    {
+      "deal_id": "4130854386",
+      "negocio": "AGROPEGASUS: EBOX",
+      "contacto": "Giancarlo López",
+      "email": "giancarlolopez@agropegasus.com"
+    },
+    {
+      "deal_id": "4131510187",
+      "negocio": "BLUE COMUNIDAD: EBOX",
+      "contacto": "Christian Henriquez",
+      "email": "chenriquez@bluecomunidad.com"
+    },
+    {
+      "deal_id": "4131511415",
+      "negocio": "MARÍA RAMÍREZ: EBOX",
+      "contacto": "María Ramírez",
+      "email": "incahugs@gmail.com"
+    },
+    {
+      "deal_id": "4131545748",
+      "negocio": "ALEXANDER: EBOX",
+      "contacto": "ALEXANDER",
+      "email": "sistemasperu@catalogojoyle.com"
+    },
+    {
+      "deal_id": "4135214800",
+      "negocio": "ROM OUTSOURCING: EBOX",
+      "contacto": "Ricardo Aspillaga",
+      "email": "ricardo.aspillaga@grupotawa.com"
+    },
+    {
+      "deal_id": "4135244351",
+      "negocio": "NEOCARE: EBOX",
+      "contacto": "Frank Rodriguez Villanueva",
+      "email": "frank.rodriguez@neocare.com.pe"
+    },
+    {
+      "deal_id": "4139886539",
+      "negocio": "DANIEL VELARDE: EBOX",
+      "contacto": "Daniel Velarde",
+      "email": "d.velarde.1993@gmail.com"
+    },
+    {
+      "deal_id": "4164497106",
+      "negocio": "JOHNATTAN: EBOX",
+      "contacto": "JOHNATTAN",
+      "email": "jhonsifuentesr@gmail.com"
+    },
+    {
+      "deal_id": "4166349573",
+      "negocio": "FAST MEDIC LAVORO: EBOX",
+      "contacto": "Juan Manuel Rojas Chang",
+      "email": "juanmanuelrojaschang@gmail.com"
+    },
+    {
+      "deal_id": "4280692383",
+      "negocio": "CANDY PERÚ: EBOX",
+      "contacto": "MaryCarmen Torres",
+      "email": "asistventas@dulcina.com.pe"
+    },
+    {
+      "deal_id": "4315291811",
+      "negocio": "MUSUQ 360: EBOX",
+      "contacto": "Maria claudia Pérez",
+      "email": "hola@musuq360.com"
+    },
+    {
+      "deal_id": "4358560352",
+      "negocio": "DELOSSI: DESBORDE DELIVERY",
+      "contacto": "Mariano Chavez",
+      "email": "mchavezr@franquiciasperu.com"
+    },
+    {
+      "deal_id": "4378524457",
+      "negocio": "AOCORP: EBOX",
+      "contacto": "ANDREA PAZ",
+      "email": "andrea.paz@aocorp.pe"
+    },
+    {
+      "deal_id": "4395963783",
+      "negocio": "B ORGANIC: EBOX",
+      "contacto": "Jaime Hanza",
+      "email": "jh@b-organic.pe"
+    },
+    {
+      "deal_id": "4396041321",
+      "negocio": "EKOVIDA: EBOX",
+      "contacto": "Rosa Ines Ramirez",
+      "email": "info@ekovida.com"
+    },
+    {
+      "deal_id": "4417597806",
+      "negocio": "Kambista - Cliente Incógnito",
+      "contacto": "Paulo Valdiviezo",
+      "email": "paulo@kambista.com"
+    },
+    {
+      "deal_id": "4433912211",
+      "negocio": "BESO FRANCÉS: EBOX",
+      "contacto": "Christian Bedriñana",
+      "email": "christianbedrinana@besofrances.pe"
+    },
+    {
+      "deal_id": "4435827016",
+      "negocio": "NUTRIPASIÓN: EBOX",
+      "contacto": "LORENA GINOCCHIO",
+      "email": "lginocchio@nutripasion.com"
+    },
+    {
+      "deal_id": "4576496784",
+      "negocio": "Mariel Hotel - Ducis",
+      "contacto": "Alvaro Florez",
+      "email": "alvaro@mariel-hotel.com"
+    },
+    {
+      "deal_id": "4594273938",
+      "negocio": "ELIZABETH TRUJILLO: EBOX",
+      "contacto": "Elizabeth Trujillo",
+      "email": "elizabetht@gmail.com"
+    },
+    {
+      "deal_id": "4595303532",
+      "negocio": "PLAYWOOD: EBOX",
+      "contacto": "Alejandro Uculmana",
+      "email": "puculmana@creandina.com.pe"
+    },
+    {
+      "deal_id": "4611241370",
+      "negocio": "Personnel Group - DUCIS",
+      "contacto": "Patricia Garcia",
+      "email": "pgarcia@personnelgrp.com"
+    },
+    {
+      "deal_id": "4611290735",
+      "negocio": "Nilson Gomes - Ducis",
+      "contacto": "Nilson Gomes",
+      "email": "joseluisramosalvarez336@gmail.com"
+    },
+    {
+      "deal_id": "4617161790",
+      "negocio": "ACUATECH: EBOX",
+      "contacto": "IVAN PONCE",
+      "email": "ventasperu@gauchesca.com"
+    },
+    {
+      "deal_id": "4617977670",
+      "negocio": "AHORRA MAS GO: EBOX",
+      "contacto": "André Rondón",
+      "email": "andre.rondon@ahorramasgo.com"
+    },
+    {
+      "deal_id": "4617998224",
+      "negocio": "SGEEK: EBOX",
+      "contacto": "Alexandra Yon",
+      "email": "browniemmc12@gmail.com"
+    },
+    {
+      "deal_id": "4618081921",
+      "negocio": "CLOSETSALE: EBOX",
+      "contacto": "Pilar Mercedes Álvarez Ramos",
+      "email": "pilaralvarez1431@gmail.com"
+    },
+    {
+      "deal_id": "4618245718",
+      "negocio": "Ecolimpio - DUCIS",
+      "contacto": "Renato Arenas",
+      "email": "renato.arenas@ecolimpio.com.pe"
+    },
+    {
+      "deal_id": "4635320134",
+      "negocio": "MESHIYA RESTAURANT: EBOX",
+      "contacto": "Oscar Miyagusuku",
+      "email": "chetamiyagusuku@hotmail.com"
+    },
+    {
+      "deal_id": "4668732811",
+      "negocio": "Tania Jiménez - Ducis",
+      "contacto": "Tania Jimenez",
+      "email": "tjc12081987@gmail.com"
+    },
+    {
+      "deal_id": "4697868674",
+      "negocio": "INDRA: QNEXT+",
+      "contacto": "Laura Canchari",
+      "email": "lcanchari@eservicios.indracompany.com"
+    },
+    {
+      "deal_id": "4812375356",
+      "negocio": "CPS: QNEXT+",
+      "contacto": "Gabriel Gamarra",
+      "email": "administracion@cps.com.pe"
+    },
+    {
+      "deal_id": "4830654594",
+      "negocio": "Margot - Ducis",
+      "contacto": "Margot",
+      "email": "margot.c@hotmail.com"
+    },
+    {
+      "deal_id": "4830845548",
+      "negocio": "PERU DATA CONSULT: EBOX",
+      "contacto": "Luis Aldana Vilca",
+      "email": "luiz3895@gmail.com"
+    },
+    {
+      "deal_id": "4851583240",
+      "negocio": "APROPO: QNEXT+",
+      "contacto": "Walter Mejía",
+      "email": "wmejia@apropo.org.pe"
+    },
+    {
+      "deal_id": "4877447501",
+      "negocio": "MC NIEVA'S - DUCIS",
+      "contacto": "Carlos coronel",
+      "email": "carloscoronellonginote@gmail.com"
+    },
+    {
+      "deal_id": "4877499032",
+      "negocio": "COMSAT - DUCIS",
+      "contacto": "Liset Blas",
+      "email": "comsatsac@gmail.com"
+    },
+    {
+      "deal_id": "4890956580",
+      "negocio": "GOURMET FACTORY: EBOX",
+      "contacto": "FLAVIA GAVIRIA",
+      "email": "flavia.gaviria@gourmet-factory.com.pe"
+    },
+    {
+      "deal_id": "4891148620",
+      "negocio": "WARKU: EBOX",
+      "contacto": "Moises Valentin Chavez Arias",
+      "email": "contactowarkuperu@gmail.com"
+    },
+    {
+      "deal_id": "4891173728",
+      "negocio": "WOODART: EBOX",
+      "contacto": "Gladys Saldivar romero",
+      "email": "romerodladys@hotmail.com"
+    },
+    {
+      "deal_id": "4891600565",
+      "negocio": "ALEXANDRA RAMOS: EBOX",
+      "contacto": "Alexandra Ramos",
+      "email": "alexandraramosw.10@gmail.com"
+    },
+    {
+      "deal_id": "4893752719",
+      "negocio": "QNEXT+: HOSPITAL III SUÁREZ ANGAMOS",
+      "contacto": "Claudia Burgos",
+      "email": "claudia.burgos991@gmail.com"
+    },
+    {
+      "deal_id": "4894148443",
+      "negocio": "JERSEYTEX: EBOX",
+      "contacto": "Edison Higuita",
+      "email": "edison.higuita@jerseytex.com.pe"
+    },
+    {
+      "deal_id": "4951851420",
+      "negocio": "PACHAMARKET: EBOX",
+      "contacto": "Victor Malca",
+      "email": "vmalca@pachamarket.pe"
+    },
+    {
+      "deal_id": "4952034916",
+      "negocio": "PORTHOS: EBOX",
+      "contacto": "Herman Villanueva",
+      "email": "hvillanueva@porthos.com.pe"
+    },
+    {
+      "deal_id": "4952136967",
+      "negocio": "Ynaba Corp - Ducis",
+      "contacto": "Gianmarco Ynaba",
+      "email": "yaro.cook@gmail.com"
+    },
+    {
+      "deal_id": "4956302988",
+      "negocio": "BERMAN LAB: QNEXT+",
+      "contacto": "Sem Chavez Alvarado",
+      "email": "informatica@bermanlab.com"
+    },
+    {
+      "deal_id": "4957241386",
+      "negocio": "RIDER SAC: EBOX",
+      "contacto": "Maria Gil",
+      "email": "ventas@ridersac.com"
+    },
+    {
+      "deal_id": "4967184787",
+      "negocio": "FANALLY: EBOX",
+      "contacto": "Alonso Bernuy",
+      "email": "abernuy@fanally.pe"
+    },
+    {
+      "deal_id": "4988720797",
+      "negocio": "Open Book House - Ducis",
+      "contacto": "José Carlos Díaz finetti",
+      "email": "jcdf@openbookhouse.com"
+    },
+    {
+      "deal_id": "4994489088",
+      "negocio": "CENCOSUD: CONTACT CENTER",
+      "contacto": "Paolo Díaz",
+      "email": "paolo.diaz@dynamicscx.com"
+    },
+    {
+      "deal_id": "4997052933",
+      "negocio": "CBC: EBOX",
+      "contacto": "Andrés Rojas Mendizábal",
+      "email": "afrojas@ts-logistic.co"
+    },
+    {
+      "deal_id": "4997066525",
+      "negocio": "PRINTWARE: EBOX",
+      "contacto": "ANGEL TORIBIO",
+      "email": "angel.toribio@printware.com.pe"
+    },
+    {
+      "deal_id": "4997070661",
+      "negocio": "CAJA PIURA: QNEXT+",
+      "contacto": "Pedro Talledo",
+      "email": "vguardado@cajapiura.pe"
+    },
+    {
+      "deal_id": "4997230253",
+      "negocio": "MULTILAB: QNEXT+",
+      "contacto": "Daniel Mayo",
+      "email": "danielmayo@multilab.com.pe"
+    },
+    {
+      "deal_id": "5026527585",
+      "negocio": "KAYSER: EBOX",
+      "contacto": "Jean Pierre Gal Garcia",
+      "email": "jean.gal@kayser.pe"
+    },
+    {
+      "deal_id": "5045840201",
+      "negocio": "H2OLMOS: EBOX",
+      "contacto": "Yohana Passalacqua",
+      "email": "ypassalacqua@h2cto.com"
+    },
+    {
+      "deal_id": "5047057790",
+      "negocio": "P&D ANDINA ALIMENTOS: EBOX",
+      "contacto": "Drenka Vilela",
+      "email": "dvilela@pdandina.com.pe"
+    },
+    {
+      "deal_id": "5047107072",
+      "negocio": "VIBRA BONITA: EBOX",
+      "contacto": "christian Nieves",
+      "email": "christianniebou2013@gmail.com"
+    },
+    {
+      "deal_id": "5047138687",
+      "negocio": "QUIMERA: EBOX",
+      "contacto": "Alexandra Caja",
+      "email": "adurand1495@gmail.com"
+    },
+    {
+      "deal_id": "5047741844",
+      "negocio": "MULTILINEA Y DISEÑO: EBOX",
+      "contacto": "Fidel Siviroiro",
+      "email": "fidelsa77@gmail.com"
+    },
+    {
+      "deal_id": "5047742273",
+      "negocio": "CLÍNICA CONTINENTAL: EBOX",
+      "contacto": "Raul Flores",
+      "email": "marketing@clinicacontinental.com"
+    },
+    {
+      "deal_id": "5047752248",
+      "negocio": "PLAZA PUNCH: EBOX",
+      "contacto": "Ynes Torrelio",
+      "email": "ynestorrelio@gmail.com"
+    },
+    {
+      "deal_id": "5047754122",
+      "negocio": "DAED DISTRIBUIDORA: EBOX",
+      "contacto": "Edna carolina Villamizar guerra",
+      "email": "creciendojuntas14@gmail.com"
+    },
+    {
+      "deal_id": "5047816976",
+      "negocio": "PUNTO INICIAL: EBOX",
+      "contacto": "julen mencia",
+      "email": ""
+    },
+    {
+      "deal_id": "5047860093",
+      "negocio": "ABLIMATEX EXPORT: EBOX",
+      "contacto": "Rocio Abregu Lima",
+      "email": "rocio@ablimatex.com"
+    },
+    {
+      "deal_id": "5047944584",
+      "negocio": "MIGRA COMERCIAL: EBOX",
+      "contacto": "Martin Ruiz",
+      "email": "migracomercial@outlook.com"
+    },
+    {
+      "deal_id": "5066821009",
+      "negocio": "PARTNER SAC: EBOX",
+      "contacto": "Gilbert Ricardo Espinosa Valencia Ricardo Espinosa Valencia",
+      "email": "gilbertespinosavalencia@gmail.com"
+    },
+    {
+      "deal_id": "5067365214",
+      "negocio": "NATALIA NEGOCIOS: EBOX",
+      "contacto": "William Ortiz Ortiz",
+      "email": "williamortiz2010@hotmail.com"
+    },
+    {
+      "deal_id": "5068464935",
+      "negocio": "LA MEXICANA: EBOX",
+      "contacto": "Restaurante La Mexicana La Mexicana",
+      "email": "regaladoavilajosue192014@gmail.com"
+    },
+    {
+      "deal_id": "5068489092",
+      "negocio": "LYCAN FITNESS: EBOX",
+      "contacto": "Bratzo Živadinovi? Živadinovi?",
+      "email": "zivadinovic@gmail.com"
+    },
+    {
+      "deal_id": "5073933132",
+      "negocio": "CAPACITATE: EBOX",
+      "contacto": "GUILLER Jacoby",
+      "email": "gjacoby@capacitate.com.pe"
+    },
+    {
+      "deal_id": "5083554824",
+      "negocio": "MUNICIPALIDAD VMT: EBOX",
+      "contacto": "cotizaciones150143@gmail.com",
+      "email": "cotizaciones150143@gmail.com"
+    },
+    {
+      "deal_id": "5083652996",
+      "negocio": "IPTP Networks - Ducis",
+      "contacto": "Ivonne Landa",
+      "email": "ilanda@iptp.pe"
+    },
+    {
+      "deal_id": "5085826880",
+      "negocio": "BRASUCA RESTAURANTE BAR: EBOX",
+      "contacto": "Tania Ardiles Enriquez",
+      "email": "tania.ardiles.e@gmail.com"
+    },
+    {
+      "deal_id": "5087738497",
+      "negocio": "ANCLAJE EN ALTURA: EBOX",
+      "contacto": "Diego Romero Gastelu",
+      "email": "ventas@anclajenaltura.com"
+    },
+    {
+      "deal_id": "5087831965",
+      "negocio": "LUMINA: QNEXT+",
+      "contacto": "karla tarrillo",
+      "email": "karla.tarrillo@gmail.com"
+    },
+    {
+      "deal_id": "5103059009",
+      "negocio": "FRUTOS SECOS AE: EBOX",
+      "contacto": "Osmar Lugo",
+      "email": "inmobiliarialashormigas@gmail.com"
+    },
+    {
+      "deal_id": "5103175055",
+      "negocio": "TELRAD: EBOX",
+      "contacto": "Cecilia Seclen Huapaya",
+      "email": "cecilia.seclen@telrad.pe"
+    },
+    {
+      "deal_id": "5103222140",
+      "negocio": "LABORATORIO PREVENIR: EBOX",
+      "contacto": "Alex Ventura",
+      "email": "drventuraleon@gmail.com"
+    },
+    {
+      "deal_id": "5104455993",
+      "negocio": "ENGREIDOS KIDS: EBOX",
+      "contacto": "angela flores",
+      "email": "dangela756@gmail.com"
+    },
+    {
+      "deal_id": "5104478465",
+      "negocio": "TALU ASESORÍA GRÁFICA: EBOX",
+      "contacto": "Pedro Arque Carreño",
+      "email": "pedro11pietro@gmail.com"
+    },
+    {
+      "deal_id": "5107030422",
+      "negocio": "CARTECH: EBOX",
+      "contacto": "Mery Rodriguez",
+      "email": "mery.rodriguez@cartech.com.pe"
+    },
+    {
+      "deal_id": "5107030851",
+      "negocio": "AMARILLO: EBOX",
+      "contacto": "Giancarlo Zegarra",
+      "email": "administrador@amarillopatito.com"
+    },
+    {
+      "deal_id": "5107155788",
+      "negocio": "AFILIA: EBOX",
+      "contacto": "sandy erika",
+      "email": ""
+    },
+    {
+      "deal_id": "5126532432",
+      "negocio": "JOZEL: QNEXT+",
+      "contacto": "Daniel Mita Barrionuevo",
+      "email": "mitabing@gmail.com"
+    },
+    {
+      "deal_id": "5127597100",
+      "negocio": "COTTON BAZAR: EBOX",
+      "contacto": "Freddy Toyama",
+      "email": "toyamas.freddy@gmail.com"
+    },
+    {
+      "deal_id": "5127756658",
+      "negocio": "OLIS: EBOX",
+      "contacto": "LILIA OPORTO",
+      "email": "liliaoporto@yahoo.es"
+    },
+    {
+      "deal_id": "5127829651",
+      "negocio": "LEGALL SAC: QNEXT+",
+      "contacto": "Anderson Santos",
+      "email": "asantos@legall.com.pe"
+    },
+    {
+      "deal_id": "5127966361",
+      "negocio": "CORSUN: EBOX",
+      "contacto": "Gianella Tello",
+      "email": "a.comercial@corsun.com.pe"
+    },
+    {
+      "deal_id": "5128056104",
+      "negocio": "ECLÉCTICA INDUMENTARIA: EBOX",
+      "contacto": "Luis Villarrubia",
+      "email": "lvillarrubia@eclectica.com.pe"
+    },
+    {
+      "deal_id": "5146730118",
+      "negocio": "CLÍNICA PERUANO SUIZA CUSCO: QNEXT+",
+      "contacto": "César Lazo",
+      "email": "clazo@vanguarda.pe"
+    },
+    {
+      "deal_id": "5167594585",
+      "negocio": "Jimmy Rodriguez - DUCIS",
+      "contacto": "Jimmy Rodriguez",
+      "email": "jimmy.rodriguez0601@gmail.com"
+    },
+    {
+      "deal_id": "5193193535",
+      "negocio": "MI COMBO CASERO: EBOX",
+      "contacto": "Mirko David Daga Acevedo",
+      "email": "mirko.daga21@gmail.com"
+    },
+    {
+      "deal_id": "5193528943",
+      "negocio": "CLÍNICA SAN PEDRO: QNEXT+",
+      "contacto": "edgardo saavedra",
+      "email": "logistica@clinicasanpedro.com"
+    },
+    {
+      "deal_id": "5193764367",
+      "negocio": "CABLEX: EBOX",
+      "contacto": "renzo ernesto ramirez ramirez",
+      "email": "rramirez@cablex.pe"
+    },
+    {
+      "deal_id": "5193791662",
+      "negocio": "INTELLISOFT: QNEXT+",
+      "contacto": "José Luis Ccanchi",
+      "email": "jccanchi@intellisoftsa.com"
+    },
+    {
+      "deal_id": "5193892267",
+      "negocio": "FAMA SAC: EBOX",
+      "contacto": "debora HAEUSSLER",
+      "email": "deborajozabeth@hotmail.com"
+    },
+    {
+      "deal_id": "5193932636",
+      "negocio": "GRUPO CORONA PERU SAC: EBOX",
+      "contacto": "Edwin Hidalgo Velasquez",
+      "email": "edwinhidalgovelasquez@gmail.com"
+    },
+    {
+      "deal_id": "5194016314",
+      "negocio": "EGC BEAUTY: EBOX",
+      "contacto": "Eduardo Gold",
+      "email": "edu.yo.edu@gmail.com"
+    },
+    {
+      "deal_id": "5194049304",
+      "negocio": "DILO CON AMOR: EBOX",
+      "contacto": "pamela Peña",
+      "email": "melap007@gmail.com"
+    },
+    {
+      "deal_id": "5194138273",
+      "negocio": "IRCOC - DUCIS",
+      "contacto": "Graciela Avila Mayhuiri",
+      "email": "graciela_avila26@hotmail.com"
+    },
+    {
+      "deal_id": "5239863993",
+      "negocio": "UNIVERSIDAD NACIONAL PEDRO RUIZ GALLO: QNEXT+",
+      "contacto": "CLEIVER FERNANDEZ",
+      "email": "cfdelgado@unprg.edu.pe"
+    },
+    {
+      "deal_id": "5241658139",
+      "negocio": "OPTIMAL REFORM: EBOX",
+      "contacto": "Anthony Omar Flores Lopez",
+      "email": "anthony.floreslopez@gmail.com"
+    },
+    {
+      "deal_id": "5241679544",
+      "negocio": "CLOE MACHU PICCHU: EBOX",
+      "contacto": "Gunnar Torres",
+      "email": "gunnner75_10@hotmail.com"
+    },
+    {
+      "deal_id": "5241726475",
+      "negocio": "CON FUSIÓN CHIFA PERUANO: EBOX",
+      "contacto": "Emerson Flores",
+      "email": "emeflores86@gmail.com"
+    },
+    {
+      "deal_id": "5241736468",
+      "negocio": "LOW: EBOX",
+      "contacto": "Lizet Alanoca Quispe",
+      "email": "fiorelaalanoca29@gmail.com"
+    },
+    {
+      "deal_id": "5241761082",
+      "negocio": "MASCARILLAS KOKETA: EBOX",
+      "contacto": "Mascarillas Koketa",
+      "email": "doyuprami@gmail.com"
+    },
+    {
+      "deal_id": "5242066591",
+      "negocio": "DÁZ: EBOX",
+      "contacto": "Pedro Vente",
+      "email": "pventecieza@gmail.com"
+    },
+    {
+      "deal_id": "5254497332",
+      "negocio": "CR5: EBOX",
+      "contacto": "?????????????? ??????????????",
+      "email": "buffets.crishel@gmail.com"
+    },
+    {
+      "deal_id": "5254502545",
+      "negocio": "EL CAJAMAR: EBOX",
+      "contacto": "Juana Avellaneda Cabrejo",
+      "email": "javellanedacabrejo@gmail.com"
+    },
+    {
+      "deal_id": "5256675137",
+      "negocio": "ALL IN COMMERCE: EBOX",
+      "contacto": "Johan Crispin",
+      "email": "allincommercesac@gmail.com"
+    },
+    {
+      "deal_id": "5256685352",
+      "negocio": "ABARROTES SANTOS: EBOX",
+      "contacto": "Andrea Giannina C. Moreno",
+      "email": "andreyani.cardenas@gmail.com"
+    },
+    {
+      "deal_id": "5256786516",
+      "negocio": "RIZOS PERUANOS: EBOX",
+      "contacto": "Cristhiam Fúndez León",
+      "email": "lfundez1@gmail.com"
+    },
+    {
+      "deal_id": "5256997770",
+      "negocio": "CHIMJA SAC: QNEXT+",
+      "contacto": "Miguel Díaz Atarama",
+      "email": "miguelatarama2603@gmail.com"
+    },
+    {
+      "deal_id": "5257065359",
+      "negocio": "RUFIPACKS: EBOX",
+      "contacto": "Angélica SERRA",
+      "email": "gerencia@rufipacks.com"
+    },
+    {
+      "deal_id": "5257451794",
+      "negocio": "UTEC: EBOX",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "5258190858",
+      "negocio": "HERBALIFE: EBOX",
+      "contacto": "Juan Manuel",
+      "email": "nasiever@gmail.com"
+    },
+    {
+      "deal_id": "5264092788",
+      "negocio": "SACO: EBOX",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "5264204067",
+      "negocio": "OSK: EBOX",
+      "contacto": "Oliver López",
+      "email": "oliver.lopez@osksolutions.com"
+    },
+    {
+      "deal_id": "5264206861",
+      "negocio": "UNIQUE: REVISION DOCUMENTARIA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "5286118020",
+      "negocio": "MAX JHONATAN: EBOX",
+      "contacto": "Max Jhonatan Chura Mamani",
+      "email": "max_neg.23@hotmail.com"
+    },
+    {
+      "deal_id": "5286330144",
+      "negocio": "DECORAPE: EBOX",
+      "contacto": "Rafael Haro",
+      "email": "rafaelharo2003@hotmail.com"
+    },
+    {
+      "deal_id": "5291529359",
+      "negocio": "MATER SALUD: QNEXT+",
+      "contacto": "JOHANA ANCCO",
+      "email": "contamatersalud@gmail.com"
+    },
+    {
+      "deal_id": "5291770682",
+      "negocio": "MEDIREG CUSCO: QNEXT+",
+      "contacto": "Patrick Renzo Quispe Zamora",
+      "email": "panyleche009@gmail.com"
+    },
+    {
+      "deal_id": "5291812773",
+      "negocio": "CORPORACION PROVINSUR: EBOX",
+      "contacto": "Gisell Huaman",
+      "email": "gisellprovinsur@gmail.com"
+    },
+    {
+      "deal_id": "5292527419",
+      "negocio": "VALI: EBOX",
+      "contacto": "Alison Garay",
+      "email": "a.garayd@pucp.edu.pe"
+    },
+    {
+      "deal_id": "5292651895",
+      "negocio": "KATES- CUISINE: QNEXT+",
+      "contacto": "john vidal",
+      "email": "johnchefkafeta@gmail.com"
+    },
+    {
+      "deal_id": "5292655445",
+      "negocio": "VITALIC PERÚ: QNEXT+",
+      "contacto": "Fiorella maldonado ramirez",
+      "email": "fmaldonador16@gmail.com"
+    },
+    {
+      "deal_id": "5292672778",
+      "negocio": "LENTES ESPECIALIZADOS DEL PERÚ: EBOX",
+      "contacto": "Daniel Vásquez",
+      "email": "dvasquez@lep.com.pe"
+    },
+    {
+      "deal_id": "5292717720",
+      "negocio": "CLÍNICA O2 MEDICAL NETWORK: EBOX",
+      "contacto": "Marco Antonio Quispe Nina",
+      "email": "marko.aqn@gmail.com"
+    },
+    {
+      "deal_id": "5292759040",
+      "negocio": "EVERIS: QNEXT+",
+      "contacto": "José Ramos Chumbes",
+      "email": "jose_chumbes26@hotmail.com"
+    },
+    {
+      "deal_id": "5300585902",
+      "negocio": "CENTRO DE VARICES: EBOX",
+      "contacto": "Darly Tejada Manyari",
+      "email": "siesalud.01@gmail.com"
+    },
+    {
+      "deal_id": "5301705353",
+      "negocio": "BIELIQ: EBOX",
+      "contacto": "Carmen Vásquez",
+      "email": "cml.vasquezs@gmail.com"
+    },
+    {
+      "deal_id": "5307702965",
+      "negocio": "UTEC: EBOX",
+      "contacto": "MARIO FRANCISCO CARRASCO CASTILLO",
+      "email": "mcarrascoc@utec.edu.pe"
+    },
+    {
+      "deal_id": "5309459714",
+      "negocio": "MARTHA CASSARETTO: EBOX",
+      "contacto": "Martha Cassaretto Gomez",
+      "email": "marthacassaretto@yahoo.com"
+    },
+    {
+      "deal_id": "5352298014",
+      "negocio": "ABEL GAS: QNEXT+",
+      "contacto": "Abel Joel Saavedra Simon",
+      "email": "corporacionabel@hotmail.com"
+    },
+    {
+      "deal_id": "5352553627",
+      "negocio": "AQTIIVA: QNEXT+",
+      "contacto": "Alex Roque",
+      "email": "alexroqe8@gmail.com"
+    },
+    {
+      "deal_id": "5352691236",
+      "negocio": "EDUCATION: QNEXT+",
+      "contacto": "Limber Villacorta Pereira",
+      "email": "maestroaxel2017@gmail.com"
+    },
+    {
+      "deal_id": "5352755798",
+      "negocio": "XYLEM WATER SOLUTIONS: QNEXT+",
+      "contacto": "José Luis Aedo Perez",
+      "email": "aedoperezjoseluis@gmail.com"
+    },
+    {
+      "deal_id": "5354502795",
+      "negocio": "CORPORACIÓN CRD SAC: EBOX",
+      "contacto": "David Rojas Martinez",
+      "email": "one.store.mkt@gmail.com"
+    },
+    {
+      "deal_id": "5354502981",
+      "negocio": "BEBENAUTAS: EBOX",
+      "contacto": "Juan Jose Zevallos Ramos",
+      "email": "jzevallos@bebenautas.pe"
+    },
+    {
+      "deal_id": "5354547858",
+      "negocio": "VAS PERÚ SAC: EBOX",
+      "contacto": "Guillermo Villar",
+      "email": "ventas1manitosenaccion@gmail.com"
+    },
+    {
+      "deal_id": "5354639877",
+      "negocio": "4K SAC: EBOX",
+      "contacto": "max Zedano Arevalo",
+      "email": "drogueria4k@gmail.com"
+    },
+    {
+      "deal_id": "5354642246",
+      "negocio": "MASI: EBOX",
+      "contacto": "Marcos Villaverde",
+      "email": "marcosvillaverdemv@gmail.com"
+    },
+    {
+      "deal_id": "5354671756",
+      "negocio": "LA CASITA: EBOX",
+      "contacto": "Veronica Vallejos Diaz",
+      "email": "lacasitavd@gmail.com"
+    },
+    {
+      "deal_id": "5354731797",
+      "negocio": "RCC SAC: EBOX",
+      "contacto": "luis gonzalez",
+      "email": "administraciones@rccfoodservice.com"
+    },
+    {
+      "deal_id": "5354780934",
+      "negocio": "II NAPOLITANO DANTUAN: EBOX",
+      "contacto": "Antonio Tavarone",
+      "email": "tavarone2004@yahoo.es"
+    },
+    {
+      "deal_id": "5372835112",
+      "negocio": "impresor grafico del sur  - Ducis",
+      "contacto": "José Alhuay",
+      "email": "ventas@impresorgraficodelsur.com.pe"
+    },
+    {
+      "deal_id": "5373872248",
+      "negocio": "Green Box Shipping - Ducis",
+      "contacto": "EMILIO PLAZA CARCELEN",
+      "email": "management@greenboxshipping.es"
+    },
+    {
+      "deal_id": "5373955743",
+      "negocio": "Extinsafe  - Ducis",
+      "contacto": "Renzo Zaferson",
+      "email": "zaferson@extinsafe.com"
+    },
+    {
+      "deal_id": "5394568502",
+      "negocio": "CLADIRECT: QNEXT+",
+      "contacto": "Emmanuel Gomez",
+      "email": "egomez@cladirect.com"
+    },
+    {
+      "deal_id": "5395166852",
+      "negocio": "OPTICAS OLIVA: EBOX",
+      "contacto": "Milagros Oliva Sernaque",
+      "email": "opticasoliva.pe@gmail.com"
+    },
+    {
+      "deal_id": "5395199032",
+      "negocio": "JORDAN MOSCOL: QNEXT+",
+      "contacto": "JORDAN MOSCOL",
+      "email": "nadroj0188@gmail.com"
+    },
+    {
+      "deal_id": "5395734067",
+      "negocio": "CLÍNICA APTUS: QNEXT+",
+      "contacto": "Willy Rodriguez",
+      "email": "willy.rodriguez@aptus.pe"
+    },
+    {
+      "deal_id": "5395908474",
+      "negocio": "LIMITASAC: QNEXT+",
+      "contacto": "Fredy Chuquilin",
+      "email": "fchuquilind@gmail.com"
+    },
+    {
+      "deal_id": "5423748199",
+      "negocio": "LE COQUELICOT: EBOX",
+      "contacto": "Miroslava Villarreal",
+      "email": "lecoquelicotshop@gmail.com"
+    },
+    {
+      "deal_id": "5425402641",
+      "negocio": "AMAZONAS RESTAURANT: EBOX",
+      "contacto": "Lincoln Chauca",
+      "email": "r.amazonas18@gmail.com"
+    },
+    {
+      "deal_id": "5425558159",
+      "negocio": "KEEP SMILING",
+      "contacto": "Andrés Poblete",
+      "email": "info@keepsmiling.pe"
+    },
+    {
+      "deal_id": "5425750696",
+      "negocio": "FARMACÉUTICA PERÚ: EBOX",
+      "contacto": "Benjamin Alvarado Sánchez",
+      "email": "balvarado@farmaceuticaperu.com"
+    },
+    {
+      "deal_id": "5425760551",
+      "negocio": "INVERSIONES Y NEGOCIOS JYK: EBOX",
+      "contacto": "Julio Cesar Miranda Sandoval",
+      "email": "supervicionmiranda@gmail.com"
+    },
+    {
+      "deal_id": "5435164806",
+      "negocio": "SENTINEL: TELEMARKETING",
+      "contacto": "Regina Orellano",
+      "email": "rorellano@riodigital.io"
+    },
+    {
+      "deal_id": "5464682550",
+      "negocio": "CENCOSUD: POLLOS A LA BRASA",
+      "contacto": "Gonzalo Javier Ojeda Gonzales",
+      "email": "gonzalojavier.ojedagonzales@cencosud.com.pe"
+    },
+    {
+      "deal_id": "5469048348",
+      "negocio": "QNEXT+: UNIVERSIDAD NACIONAL DEL ALTIPLANO:",
+      "contacto": "David Diaz Diaz",
+      "email": "davidhermenegildodz@gmail.com"
+    },
+    {
+      "deal_id": "5477078794",
+      "negocio": "CRISTHIAN ALVARO CUSINGA LOAYZA: EBOX",
+      "contacto": "Cristhian Alvaro Cusinga Loayza",
+      "email": "cusinga.cristhian02@gmail.com"
+    },
+    {
+      "deal_id": "5477152294",
+      "negocio": "HAPPY WOMAN: EBOX",
+      "contacto": "Belia Alanya Perez",
+      "email": "beliamiciela@gmail.com"
+    },
+    {
+      "deal_id": "5477156496",
+      "negocio": "CHRISTIAN: EBOX",
+      "contacto": "christian",
+      "email": "arq676@gmail.com"
+    },
+    {
+      "deal_id": "5477170044",
+      "negocio": "MAGIC WINGS: EBOX",
+      "contacto": "Massiel Granados",
+      "email": "magicwings.detalles@gmail.com"
+    },
+    {
+      "deal_id": "5477233258",
+      "negocio": "SHAWARMA PIRÁMIDES: EBOX",
+      "contacto": "Giuliana lupe leon manchego",
+      "email": "yuliuigv@gmail.com"
+    },
+    {
+      "deal_id": "5477236032",
+      "negocio": "TURRONES SJ: EBOX",
+      "contacto": "Nancy Angulo",
+      "email": "turronessanjoseventas@gmail.com"
+    },
+    {
+      "deal_id": "5477245523",
+      "negocio": "ZONA SMART: EBOX",
+      "contacto": "Carlos Medrano",
+      "email": "ventas1.zonasnart@gmail.com"
+    },
+    {
+      "deal_id": "5477260704",
+      "negocio": "INDECO: EBOX",
+      "contacto": "Jose Villanueva",
+      "email": "jose.villanueva@nexans.com"
+    },
+    {
+      "deal_id": "5477355305",
+      "negocio": "LA GOOD MAGIC: EBOX",
+      "contacto": "Nia Espinoza",
+      "email": "stefania_212@hotmail.com"
+    },
+    {
+      "deal_id": "5477356123",
+      "negocio": "BAR Y FOOD: EBOX",
+      "contacto": "DIEGO MACEDO",
+      "email": "diego.macedo@bsiete.com"
+    },
+    {
+      "deal_id": "5477365034",
+      "negocio": "MLM STORE: EBOX",
+      "contacto": "Garcia Luen",
+      "email": "luengarcia11@gmail.com"
+    },
+    {
+      "deal_id": "5477439663",
+      "negocio": "NR THE DANDI: EBOX",
+      "contacto": "Elizabeth Cruz",
+      "email": "ec9403@gmail.com"
+    },
+    {
+      "deal_id": "5506685030",
+      "negocio": "WAYTECH: QNEXT+",
+      "contacto": "diego poma",
+      "email": "diego.poma@waytech.pe"
+    },
+    {
+      "deal_id": "5507677056",
+      "negocio": "AVATAR PERÚ: EBOX",
+      "contacto": "Rolando Primera",
+      "email": ""
+    },
+    {
+      "deal_id": "5508170925",
+      "negocio": "IMPORTACIONES FN' STYLE: EBOX",
+      "contacto": "Fanny Vigo Cuenca",
+      "email": "vigofanny@gmail.com"
+    },
+    {
+      "deal_id": "5508627041",
+      "negocio": "MERCANTIL: EBOX",
+      "contacto": "ROGER CHACALIAZA",
+      "email": "rchacaliaza@mercantil.com.pe"
+    },
+    {
+      "deal_id": "5508662858",
+      "negocio": "SUMIPERÚ: EBOX",
+      "contacto": "ROCIO SEGURA",
+      "email": "rsegura@sumiperu.com"
+    },
+    {
+      "deal_id": "5509620599",
+      "negocio": "MAGPRE: EBOX",
+      "contacto": "Olga Abanto",
+      "email": "nutricionortomolecular100@gmail.com"
+    },
+    {
+      "deal_id": "5525425563",
+      "negocio": "SISSA: QNEXT+",
+      "contacto": "David Chumpitaz",
+      "email": "david.chumpitaz@sissa.com.pe"
+    },
+    {
+      "deal_id": "5574799167",
+      "negocio": "NOVOX PERÚ: EBOX",
+      "contacto": "Angel Aliaga",
+      "email": "angel.aliaga21@gmail.com"
+    },
+    {
+      "deal_id": "5574910292",
+      "negocio": "COMPRA FACIL: EBOX",
+      "contacto": "Anabel Rincon",
+      "email": "anabel_3220@hotmail.com"
+    },
+    {
+      "deal_id": "5575222135",
+      "negocio": "NUTANDME: EBOX",
+      "contacto": "Andrés",
+      "email": "marketingperu@calconut.es"
+    },
+    {
+      "deal_id": "5575343150",
+      "negocio": "GMT SALUD: EBOX",
+      "contacto": "Paolo Mestanza",
+      "email": "paolo1512@hotmail.com"
+    },
+    {
+      "deal_id": "5576420637",
+      "negocio": "Edwin Yale - Ducis",
+      "contacto": "edwin yale",
+      "email": "eyaleu@gmail.com"
+    },
+    {
+      "deal_id": "5586889549",
+      "negocio": "DIMFER - Talent QR",
+      "contacto": "Susan Silvera",
+      "email": "seleccion.personal@dimfer.com.pe"
+    },
+    {
+      "deal_id": "5616904509",
+      "negocio": "RAYMISA: EBOX",
+      "contacto": "Alejandro Altamirano Rojas",
+      "email": "aleart.ds@gmail.com"
+    },
+    {
+      "deal_id": "5617032212",
+      "negocio": "RHEEM: EBOX",
+      "contacto": "Helard López",
+      "email": "helard.lopez@rheem.com"
+    },
+    {
+      "deal_id": "5677005824",
+      "negocio": "KRISKA SUPERFOODS: EBOX",
+      "contacto": "kriska | Tienda Orgánica",
+      "email": "kriskamarket@gmail.com"
+    },
+    {
+      "deal_id": "5695008046",
+      "negocio": "CSJDD: QNEXT+",
+      "contacto": "Verónica Lecca",
+      "email": "veronica.lecca@sanjuandedios.pe"
+    },
+    {
+      "deal_id": "5727903122",
+      "negocio": "REPEAT: EBOX",
+      "contacto": "Alfonso García Miró",
+      "email": "alfonso@virtualrockets.pe"
+    },
+    {
+      "deal_id": "5738010927",
+      "negocio": "CENCOSUD: DELIVERY ON DEMAND",
+      "contacto": "Gonzalo Javier Ojeda Gonzales",
+      "email": "gonzalojavier.ojedagonzales@cencosud.com.pe"
+    },
+    {
+      "deal_id": "5747706419",
+      "negocio": "ENTEL: DELIVERY",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "5916044699",
+      "negocio": "Anovo - Helpy",
+      "contacto": "Guillermo Lucero",
+      "email": "guillermo.lucero@ingrammicro.com"
+    },
+    {
+      "deal_id": "6167770032",
+      "negocio": "OBI: 3ERIZA",
+      "contacto": "Rene Alfaro",
+      "email": "ralfaro@optical.pe"
+    },
+    {
+      "deal_id": "6203731775",
+      "negocio": "PERÚ ACCESORIOS: EBOX",
+      "contacto": "Maximiliano Quispe",
+      "email": "peruaccesorios@gmail.com"
+    },
+    {
+      "deal_id": "6311561519",
+      "negocio": "EL COMERCIO: SUSCRIPCIONES",
+      "contacto": "Miluska Quintanilla",
+      "email": "miluska.quintanilla@comercio.com.pe"
+    },
+    {
+      "deal_id": "6311707482",
+      "negocio": "CLÍNICA PROVIDENCIA: QNEXT SALUD",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "6313929323",
+      "negocio": "SOMOS MOTO: EBOX",
+      "contacto": "Tatiana Guichard",
+      "email": "tatiana@somosmoto.pe"
+    },
+    {
+      "deal_id": "6315015344",
+      "negocio": "QNEXT SALUD: CLÍNICA DEL SUR",
+      "contacto": "Darwin",
+      "email": "administracion@clinicadelsurperu.pe"
+    },
+    {
+      "deal_id": "6315100192",
+      "negocio": "QNEXT SALUD: CLÍNICA LOS ANDES",
+      "contacto": "Beatriz",
+      "email": ""
+    },
+    {
+      "deal_id": "6315322221",
+      "negocio": "QNEXT SALUD: CLÍNICA MIRAFLORES",
+      "contacto": "Mildred Segovia",
+      "email": "logistica@igf.com.pe"
+    },
+    {
+      "deal_id": "6527054339",
+      "negocio": "LLAMADAS RECORDACIÓN DE MARCA: UPN",
+      "contacto": "Leonela Molina",
+      "email": "leonela.molina@upn.edu.pe"
+    },
+    {
+      "deal_id": "6553282145",
+      "negocio": "ONCOSALUD: DELIVERY",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "6716921692",
+      "negocio": "JOCKEY SALUD; ENCUESTAS",
+      "contacto": "Paola Pohorylec",
+      "email": "ppohorylec@jockeysalud.com.pe"
+    },
+    {
+      "deal_id": "6716933296",
+      "negocio": "JOCKEY SALUD: DIGITALIZACIÓN DE HC",
+      "contacto": "Paola Pohorylec",
+      "email": "ppohorylec@jockeysalud.com.pe"
+    },
+    {
+      "deal_id": "6756314239",
+      "negocio": "TalentQR: Personal motorizado",
+      "contacto": "Henry Fernandez",
+      "email": "copycomperu@hotmail.com"
+    },
+    {
+      "deal_id": "6760657315",
+      "negocio": "CAMPAÑA SUBASTAS: 3ERIZA",
+      "contacto": "Natalia Delgado",
+      "email": "natalia.delgado@tale-experience.com"
+    },
+    {
+      "deal_id": "6763738029",
+      "negocio": "Operarios de producción Bisuteria - Fidenza",
+      "contacto": "Martin Lopez ",
+      "email": "administracion@fidenza.com.pe"
+    },
+    {
+      "deal_id": "6984468584",
+      "negocio": "Roll Up Happy",
+      "contacto": "Angela Herrera",
+      "email": "rolluphappy@gmail.com"
+    },
+    {
+      "deal_id": "6985601843",
+      "negocio": "Briana Lima Joyeria.",
+      "contacto": "Jessica Condori Quispe",
+      "email": "jecondori@gmail.com"
+    },
+    {
+      "deal_id": "6986465283",
+      "negocio": "Peludos Box: EBOX",
+      "contacto": "Osmar Valencia",
+      "email": "empresapeludosbox@gmail.com"
+    },
+    {
+      "deal_id": "7009966507",
+      "negocio": "Dato Fit.",
+      "contacto": "Jean Paul Faydit de Terssac",
+      "email": "ventas@datofit.com"
+    },
+    {
+      "deal_id": "7038415408",
+      "negocio": "VICVALTEC : EBOX",
+      "contacto": "VICTOR VALVERDE",
+      "email": "vicvalnegocios@gmail.com"
+    },
+    {
+      "deal_id": "7038640740",
+      "negocio": "GMT SALUD: EBOX",
+      "contacto": "Paolo Mestanza",
+      "email": "gmtsaludsac2019@gmail.com"
+    },
+    {
+      "deal_id": "7038909004",
+      "negocio": "INVERSAC: EBOX",
+      "contacto": "Yamil Orihuela Yurivilca",
+      "email": "yamiloyurivilca@gmail.com"
+    },
+    {
+      "deal_id": "7070698853",
+      "negocio": "WOW: GRABACIÓN CONTRATOS",
+      "contacto": "Claudia Aguilar",
+      "email": "cam@wowperu.pe"
+    },
+    {
+      "deal_id": "7071210617",
+      "negocio": "LP: OPERACIÓN PDVS 2022",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "7071217980",
+      "negocio": "GALLAGHER: EBOX",
+      "contacto": "Úrsula Aldana",
+      "email": "ursula_aldana@ajg.com"
+    },
+    {
+      "deal_id": "7159847303",
+      "negocio": "Boticas MaxFarma",
+      "contacto": "Adriano Olavarría",
+      "email": "adrianoolavarrias@gmail.com"
+    },
+    {
+      "deal_id": "7187532913",
+      "negocio": "TalentQR - Ejecutiva de ventas",
+      "contacto": "Sandra Melanie Moncada Flores",
+      "email": "info@consultora143.com"
+    },
+    {
+      "deal_id": "7206951529",
+      "negocio": "TalentQR - perfil Asistente de publicidad y ventas",
+      "contacto": "Hermes Delgado Delgado",
+      "email": "hdelgado@grupoidf.pe"
+    },
+    {
+      "deal_id": "7258967593",
+      "negocio": "Comercial EMANUEL",
+      "contacto": "Marianela Garcia",
+      "email": "mariela30.1995.mvg@gmail.com"
+    },
+    {
+      "deal_id": "7259272004",
+      "negocio": "O2 Medical Networking.",
+      "contacto": "Marco Antonio Quispe Nina",
+      "email": "marko.aqn@gmail.com"
+    },
+    {
+      "deal_id": "7259293808",
+      "negocio": "Mater Salud",
+      "contacto": "JOHANA ANCCO",
+      "email": "contamatersalud@gmail.com"
+    },
+    {
+      "deal_id": "7259853711",
+      "negocio": "CLINICA ESMEDIC : QNEXT+",
+      "contacto": "Moises Flores",
+      "email": "clinicaesmedic@yahoo.com"
+    },
+    {
+      "deal_id": "7259889837",
+      "negocio": "LP: Televentas",
+      "contacto": "ARTURO OSWALDO RODRÍGUEZ",
+      "email": "arturo.rodriguez@lapositiva.com.pe"
+    },
+    {
+      "deal_id": "7477884708",
+      "negocio": "IN SALES ACADEMY: VENTAS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "7529749781",
+      "negocio": "GRUPO SOCOPUR: 3ERIZA.",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "7811567877",
+      "negocio": "IBK: BACK OFFICE",
+      "contacto": "Daniel Kobayashi Yagi Kobayashi",
+      "email": "dkobayashi@intercorp.com.pe"
+    },
+    {
+      "deal_id": "7932721424",
+      "negocio": "IBK: CAPTACIÓN PYMES ",
+      "contacto": "Cevallos Wu, Catherine",
+      "email": "ccevallosw@intercorp.com.pe"
+    },
+    {
+      "deal_id": "7993414291",
+      "negocio": "SCANIA: BACK OFFICE.",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "7997346210",
+      "negocio": "FALABELLA CHILE: CC",
+      "contacto": "Gabriel Godoy",
+      "email": "ggodoyv@falabella.cl"
+    },
+    {
+      "deal_id": "8167335318",
+      "negocio": "URBANICA: Conversión de leads.",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "8195185934",
+      "negocio": "NUSKIN: Contact center",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "8321795588",
+      "negocio": "Claro: ATC Empresa",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "8377571198",
+      "negocio": "Save the children ONG :Outbound",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "8759948464",
+      "negocio": "Sodimac - Maestro: Armado de Exhibiciones",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "8870061623",
+      "negocio": "SGS: LÍNEA DE SOPORTE",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "8924514094",
+      "negocio": "GILDEMEISTER: Servicio Call Center Seminuevos",
+      "contacto": "Mirtha Tambini",
+      "email": "mtambini@gildemeister.pe"
+    },
+    {
+      "deal_id": "8955707438",
+      "negocio": "ENCUESTA KIA E-COMMERCE - ASTARA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "8955789381",
+      "negocio": "RECALL SOUL 2014 - ASTARA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "9047972265",
+      "negocio": "UNNA - LIQUIDACIÓN DE BD ABRIL",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "9524096298",
+      "negocio": "CLARO: Atención de servicio por videollamadas. ",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "11227472950",
+      "negocio": "(sin nombre de negocio)",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "11331882640",
+      "negocio": "SGS: Mesa de ayuda",
+      "contacto": "Katherine Moreno",
+      "email": "katherine.moreno@sgs.com"
+    },
+    {
+      "deal_id": "11442108692",
+      "negocio": "Integración Logística - INLOG",
+      "contacto": "WENDY CASTILLO",
+      "email": "andrea.nunez@inlog.com.pe"
+    },
+    {
+      "deal_id": "11442108995",
+      "negocio": "BonnaService S.A.C",
+      "contacto": "Salma Ticlavilca Huayanay",
+      "email": "business@mgize.com"
+    },
+    {
+      "deal_id": "11482268745",
+      "negocio": "SagaFalabella : CarryBoys",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "11482269074",
+      "negocio": "RedCoach USA: Contac Center",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "11678723658",
+      "negocio": "Astara Perú: Encuesta clientes perdidos",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "11722663330",
+      "negocio": "CAJA AREQUIPA : CALL CENTER",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "11816399793",
+      "negocio": "FALABELLA: ATENCION AL CLIENTE",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "11816962735",
+      "negocio": "Analista Calidad: Rimac",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "11818773764",
+      "negocio": "GILDEMEISTER: ALO CENTRAL TELEFONICA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "11933966689",
+      "negocio": "ASTARA: CQS y WSP GAC MOTORS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "12050875263",
+      "negocio": "DRIMER: VENTAS PRESENCIALES",
+      "contacto": "Hiroshi Gutierrez",
+      "email": "hgutierrez@drimer.com.pe"
+    },
+    {
+      "deal_id": "12052227599",
+      "negocio": "SAMSUNG: ATC",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "12458685452",
+      "negocio": "Instituto Sergio Bernales",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "12740503645",
+      "negocio": "ULTRATEC",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "12741845869",
+      "negocio": "Bohoo Accesorios",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "12743100330",
+      "negocio": "INSIDE PERU",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "12744257372",
+      "negocio": "UPN",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "12744863771",
+      "negocio": "Astara WSP - Comunicación Interna",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "12744864086",
+      "negocio": "LIMA BONITA INMOBILIARIA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "12744864142",
+      "negocio": "UNILABS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "12919024411",
+      "negocio": "Claro: Inventariado de 172 cajas de OLO",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "13161254573",
+      "negocio": "Aceros Inka",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "13207252646",
+      "negocio": "URBANOVA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "13271124779",
+      "negocio": "Astara Perú - Gestión de base de datos",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "13279141202",
+      "negocio": "APEM - CEE",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "13822758516",
+      "negocio": "CABLE VISION ICA S.A.C.",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "14363759624",
+      "negocio": "ASTARA: PODIO",
+      "contacto": "Antonio Faingold",
+      "email": "antonio.faingold.v@astara.com"
+    },
+    {
+      "deal_id": "14363891109",
+      "negocio": "GRUPO LUMAR:  Ventas",
+      "contacto": "MARCO MADRID",
+      "email": "expansion@almarinternacional.com"
+    },
+    {
+      "deal_id": "14419001867",
+      "negocio": "WOM CHILE: Ventas free lance",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "14456415037",
+      "negocio": "DISTRIBUIDORA TWM: MERCADERISMO",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "14709941549",
+      "negocio": "Fritz Sport",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "14710049456",
+      "negocio": "Redblakk PRIDE",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "15156359448",
+      "negocio": "SCHARFF: JORNALEROS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "15156658796",
+      "negocio": "Corp. Valeria : Distribución",
+      "contacto": "rosa vilca",
+      "email": "operaciones@corporacionvaleria.com"
+    },
+    {
+      "deal_id": "15156659754",
+      "negocio": "PROSEGUR: Perfilamiento de leads.",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "15520799413",
+      "negocio": "GTD PERU - MESA DE TI",
+      "contacto": "Oliscar Andradez",
+      "email": "oliscar.andradez@grupogtd.com"
+    },
+    {
+      "deal_id": "15521019157",
+      "negocio": "BBO GLOBE: Call Center Ventas",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "15770273027",
+      "negocio": "NYBYX: COBRANZA CC",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "15770402868",
+      "negocio": "PORTA: IMPULSADORES DE VENTA & MERCADERISTAS",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "16356243046",
+      "negocio": "FIBRAFORTE - TERCERIZACIÓN",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "16357345846",
+      "negocio": "FARMEX: HELPY v2.0",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "17047675909",
+      "negocio": "U.MARIA AUXILIADORA - CONTACT CENTER",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "17306729854",
+      "negocio": "ASBANC - CONTACT CENTER",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "17680226072",
+      "negocio": "LUISA PETONG: ESTUDIO MERCADO SALUD",
+      "contacto": "Luisa Petong",
+      "email": "luisafernandapetongmontoya@gmail.com"
+    },
+    {
+      "deal_id": "17731027603",
+      "negocio": "CLARO: DESARROLLADORES (LICITACIÓN)",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "17789732096",
+      "negocio": "G4S: CONTACT CENTER INTERNO",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "17796770664",
+      "negocio": "Financiera Oh",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "17869823594",
+      "negocio": "Falabella: Digitalización de Voucher",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "17889901405",
+      "negocio": "Financiera Oh - Contact Center - Piloto Exoneración de Membresía.",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "17984712205",
+      "negocio": "Licitación: Financiera Brilla: GDPA - GNOR - RFP WS1081372732 Promotores de Venta Brilla - Canal Tradicional y Grandes Superficies ",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "18452817516",
+      "negocio": "ENUBE: Promotores en modulo.",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "19190188805",
+      "negocio": "HEYSEN | Shipping Company",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "19825262731",
+      "negocio": "UNNA - SERVICIOS VIALES",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "19855491206",
+      "negocio": "VIVO SMARTPHONE: PROMOTORES PRESENCIALES ",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "19887427433",
+      "negocio": "UNNA : ORIENTADOR VIDEOLLAMADA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "20148005505",
+      "negocio": "Astara: CQS Chery",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "20607181584",
+      "negocio": "Moto Galeria del Perú - Piaggio: Gestión de Venta y Postventa",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "20633985572",
+      "negocio": "ETB COLOMBIA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "21075535154",
+      "negocio": "MIDEA COLOMBIA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "21325302344",
+      "negocio": "Grupo RUBA (Inmobiliaria)",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "21343248997",
+      "negocio": "CONSATEL (GPS para autos)",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "21738851331",
+      "negocio": "MANDU - Encuestas telefonicas de clima laboral",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "22161290312",
+      "negocio": "Gildemeister:Encuesta de Satisfacción",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "22161292178",
+      "negocio": "Protecta",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "22581966343",
+      "negocio": "BTime",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "22581966850",
+      "negocio": "Promigas:  Tercerizar todo el servicio CAD - Centro de administración de documentos",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "22586451101",
+      "negocio": "Impulsadores Claro Hogar",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "22586453774",
+      "negocio": "Universidad Ricardo Palma",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "23359097465",
+      "negocio": "ExcelCredit (Colombia)",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "23362763359",
+      "negocio": "Claro CAC's Región Sur - Intermediación Laboral",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "23368112169",
+      "negocio": "Forus - Gestión ATC",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "28260982073",
+      "negocio": "BTM BUSSNIES - COLABORACIÓN EMPRESAS ESPAÑA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "28337980029",
+      "negocio": "Unilabs - Analista Senior",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "28765097581",
+      "negocio": "Promigas: Servicio de revisión y actualización de documentos de gestión (Logística)",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "29368630874",
+      "negocio": "UNILABS: PRACTICANTE PRE - PROFESIONAL",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "29783381387",
+      "negocio": "Universidad Ricardo Palma: Cierre de ventas",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "31930764549",
+      "negocio": "AKE TALLER - CONTACT CENTER POST VENTA",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "32821738861",
+      "negocio": "PANDERO - CLIENTE INCOGNITO (LICITACIÓN)",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "33352154152",
+      "negocio": "Encuestas NPS - TRACTOPARTES",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "35626911111",
+      "negocio": "Grupo El Tablón - Central de ventas",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "35626912689",
+      "negocio": "BRILLA - Promotores de ventas Grandes superficies y Tiendas",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "35626913550",
+      "negocio": "UNNA - ASISTENCIA 24/7 PEAJES anomalias viales",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "35626915129",
+      "negocio": "ASTARA - Concesionario San Blas",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "35683701942",
+      "negocio": "PROMIGAS: Gestión de Procesos Operativos CAD y Custodia de Archivos",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "36609566482",
+      "negocio": "Claro Ecuador -  ATC",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "37148388376",
+      "negocio": "QROMA - Encuestas de Satisfacción",
+      "contacto": "Wilghenmer Carrasco",
+      "email": "wcarrasco@qroma.com.pe"
+    },
+    {
+      "deal_id": "37879877540",
+      "negocio": "Claro Campo - Asesor de Ventas",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "38465091081",
+      "negocio": "Piloto Astara (Peugeot )",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "38485426729",
+      "negocio": "Promigas: Servicio de apoyo en la gestión de solicitudes, quejas y reclamos de usuarios y potenciales clientes.",
+      "contacto": "Zoila mayerhoffer",
+      "email": "zoila.mayerhoffer@promigas.pe"
+    },
+    {
+      "deal_id": "38727653144",
+      "negocio": "Soriano Jaladores",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "38934540406",
+      "negocio": "DAC Conect Solution",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "38978645098",
+      "negocio": "Piloto Perfilamiento de leads - Gildemeister",
+      "contacto": "Diego Ovalle",
+      "email": "dovalle@gildemeister.pe"
+    },
+    {
+      "deal_id": "41437952380",
+      "negocio": "UNNA Motorizados para Atención de Reclamos",
+      "contacto": "Amalia Mendez Vicuña",
+      "email": "amalia.mendez@unna.com.pe"
+    },
+    {
+      "deal_id": "41880307107",
+      "negocio": "Bim Perú ATC",
+      "contacto": "Deysi Luque",
+      "email": "dluque@bim.pe"
+    },
+    {
+      "deal_id": "41945931941",
+      "negocio": "Astara - Asesor Comercial Chery",
+      "contacto": "Milagros Zevallos",
+      "email": "milagros.zevallos.g@astara.com"
+    },
+    {
+      "deal_id": "42070986755",
+      "negocio": "Cupi2 Atención al Cliente",
+      "contacto": "Debora Iraola ",
+      "email": "cupi2.pe@gmail.com"
+    },
+    {
+      "deal_id": "42958991157",
+      "negocio": "Aybar: Cliente Incógnito",
+      "contacto": "STEPHANY MELISSA WILLIAMZON RELUZ",
+      "email": "stephanywilliamzon@aybarsac.com"
+    },
+    {
+      "deal_id": "43289407526",
+      "negocio": "ATC - Astara Gestión de Citas Wsp",
+      "contacto": "Vanessa Quiñones Moreno",
+      "email": "vanessa.quinones.m@astara.com"
+    },
+    {
+      "deal_id": "44074586718",
+      "negocio": "Back Office Astara - Facturación",
+      "contacto": "Percy Ruiz",
+      "email": "percy.ruiz.r@astara.com"
+    },
+    {
+      "deal_id": "53441931898",
+      "negocio": "Promigas Colombia B.O",
+      "contacto": "Camila  Cabrera González",
+      "email": "camila.cabrera@ceoesp.com"
+    },
+    {
+      "deal_id": "53754276949",
+      "negocio": "Laureata Perú",
+      "contacto": "Brisabeth Daniela PORTA MANRIQUE",
+      "email": "brisabeth.porta@laureate.pe"
+    },
+    {
+      "deal_id": "54078436218",
+      "negocio": "Marsar",
+      "contacto": "Edmine Cueva",
+      "email": "ecueva@marsar.net"
+    },
+    {
+      "deal_id": "54615982639",
+      "negocio": "Astara Perú Búsqueda de Teléfono ",
+      "contacto": "diana.effio.c Effio",
+      "email": "diana.effio.c@astara.com"
+    },
+    {
+      "deal_id": "57019344960",
+      "negocio": "Automotores Inka Perú Perfilamiento de Leads",
+      "contacto": "Luis  Sanchez Victorio",
+      "email": ""
+    },
+    {
+      "deal_id": "57021836060",
+      "negocio": "Intermotors Perú Perfilamiento de Leads ",
+      "contacto": "Daniel Arispe",
+      "email": "darispe@interamericanatrujillo.com"
+    },
+    {
+      "deal_id": "59369417295",
+      "negocio": "Licitación Revisión de expedientes Promigas Perú ",
+      "contacto": "Michelle Juliao",
+      "email": "michelle.juliao-contratistaaccenture@promigas.com"
+    },
+    {
+      "deal_id": "60177661218",
+      "negocio": "Quality Products Cliente Incógnito ",
+      "contacto": "Nelson Richardson",
+      "email": ""
+    },
+    {
+      "deal_id": "60864452281",
+      "negocio": "Nestelco Sac ",
+      "contacto": "Neskhens Barrera",
+      "email": "nestelco@nestelco.com"
+    },
+    {
+      "deal_id": "60873477276",
+      "negocio": "LG Electronics Perú Ventas ",
+      "contacto": "Andy Jimenez",
+      "email": "andy.jimenez@lge.com"
+    },
+    {
+      "deal_id": "61292700008",
+      "negocio": "Eco Plaza Perfilamiento de Leads ",
+      "contacto": "Alfredo  Sánchez",
+      "email": "jefatura.marketing@ecoplaza.com.pe"
+    },
+    {
+      "deal_id": "61465697027",
+      "negocio": "Campus Alquibla Perfilamiento de Leads",
+      "contacto": "Mariela Camacho",
+      "email": "mariela@cvw.es"
+    },
+    {
+      "deal_id": "63433669676",
+      "negocio": "Tu Hogar Constructora",
+      "contacto": "German Jesus Corra Flores",
+      "email": "corrafloresgermanjesus@gmail.com"
+    },
+    {
+      "deal_id": "63433669715",
+      "negocio": "Manolo Ríos",
+      "contacto": "Manolo Ríos",
+      "email": "manoloirv777@gmail.com"
+    },
+    {
+      "deal_id": "63433670444",
+      "negocio": "ABSISA ",
+      "contacto": "Carlos alva",
+      "email": "carlos.alva@absisa.com"
+    },
+    {
+      "deal_id": "63433692005",
+      "negocio": "Tres Directo Perú",
+      "contacto": "Manuel Huaman",
+      "email": "mhuaman@tresdirectoperu.com"
+    },
+    {
+      "deal_id": "63433725051",
+      "negocio": "Constructora Ramher SAC",
+      "contacto": "Enrique Ramírez",
+      "email": "constructora.ramhersac@gmail.com"
+    },
+    {
+      "deal_id": "63433790497",
+      "negocio": "Luis Angel Carrasco Garcia",
+      "contacto": "Luis Angel Carrasco Garcia",
+      "email": "langel27591@gmail.com"
+    },
+    {
+      "deal_id": "63433790775",
+      "negocio": "Grupo Inmobiliario sin Fronteras sac",
+      "contacto": "Cesar Vicente Ore Tarqui",
+      "email": ""
+    },
+    {
+      "deal_id": "63433813679",
+      "negocio": "Mohrroce - Joao Riega",
+      "contacto": "Joao Riega",
+      "email": "administracion@mohrroce.com"
+    },
+    {
+      "deal_id": "63433847955",
+      "negocio": "Core BPO Solution - Terceros de On Negocios",
+      "contacto": "Carlos Segura",
+      "email": "corebposolution@outlook.com"
+    },
+    {
+      "deal_id": "63433851909",
+      "negocio": "Jorge Salas Rojas",
+      "contacto": "Jorge Salas Rojas",
+      "email": "jsalasroj6674@gmail.com"
+    },
+    {
+      "deal_id": "63434026502",
+      "negocio": "3P Seguridad Industrial",
+      "contacto": "Fredy Garay",
+      "email": "fgaray@3p.pe"
+    },
+    {
+      "deal_id": "63436252823",
+      "negocio": "Melissa Perez",
+      "contacto": "melissa perez",
+      "email": "andre260120@gmail.com"
+    },
+    {
+      "deal_id": "63436285756",
+      "negocio": "Persona sin Negocio",
+      "contacto": "Roque Hipolito Saavedra Quino",
+      "email": "roquesaavedralkino@gmail.com"
+    },
+    {
+      "deal_id": "63436337236",
+      "negocio": "Pastor Cristhian Vega CrisTech Solutions",
+      "contacto": "Cristhian Vega Pastor",
+      "email": "crigivepa@gmail.com"
+    },
+    {
+      "deal_id": "63436337954",
+      "negocio": "Universo virtual de negocios mineros SAC",
+      "contacto": "Juan carlos Urquizo",
+      "email": "jcurquizoa@hotmail.com"
+    },
+    {
+      "deal_id": "63436373276",
+      "negocio": "Elizabeth Vizcarra Pacchioni",
+      "contacto": "Elizabeth Vizcarra Pacchioni",
+      "email": "marianella_1968@hotmail.com"
+    },
+    {
+      "deal_id": "63436373508",
+      "negocio": "Paulino Llanque Cutipa",
+      "contacto": "Paulino Llanque Cutipa",
+      "email": "paulinollanque2@gmail.com"
+    },
+    {
+      "deal_id": "63436434799",
+      "negocio": "Dante Favarato",
+      "contacto": "Dante Favarato",
+      "email": "dante.favarato@gmail.com"
+    },
+    {
+      "deal_id": "63436437836",
+      "negocio": "Alfredo Fuentes Bolivar",
+      "contacto": "Alfredo Fuentes Bolivar",
+      "email": "alfred12_89@hotmail.com"
+    },
+    {
+      "deal_id": "63513973541",
+      "negocio": "Antony Chinchay ",
+      "contacto": "Antony Chinchay",
+      "email": "antony.digital.1@gmail.com"
+    },
+    {
+      "deal_id": "63513973685",
+      "negocio": "Korval",
+      "contacto": "Ricardo Giraldo",
+      "email": "ricardo.giraldo@korval.com.pe"
+    },
+    {
+      "deal_id": "63513989286",
+      "negocio": "Agroinversiones Premium",
+      "contacto": "Pablo",
+      "email": "pablo.hashimoto@cip.org.pe"
+    },
+    {
+      "deal_id": "63513989558",
+      "negocio": "Robert Alva",
+      "contacto": "Robert Alva",
+      "email": "roaries.1995@gmail.com"
+    },
+    {
+      "deal_id": "63666645330",
+      "negocio": "Misitio  Poligruas",
+      "contacto": "Anthony Reyes",
+      "email": "a.reyes@poligruas.com.pe"
+    },
+    {
+      "deal_id": "63673359995",
+      "negocio": "Echos Perú -",
+      "contacto": "Edgar Choquecahua Aguilar",
+      "email": "servicios@echosperu.com"
+    },
+    {
+      "deal_id": "63673362065",
+      "negocio": "Cesar Bocanegra ",
+      "contacto": "Cesar Abraham Bocanegra Benites",
+      "email": "bocanegrac877@gmail.com"
+    },
+    {
+      "deal_id": "63673362865",
+      "negocio": "Marco Barrantes - MAPLASAC",
+      "contacto": "marco barrantes bay",
+      "email": "maplasac44@gmail.com"
+    },
+    {
+      "deal_id": "63673363047",
+      "negocio": "DATEA - Andrés Jimenez",
+      "contacto": "Andrés Jiménez",
+      "email": "andresjp.mrk@gmail.com"
+    },
+    {
+      "deal_id": "63676953159",
+      "negocio": "Aprendo Comodo",
+      "contacto": "Aprendo Comodo",
+      "email": "danyvalverde7070@gmail.com"
+    },
+    {
+      "deal_id": "63680217900",
+      "negocio": "Luis Muñoz",
+      "contacto": "Luis Muñoz",
+      "email": "lumimuam0501@gmail.com"
+    },
+    {
+      "deal_id": "63680219441",
+      "negocio": "Smartway ",
+      "contacto": "Ricardo Gonzalez",
+      "email": "rgonzalez@smartway.pe"
+    },
+    {
+      "deal_id": "63680220804",
+      "negocio": "Cacao Peruano",
+      "contacto": "Cacao Peruano",
+      "email": "yover_rubio28@hotmail.com"
+    },
+    {
+      "deal_id": "63680222596",
+      "negocio": "Dilmer Junior Informal ",
+      "contacto": "Dilmer Junior",
+      "email": "goicocheadilmer4@gmail.com"
+    },
+    {
+      "deal_id": "63680225670",
+      "negocio": "The Magic - ",
+      "contacto": "hector jimenez",
+      "email": "hector@tmopp.com"
+    },
+    {
+      "deal_id": "63680229515",
+      "negocio": "Mario Augusto ",
+      "contacto": "Mario Augusto Garcės Fiol",
+      "email": "fiol08@hotmail.com"
+    },
+    {
+      "deal_id": "63680229906",
+      "negocio": "Paolo Gabriel ",
+      "contacto": "Paolo Gabriel Nuñez Sotelo",
+      "email": "nuso46@gmail.com"
+    },
+    {
+      "deal_id": "63680230051",
+      "negocio": "INSUMASTER SAC",
+      "contacto": "Efrain Arellano Solano",
+      "email": "insumastersac@gmail.com"
+    },
+    {
+      "deal_id": "63680231542",
+      "negocio": "José Luis Pinella",
+      "contacto": "Jose Luis Piñella Marquez",
+      "email": "joseluispinella@gmail.com"
+    },
+    {
+      "deal_id": "63680232785",
+      "negocio": "Carlos Medina",
+      "contacto": "Carlos Medina",
+      "email": "ciudadrealmarketing@gmail.com"
+    },
+    {
+      "deal_id": "63680233557",
+      "negocio": "Axel Morales",
+      "contacto": "Axel.Morales",
+      "email": "axel.moralesvas@gmail.com"
+    },
+    {
+      "deal_id": "63680234090",
+      "negocio": "Jorge Noa ",
+      "contacto": "jorge.noa.95@gmail.com",
+      "email": "jorge.noa.95@gmail.com"
+    },
+    {
+      "deal_id": "63717399143",
+      "negocio": "MaravIA",
+      "contacto": "Carlos Felipe Arauco",
+      "email": "cafe@maravia.pe"
+    },
+    {
+      "deal_id": "63717525862",
+      "negocio": "Seiger ",
+      "contacto": "Zupa Pao",
+      "email": "pazupa.19@gmail.com"
+    },
+    {
+      "deal_id": "63834618403",
+      "negocio": "Pio Rondon Vera",
+      "contacto": "Pio Rondon Vera",
+      "email": "roversac@hotmail.com"
+    },
+    {
+      "deal_id": "63834741832",
+      "negocio": "Tu Podcaste ",
+      "contacto": "Eddy Fuño Becerril",
+      "email": "comercial@tupodcaste.pe"
+    },
+    {
+      "deal_id": "63834804004",
+      "negocio": "PANDERO S.A. EAFC",
+      "contacto": "Tu Casa Con Luis Valladares",
+      "email": "lvalladares@pandero.com.pe"
+    },
+    {
+      "deal_id": "63834928677",
+      "negocio": "Medcare Perú ",
+      "contacto": "jean heredia",
+      "email": "jean.rivera@medcareperu.com"
+    },
+    {
+      "deal_id": "63925286937",
+      "negocio": "BeitGroup ",
+      "contacto": "Karina Puente de la Vega",
+      "email": "kpuentedelavega@beitgroup.cl"
+    },
+    {
+      "deal_id": "63925344102",
+      "negocio": "Averatech",
+      "contacto": "Eugenio Basilio Davila Paca",
+      "email": "edavila@averatech.net"
+    },
+    {
+      "deal_id": "63925468685",
+      "negocio": "Andes Seguridad S.A.C. -",
+      "contacto": "Luis Suazo",
+      "email": "luis.suazo@andesseguridad.com"
+    },
+    {
+      "deal_id": "63929572723",
+      "negocio": "Mercal Ca",
+      "contacto": "JA Fre",
+      "email": "fjulio16218501@gmail.com"
+    },
+    {
+      "deal_id": "64059044678",
+      "negocio": "B Agro ",
+      "contacto": "Bruno Rivera coello",
+      "email": "riverabruno457@gmail.com"
+    },
+    {
+      "deal_id": "64133421659",
+      "negocio": "Bunn Roasters Coffee ",
+      "contacto": "Sandro Vasquez",
+      "email": "sandro.vasquez@bunnroasters.com"
+    },
+    {
+      "deal_id": "64133421674",
+      "negocio": "Rubén Huamán",
+      "contacto": "Ruben Huaman Pineda",
+      "email": "ventas@icmesur.com.pe"
+    },
+    {
+      "deal_id": "64133421707",
+      "negocio": "Sofonías Montoya ",
+      "contacto": "Sofonias Montoya Cajalean",
+      "email": "sofoniasmontoya@gmail.com"
+    },
+    {
+      "deal_id": "64133421740",
+      "negocio": "Bances Damián",
+      "contacto": "Leonidas Bances Damián",
+      "email": "leobadan06@gmail.com"
+    },
+    {
+      "deal_id": "64133482614",
+      "negocio": "Alfonso De La Cruz Rivera",
+      "contacto": "Alfonso De La Cruz Rivera",
+      "email": "alfonsodelacruzrivera14@gmail.com"
+    },
+    {
+      "deal_id": "64133852978",
+      "negocio": "Jose Mayaute Cordova",
+      "contacto": "Juan Jose Mayaute Cordova",
+      "email": "juan_mayaute@hotmail.com"
+    },
+    {
+      "deal_id": "64133916800",
+      "negocio": "HOM ",
+      "contacto": "Luis Alberto Castillo Leon",
+      "email": "luiscastillo_leon@hom.com"
+    },
+    {
+      "deal_id": "64133916933",
+      "negocio": "Alfonso De La Cruz Rivera",
+      "contacto": "Albino Marcial Rodriguez Abarca",
+      "email": "albino.rodriguez.a@gmail.com"
+    },
+    {
+      "deal_id": "64175292799",
+      "negocio": "Eduardo baldeon",
+      "contacto": "Eduardo Baldeón | IA + Hotmart + Ventas",
+      "email": "edu@gmail.com"
+    },
+    {
+      "deal_id": "64175521043",
+      "negocio": "D Bamninos",
+      "contacto": "Angel RS",
+      "email": "dbambinosperu@gmail.com"
+    },
+    {
+      "deal_id": "64286303000",
+      "negocio": "Inversiones Casa Grande",
+      "contacto": "yogamed",
+      "email": "quispe.work@gmail.com"
+    },
+    {
+      "deal_id": "64286306355",
+      "negocio": "Taller mecánico",
+      "contacto": "Johana Ardiles Escarza",
+      "email": "johanaae111@gmail.com"
+    },
+    {
+      "deal_id": "64286307885",
+      "negocio": "Eurolavadoras",
+      "contacto": "José Palomino",
+      "email": "hugoxz100@gmail.com"
+    },
+    {
+      "deal_id": "64286313277",
+      "negocio": "Grupo Zetus",
+      "contacto": "Jose Zapata",
+      "email": "josezapata_31@hotmail.com"
+    },
+    {
+      "deal_id": "64286314081",
+      "negocio": "Camara internacional de comercio",
+      "contacto": "María vela",
+      "email": "presidencia@camarainternacionaldecomercio.org"
+    },
+    {
+      "deal_id": "64286314343",
+      "negocio": "Grupo Levi",
+      "contacto": "cristofer correa",
+      "email": "cristofer.correa@levigrouplogistics.com"
+    },
+    {
+      "deal_id": "64286328330",
+      "negocio": "Soluciones Digitales de Punchay ",
+      "contacto": "Ivan Borjas Hilario",
+      "email": "comercial@punchay.dev"
+    },
+    {
+      "deal_id": "64333353118",
+      "negocio": "Estudiante Fabian Meza",
+      "contacto": "Fabian meza",
+      "email": "duberfabianmezageronimo@gmail.com"
+    },
+    {
+      "deal_id": "64338112370",
+      "negocio": "FFVV EVERSIM",
+      "contacto": "Josue Marin",
+      "email": "eversimclaro@gmail.com"
+    },
+    {
+      "deal_id": "64338174288",
+      "negocio": "Orquesta Digital Destello de Oro",
+      "contacto": "Rolando Irvin Romero Villanueva",
+      "email": "irvinvirgo18@gmail.com"
+    },
+    {
+      "deal_id": "64338174354",
+      "negocio": "Corporación Capsursac",
+      "contacto": "Gianina elizabeth Tirado Gonzales",
+      "email": "comercial01.capsur@gmail.com"
+    },
+    {
+      "deal_id": "64419761809",
+      "negocio": "Alfa Nevado ",
+      "contacto": "Mario Llirod",
+      "email": "mariollirod@hotmail.com"
+    },
+    {
+      "deal_id": "64419769469",
+      "negocio": "Lucía Jiménez ",
+      "contacto": "Lucia Jimenez",
+      "email": "akirelucky001@gmail.com"
+    },
+    {
+      "deal_id": "64434421321",
+      "negocio": "Inmater",
+      "contacto": "Giardel R. Gervasi",
+      "email": "giardel.riega@inmater.pe"
+    },
+    {
+      "deal_id": "64434421573",
+      "negocio": "Luis - Gerente General ",
+      "contacto": "Luis",
+      "email": "carlomontoyac3018@gmail.com"
+    },
+    {
+      "deal_id": "64434629154",
+      "negocio": "Gladys Dávalos ",
+      "contacto": "Gladys Dávalos",
+      "email": "gladys.davalos.gutierrez@gmail.com"
+    },
+    {
+      "deal_id": "64434629262",
+      "negocio": "ICASA Grupo Inmobiliario ",
+      "contacto": "Olenka Palomino Flores",
+      "email": ""
+    },
+    {
+      "deal_id": "64434751806",
+      "negocio": "Roberto Emprendiendo",
+      "contacto": "Roberto",
+      "email": "info@robertoemprendiendo.com"
+    },
+    {
+      "deal_id": "64434942742",
+      "negocio": "Delivery Goo ",
+      "contacto": "Daniel Parb",
+      "email": "ernestodanielpampaarbanil@gmail.com"
+    },
+    {
+      "deal_id": "64434975391",
+      "negocio": "UGI ",
+      "contacto": "Paul Saavedra Colmenares",
+      "email": "rrhh@ugi.org.pe"
+    },
+    {
+      "deal_id": "64435039921",
+      "negocio": "Cyber Tecnology Solutions ",
+      "contacto": "JDaniel",
+      "email": "d.reyes@cybertec.com.pe"
+    },
+    {
+      "deal_id": "64484684683",
+      "negocio": "Viviana Fisioterapeuta ",
+      "contacto": "Viviana Serrano Vega",
+      "email": "vsvphysio@hotmail.com"
+    },
+    {
+      "deal_id": "64519385894",
+      "negocio": "Automotores Inka ",
+      "contacto": "Carlos Peramás",
+      "email": "carlos.peramas@automotoresinka.com"
+    },
+    {
+      "deal_id": "64524480891",
+      "negocio": "Christian ",
+      "contacto": "Christian Christian",
+      "email": "christiaanjbb@gmail.com"
+    },
+    {
+      "deal_id": "64524543610",
+      "negocio": "Karen Arrivasplata - Entel ",
+      "contacto": "karen Arrivasplata Vasquez",
+      "email": "karrivasplata30@gmail.com"
+    },
+    {
+      "deal_id": "64576208718",
+      "negocio": "Umbrella",
+      "contacto": "kenny GS",
+      "email": "kenny.grandez.1292@gmail.com"
+    },
+    {
+      "deal_id": "64576209277",
+      "negocio": "NVG",
+      "contacto": "Pedro",
+      "email": "pmaq75@gmail.com"
+    },
+    {
+      "deal_id": "64576773016",
+      "negocio": "R&F Contact Center SAC",
+      "contacto": "Bryan",
+      "email": "ryfcontactcenter@gmail.com"
+    },
+    {
+      "deal_id": "64576773200",
+      "negocio": "LikeMundos",
+      "contacto": "Sara Nahir Alonzo Ortiz",
+      "email": "saraalonzoortiz25@gmail.com"
+    },
+    {
+      "deal_id": "64576959518",
+      "negocio": "Serproce SAC ",
+      "contacto": "Wilfredo Castro",
+      "email": "castropw@gmail.com"
+    },
+    {
+      "deal_id": "64577019516",
+      "negocio": "Inversiones y Distribuciones MARSUR SAC",
+      "contacto": "Moises Fabian Acosta Talavera",
+      "email": "matsursg@gmail.com"
+    },
+    {
+      "deal_id": "64577081640",
+      "negocio": "Castilian",
+      "contacto": "Fernando OE",
+      "email": "fer9918orbegoso@gmail.com"
+    },
+    {
+      "deal_id": "64623859534",
+      "negocio": "O&M SERVICIOS COMERCIALES SAC",
+      "contacto": "Rodolfo Enrique Montoya Miniza",
+      "email": "rodolfo.montoya@oymgroup.com"
+    },
+    {
+      "deal_id": "64623862381",
+      "negocio": "Jasumy ",
+      "contacto": "Jacob Galarza Morales",
+      "email": "jacobgalarzamorales18@gmail.com"
+    },
+    {
+      "deal_id": "64623985804",
+      "negocio": "Oro azul",
+      "contacto": "Ruben Molina barraza",
+      "email": "molinabarrazaruben@gmail.com"
+    },
+    {
+      "deal_id": "64624045181",
+      "negocio": "Edward Roberto Serrano Milla",
+      "contacto": "Edward Roberto Serrano Milla",
+      "email": "edsemill69@gmail.com"
+    },
+    {
+      "deal_id": "64627575424",
+      "negocio": "Adheplast envases",
+      "contacto": "Carlos López",
+      "email": "adheplastgerencia@gmail.com"
+    },
+    {
+      "deal_id": "64627637130",
+      "negocio": "EQUIPOS MAQUINARIAS INDUSTRIALES IM KA EIRL",
+      "contacto": "Isaac Herrera Villafuerte",
+      "email": "equipos.naquinarias.imka@gmail.com"
+    },
+    {
+      "deal_id": "64730676134",
+      "negocio": "Iseia Swim",
+      "contacto": "Daniela Mori Bertetti",
+      "email": "danielamori2015@gmail.com"
+    },
+    {
+      "deal_id": "64730862258",
+      "negocio": "Marxo",
+      "contacto": "Christian Diaz",
+      "email": "christian.diaz448@hotmail.com"
+    },
+    {
+      "deal_id": "64730862416",
+      "negocio": "Antys Uniformes ",
+      "contacto": "Julio Centeno",
+      "email": "ventas@antys-uniformes.com"
+    },
+    {
+      "deal_id": "64730862641",
+      "negocio": "Alvcom - Sef solution sac",
+      "contacto": "Fernando Arias Rebolledo",
+      "email": "farias@alvcom.com.pe"
+    },
+    {
+      "deal_id": "64730923928",
+      "negocio": "Emprendedor Global",
+      "contacto": "Hans Kevin",
+      "email": "jusjs@whdj.com"
+    },
+    {
+      "deal_id": "64736556602",
+      "negocio": "Rivera Brand corp.",
+      "contacto": "Chávez rivera Willian edu",
+      "email": "manufacturas.brayan73@gmail.com"
+    },
+    {
+      "deal_id": "64736618300",
+      "negocio": "AUTOMOTORES MOPAL S.A.",
+      "contacto": "Gonzalo Car",
+      "email": "gcarrion@mopal.com.pe"
+    },
+    {
+      "deal_id": "64736680192",
+      "negocio": "VClean",
+      "contacto": "Pedro Valdez",
+      "email": "pvaldezcabrera@gmail.com"
+    },
+    {
+      "deal_id": "64736680342",
+      "negocio": "Independiente",
+      "contacto": "Wilder Vasquez Chavez",
+      "email": "wildervasquezchavez1509@gmail.com"
+    },
+    {
+      "deal_id": "64877221146",
+      "negocio": "Ortiz proveedores peru",
+      "contacto": "Carles Ortiz Urquiaga",
+      "email": "innovacion360.info@gmail.com"
+    },
+    {
+      "deal_id": "64880999498",
+      "negocio": "Solucionastack",
+      "contacto": "Medicita Sua",
+      "email": "gustavoapk2017@gmail.com"
+    },
+    {
+      "deal_id": "64880999730",
+      "negocio": "Aquyra moda",
+      "contacto": "Raul Martinez",
+      "email": "ingraul294@gmail.com"
+    },
+    {
+      "deal_id": "64930655661",
+      "negocio": "Syscopy Perú ",
+      "contacto": "Alina Ricsi",
+      "email": "alina.ricsi@syscopyperu.com"
+    },
+    {
+      "deal_id": "64930657209",
+      "negocio": "Northside",
+      "contacto": "Luis Vasquez Medina",
+      "email": "levm88123@gmail.com"
+    }
+  ]
 }
