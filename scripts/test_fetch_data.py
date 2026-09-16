@@ -11,7 +11,7 @@ MES = "2026-09"
 fake_contacts = [
     {"id": "1", "properties": {"canal": "Whatsapp", "createdate": f"{MES}-01T00:00:00Z", "firstname": "Ana", "lastname": "Ruiz"}},
     {"id": "2", "properties": {"canal": "Facebook", "createdate": f"{MES}-02T00:00:00Z", "firstname": "Luis", "lastname": "Perez"}},
-    {"id": "3", "properties": {"canal": "Facebook", "createdate": f"{MES}-03T00:00:00Z", "firstname": "Rosa", "lastname": "Diaz"}},
+    {"id": "3", "properties": {"canal": "Facebook", "createdate": f"{MES}-03T00:00:00Z", "firstname": "Rosa", "lastname": "Diaz", "email": "rosa@descartada.pe"}},
 ]
 
 fake_deals = [
@@ -52,12 +52,14 @@ assert mes["fuentes"]["MKT Pauta"]["ventas"] == 1, "Deal de Luis (closedwon) deb
 assert mes["fuentes"]["MKT Pauta"]["reuniones"] == 1 and mes["fuentes"]["MKT Pauta"]["propuestas"] == 1, "closedwon debe pasar también por reuniones/propuestas (nivel 3)"
 assert mes["fuentes"]["LinkedIn PACS"]["contactos"] == 1
 assert mes["fuentes"]["LinkedIn PACS"]["reuniones"] == 0
+# Rosa está Descartada: no debe sumar en niveles del embudo, pero sí en el detalle
+assert mes["fuentes"]["MKT Pauta"]["contactos"] == 2
 detalle_rosa = [r for r in mes["detalle"] if r["contacto"] == "Rosa Diaz"]
 assert detalle_rosa and detalle_rosa[0]["etapa"] == "Descartada"
 assert detalle_rosa[0]["nivel"] == "Fuera del embudo", "closedlost no debe clasificar dentro del embudo"
 assert detalle_rosa[0]["negocio"] == "Deal Rosa"
 
-# El detalle debe traer tambien el nombre del negocio (no solo el contacto)
+# El detalle debe traer también el nombre del negocio (no solo el contacto)
 detalle_ana = [r for r in mes["detalle"] if r["contacto"] == "Ana Ruiz"][0]
 assert detalle_ana["negocio"] == "Deal Ana"
 assert detalle_ana["nivel"] == "Reuniones Agendadas"
@@ -68,5 +70,14 @@ assert detalle_luis["nivel"] == "Ventas Cerradas", "closedwon debe clasificar co
 detalle_pacs = [r for r in mes["detalle"] if r["origen"] == "LinkedIn PACS"][0]
 assert detalle_pacs["nivel"] == "Contactos"
 assert detalle_pacs["negocio"] is None
+
+# clientes_antiguos: solo los negocios Descartados (closedlost) entran aquí,
+# con su contacto y correo, para las campañas de reenganche (Email MKT).
+clientes_antiguos = dataset["clientes_antiguos"]
+assert len(clientes_antiguos) == 1, "Solo el deal de Rosa (closedlost) debe salir como cliente antiguo"
+assert clientes_antiguos[0]["negocio"] == "Deal Rosa"
+assert clientes_antiguos[0]["contacto"] == "Rosa Diaz"
+assert clientes_antiguos[0]["email"] == "rosa@descartada.pe"
+assert clientes_antiguos[0]["deal_id"] == "d3"
 
 print("\nOK: todas las validaciones pasaron")

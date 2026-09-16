@@ -7,6 +7,9 @@ Trae los datos del embudo comercial de Xsell:
 Junta todo, lo agrupa por mes y por fuente (Comercial / MKT Pauta / LinkedIn PACS),
 y guarda el resultado en data/funnel.json para que el dashboard lo lea.
 
+También arma la lista de "clientes antiguos" (negocios Descartados en HubSpot) que
+usa la pestaña de Email Marketing para las campañas de reenganche (Email MKT).
+
 Este script lo corre automáticamente un GitHub Action cada 10 minutos.
 No hace falta tocarlo para cambiar metas o reglas de mapeo: eso vive en config/mapping.json.
 """
@@ -155,6 +158,8 @@ def build_dataset():
     detalle = defaultdict(list)
     # todos los meses que aparecen en los datos
     meses_vistos = set()
+    # negocios "Descartados" (closedlost) -> insumo para Email MKT (clientes antiguos)
+    clientes_antiguos = []
 
     # --- Contactos / Leads: uno por contacto, según su mes de creación ---
     for c in contacts:
@@ -179,6 +184,7 @@ def build_dataset():
         assoc = d.get("associations", {}).get("contacts", {}).get("results", [])
         canal = None
         contacto_nombre = None
+        contacto_email = None
         if assoc:
             contact = contact_by_id.get(assoc[0].get("id"))
             if contact:
@@ -187,6 +193,7 @@ def build_dataset():
                 contacto_nombre = " ".join(
                     filter(None, [cprops.get("firstname"), cprops.get("lastname")])
                 ) or cprops.get("email")
+                contacto_email = cprops.get("email")
         fuente = canal_a_fuente.get(canal, fuente_default)
 
         nivel = etapa_hs_a_nivel.get(dealstage)
@@ -204,6 +211,18 @@ def build_dataset():
                 "origen": "HubSpot",
             }
         )
+
+        # "Descartada" = negocio que no siguió adelante; insumo para reenganche
+        # por email marketing (no son clientes activos, por eso "clientes antiguos").
+        if dealstage == "closedlost":
+            clientes_antiguos.append(
+                {
+                    "deal_id": d.get("id"),
+                    "negocio": props.get("dealname") or "(sin nombre de negocio)",
+                    "contacto": contacto_nombre or "(sin contacto)",
+                    "email": contacto_email or "",
+                }
+            )
 
     # --- LinkedIn PACS: cada prospecto cuenta como Contacto, y avanza según su etapa ---
     for p in pacs:
@@ -249,6 +268,7 @@ def build_dataset():
     return {
         "generado": datetime.now(timezone.utc).isoformat(),
         "meses": meses_out,
+        "clientes_antiguos": clientes_antiguos,
     }
 
 

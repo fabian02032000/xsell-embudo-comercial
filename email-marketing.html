@@ -89,6 +89,18 @@
   #loginScreen button:hover{opacity:.9;}
   #loginError{color:#f87171;font-size:12.5px;margin-top:10px;min-height:16px;}
 
+  /* --- Modo tabs (Insight vs Email MKT) --- */
+  .modo-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;}
+  .modo-tab{
+    padding:10px 18px;border-radius:10px;border:1px solid var(--border);background:var(--panel);
+    color:var(--text-muted);font-weight:700;font-size:13.5px;cursor:pointer;
+  }
+  .modo-tab:hover{color:var(--text);}
+  .modo-tab.active{background:var(--accent-bg);color:var(--accent);border-color:var(--accent);}
+  .buscar-empresa{display:flex;gap:8px;}
+  .buscar-empresa input{flex:1;}
+  .form-row input[readonly]{opacity:.65;cursor:not-allowed;background:rgba(255,255,255,.03);}
+
   /* --- Rubro tabs --- */
   .rubro-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;}
   .rubro-pill{
@@ -232,14 +244,31 @@
     </div>
   </header>
 
-  <div class="rubro-row" id="rubroRow"></div>
-
-  <div class="toolbar">
-    <div style="color:var(--text-muted);font-size:13px;" id="resultCount"></div>
-    <button class="btn-primary" id="addBtn">+ Nuevo prospecto</button>
+  <div class="modo-row" id="modoRow">
+    <div class="modo-tab active" data-modo="insight">📇 Email con Insight</div>
+    <div class="modo-tab" data-modo="mkt">🔄 Email MKT (clientes antiguos)</div>
   </div>
 
-  <div id="listWrap"></div>
+  <div id="viewInsight">
+    <div class="rubro-row" id="rubroRow"></div>
+
+    <div class="toolbar">
+      <div style="color:var(--text-muted);font-size:13px;" id="resultCount"></div>
+      <button class="btn-primary" id="addBtn">+ Nuevo prospecto</button>
+    </div>
+
+    <div id="listWrap"></div>
+  </div>
+
+  <div id="viewMkt" style="display:none;">
+    <p style="color:var(--text-muted);font-size:13px;margin-top:0;">
+      Negocios marcados como <strong>Descartados</strong> en HubSpot — no son clientes activos, así que son buenos candidatos para reenganchar por correo. Esta lista se actualiza sola cada 10 minutos.
+    </p>
+    <div class="toolbar">
+      <div style="color:var(--text-muted);font-size:13px;" id="mktResultCount"></div>
+    </div>
+    <div id="mktListWrap"></div>
+  </div>
 </div>
 
 <!-- Modal para agregar/editar prospecto -->
@@ -248,8 +277,10 @@
     <h3 id="modalTitle">Nuevo prospecto</h3>
     <form id="prospectoForm">
       <input type="hidden" id="fId" />
+      <input type="hidden" id="fOrigen" value="Insight" />
+      <input type="hidden" id="fHubspotDealId" value="" />
       <div class="form-grid2">
-        <div class="form-row">
+        <div class="form-row" id="rubroFormRow">
           <label>Rubro</label>
           <select id="fRubro" required>
             <option value="Inmobiliaria">Inmobiliaria</option>
@@ -271,7 +302,10 @@
       <div class="form-grid2">
         <div class="form-row">
           <label>Empresa / Negocio</label>
-          <input type="text" id="fEmpresa" required placeholder="Ej: Inmobiliaria Los Álamos" />
+          <div class="buscar-empresa">
+            <input type="text" id="fEmpresa" required placeholder="Ej: Inmobiliaria Los Álamos" />
+            <button type="button" class="btn-sm" id="buscarEmpresaBtn" title="Buscar la empresa en Google y LinkedIn">🔎 Buscar</button>
+          </div>
         </div>
         <div class="form-row">
           <label>Persona de contacto</label>
@@ -350,7 +384,9 @@
 
   const RUBROS = ["Todos", "Inmobiliaria", "Textil", "Automotriz", "E-commerce"];
   let rubroActivo = "Todos";
+  let modoActivo = "insight";
   let prospectos = [];
+  let clientesAntiguos = [];
   let gruposAbiertos = new Set();
   let unsub = null;
 
@@ -383,6 +419,7 @@
       appEl.style.display = "block";
       document.getElementById("userEmail").textContent = user.email;
       iniciarEscucha();
+      cargarClientesAntiguos();
     } else {
       loginScreen.style.display = "block";
       appEl.style.display = "none";
@@ -397,17 +434,41 @@
     unsub = onSnapshot(q, (snap) => {
       prospectos = snap.docs.map(d => ({ id: d.id, ...d.data() }));
       render();
+      renderMkt();
     }, (err) => {
       document.getElementById("listWrap").innerHTML =
         `<div class="empty">No se pudo cargar la información (${err.message}).</div>`;
     });
   }
 
+  // ---------- Clientes antiguos (desde data/funnel.json, generado por HubSpot) ----------
+  async function cargarClientesAntiguos() {
+    try {
+      const res = await fetch("data/funnel.json", { cache: "no-store" });
+      const data = await res.json();
+      clientesAntiguos = data.clientes_antiguos || [];
+    } catch (e) {
+      clientesAntiguos = [];
+    }
+    renderMkt();
+  }
+
+  // ---------- Cambio de pestaña (Insight / Email MKT) ----------
+  document.querySelectorAll(".modo-tab").forEach(el => {
+    el.addEventListener("click", () => {
+      modoActivo = el.dataset.modo;
+      document.querySelectorAll(".modo-tab").forEach(t => t.classList.toggle("active", t === el));
+      document.getElementById("viewInsight").style.display = modoActivo === "insight" ? "" : "none";
+      document.getElementById("viewMkt").style.display = modoActivo === "mkt" ? "" : "none";
+    });
+  });
+
   // ---------- Render de pestañas de rubro ----------
   function renderRubros() {
     const row = document.getElementById("rubroRow");
+    const soloInsight = prospectos.filter(p => p.origen !== "HubSpot");
     row.innerHTML = RUBROS.map(r => {
-      const count = r === "Todos" ? prospectos.length : prospectos.filter(p => p.rubro === r).length;
+      const count = r === "Todos" ? soloInsight.length : soloInsight.filter(p => p.rubro === r).length;
       return `<div class="rubro-pill ${r===rubroActivo?'active':''}" data-rubro="${r}">${r} <span class="count">${count}</span></div>`;
     }).join("");
     row.querySelectorAll(".rubro-pill").forEach(el => {
@@ -426,10 +487,37 @@
   }
   window.toggleFicha = toggleFicha;
 
+  // Cuerpo de la ficha (desplegable) que comparten la vista Insight y Email MKT
+  function fichaBodyHtml(p) {
+    const fecha = p.fecha_envio ? p.fecha_envio : "—";
+    return `
+      <div class="ficha-grid">
+        <div class="ficha-field"><label>Correo</label><div class="val mono">${escapeHtml(p.email) || "—"}</div></div>
+        <div class="ficha-field"><label>Teléfono</label><div class="val">${escapeHtml(p.telefono) || "—"}</div></div>
+        <div class="ficha-field"><label>Insight usado</label><div class="val">${escapeHtml(p.insight) || "—"}</div></div>
+        <div class="ficha-field"><label>Fecha de envío</label><div class="val">${fecha}</div></div>
+      </div>
+      <div class="ficha-block">
+        <label>Asunto</label>
+        <div class="val">${escapeHtml(p.asunto) || "—"}</div>
+      </div>
+      <div class="ficha-block">
+        <label>Cuerpo del correo</label>
+        <div class="cuerpo">${escapeHtml(p.cuerpo) || "(sin cuerpo registrado)"}</div>
+      </div>
+      ${p.notas ? `<div class="ficha-block"><label>Notas</label><div class="val">${escapeHtml(p.notas)}</div></div>` : ""}
+      <div class="ficha-actions">
+        <button class="btn-sm" onclick="event.stopPropagation(); editarProspecto('${p.id}')">Editar</button>
+        <button class="btn-sm danger" onclick="event.stopPropagation(); borrarProspecto('${p.id}')">Eliminar</button>
+      </div>
+    `;
+  }
+
   function render() {
     renderRubros();
     const wrap = document.getElementById("listWrap");
-    const filtrados = rubroActivo === "Todos" ? prospectos : prospectos.filter(p => p.rubro === rubroActivo);
+    const soloInsight = prospectos.filter(p => p.origen !== "HubSpot");
+    const filtrados = rubroActivo === "Todos" ? soloInsight : soloInsight.filter(p => p.rubro === rubroActivo);
     document.getElementById("resultCount").textContent =
       `${filtrados.length} prospecto${filtrados.length === 1 ? "" : "s"}`;
 
@@ -455,30 +543,71 @@
             <span class="status ${p.estado}">${p.estado || "Programado"}</span>
           </div>
           <div class="prospecto-body ${abierto ? "open" : ""}">
-            <div class="ficha-grid">
-              <div class="ficha-field"><label>Correo</label><div class="val mono">${escapeHtml(p.email) || "—"}</div></div>
-              <div class="ficha-field"><label>Teléfono</label><div class="val">${escapeHtml(p.telefono) || "—"}</div></div>
-              <div class="ficha-field"><label>Insight usado</label><div class="val">${escapeHtml(p.insight) || "—"}</div></div>
-              <div class="ficha-field"><label>Fecha de envío</label><div class="val">${fecha}</div></div>
-            </div>
-            <div class="ficha-block">
-              <label>Asunto</label>
-              <div class="val">${escapeHtml(p.asunto) || "—"}</div>
-            </div>
-            <div class="ficha-block">
-              <label>Cuerpo del correo</label>
-              <div class="cuerpo">${escapeHtml(p.cuerpo) || "(sin cuerpo registrado)"}</div>
-            </div>
-            ${p.notas ? `<div class="ficha-block"><label>Notas</label><div class="val">${escapeHtml(p.notas)}</div></div>` : ""}
-            <div class="ficha-actions">
-              <button class="btn-sm" onclick="event.stopPropagation(); editarProspecto('${p.id}')">Editar</button>
-              <button class="btn-sm danger" onclick="event.stopPropagation(); borrarProspecto('${p.id}')">Eliminar</button>
-            </div>
+            ${fichaBodyHtml(p)}
           </div>
         </div>
       `;
     }).join("");
   }
+
+  // ---------- Render de Email MKT (clientes antiguos de HubSpot) ----------
+  function renderMkt() {
+    const wrap = document.getElementById("mktListWrap");
+    if (!wrap) return;
+    document.getElementById("mktResultCount").textContent =
+      `${clientesAntiguos.length} cliente${clientesAntiguos.length === 1 ? "" : "s"} antiguo${clientesAntiguos.length === 1 ? "" : "s"}`;
+
+    if (!clientesAntiguos.length) {
+      wrap.innerHTML = `<div class="empty">No hay negocios "Descartados" en HubSpot todavía.</div>`;
+      return;
+    }
+
+    wrap.innerHTML = clientesAntiguos.map(c => {
+      const tracked = prospectos.find(p => p.origen === "HubSpot" && p.hubspot_deal_id === c.deal_id);
+
+      if (!tracked) {
+        return `
+          <div class="prospecto">
+            <div class="prospecto-head">
+              <span class="chev">·</span>
+              <span class="rubro-tag" style="color:var(--text-faint);background:rgba(255,255,255,.06);">Cliente antiguo</span>
+              <div class="head-main">
+                <div class="head-empresa">${escapeHtml(c.negocio) || "(sin nombre)"}</div>
+                <div class="head-contacto">${escapeHtml(c.contacto) || "(sin contacto)"}</div>
+              </div>
+              <button class="btn-sm" onclick="iniciarSeguimientoMkt('${c.deal_id}')">+ Iniciar seguimiento</button>
+            </div>
+          </div>
+        `;
+      }
+
+      const abierto = gruposAbiertos.has(tracked.id);
+      const fecha = tracked.fecha_envio ? tracked.fecha_envio : "—";
+      return `
+        <div class="prospecto">
+          <div class="prospecto-head" onclick="toggleFicha('${tracked.id}')">
+            <span class="chev">${abierto ? "▾" : "▸"}</span>
+            <span class="rubro-tag" style="color:var(--text-faint);background:rgba(255,255,255,.06);">Cliente antiguo</span>
+            <div class="head-main">
+              <div class="head-empresa">${escapeHtml(tracked.empresa) || "(sin nombre)"}</div>
+              <div class="head-contacto">${escapeHtml(tracked.contacto) || "(sin contacto)"}</div>
+            </div>
+            <span class="remitente-tag"><span class="remitente-dot ${tracked.remitente}"></span>${escapeHtml(tracked.remitente) || "—"}</span>
+            <span class="fecha-tag">${fecha}</span>
+            <span class="status ${tracked.estado}">${tracked.estado || "Programado"}</span>
+          </div>
+          <div class="prospecto-body ${abierto ? "open" : ""}">
+            ${fichaBodyHtml(tracked)}
+          </div>
+        </div>
+      `;
+    }).join("");
+  }
+
+  window.iniciarSeguimientoMkt = function (dealId) {
+    const cliente = clientesAntiguos.find(c => c.deal_id === dealId);
+    if (cliente) abrirModalMkt(cliente, null);
+  };
 
   // ---------- Modal / formulario ----------
   const modalOverlay = document.getElementById("modalOverlay");
@@ -487,6 +616,12 @@
   function abrirModal(prospecto) {
     document.getElementById("modalTitle").textContent = prospecto ? "Editar prospecto" : "Nuevo prospecto";
     document.getElementById("fId").value = prospecto ? prospecto.id : "";
+    document.getElementById("fOrigen").value = "Insight";
+    document.getElementById("fHubspotDealId").value = "";
+    document.getElementById("rubroFormRow").style.display = "";
+    document.getElementById("fEmpresa").readOnly = false;
+    document.getElementById("fContacto").readOnly = false;
+    document.getElementById("fEmail").readOnly = false;
     document.getElementById("fRubro").value = prospecto?.rubro || "Inmobiliaria";
     document.getElementById("fEstado").value = prospecto?.estado || "Programado";
     document.getElementById("fEmpresa").value = prospecto?.empresa || "";
@@ -502,18 +637,64 @@
     modalOverlay.classList.add("open");
   }
 
+  function abrirModalMkt(cliente, prospectoExistente) {
+    document.getElementById("modalTitle").textContent = prospectoExistente ? "Editar seguimiento" : "Iniciar seguimiento (cliente antiguo)";
+    document.getElementById("fId").value = prospectoExistente ? prospectoExistente.id : "";
+    document.getElementById("fOrigen").value = "HubSpot";
+    document.getElementById("fHubspotDealId").value = cliente.deal_id;
+    document.getElementById("rubroFormRow").style.display = "none";
+    document.getElementById("fRubro").value = "Inmobiliaria";
+    document.getElementById("fEstado").value = prospectoExistente?.estado || "Programado";
+    document.getElementById("fEmpresa").value = cliente.negocio || "";
+    document.getElementById("fContacto").value = cliente.contacto || "";
+    document.getElementById("fEmail").value = cliente.email || "";
+    document.getElementById("fEmpresa").readOnly = true;
+    document.getElementById("fContacto").readOnly = true;
+    document.getElementById("fEmail").readOnly = true;
+    document.getElementById("fTelefono").value = prospectoExistente?.telefono || "";
+    document.getElementById("fRemitente").value = prospectoExistente?.remitente || "Ingrid";
+    document.getElementById("fFecha").value = prospectoExistente?.fecha_envio || "";
+    document.getElementById("fInsight").value = prospectoExistente?.insight || "";
+    document.getElementById("fAsunto").value = prospectoExistente?.asunto || "";
+    document.getElementById("fCuerpo").value = prospectoExistente?.cuerpo || "";
+    document.getElementById("fNotas").value = prospectoExistente?.notas || "";
+    modalOverlay.classList.add("open");
+  }
+
   function cerrarModal() {
     modalOverlay.classList.remove("open");
     form.reset();
+    document.getElementById("rubroFormRow").style.display = "";
+    document.getElementById("fEmpresa").readOnly = false;
+    document.getElementById("fContacto").readOnly = false;
+    document.getElementById("fEmail").readOnly = false;
   }
 
   document.getElementById("addBtn").addEventListener("click", () => abrirModal(null));
   document.getElementById("cancelBtn").addEventListener("click", cerrarModal);
   modalOverlay.addEventListener("click", (e) => { if (e.target === modalOverlay) cerrarModal(); });
 
+  document.getElementById("buscarEmpresaBtn").addEventListener("click", () => {
+    const nombre = document.getElementById("fEmpresa").value.trim();
+    if (!nombre) {
+      alert("Escribe primero el nombre de la empresa para buscarla.");
+      return;
+    }
+    const q = encodeURIComponent(nombre);
+    window.open(`https://www.google.com/search?q=${q}`, "_blank");
+    window.open(`https://www.linkedin.com/search/results/companies/?keywords=${q}`, "_blank");
+  });
+
   window.editarProspecto = function (id) {
     const p = prospectos.find(x => x.id === id);
-    if (p) abrirModal(p);
+    if (!p) return;
+    if (p.origen === "HubSpot") {
+      const cliente = clientesAntiguos.find(c => c.deal_id === p.hubspot_deal_id) ||
+        { deal_id: p.hubspot_deal_id, negocio: p.empresa, contacto: p.contacto, email: p.email };
+      abrirModalMkt(cliente, p);
+    } else {
+      abrirModal(p);
+    }
   };
 
   window.borrarProspecto = async function (id) {
@@ -528,8 +709,10 @@
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const id = document.getElementById("fId").value;
+    const origen = document.getElementById("fOrigen").value;
     const data = {
-      rubro: document.getElementById("fRubro").value,
+      origen,
+      rubro: origen === "HubSpot" ? "Cliente antiguo" : document.getElementById("fRubro").value,
       estado: document.getElementById("fEstado").value,
       empresa: document.getElementById("fEmpresa").value.trim(),
       contacto: document.getElementById("fContacto").value.trim(),
@@ -543,6 +726,9 @@
       notas: document.getElementById("fNotas").value.trim(),
       actualizado_en: serverTimestamp(),
     };
+    if (origen === "HubSpot") {
+      data.hubspot_deal_id = document.getElementById("fHubspotDealId").value;
+    }
     try {
       if (id) {
         await updateDoc(doc(db, "prospectos", id), data);
