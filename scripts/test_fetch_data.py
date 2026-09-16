@@ -52,7 +52,21 @@ assert mes["fuentes"]["MKT Pauta"]["ventas"] == 1, "Deal de Luis (closedwon) deb
 assert mes["fuentes"]["MKT Pauta"]["reuniones"] == 1 and mes["fuentes"]["MKT Pauta"]["propuestas"] == 1, "closedwon debe pasar también por reuniones/propuestas (nivel 3)"
 assert mes["fuentes"]["LinkedIn PACS"]["contactos"] == 1
 assert mes["fuentes"]["LinkedIn PACS"]["reuniones"] == 0
-detalle_rosa = [r for r in mes["detalle"] if r["nombre"] == "Rosa Diaz"]
+detalle_rosa = [r for r in mes["detalle"] if r["contacto"] == "Rosa Diaz"]
 assert detalle_rosa and detalle_rosa[0]["etapa"] == "Descartada"
+assert detalle_rosa[0]["nivel"] == "Fuera del embudo", "closedlost no debe clasificar dentro del embudo"
+assert detalle_rosa[0]["negocio"] == "Deal Rosa"
+
+# El detalle debe traer tambien el nombre del negocio (no solo el contacto)
+detalle_ana = [r for r in mes["detalle"] if r["contacto"] == "Ana Ruiz"][0]
+assert detalle_ana["negocio"] == "Deal Ana"
+assert detalle_ana["nivel"] == "Reuniones Agendadas"
+
+detalle_luis = [r for r in mes["detalle"] if r["contacto"] == "Luis Perez"][0]
+assert detalle_luis["nivel"] == "Ventas Cerradas", "closedwon debe clasificar como Ventas Cerradas"
+
+detalle_pacs = [r for r in mes["detalle"] if r["origen"] == "LinkedIn PACS"][0]
+assert detalle_pacs["nivel"] == "Contactos"
+assert detalle_pacs["negocio"] is None
 
 print("\nOK: todas las validaciones pasaron")

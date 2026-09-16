@@ -43,6 +43,10 @@ STAGE_NAMES = {
 
 FUENTES = ["Comercial", "MKT Pauta", "LinkedIn PACS"]
 NIVELES = ["contactos", "reuniones", "propuestas", "ventas"]
+NIVEL_LABELS = ["Contactos", "Reuniones Agendadas", "Propuestas Enviadas", "Ventas Cerradas"]
+FUERA_DEL_EMBUDO = "Fuera del embudo"
+NIVEL_ORDEN = {etiqueta: i for i, etiqueta in enumerate(NIVEL_LABELS)}
+NIVEL_ORDEN[FUERA_DEL_EMBUDO] = len(NIVEL_LABELS)
 
 
 def log(msg):
@@ -193,8 +197,10 @@ def build_dataset():
         detalle[mes].append(
             {
                 "fuente": fuente,
-                "nombre": contacto_nombre or props.get("dealname") or "(sin nombre)",
+                "contacto": contacto_nombre or "(sin contacto)",
+                "negocio": props.get("dealname") or "(sin nombre de negocio)",
                 "etapa": STAGE_NAMES.get(dealstage, dealstage or "Sin etapa"),
+                "nivel": NIVEL_LABELS[nivel] if nivel is not None else FUERA_DEL_EMBUDO,
                 "origen": "HubSpot",
             }
         )
@@ -212,8 +218,10 @@ def build_dataset():
         detalle[mes].append(
             {
                 "fuente": fuente,
-                "nombre": p.get("nombre", "(sin nombre)"),
+                "contacto": p.get("nombre", "(sin nombre)"),
+                "negocio": None,
                 "etapa": etapa,
+                "nivel": NIVEL_LABELS[nivel] if nivel < len(NIVEL_LABELS) else FUERA_DEL_EMBUDO,
                 "origen": "LinkedIn PACS",
             }
         )
@@ -235,7 +243,7 @@ def build_dataset():
             "fuentes": fuentes_out,
             "total": total,
             "metas": metas_default,
-            "detalle": sorted(detalle.get(mes, []), key=lambda r: r["fuente"]),
+            "detalle": sorted(detalle.get(mes, []), key=lambda r: (NIVEL_ORDEN[r["nivel"]], r["fuente"])),
         }
 
     return {
