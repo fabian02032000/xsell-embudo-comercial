@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-16T17:42:45.028137+00:00",
+  "generado": "2026-09-16T20:28:35.190354+00:00",
   "meses": {
     "2018-08": {
       "fuentes": {
@@ -20997,6 +20997,14 @@
           "fuente": "Comercial",
           "contacto": "ANTONIO GOICOCHEA",
           "negocio": "NABILA S.A.C.",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fuente": "Comercial",
+          "contacto": "Aldo Oblitas",
+          "negocio": "Tierras CGI",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot"
