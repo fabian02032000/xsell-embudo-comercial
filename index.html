@@ -244,6 +244,9 @@
     letter-spacing:0;
     margin-left:6px;
   }
+  .grupo-th{cursor:pointer;user-select:none;}
+  .grupo-th:hover td{background:#232329;}
+  .grupo-th .grupo-chevron{display:inline-block;width:14px;color:var(--text-faint);font-size:11px;}
 
   .empty{color:var(--text-faint);font-size:13.5px;padding:20px 0;text-align:center;}
   .foot{color:var(--text-faint);font-size:12px;text-align:center;margin-top:24px;line-height:1.6;}
@@ -311,6 +314,7 @@ const NIVELES = [
 let dataset = null;
 let mesActual = null;
 let fuenteActiva = "Total"; // solo afecta el filtro del detalle
+let gruposAbiertos = new Set(); // niveles del embudo expandidos en el detalle por lead
 
 function metaDe(metas, nivelKey, fuente){
   const m = metas[nivelKey];
@@ -468,6 +472,12 @@ const NIVEL_DETALLE_COLOR = {
   "Fuera del embudo":"#64748b",
 };
 
+function toggleGrupo(nivel){
+  if (gruposAbiertos.has(nivel)) gruposAbiertos.delete(nivel);
+  else gruposAbiertos.add(nivel);
+  renderDetalle();
+}
+
 function renderDetalle(){
   const wrap = document.getElementById("detalleWrap");
   if (!mesActual){ wrap.innerHTML = '<div class="empty">Sin datos todavía.</div>'; return; }
@@ -494,22 +504,25 @@ function renderDetalle(){
     const items = grupos.get(nivel);
     if (!items || !items.length) return;
     const color = NIVEL_DETALLE_COLOR[nivel] || "#64748b";
+    const abierto = gruposAbiertos.has(nivel);
     rows += `
-      <tr class="grupo-th">
+      <tr class="grupo-th" onclick="toggleGrupo('${nivel}')">
         <td colspan="5" style="border-left:3px solid ${color}">
-          ${nivel}<span class="grupo-count">· ${items.length}</span>
+          <span class="grupo-chevron">${abierto ? "▾" : "▸"}</span>${nivel}<span class="grupo-count">· ${items.length}</span>
         </td>
       </tr>
     `;
-    rows += items.map(d=>`
-      <tr>
-        <td><span class="tag" style="background:${colorDe(d.fuente)}22;color:${colorDe(d.fuente)}"><span class="sw" style="background:${colorDe(d.fuente)}"></span>${d.fuente}</span></td>
-        <td>${d.contacto || "—"}</td>
-        <td>${d.negocio || "—"}</td>
-        <td><span class="status ${statusClass(d.etapa)}">${d.etapa}</span></td>
-        <td style="color:var(--text-faint)">${d.origen}</td>
-      </tr>
-    `).join("");
+    if (abierto){
+      rows += items.map(d=>`
+        <tr>
+          <td><span class="tag" style="background:${colorDe(d.fuente)}22;color:${colorDe(d.fuente)}"><span class="sw" style="background:${colorDe(d.fuente)}"></span>${d.fuente}</span></td>
+          <td>${d.contacto || "—"}</td>
+          <td>${d.negocio || "—"}</td>
+          <td><span class="status ${statusClass(d.etapa)}">${d.etapa}</span></td>
+          <td style="color:var(--text-faint)">${d.origen}</td>
+        </tr>
+      `).join("");
+    }
   });
 
   wrap.innerHTML = `
