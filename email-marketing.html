@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Email Marketing · Xsell</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0f0f12;
+    --panel:#17171c;
+    --panel-2:#1e1e25;
+    --border:#2a2a33;
+    --text:#f4f4f6;
+    --text-muted:#9a9aa5;
+    --text-faint:#6b6b76;
+
+    --accent:#8b5cf6;
+    --accent-bg:rgba(139,92,246,.12);
+
+    --inmobiliaria:#8b5cf6;
+    --textil:#ea580c;
+    --automotriz:#3b82f6;
+    --ecommerce:#16a34a;
+
+    --programado:#6b7280;
+    --programado-bg:rgba(107,114,128,.15);
+    --enviado:#3b82f6;
+    --enviado-bg:rgba(59,130,246,.15);
+    --rebotado:#ef4444;
+    --rebotado-bg:rgba(239,68,68,.15);
+    --respondido:#16a34a;
+    --respondido-bg:rgba(22,163,74,.15);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',system-ui,-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:24px 20px 64px;}
+  a{color:inherit;}
+
+  header.top{
+    display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;
+    margin-bottom:20px;
+  }
+  h1{font-size:19px;font-weight:700;margin:0;display:flex;align-items:center;gap:10px;}
+  h1 .ico{font-size:18px;}
+  .backlink{
+    font-size:13px;color:var(--text-muted);text-decoration:none;display:flex;align-items:center;gap:6px;
+    padding:7px 12px;border:1px solid var(--border);border-radius:9px;background:var(--panel);
+  }
+  .backlink:hover{color:var(--text);border-color:#3a3a45;}
+
+  .userbox{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-muted);}
+  .userbox button{
+    background:var(--panel-2);border:1px solid var(--border);color:var(--text-muted);
+    border-radius:8px;padding:6px 12px;font-size:12.5px;cursor:pointer;font-family:inherit;
+  }
+  .userbox button:hover{color:var(--text);border-color:#3a3a45;}
+
+  .card{
+    background:var(--panel);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:20px;
+  }
+
+  /* --- Login --- */
+  #loginScreen{
+    max-width:380px;margin:80px auto;text-align:center;
+  }
+  #loginScreen h2{font-size:18px;margin:0 0 6px;}
+  #loginScreen p{color:var(--text-muted);font-size:13.5px;margin:0 0 20px;}
+  #loginScreen input{
+    width:100%;background:var(--panel-2);border:1px solid var(--border);color:var(--text);
+    border-radius:9px;padding:11px 13px;font-size:14px;margin-bottom:10px;font-family:inherit;
+  }
+  #loginScreen input:focus{outline:none;border-color:var(--accent);}
+  #loginScreen button{
+    width:100%;background:var(--accent);border:none;color:#fff;font-weight:600;
+    border-radius:9px;padding:11px 13px;font-size:14px;cursor:pointer;margin-top:4px;font-family:inherit;
+  }
+  #loginScreen button:hover{opacity:.9;}
+  #loginError{color:#f87171;font-size:12.5px;margin-top:10px;min-height:16px;}
+
+  /* --- Rubro tabs --- */
+  .rubro-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;}
+  .rubro-pill{
+    padding:9px 16px;border-radius:10px;border:1px solid var(--border);background:var(--panel);
+    color:var(--text-muted);font-size:13.5px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:8px;
+  }
+  .rubro-pill .count{
+    background:var(--panel-2);color:var(--text-faint);border-radius:99px;padding:1px 8px;font-size:11.5px;font-weight:700;
+  }
+  .rubro-pill.active{color:var(--text);border-color:currentColor;}
+  .rubro-pill[data-rubro="Todos"].active{color:var(--text);border-color:#4b4b58;}
+  .rubro-pill[data-rubro="Inmobiliaria"].active{color:var(--inmobiliaria);}
+  .rubro-pill[data-rubro="Textil"].active{color:var(--textil);}
+  .rubro-pill[data-rubro="Automotriz"].active{color:var(--automotriz);}
+  .rubro-pill[data-rubro="E-commerce"].active{color:var(--ecommerce);}
+
+  .toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;gap:10px;flex-wrap:wrap;}
+  .btn-primary{
+    background:var(--accent);border:none;color:#fff;font-weight:600;
+    border-radius:9px;padding:10px 16px;font-size:13.5px;cursor:pointer;font-family:inherit;
+    display:flex;align-items:center;gap:6px;
+  }
+  .btn-primary:hover{opacity:.9;}
+
+  /* --- Prospect cards --- */
+  #listWrap{display:flex;flex-direction:column;gap:10px;}
+  .prospecto{
+    background:var(--panel);border:1px solid var(--border);border-radius:12px;overflow:hidden;
+  }
+  .prospecto-head{
+    display:flex;align-items:center;gap:12px;padding:14px 16px;cursor:pointer;flex-wrap:wrap;
+  }
+  .prospecto-head:hover{background:var(--panel-2);}
+  .chev{color:var(--text-faint);font-size:12px;width:12px;flex-shrink:0;}
+  .rubro-tag{
+    font-size:11px;font-weight:700;padding:3px 9px;border-radius:99px;flex-shrink:0;white-space:nowrap;
+  }
+  .rubro-tag.Inmobiliaria{color:var(--inmobiliaria);background:rgba(139,92,246,.12);}
+  .rubro-tag.Textil{color:var(--textil);background:rgba(234,88,12,.12);}
+  .rubro-tag.Automotriz{color:var(--automotriz);background:rgba(59,130,246,.12);}
+  .rubro-tag.E-commerce{color:var(--ecommerce);background:rgba(22,163,74,.12);}
+
+  .head-main{flex:1;min-width:180px;}
+  .head-empresa{font-weight:700;font-size:14px;}
+  .head-contacto{color:var(--text-muted);font-size:12.5px;margin-top:2px;}
+
+  .status{
+    font-size:11px;font-weight:700;padding:4px 10px;border-radius:99px;white-space:nowrap;flex-shrink:0;
+  }
+  .status.Programado{color:var(--programado);background:var(--programado-bg);}
+  .status.Enviado{color:var(--enviado);background:var(--enviado-bg);}
+  .status.Rebotado{color:var(--rebotado);background:var(--rebotado-bg);}
+  .status.Respondido{color:var(--respondido);background:var(--respondido-bg);}
+
+  .remitente-tag{
+    font-size:11.5px;color:var(--text-faint);white-space:nowrap;flex-shrink:0;
+    display:flex;align-items:center;gap:5px;
+  }
+  .remitente-dot{width:6px;height:6px;border-radius:50%;background:#a78bfa;}
+  .remitente-dot.Fabián{background:#38bdf8;}
+
+  .fecha-tag{font-size:11.5px;color:var(--text-faint);white-space:nowrap;flex-shrink:0;}
+
+  .prospecto-body{
+    padding:0 16px 18px 40px;display:none;border-top:1px solid var(--border);
+  }
+  .prospecto-body.open{display:block;padding-top:16px;}
+  .ficha-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;}
+  .ficha-field{}
+  .ficha-field label{display:block;font-size:11px;color:var(--text-faint);text-transform:uppercase;letter-spacing:.03em;margin-bottom:3px;font-weight:600;}
+  .ficha-field .val{font-size:13.5px;color:var(--text);}
+  .ficha-field .val.mono{font-family:ui-monospace,monospace;font-size:12.5px;}
+  .ficha-block{margin-bottom:14px;}
+  .ficha-block label{display:block;font-size:11px;color:var(--text-faint);text-transform:uppercase;letter-spacing:.03em;margin-bottom:5px;font-weight:600;}
+  .ficha-block .cuerpo{
+    background:var(--panel-2);border:1px solid var(--border);border-radius:9px;padding:12px 14px;
+    font-size:13px;line-height:1.55;color:var(--text);white-space:pre-wrap;
+  }
+  .ficha-actions{display:flex;gap:8px;margin-top:6px;}
+  .btn-sm{
+    background:var(--panel-2);border:1px solid var(--border);color:var(--text-muted);
+    border-radius:8px;padding:7px 13px;font-size:12.5px;cursor:pointer;font-family:inherit;font-weight:600;
+  }
+  .btn-sm:hover{color:var(--text);border-color:#3a3a45;}
+  .btn-sm.danger:hover{color:#f87171;border-color:#7f1d1d;}
+
+  .empty{color:var(--text-faint);font-size:13.5px;text-align:center;padding:40px 10px;}
+
+  /* --- Modal --- */
+  .modal-overlay{
+    display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:50;
+    align-items:flex-start;justify-content:center;padding:40px 16px;overflow-y:auto;
+  }
+  .modal-overlay.open{display:flex;}
+  .modal{
+    background:var(--panel);border:1px solid var(--border);border-radius:16px;
+    padding:24px;max-width:560px;width:100%;
+  }
+  .modal h3{margin:0 0 18px;font-size:16px;}
+  .form-row{margin-bottom:14px;}
+  .form-row label{display:block;font-size:12px;color:var(--text-muted);margin-bottom:5px;font-weight:600;}
+  .form-row input, .form-row select, .form-row textarea{
+    width:100%;background:var(--panel-2);border:1px solid var(--border);color:var(--text);
+    border-radius:8px;padding:9px 11px;font-size:13.5px;font-family:inherit;
+  }
+  .form-row input:focus, .form-row select:focus, .form-row textarea:focus{outline:none;border-color:var(--accent);}
+  .form-row textarea{resize:vertical;min-height:90px;line-height:1.5;}
+  .form-grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .modal-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:20px;}
+  .btn-ghost{
+    background:transparent;border:1px solid var(--border);color:var(--text-muted);
+    border-radius:9px;padding:10px 16px;font-size:13.5px;cursor:pointer;font-family:inherit;font-weight:600;
+  }
+  .btn-ghost:hover{color:var(--text);}
+
+  #app{display:none;}
+</style>
+</head>
+<body>
+
+<div id="loginScreen">
+  <div class="card">
+    <h2>📧 Email Marketing · Xsell</h2>
+    <p>Ingresa con tu cuenta autorizada para administrar los prospectos.</p>
+    <input type="email" id="loginEmail" placeholder="Correo electrónico" autocomplete="username" />
+    <input type="password" id="loginPassword" placeholder="Contraseña" autocomplete="current-password" />
+    <button id="loginBtn">Ingresar</button>
+    <div id="loginError"></div>
+  </div>
+</div>
+
+<div class="wrap" id="app">
+  <header class="top">
+    <h1><span class="ico">📧</span> Email Marketing · Xsell</h1>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <a class="backlink" href="index.html">← Embudo Comercial</a>
+      <div class="userbox">
+        <span id="userEmail"></span>
+        <button id="logoutBtn">Salir</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="rubro-row" id="rubroRow"></div>
+
+  <div class="toolbar">
+    <div style="color:var(--text-muted);font-size:13px;" id="resultCount"></div>
+    <button class="btn-primary" id="addBtn">+ Nuevo prospecto</button>
+  </div>
+
+  <div id="listWrap"></div>
+</div>
+
+<!-- Modal para agregar/editar prospecto -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <h3 id="modalTitle">Nuevo prospecto</h3>
+    <form id="prospectoForm">
+      <input type="hidden" id="fId" />
+      <div class="form-grid2">
+        <div class="form-row">
+          <label>Rubro</label>
+          <select id="fRubro" required>
+            <option value="Inmobiliaria">Inmobiliaria</option>
+            <option value="Textil">Textil</option>
+            <option value="Automotriz">Automotriz</option>
+            <option value="E-commerce">E-commerce</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label>Estado del correo</label>
+          <select id="fEstado" required>
+            <option value="Programado">Programado</option>
+            <option value="Enviado">Enviado</option>
+            <option value="Rebotado">Rebotado</option>
+            <option value="Respondido">Respondido</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-grid2">
+        <div class="form-row">
+          <label>Empresa / Negocio</label>
+          <input type="text" id="fEmpresa" required placeholder="Ej: Inmobiliaria Los Álamos" />
+        </div>
+        <div class="form-row">
+          <label>Persona de contacto</label>
+          <input type="text" id="fContacto" placeholder="Ej: María Gómez" />
+        </div>
+      </div>
+      <div class="form-grid2">
+        <div class="form-row">
+          <label>Correo del contacto</label>
+          <input type="email" id="fEmail" placeholder="contacto@empresa.com" />
+        </div>
+        <div class="form-row">
+          <label>Teléfono (opcional)</label>
+          <input type="text" id="fTelefono" placeholder="+51 999 999 999" />
+        </div>
+      </div>
+      <div class="form-grid2">
+        <div class="form-row">
+          <label>Enviado desde</label>
+          <select id="fRemitente" required>
+            <option value="Ingrid">Ingrid</option>
+            <option value="Fabián">Fabián</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label>Fecha de envío</label>
+          <input type="date" id="fFecha" />
+        </div>
+      </div>
+      <div class="form-row">
+        <label>Insight usado (gancho de la campaña)</label>
+        <input type="text" id="fInsight" placeholder="Ej: Vieron una nota sobre expansión en Trujillo" />
+      </div>
+      <div class="form-row">
+        <label>Asunto del correo</label>
+        <input type="text" id="fAsunto" placeholder="Asunto que se usó / usará" />
+      </div>
+      <div class="form-row">
+        <label>Cuerpo del correo</label>
+        <textarea id="fCuerpo" placeholder="Texto completo del correo enviado..."></textarea>
+      </div>
+      <div class="form-row">
+        <label>Notas (opcional)</label>
+        <textarea id="fNotas" style="min-height:60px;" placeholder="Seguimiento, próxima acción, etc."></textarea>
+      </div>
+      <div class="modal-actions">
+        <button type="button" class="btn-ghost" id="cancelBtn">Cancelar</button>
+        <button type="submit" class="btn-primary">Guardar</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js";
+  import {
+    getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut
+  } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js";
+  import {
+    getFirestore, collection, onSnapshot, addDoc, updateDoc, deleteDoc,
+    doc, serverTimestamp, query, orderBy
+  } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDhtnz5ATG2BUeqES50Z4DOPqcVt5fc3vY",
+    authDomain: "xsell-email-marketing.firebaseapp.com",
+    projectId: "xsell-email-marketing",
+    storageBucket: "xsell-email-marketing.firebasestorage.app",
+    messagingSenderId: "895432875612",
+    appId: "1:895432875612:web:dca1963303bd2928a25099"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const db = getFirestore(app);
+
+  const RUBROS = ["Todos", "Inmobiliaria", "Textil", "Automotriz", "E-commerce"];
+  let rubroActivo = "Todos";
+  let prospectos = [];
+  let gruposAbiertos = new Set();
+  let unsub = null;
+
+  // ---------- Auth ----------
+  const loginScreen = document.getElementById("loginScreen");
+  const appEl = document.getElementById("app");
+
+  document.getElementById("loginBtn").addEventListener("click", async () => {
+    const email = document.getElementById("loginEmail").value.trim();
+    const password = document.getElementById("loginPassword").value;
+    const errEl = document.getElementById("loginError");
+    errEl.textContent = "";
+    if (!email || !password) { errEl.textContent = "Completa correo y contraseña."; return; }
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+    } catch (e) {
+      errEl.textContent = "No se pudo ingresar. Verifica tu correo y contraseña.";
+    }
+  });
+
+  document.getElementById("loginPassword").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") document.getElementById("loginBtn").click();
+  });
+
+  document.getElementById("logoutBtn").addEventListener("click", () => signOut(auth));
+
+  onAuthStateChanged(auth, (user) => {
+    if (user) {
+      loginScreen.style.display = "none";
+      appEl.style.display = "block";
+      document.getElementById("userEmail").textContent = user.email;
+      iniciarEscucha();
+    } else {
+      loginScreen.style.display = "block";
+      appEl.style.display = "none";
+      if (unsub) { unsub(); unsub = null; }
+    }
+  });
+
+  // ---------- Datos en tiempo real ----------
+  function iniciarEscucha() {
+    if (unsub) return;
+    const q = query(collection(db, "prospectos"), orderBy("creado_en", "desc"));
+    unsub = onSnapshot(q, (snap) => {
+      prospectos = snap.docs.map(d => ({ id: d.id, ...d.data() }));
+      render();
+    }, (err) => {
+      document.getElementById("listWrap").innerHTML =
+        `<div class="empty">No se pudo cargar la información (${err.message}).</div>`;
+    });
+  }
+
+  // ---------- Render de pestañas de rubro ----------
+  function renderRubros() {
+    const row = document.getElementById("rubroRow");
+    row.innerHTML = RUBROS.map(r => {
+      const count = r === "Todos" ? prospectos.length : prospectos.filter(p => p.rubro === r).length;
+      return `<div class="rubro-pill ${r===rubroActivo?'active':''}" data-rubro="${r}">${r} <span class="count">${count}</span></div>`;
+    }).join("");
+    row.querySelectorAll(".rubro-pill").forEach(el => {
+      el.addEventListener("click", () => { rubroActivo = el.dataset.rubro; render(); });
+    });
+  }
+
+  function escapeHtml(str) {
+    if (str === undefined || str === null) return "";
+    return String(str).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+  }
+
+  function toggleFicha(id) {
+    if (gruposAbiertos.has(id)) gruposAbiertos.delete(id); else gruposAbiertos.add(id);
+    render();
+  }
+  window.toggleFicha = toggleFicha;
+
+  function render() {
+    renderRubros();
+    const wrap = document.getElementById("listWrap");
+    const filtrados = rubroActivo === "Todos" ? prospectos : prospectos.filter(p => p.rubro === rubroActivo);
+    document.getElementById("resultCount").textContent =
+      `${filtrados.length} prospecto${filtrados.length === 1 ? "" : "s"}`;
+
+    if (!filtrados.length) {
+      wrap.innerHTML = `<div class="empty">No hay prospectos todavía en este rubro. Agrega el primero con "+ Nuevo prospecto".</div>`;
+      return;
+    }
+
+    wrap.innerHTML = filtrados.map(p => {
+      const abierto = gruposAbiertos.has(p.id);
+      const fecha = p.fecha_envio ? p.fecha_envio : "—";
+      return `
+        <div class="prospecto">
+          <div class="prospecto-head" onclick="toggleFicha('${p.id}')">
+            <span class="chev">${abierto ? "▾" : "▸"}</span>
+            <span class="rubro-tag ${p.rubro}">${p.rubro}</span>
+            <div class="head-main">
+              <div class="head-empresa">${escapeHtml(p.empresa) || "(sin nombre)"}</div>
+              <div class="head-contacto">${escapeHtml(p.contacto) || "(sin contacto)"}</div>
+            </div>
+            <span class="remitente-tag"><span class="remitente-dot ${p.remitente}"></span>${escapeHtml(p.remitente) || "—"}</span>
+            <span class="fecha-tag">${fecha}</span>
+            <span class="status ${p.estado}">${p.estado || "Programado"}</span>
+          </div>
+          <div class="prospecto-body ${abierto ? "open" : ""}">
+            <div class="ficha-grid">
+              <div class="ficha-field"><label>Correo</label><div class="val mono">${escapeHtml(p.email) || "—"}</div></div>
+              <div class="ficha-field"><label>Teléfono</label><div class="val">${escapeHtml(p.telefono) || "—"}</div></div>
+              <div class="ficha-field"><label>Insight usado</label><div class="val">${escapeHtml(p.insight) || "—"}</div></div>
+              <div class="ficha-field"><label>Fecha de envío</label><div class="val">${fecha}</div></div>
+            </div>
+            <div class="ficha-block">
+              <label>Asunto</label>
+              <div class="val">${escapeHtml(p.asunto) || "—"}</div>
+            </div>
+            <div class="ficha-block">
+              <label>Cuerpo del correo</label>
+              <div class="cuerpo">${escapeHtml(p.cuerpo) || "(sin cuerpo registrado)"}</div>
+            </div>
+            ${p.notas ? `<div class="ficha-block"><label>Notas</label><div class="val">${escapeHtml(p.notas)}</div></div>` : ""}
+            <div class="ficha-actions">
+              <button class="btn-sm" onclick="event.stopPropagation(); editarProspecto('${p.id}')">Editar</button>
+              <button class="btn-sm danger" onclick="event.stopPropagation(); borrarProspecto('${p.id}')">Eliminar</button>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join("");
+  }
+
+  // ---------- Modal / formulario ----------
+  const modalOverlay = document.getElementById("modalOverlay");
+  const form = document.getElementById("prospectoForm");
+
+  function abrirModal(prospecto) {
+    document.getElementById("modalTitle").textContent = prospecto ? "Editar prospecto" : "Nuevo prospecto";
+    document.getElementById("fId").value = prospecto ? prospecto.id : "";
+    document.getElementById("fRubro").value = prospecto?.rubro || "Inmobiliaria";
+    document.getElementById("fEstado").value = prospecto?.estado || "Programado";
+    document.getElementById("fEmpresa").value = prospecto?.empresa || "";
+    document.getElementById("fContacto").value = prospecto?.contacto || "";
+    document.getElementById("fEmail").value = prospecto?.email || "";
+    document.getElementById("fTelefono").value = prospecto?.telefono || "";
+    document.getElementById("fRemitente").value = prospecto?.remitente || "Ingrid";
+    document.getElementById("fFecha").value = prospecto?.fecha_envio || "";
+    document.getElementById("fInsight").value = prospecto?.insight || "";
+    document.getElementById("fAsunto").value = prospecto?.asunto || "";
+    document.getElementById("fCuerpo").value = prospecto?.cuerpo || "";
+    document.getElementById("fNotas").value = prospecto?.notas || "";
+    modalOverlay.classList.add("open");
+  }
+
+  function cerrarModal() {
+    modalOverlay.classList.remove("open");
+    form.reset();
+  }
+
+  document.getElementById("addBtn").addEventListener("click", () => abrirModal(null));
+  document.getElementById("cancelBtn").addEventListener("click", cerrarModal);
+  modalOverlay.addEventListener("click", (e) => { if (e.target === modalOverlay) cerrarModal(); });
+
+  window.editarProspecto = function (id) {
+    const p = prospectos.find(x => x.id === id);
+    if (p) abrirModal(p);
+  };
+
+  window.borrarProspecto = async function (id) {
+    if (!confirm("¿Seguro que quieres eliminar este prospecto? Esta acción no se puede deshacer.")) return;
+    try {
+      await deleteDoc(doc(db, "prospectos", id));
+    } catch (e) {
+      alert("No se pudo eliminar: " + e.message);
+    }
+  };
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const id = document.getElementById("fId").value;
+    const data = {
+      rubro: document.getElementById("fRubro").value,
+      estado: document.getElementById("fEstado").value,
+      empresa: document.getElementById("fEmpresa").value.trim(),
+      contacto: document.getElementById("fContacto").value.trim(),
+      email: document.getElementById("fEmail").value.trim(),
+      telefono: document.getElementById("fTelefono").value.trim(),
+      remitente: document.getElementById("fRemitente").value,
+      fecha_envio: document.getElementById("fFecha").value,
+      insight: document.getElementById("fInsight").value.trim(),
+      asunto: document.getElementById("fAsunto").value.trim(),
+      cuerpo: document.getElementById("fCuerpo").value,
+      notas: document.getElementById("fNotas").value.trim(),
+      actualizado_en: serverTimestamp(),
+    };
+    try {
+      if (id) {
+        await updateDoc(doc(db, "prospectos", id), data);
+      } else {
+        data.creado_en = serverTimestamp();
+        await addDoc(collection(db, "prospectos"), data);
+      }
+      cerrarModal();
+    } catch (e) {
+      alert("No se pudo guardar: " + e.message);
+    }
+  });
+</script>
+</body>
+</html>
