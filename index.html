@@ -132,6 +132,13 @@
   .cal-cell.active{background:var(--text);color:#0f0f12;border-color:var(--text);}
   .cal-cell:disabled{opacity:.28;cursor:default;}
 
+  .date-input{
+    border:1.5px solid var(--border);background:var(--panel-2);color:var(--text);
+    padding:9px 12px;border-radius:10px;font-size:14px;font-family:inherit;
+    color-scheme:dark;
+  }
+  .date-input:focus{outline:none;border-color:#3d3d48;}
+
   .fuente-pill{
     border:1.5px solid var(--border);
     background:transparent;
@@ -161,6 +168,7 @@
     display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px;
   }
   .funnel-title h2{font-size:15px;margin:0;display:flex;align-items:center;gap:8px;font-weight:700;}
+  .funnel-title .periodo{color:var(--text-muted);font-weight:600;}
 
   .stage{
     display:grid;
@@ -265,20 +273,40 @@
   </header>
 
   <div class="card">
-    <div class="month-label">Seleccionar mes</div>
-    <div class="cal-picker" id="calPicker">
-      <button class="cal-trigger" id="calTrigger" type="button">
-        <span class="cal-ico">📅</span>
-        <span id="calTriggerLabel">—</span>
-        <span class="cal-chevron">▾</span>
-      </button>
-      <div class="cal-popup" id="calPopup">
-        <div class="cal-popup-head">
-          <button class="cal-nav" id="calPrevYear" type="button">‹</button>
-          <span id="calYearLabel">—</span>
-          <button class="cal-nav" id="calNextYear" type="button">›</button>
+    <div class="month-label">Ver por</div>
+    <div class="pill-row" style="margin-bottom:16px;">
+      <button class="pill active" id="modoMesBtn" type="button">Mes</button>
+      <button class="pill" id="modoRangoBtn" type="button">Rango de fechas</button>
+    </div>
+
+    <div id="selectorMes">
+      <div class="cal-picker" id="calPicker">
+        <button class="cal-trigger" id="calTrigger" type="button">
+          <span class="cal-ico">📅</span>
+          <span id="calTriggerLabel">—</span>
+          <span class="cal-chevron">▾</span>
+        </button>
+        <div class="cal-popup" id="calPopup">
+          <div class="cal-popup-head">
+            <button class="cal-nav" id="calPrevYear" type="button">‹</button>
+            <span id="calYearLabel">—</span>
+            <button class="cal-nav" id="calNextYear" type="button">›</button>
+          </div>
+          <div class="cal-grid" id="calGrid"></div>
         </div>
-        <div class="cal-grid" id="calGrid"></div>
+      </div>
+    </div>
+
+    <div id="selectorRango" style="display:none;">
+      <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end;">
+        <div>
+          <div class="month-label" style="margin-bottom:6px;">Desde</div>
+          <input type="date" id="rangoDesde" class="date-input" />
+        </div>
+        <div>
+          <div class="month-label" style="margin-bottom:6px;">Hasta</div>
+          <input type="date" id="rangoHasta" class="date-input" />
+        </div>
       </div>
     </div>
   </div>
@@ -315,7 +343,10 @@ const NIVELES = [
 ];
 
 let dataset = null;
+let modoVista = "mes"; // "mes" | "rango"
 let mesActual = null;
+let rangoInicio = null;
+let rangoFin = null;
 let fuenteActiva = "Total"; // solo afecta el filtro del detalle
 let gruposAbiertos = new Set(); // niveles del embudo expandidos en el detalle por lead
 
@@ -335,6 +366,65 @@ function pct(n, meta){
 const MESES_ABREV = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Set","Oct","Nov","Dic"];
 let calViewYear = null;
 
+// ---------- Helpers de días (todo se arma sumando días de dataset.dias) ----------
+function mesesDisponibles(){
+  return new Set(Object.keys(dataset.dias).map(d => d.slice(0,7)));
+}
+
+function diasDelMes(m){
+  return Object.keys(dataset.dias).filter(d => d.startsWith(m + "-")).sort();
+}
+
+function diasDelRango(desde, hasta){
+  if (!desde || !hasta) return [];
+  const [d, h] = desde <= hasta ? [desde, hasta] : [hasta, desde];
+  return Object.keys(dataset.dias).filter(d2 => d2 >= d && d2 <= h).sort();
+}
+
+function sumarDias(dayKeys){
+  const fuentesOut = {
+    "Comercial": {contactos:0, reuniones:0, propuestas:0, ventas:0},
+    "MKT Pauta": {contactos:0, reuniones:0, propuestas:0, ventas:0},
+    "LinkedIn PACS": {contactos:0, reuniones:0, propuestas:0, ventas:0},
+  };
+  const total = {contactos:0, reuniones:0, propuestas:0, ventas:0};
+  let detalle = [];
+  dayKeys.forEach(dia => {
+    const d = dataset.dias[dia];
+    if (!d) return;
+    Object.keys(fuentesOut).forEach(f => {
+      const vals = (d.fuentes && d.fuentes[f]) || {};
+      ["contactos","reuniones","propuestas","ventas"].forEach(n => {
+        fuentesOut[f][n] += vals[n] || 0;
+        total[n] += vals[n] || 0;
+      });
+    });
+    if (d.detalle) detalle = detalle.concat(d.detalle);
+  });
+  return {fuentes: fuentesOut, total, detalle};
+}
+
+// Datos a mostrar según el modo activo (mes completo o rango de fechas elegido)
+function datosActuales(){
+  if (modoVista === "rango"){
+    const dias = diasDelRango(rangoInicio, rangoFin);
+    const agregado = sumarDias(dias);
+    return {
+      fuentes: {...agregado.fuentes, "Total": agregado.total},
+      metas: {}, // un rango libre no se compara contra una meta (la meta es mensual)
+      detalle: agregado.detalle,
+    };
+  }
+  if (!mesActual) return null;
+  const dias = diasDelMes(mesActual);
+  const agregado = sumarDias(dias);
+  return {
+    fuentes: {...agregado.fuentes, "Total": agregado.total},
+    metas: dataset.metas_mensuales_default || {},
+    detalle: agregado.detalle,
+  };
+}
+
 function renderMeses(){
   if (calViewYear === null && mesActual){
     calViewYear = Number(mesActual.split("-")[0]);
@@ -345,8 +435,8 @@ function renderMeses(){
 }
 
 function renderCalGrid(){
-  const meses = Object.keys(dataset.meses).sort();
-  const anios = [...new Set(meses.map(m => Number(m.split("-")[0])))].sort((a,b)=>a-b);
+  const disponibles = mesesDisponibles();
+  const anios = [...new Set([...disponibles].map(m => Number(m.split("-")[0])))].sort((a,b)=>a-b);
   if (calViewYear === null) calViewYear = anios[anios.length-1];
 
   document.getElementById("calYearLabel").textContent = calViewYear;
@@ -357,7 +447,7 @@ function renderCalGrid(){
   grid.innerHTML = "";
   for (let mo = 1; mo <= 12; mo++){
     const key = `${calViewYear}-${String(mo).padStart(2,"0")}`;
-    const disponible = !!dataset.meses[key];
+    const disponible = disponibles.has(key);
     const btn = document.createElement("button");
     btn.className = "cal-cell" + (key === mesActual ? " active" : "");
     btn.textContent = MESES_ABREV[mo-1];
@@ -391,10 +481,74 @@ function initCalendarEvents(){
   });
 }
 
+function initModoEvents(){
+  const btnMes = document.getElementById("modoMesBtn");
+  const btnRango = document.getElementById("modoRangoBtn");
+  const selMes = document.getElementById("selectorMes");
+  const selRango = document.getElementById("selectorRango");
+  const inputDesde = document.getElementById("rangoDesde");
+  const inputHasta = document.getElementById("rangoHasta");
+
+  btnMes.onclick = ()=>{
+    modoVista = "mes";
+    btnMes.classList.add("active");
+    btnRango.classList.remove("active");
+    selMes.style.display = "";
+    selRango.style.display = "none";
+    renderAll();
+  };
+
+  btnRango.onclick = ()=>{
+    modoVista = "rango";
+    btnRango.classList.add("active");
+    btnMes.classList.remove("active");
+    selMes.style.display = "none";
+    selRango.style.display = "";
+    // Primera vez que se abre: por defecto, todo el mes que estaba viendo.
+    if (!rangoInicio || !rangoFin){
+      const dias = mesActual ? diasDelMes(mesActual) : Object.keys(dataset.dias).sort();
+      if (dias.length){
+        rangoInicio = dias[0];
+        rangoFin = dias[dias.length-1];
+        inputDesde.value = rangoInicio;
+        inputHasta.value = rangoFin;
+      }
+    }
+    renderAll();
+  };
+
+  inputDesde.onchange = ()=>{
+    rangoInicio = inputDesde.value || null;
+    renderAll();
+  };
+  inputHasta.onchange = ()=>{
+    rangoFin = inputHasta.value || null;
+    renderAll();
+  };
+}
+
 function etiquetaMes(m){
   const [y,mo] = m.split("-").map(Number);
   const nombres = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Setiembre","Octubre","Noviembre","Diciembre"];
   return `${nombres[mo-1]} ${y}`;
+}
+
+function etiquetaFecha(f){
+  if (!f) return "—";
+  const [y,mo,d] = f.split("-").map(Number);
+  const nombres = ["ene","feb","mar","abr","may","jun","jul","ago","set","oct","nov","dic"];
+  return `${d} ${nombres[mo-1]} ${y}`;
+}
+
+function renderFunnelTitulo(){
+  const el = document.getElementById("funnelTitle");
+  if (modoVista === "rango"){
+    el.innerHTML = `Embudo Comercial <span class="periodo">· ${etiquetaFecha(rangoInicio)} al ${etiquetaFecha(rangoFin)}</span>`;
+  } else if (mesActual){
+    el.innerHTML = `Embudo Comercial <span class="periodo">· ${etiquetaMes(mesActual)}</span>`;
+  } else {
+    el.textContent = "Embudo Comercial";
+  }
 }
 
 function renderFuentePills(){
@@ -416,18 +570,12 @@ function colorDe(f){
   }[f];
 }
 
-function datosDelMes(m){
-  const mes = dataset.meses[m];
-  const fuentesConTotal = {...mes.fuentes};
-  fuentesConTotal["Total"] = mes.total;
-  return {fuentes: fuentesConTotal, metas: mes.metas, detalle: mes.detalle};
-}
-
 function renderStages(){
   const cont = document.getElementById("stages");
   cont.innerHTML = "";
-  if (!mesActual){ cont.innerHTML = '<div class="empty">Sin datos todavía.</div>'; return; }
-  const {fuentes, metas} = datosDelMes(mesActual);
+  const datos = datosActuales();
+  if (!datos){ cont.innerHTML = '<div class="empty">Sin datos todavía.</div>'; return; }
+  const {fuentes, metas} = datos;
 
   NIVELES.forEach((nivel, idx)=>{
     const row = document.createElement("div");
@@ -483,9 +631,9 @@ function toggleGrupo(nivel){
 
 function renderDetalle(){
   const wrap = document.getElementById("detalleWrap");
-  if (!mesActual){ wrap.innerHTML = '<div class="empty">Sin datos todavía.</div>'; return; }
-  // Siempre del mes seleccionado: dataset.meses[mesActual] trae solo lo de ese mes.
-  const {detalle} = datosDelMes(mesActual);
+  const datos = datosActuales();
+  if (!datos){ wrap.innerHTML = '<div class="empty">Sin datos todavía.</div>'; return; }
+  const {detalle} = datos;
   const filtrado = fuenteActiva === "Total" ? detalle : detalle.filter(d=>d.fuente===fuenteActiva);
 
   if (!filtrado.length){
@@ -510,7 +658,7 @@ function renderDetalle(){
     const abierto = gruposAbiertos.has(nivel);
     rows += `
       <tr class="grupo-th" onclick="toggleGrupo('${nivel}')">
-        <td colspan="5" style="border-left:3px solid ${color}">
+        <td colspan="6" style="border-left:3px solid ${color}">
           <span class="grupo-chevron">${abierto ? "▾" : "▸"}</span>${nivel}<span class="grupo-count">· ${items.length}</span>
         </td>
       </tr>
@@ -523,6 +671,7 @@ function renderDetalle(){
           <td>${d.negocio || "—"}</td>
           <td><span class="status ${statusClass(d.etapa)}">${d.etapa}</span></td>
           <td style="color:var(--text-faint)">${d.origen}</td>
+          <td style="color:var(--text-faint)">${etiquetaFecha(d.fecha)}</td>
         </tr>
       `).join("");
     }
@@ -530,7 +679,7 @@ function renderDetalle(){
 
   wrap.innerHTML = `
     <table>
-      <thead><tr><th>Fuente</th><th>Contacto</th><th>Negocio</th><th>Etapa actual</th><th>Origen</th></tr></thead>
+      <thead><tr><th>Fuente</th><th>Contacto</th><th>Negocio</th><th>Etapa actual</th><th>Origen</th><th>Fecha</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>
   `;
@@ -538,6 +687,7 @@ function renderDetalle(){
 
 function renderAll(){
   renderMeses();
+  renderFunnelTitulo();
   renderFuentePills();
   renderStages();
   renderDetalle();
@@ -565,9 +715,18 @@ async function cargar(){
     if (!res.ok) throw new Error("HTTP " + res.status);
     const nuevo = await res.json();
     dataset = nuevo;
-    if (!mesActual || !dataset.meses[mesActual]){
-      const meses = Object.keys(dataset.meses).sort();
+    if (!mesActual || !dataset.dias || !diasDelMes(mesActual).length){
+      const meses = [...mesesDisponibles()].sort();
       mesActual = meses[meses.length-1];
+    }
+    const dias = Object.keys(dataset.dias || {}).sort();
+    const inputDesde = document.getElementById("rangoDesde");
+    const inputHasta = document.getElementById("rangoHasta");
+    if (dias.length){
+      inputDesde.min = dias[0];
+      inputDesde.max = dias[dias.length-1];
+      inputHasta.min = dias[0];
+      inputHasta.max = dias[dias.length-1];
     }
     renderAll();
     actualizarLive(true, dataset.generado);
@@ -578,6 +737,7 @@ async function cargar(){
 }
 
 initCalendarEvents();
+initModoEvents();
 cargar();
 setInterval(cargar, 60000);
 </script>

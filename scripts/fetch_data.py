@@ -4,8 +4,9 @@ Trae los datos del embudo comercial de Xsell:
   - Contactos y Negocios (deals) desde HubSpot
   - Prospectos de LinkedIn (método PACS) desde el repo xsell-linkedin en GitHub
 
-Junta todo, lo agrupa por mes y por fuente (Comercial / MKT Pauta / LinkedIn PACS),
-y guarda el resultado en data/funnel.json para que el dashboard lo lea.
+Junta todo y lo agrupa por DÍA y por fuente (Comercial / MKT Pauta / LinkedIn PACS).
+El dashboard arma los totales por mes o por cualquier rango de fechas sumando esos
+días, así que aquí no hace falta pensar en meses: solo en días.
 
 También arma la lista de "clientes antiguos" (negocios Descartados en HubSpot) que
 usa la pestaña de Email Marketing para las campañas de reenganche (Email MKT).
@@ -90,14 +91,36 @@ def hubspot_paginate(path, properties, extra_params=""):
     return results
 
 
-def month_key(iso_date_str):
-    """'2026-09-05T12:00:00Z' -> '2026-09'. Devuelve None si no se puede leer."""
+def dia_key(iso_date_str):
+    """'2026-09-05T12:00:00Z' -> '2026-09-05'. Devuelve None si no se puede leer."""
     if not iso_date_str:
         return None
     try:
-        return iso_date_str[:7]
+        return iso_date_str[:10]
     except Exception:  # noqa: BLE001
         return None
+
+
+def canal_de_contacto(cprops):
+    """
+    De qué canal vino el contacto, para clasificarlo en Comercial / MKT Pauta / etc.
+
+    Normalmente viene del campo "canal" (lo llena el equipo a mano). Pero los leads
+    que entran solos por el formulario pagado de Facebook/Meta muchas veces no
+    tienen ese campo lleno, así que si HubSpot registró que llegaron por publicidad
+    paga de Facebook (hs_analytics_source = PAID_SOCIAL + Facebook), los tratamos
+    igual que si dijeran canal="Facebook" (que ya mapea a "MKT Pauta").
+    """
+    canal = cprops.get("canal")
+    if canal:
+        return canal
+    origen_pagado_facebook = (
+        cprops.get("hs_analytics_source") == "PAID_SOCIAL"
+        and cprops.get("hs_analytics_source_data_1") == "Facebook"
+    )
+    if origen_pagado_facebook:
+        return "Facebook"
+    return None
 
 
 def load_config():
@@ -109,7 +132,10 @@ def fetch_hubspot_contacts():
     log("descargando contactos de HubSpot...")
     contacts = hubspot_paginate(
         "/crm/v3/objects/contacts",
-        ["canal", "createdate", "firstname", "lastname", "email"],
+        [
+            "canal", "createdate", "firstname", "lastname", "email",
+            "hs_analytics_source", "hs_analytics_source_data_1",
+        ],
     )
     log(f"  {len(contacts)} contactos descargados")
     return contacts
@@ -152,34 +178,34 @@ def build_dataset():
 
     contact_by_id = {c["id"]: c for c in contacts}
 
-    # meses -> fuente -> nivel -> contador
+    # día -> fuente -> nivel -> contador
     counts = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
-    # meses -> lista de filas de detalle (para la tabla de abajo)
+    # día -> lista de filas de detalle (para la tabla de abajo)
     detalle = defaultdict(list)
-    # todos los meses que aparecen en los datos
-    meses_vistos = set()
+    # todos los días que aparecen en los datos
+    dias_vistos = set()
     # negocios "Descartados" (closedlost) -> insumo para Email MKT (clientes antiguos)
     clientes_antiguos = []
 
-    # --- Contactos / Leads: uno por contacto, según su mes de creación ---
+    # --- Contactos / Leads: uno por contacto, según su día de creación ---
     for c in contacts:
         props = c.get("properties", {})
-        canal = props.get("canal")
+        canal = canal_de_contacto(props)
         fuente = canal_a_fuente.get(canal, fuente_default)
-        mes = month_key(props.get("createdate"))
-        if not mes:
+        dia = dia_key(props.get("createdate"))
+        if not dia:
             continue
-        meses_vistos.add(mes)
-        counts[mes][fuente]["contactos"] += 1
+        dias_vistos.add(dia)
+        counts[dia][fuente]["contactos"] += 1
 
     # --- Reuniones / Propuestas / Ventas: según el negocio y su etapa actual ---
     for d in deals:
         props = d.get("properties", {})
         dealstage = props.get("dealstage")
-        mes = month_key(props.get("createdate"))
-        if not mes:
+        dia = dia_key(props.get("createdate"))
+        if not dia:
             continue
-        meses_vistos.add(mes)
+        dias_vistos.add(dia)
 
         assoc = d.get("associations", {}).get("contacts", {}).get("results", [])
         canal = None
@@ -189,7 +215,7 @@ def build_dataset():
             contact = contact_by_id.get(assoc[0].get("id"))
             if contact:
                 cprops = contact.get("properties", {})
-                canal = cprops.get("canal")
+                canal = canal_de_contacto(cprops)
                 contacto_nombre = " ".join(
                     filter(None, [cprops.get("firstname"), cprops.get("lastname")])
                 ) or cprops.get("email")
@@ -199,10 +225,11 @@ def build_dataset():
         nivel = etapa_hs_a_nivel.get(dealstage)
         if nivel is not None:
             for i in range(1, nivel + 1):  # 1=reuniones,2=propuestas,3=ventas
-                counts[mes][fuente][NIVELES[i]] += 1
+                counts[dia][fuente][NIVELES[i]] += 1
 
-        detalle[mes].append(
+        detalle[dia].append(
             {
+                "fecha": dia,
                 "fuente": fuente,
                 "contacto": contacto_nombre or "(sin contacto)",
                 "negocio": props.get("dealname") or "(sin nombre de negocio)",
@@ -227,15 +254,16 @@ def build_dataset():
     # --- LinkedIn PACS: cada prospecto cuenta como Contacto, y avanza según su etapa ---
     for p in pacs:
         etapa = p.get("etapa", "Identificado")
-        mes = month_key(p.get("actualizado")) or datetime.now(timezone.utc).strftime("%Y-%m")
-        meses_vistos.add(mes)
+        dia = dia_key(p.get("actualizado")) or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        dias_vistos.add(dia)
         fuente = "LinkedIn PACS"
         nivel = etapa_pacs_a_nivel.get(etapa, 0)
-        counts[mes][fuente]["contactos"] += 1
+        counts[dia][fuente]["contactos"] += 1
         for i in range(1, nivel + 1):
-            counts[mes][fuente][NIVELES[i]] += 1
-        detalle[mes].append(
+            counts[dia][fuente][NIVELES[i]] += 1
+        detalle[dia].append(
             {
+                "fecha": dia,
                 "fuente": fuente,
                 "contacto": p.get("nombre", "(sin nombre)"),
                 "negocio": None,
@@ -245,29 +273,29 @@ def build_dataset():
             }
         )
 
-    # Asegura que el mes actual siempre aparezca aunque no tenga datos todavía
-    meses_vistos.add(datetime.now(timezone.utc).strftime("%Y-%m"))
+    # Asegura que el día de hoy siempre aparezca aunque no tenga datos todavía
+    dias_vistos.add(datetime.now(timezone.utc).strftime("%Y-%m-%d"))
 
-    meses_out = {}
-    for mes in sorted(meses_vistos):
+    dias_out = {}
+    for dia in sorted(dias_vistos):
         fuentes_out = {}
         total = {"contactos": 0, "reuniones": 0, "propuestas": 0, "ventas": 0}
         for fuente in FUENTES:
-            vals = counts.get(mes, {}).get(fuente, {})
+            vals = counts.get(dia, {}).get(fuente, {})
             fila = {n: vals.get(n, 0) for n in NIVELES}
             fuentes_out[fuente] = fila
             for n in NIVELES:
                 total[n] += fila[n]
-        meses_out[mes] = {
+        dias_out[dia] = {
             "fuentes": fuentes_out,
             "total": total,
-            "metas": metas_default,
-            "detalle": sorted(detalle.get(mes, []), key=lambda r: (NIVEL_ORDEN[r["nivel"]], r["fuente"])),
+            "detalle": sorted(detalle.get(dia, []), key=lambda r: (NIVEL_ORDEN[r["nivel"]], r["fuente"])),
         }
 
     return {
         "generado": datetime.now(timezone.utc).isoformat(),
-        "meses": meses_out,
+        "dias": dias_out,
+        "metas_mensuales_default": metas_default,
         "clientes_antiguos": clientes_antiguos,
     }
 
