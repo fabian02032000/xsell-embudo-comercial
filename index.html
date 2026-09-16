@@ -79,6 +79,59 @@
   .pill:hover{border-color:#3d3d48;color:var(--text);}
   .pill.active{background:var(--text);color:#0f0f12;border-color:var(--text);}
 
+  .cal-picker{position:relative;display:inline-block;}
+  .cal-trigger{
+    display:inline-flex;align-items:center;gap:8px;
+    border:1.5px solid var(--border);
+    background:var(--panel-2);
+    color:var(--text);
+    padding:9px 16px;
+    border-radius:10px;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
+    font-family:inherit;
+    transition:border-color .12s ease;
+  }
+  .cal-trigger:hover{border-color:#3d3d48;}
+  .cal-trigger .cal-ico{font-size:15px;}
+  .cal-trigger .cal-chevron{color:var(--text-faint);font-size:11px;margin-left:2px;}
+  .cal-popup{
+    position:absolute;top:calc(100% + 8px);left:0;z-index:20;
+    background:var(--panel-2);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:14px;
+    width:280px;
+    box-shadow:0 12px 32px rgba(0,0,0,.45);
+    display:none;
+  }
+  .cal-popup.open{display:block;}
+  .cal-popup-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;}
+  .cal-popup-head span{font-size:14px;font-weight:700;}
+  .cal-nav{
+    width:28px;height:28px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text);
+    font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-family:inherit;
+  }
+  .cal-nav:hover{border-color:#3d3d48;}
+  .cal-nav:disabled{opacity:.3;cursor:default;}
+  .cal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;}
+  .cal-cell{
+    border:1.5px solid var(--border);
+    background:transparent;
+    color:var(--text-muted);
+    padding:9px 0;
+    border-radius:9px;
+    font-size:13px;
+    font-weight:600;
+    cursor:pointer;
+    font-family:inherit;
+    transition:all .12s ease;
+  }
+  .cal-cell:hover:not(:disabled){border-color:#3d3d48;color:var(--text);}
+  .cal-cell.active{background:var(--text);color:#0f0f12;border-color:var(--text);}
+  .cal-cell:disabled{opacity:.28;cursor:default;}
+
   .fuente-pill{
     border:1.5px solid var(--border);
     background:transparent;
@@ -190,7 +243,21 @@
 
   <div class="card">
     <div class="month-label">Seleccionar mes</div>
-    <div class="pill-row" id="mesRow"></div>
+    <div class="cal-picker" id="calPicker">
+      <button class="cal-trigger" id="calTrigger" type="button">
+        <span class="cal-ico">📅</span>
+        <span id="calTriggerLabel">—</span>
+        <span class="cal-chevron">▾</span>
+      </button>
+      <div class="cal-popup" id="calPopup">
+        <div class="cal-popup-head">
+          <button class="cal-nav" id="calPrevYear" type="button">‹</button>
+          <span id="calYearLabel">—</span>
+          <button class="cal-nav" id="calNextYear" type="button">›</button>
+        </div>
+        <div class="cal-grid" id="calGrid"></div>
+      </div>
+    </div>
   </div>
 
   <div class="card">
@@ -241,16 +308,62 @@ function pct(n, meta){
   return Math.max(0, Math.min(100, Math.round((n/meta)*100)));
 }
 
+const MESES_ABREV = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Set","Oct","Nov","Dic"];
+let calViewYear = null;
+
 function renderMeses(){
-  const row = document.getElementById("mesRow");
-  row.innerHTML = "";
+  if (calViewYear === null && mesActual){
+    calViewYear = Number(mesActual.split("-")[0]);
+  }
+  const label = document.getElementById("calTriggerLabel");
+  if (mesActual) label.textContent = etiquetaMes(mesActual);
+  renderCalGrid();
+}
+
+function renderCalGrid(){
   const meses = Object.keys(dataset.meses).sort();
-  meses.forEach(m=>{
+  const anios = [...new Set(meses.map(m => Number(m.split("-")[0])))].sort((a,b)=>a-b);
+  if (calViewYear === null) calViewYear = anios[anios.length-1];
+
+  document.getElementById("calYearLabel").textContent = calViewYear;
+  document.getElementById("calPrevYear").disabled = calViewYear <= anios[0];
+  document.getElementById("calNextYear").disabled = calViewYear >= anios[anios.length-1];
+
+  const grid = document.getElementById("calGrid");
+  grid.innerHTML = "";
+  for (let mo = 1; mo <= 12; mo++){
+    const key = `${calViewYear}-${String(mo).padStart(2,"0")}`;
+    const disponible = !!dataset.meses[key];
     const btn = document.createElement("button");
-    btn.className = "pill" + (m === mesActual ? " active" : "");
-    btn.textContent = etiquetaMes(m);
-    btn.onclick = ()=>{ mesActual = m; renderAll(); };
-    row.appendChild(btn);
+    btn.className = "cal-cell" + (key === mesActual ? " active" : "");
+    btn.textContent = MESES_ABREV[mo-1];
+    btn.disabled = !disponible;
+    if (disponible){
+      btn.onclick = ()=>{
+        mesActual = key;
+        document.getElementById("calPopup").classList.remove("open");
+        renderAll();
+      };
+    }
+    grid.appendChild(btn);
+  }
+}
+
+function initCalendarEvents(){
+  const trigger = document.getElementById("calTrigger");
+  const popup = document.getElementById("calPopup");
+  const picker = document.getElementById("calPicker");
+  trigger.onclick = (e)=>{
+    e.stopPropagation();
+    popup.classList.toggle("open");
+  };
+  document.getElementById("calPrevYear").onclick = ()=>{ calViewYear--; renderCalGrid(); };
+  document.getElementById("calNextYear").onclick = ()=>{ calViewYear++; renderCalGrid(); };
+  document.addEventListener("click", (e)=>{
+    if (!picker.contains(e.target)) popup.classList.remove("open");
+  });
+  document.addEventListener("keydown", (e)=>{
+    if (e.key === "Escape") popup.classList.remove("open");
   });
 }
 
@@ -398,6 +511,7 @@ async function cargar(){
   }
 }
 
+initCalendarEvents();
 cargar();
 setInterval(cargar, 60000);
 </script>
