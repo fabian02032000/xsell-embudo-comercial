@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-18T21:11:15.433845+00:00",
+  "generado": "2026-09-18T23:23:12.906048+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -65795,6 +65795,15 @@
           "fuente": "MKT Pauta",
           "contacto": "Cristian",
           "negocio": "Inversiones ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-18",
+          "fuente": "MKT Pauta",
+          "contacto": "Paolo Gaspar",
+          "negocio": "Manufactura Emisa",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot"
