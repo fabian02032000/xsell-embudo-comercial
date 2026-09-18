@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-18T11:11:12.123465+00:00",
+  "generado": "2026-09-18T15:02:59.130424+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -65771,7 +65771,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 1,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -65784,12 +65784,31 @@
         }
       },
       "total": {
-        "contactos": 1,
+        "contactos": 2,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-09-18",
+          "fuente": "MKT Pauta",
+          "contacto": "Cristian",
+          "negocio": "Inversiones ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-18",
+          "fuente": "MKT Pauta",
+          "contacto": "Jim Brayan uceda Pisfil",
+          "negocio": "Metal Imoort Sac",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot"
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -72682,6 +72701,12 @@
       "negocio": "Northside",
       "contacto": "Luis Vasquez Medina",
       "email": "levm88123@gmail.com"
+    },
+    {
+      "deal_id": "65027329664",
+      "negocio": "Metal Imoort Sac",
+      "contacto": "Jim Brayan uceda Pisfil",
+      "email": "metalimportsac@gmail.com"
     }
   ]
 }
