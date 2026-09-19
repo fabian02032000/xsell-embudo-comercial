@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-18T23:23:12.906048+00:00",
+  "generado": "2026-09-19T01:29:15.590154+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -65818,6 +65818,35 @@
           "origen": "HubSpot"
         }
       ]
+    },
+    "2026-09-19": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
