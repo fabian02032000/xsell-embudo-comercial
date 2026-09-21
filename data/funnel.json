@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-21T19:41:05.808036+00:00",
+  "generado": "2026-09-21T22:51:46.108473+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -65880,7 +65880,7 @@
     "2026-09-21": {
       "fuentes": {
         "Comercial": {
-          "contactos": 0,
+          "contactos": 3,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -65899,7 +65899,7 @@
         }
       },
       "total": {
-        "contactos": 3,
+        "contactos": 6,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -65907,9 +65907,9 @@
       "detalle": [
         {
           "fecha": "2026-09-21",
-          "fuente": "MKT Pauta",
-          "contacto": "Raquel Alvarado",
-          "negocio": "Ascensores Eurolive",
+          "fuente": "Comercial",
+          "contacto": "Jean Pierre",
+          "negocio": "Sin datos - Hotel ",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot"
@@ -65975,6 +65975,24 @@
           "negocio": "Privateacher International ",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-21",
+          "fuente": "Comercial",
+          "contacto": "Micaela",
+          "negocio": "Sin datos registrados  ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-21",
+          "fuente": "MKT Pauta",
+          "contacto": "Raquel Alvarado",
+          "negocio": "Ascensores Eurolive",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot"
         }
       ]
@@ -72876,6 +72894,18 @@
       "negocio": "Metal Import Sac",
       "contacto": "Jim Brayan uceda Pisfil",
       "email": "metalimportsac@gmail.com"
+    },
+    {
+      "deal_id": "65076964200",
+      "negocio": "Ascensores Eurolive",
+      "contacto": "Raquel Alvarado",
+      "email": "gerencia@ascensoresmesac.com"
+    },
+    {
+      "deal_id": "65162403240",
+      "negocio": "Sin datos registrados  ",
+      "contacto": "Micaela",
+      "email": ""
     }
   ]
 }
