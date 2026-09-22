@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-22T20:07:31.476491+00:00",
+  "generado": "2026-09-22T22:57:20.917094+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -66009,7 +66009,7 @@
     "2026-09-22": {
       "fuentes": {
         "Comercial": {
-          "contactos": 1,
+          "contactos": 14,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -66028,7 +66028,7 @@
         }
       },
       "total": {
-        "contactos": 1,
+        "contactos": 14,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -66039,6 +66039,150 @@
           "fuente": "Comercial",
           "contacto": "Thony",
           "negocio": "Sin datos - Thony",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "atencionalcliente@jymgrupoinmobiliario.com",
+          "negocio": "JyM Grupo Inmobiliario",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "(sin contacto)",
+          "negocio": "Armonhy",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "contacto@inmobiliariacantabria.com",
+          "negocio": "Cantabria Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "contactenos@inmobiliariaeureka.com",
+          "negocio": "Inmobiliaria Eureka",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "contacto@grupozlatsu.com",
+          "negocio": "Grupo Zlatsu",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "ventas@ammainmobiliaria.com",
+          "negocio": "AMMA Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "milote@vivemasinmobiliaria.com",
+          "negocio": "Vivemás",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "contacto@urbalima.pe",
+          "negocio": "Urbalima",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "hola@cpinmobiliaria.com",
+          "negocio": "CP Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "(sin contacto)",
+          "negocio": "Jopesa Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "informes@inhouse.com.pe",
+          "negocio": "Inhouse Grupo Inmobiliario",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "contacto@armonicainmobiliaria.pe",
+          "negocio": "Armónica Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "comercial.ventas@grupodicon.com.pe",
+          "negocio": "Grupo Dicon",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "ventas@odima.pe",
+          "negocio": "Odima",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "ssolano@valico.pe",
+          "negocio": "Valico",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "MKT Pauta",
+          "contacto": "Miguel Galvez",
+          "negocio": "SGS SERVICE EIRL",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot"
