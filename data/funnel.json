@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-21T22:51:46.108473+00:00",
+  "generado": "2026-09-22T01:33:28.804828+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -65880,13 +65880,13 @@
     "2026-09-21": {
       "fuentes": {
         "Comercial": {
-          "contactos": 3,
+          "contactos": 4,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 3,
+          "contactos": 4,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -65899,12 +65899,21 @@
         }
       },
       "total": {
-        "contactos": 6,
+        "contactos": 8,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
       "detalle": [
+        {
+          "fecha": "2026-09-21",
+          "fuente": "Comercial",
+          "contacto": "Sin datos - Liliana padilla",
+          "negocio": "Sin datos - Liliana padilla",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
         {
           "fecha": "2026-09-21",
           "fuente": "Comercial",
@@ -65993,6 +66002,45 @@
           "negocio": "Ascensores Eurolive",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
+          "origen": "HubSpot"
+        }
+      ]
+    },
+    "2026-09-22": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 1,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 1,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": [
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "Thony",
+          "negocio": "Sin datos - Thony",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
           "origen": "HubSpot"
         }
       ]
