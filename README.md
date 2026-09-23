@@ -28,7 +28,7 @@ Página aparte (con inicio de sesión) para el equipo comercial, con 3 pestañas
 
 Las primeras dos pestañas se llenan solas cada 10 minutos, junto con el resto del embudo (mismo `data/funnel.json`, mismo robot).
 
-**Importante:** para que la pestaña "Correos Insight" funcione, el token de HubSpot de este repositorio (secreto `HUBSPOT_TOKEN`) necesita además el permiso `crm.objects.emails.read` (Configuración → Integraciones → Apps privadas → tu app → pestaña "Scopes" → activar `crm.objects.emails.read` → guardar). Si falta, esa pestaña muestra "Aún no se ha ejecutado la primera actualización de este dato" pero el resto del dashboard sigue funcionando normal.
+**Importante:** para que la pestaña "Correos Insight" funcione, el token de HubSpot de este repositorio (secreto `HUBSPOT_TOKEN`) necesita además uno de estos permisos: `crm.objects.emails.read`, `crm.schemas.emails.read` o `sales-email-read` (en HubSpot: Configuración → Cuenta y facturación → Aplicaciones anteriores → **`MCP-HUBSPOT`** → pestaña "Autenticación" → "Agregar permiso nuevo" → buscar "email" → elegir uno de esos tres → Actualizar). **Ojo:** la app que usa este repositorio es específicamente **`MCP-HUBSPOT`**, no `mcp_claude` ni `xsell-linkedin-github-actions` (hay 3 apps parecidas en esa cuenta de HubSpot; se confirmó cuál es la correcta con una prueba directa contra la API, no solo mirando el nombre). Si falta el permiso, la pestaña muestra "Aún no se ha ejecutado la primera actualización de este dato" pero el resto del dashboard sigue funcionando normal.
 
 ## Si algo se ve mal
 
