@@ -160,10 +160,15 @@ def fetch_all_ingrid_emails(from_email, since_date_str):
 
 
 def fetch_contact_by_email_map(email_ids):
-    """Para cada correo (engagement), busca el contacto asociado y trae su
-    nombre, empresa y rubro/industria. Best-effort: si algo falla, todos
-    quedan sin contacto asociado en vez de romper el script completo."""
-    contact_by_email_id = {eid: None for eid in email_ids}
+    """Para cada correo (engagement), busca los contactos asociados y trae su
+    nombre, empresa y rubro/industria. Un mismo correo puede tener más de un
+    contacto asociado en HubSpot (por ejemplo, el remitente Ingrid además del
+    destinatario real, sin un orden garantizado), así que se devuelve la
+    LISTA completa de contactos por correo -- pick_matching_contact() es quien
+    decide cuál es el destinatario real, comparando por su email. Best-effort:
+    si algo falla, todos quedan sin contactos asociados en vez de romper el
+    script completo."""
+    contact_by_email_id = {eid: [] for eid in email_ids}
     if not email_ids:
         return contact_by_email_id
 
@@ -175,9 +180,9 @@ def fetch_contact_by_email_map(email_ids):
             from_id = row.get("from", {}).get("id")
             contact_ids = [t.get("toObjectId") for t in row.get("to", [])]
             if from_id and contact_ids:
-                email_to_contact_ids[from_id] = contact_ids[0]
+                email_to_contact_ids[from_id] = contact_ids
 
-    all_contact_ids = sorted({str(cid) for cid in email_to_contact_ids.values()})
+    all_contact_ids = sorted({str(cid) for ids in email_to_contact_ids.values() for cid in ids})
 
     contact_info = {}
     contact_properties = ["firstname", "lastname", "email", "company", "rubro", "industry", "industria"]
@@ -187,10 +192,25 @@ def fetch_contact_by_email_map(email_ids):
         for c in resp.get("results", []):
             contact_info[c["id"]] = c.get("properties", {})
 
-    for eid, cid in email_to_contact_ids.items():
-        contact_by_email_id[eid] = contact_info.get(str(cid))
+    for eid, cids in email_to_contact_ids.items():
+        contact_by_email_id[eid] = [contact_info[str(cid)] for cid in cids if str(cid) in contact_info]
 
     return contact_by_email_id
+
+
+def pick_matching_contact(contact_props_list, to_email):
+    """Entre los contactos asociados a un correo, elige el que de verdad es el
+    destinatario (comparando el email). Sin esto, si HubSpot asocia también a
+    Ingrid (la remitente) al mismo engagement, se corre el riesgo de mostrarla
+    a ella como si fuera la destinataria."""
+    if not contact_props_list:
+        return None
+    to_email_norm = (to_email or "").strip().lower()
+    for props in contact_props_list:
+        if to_email_norm and (props.get("email") or "").strip().lower() == to_email_norm:
+            return props
+    # Ninguno coincide por email (raro): se usa el primero, como antes.
+    return contact_props_list[0]
 
 
 def guess_company_from_domain(email_address):
@@ -206,9 +226,9 @@ def guess_company_from_domain(email_address):
     return base.replace("-", " ").replace("_", " ").title()
 
 
-def build_email_detail_row(email_obj, contact_props):
+def build_email_detail_row(email_obj, contact_props_list):
     props = email_obj.get("properties", {})
-    contact_props = contact_props or {}
+    contact_props = pick_matching_contact(contact_props_list, props.get("hs_email_to_email")) or {}
 
     full_name = " ".join(
         x for x in [contact_props.get("firstname"), contact_props.get("lastname")] if x
@@ -275,7 +295,7 @@ def fetch_ingrid_emails_summary(email_cfg):
         emails = fetch_all_ingrid_emails(from_email, desde_fecha)
         email_ids = [e["id"] for e in emails]
         contact_by_email_id = fetch_contact_by_email_map(email_ids)
-        detalle = [build_email_detail_row(e, contact_by_email_id.get(e["id"])) for e in emails]
+        detalle = [build_email_detail_row(e, contact_by_email_id.get(e["id"], [])) for e in emails]
         detalle.sort(key=lambda r: (r["fecha"] or "", r["hora"] or ""), reverse=True)
 
         total = len(detalle)

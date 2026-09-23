@@ -144,10 +144,17 @@ fila_con_contacto = fd.build_email_detail_row(
             "hs_email_reply_count": "1",
         },
     },
-    {"firstname": "Marco", "lastname": "Ibañez", "company": "Constructora XYZ", "rubro": "Construcción"},
+    # HubSpot a veces asocia también a la remitente (Ingrid) al mismo engagement,
+    # en cualquier orden -- build_email_detail_row debe elegir al destinatario
+    # real (el que coincide por email), no al primero de la lista.
+    [
+        {"firstname": "Ingrid", "lastname": "Mio Vasquez", "email": "ingrid.mio@3eriza.com.pe"},
+        {"firstname": "Marco", "lastname": "Ibañez", "email": "gerente@constructoraxyz.pe", "company": "Constructora XYZ", "rubro": "Construcción"},
+    ],
 )
 assert fila_con_contacto["id"] == "999"
-assert fila_con_contacto["destinatario_nombre"] == "Marco Ibañez"
+assert fila_con_contacto["destinatario_nombre"] == "Marco Ibañez", \
+    "debe elegir al contacto que coincide por email (el destinatario real), no al primero de la lista (Ingrid)"
 assert fila_con_contacto["empresa"] == "Constructora XYZ"
 assert fila_con_contacto["empresa_adivinada"] is False
 assert fila_con_contacto["rubro"] == "Construcción"
@@ -166,7 +173,7 @@ fila_sin_contacto = fd.build_email_detail_row(
             "hs_email_status": "BOUNCED",
         },
     },
-    None,
+    [],
 )
 assert fila_sin_contacto["id"] == "998"
 assert fila_sin_contacto["destinatario_nombre"] is None
