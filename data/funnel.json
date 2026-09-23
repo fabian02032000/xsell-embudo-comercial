@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-23T12:48:15.808743+00:00",
+  "generado": "2026-09-23T13:09:12.458669+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -66207,7 +66207,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -66220,7 +66220,7 @@
         }
       },
       "total": {
-        "contactos": 5,
+        "contactos": 6,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -73298,7 +73298,8 @@
     "tasa_respuestas": 0.0,
     "cobertura_rubro": 0.0,
     "detalle": [],
-    "disponible": false
+    "disponible": false,
+    "error": "HTTP 403 on /crm/v3/objects/emails/search: {\"status\":\"error\",\"message\":\"This app hasn't been granted all required scopes to make this call. Read more about required scopes here: https://developers.hubspot.com/scopes.\",\"correlationId\":\"01a0ce62-6e6e-7665-a0c5-4c3b982b5986\",\"errors\":[{\"message\":\"One or more of the following scopes are required.\",\"context\":{\"requiredGranularScopes\":[\"crm.schemas.emails.read\",\"crm.objects.emails.read\",\"sales-email-read\"]}}],\"links\":{\"scopes\":\"https://developers.hubs"
   },
   "audiencia_tibia": {
     "excluir_estadios": [
