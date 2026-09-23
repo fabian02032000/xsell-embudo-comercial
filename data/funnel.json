@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-23T17:15:36.560276+00:00",
+  "generado": "2026-09-23T20:31:30.622274+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -66297,6 +66297,15 @@
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-23",
+          "fuente": "MKT Pauta",
+          "contacto": "Renato Sánchez",
+          "negocio": "Reasam Corredor de Seguros",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot"
         }
       ]
     }
@@ -73287,6 +73296,12 @@
       "negocio": "Villa MBC Logística",
       "contacto": "(sin contacto)",
       "email": ""
+    },
+    {
+      "deal_id": "65204543076",
+      "negocio": "Reasam Corredor de Seguros",
+      "contacto": "Renato Sánchez",
+      "email": "corredor@renatosanchez-seguros.com"
     }
   ],
   "correos_insight": {
@@ -73295,7 +73310,7 @@
     "total_enviados": 442,
     "tasa_apertura": 64.5,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 29.4,
+    "tasa_respuestas": 29.6,
     "cobertura_rubro": 0.6,
     "detalle": [
       {
@@ -73598,9 +73613,9 @@
         "hora": "23:07",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 2,
+        "aperturas": 5,
         "clics": 0,
-        "respuestas": 0
+        "respuestas": 1
       },
       {
         "id": "116904634440",
