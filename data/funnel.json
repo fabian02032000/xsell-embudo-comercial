@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-22T22:57:20.917094+00:00",
+  "generado": "2026-09-23T01:25:44.923875+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -66015,7 +66015,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -66028,7 +66028,7 @@
         }
       },
       "total": {
-        "contactos": 14,
+        "contactos": 16,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -66039,6 +66039,15 @@
           "fuente": "Comercial",
           "contacto": "Thony",
           "negocio": "Sin datos - Thony",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "Diomedez Huaman Pastor",
+          "negocio": "Inoved Operaciones & Logistica EIRL",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot"
@@ -66188,6 +66197,35 @@
           "origen": "HubSpot"
         }
       ]
+    },
+    "2026-09-23": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
