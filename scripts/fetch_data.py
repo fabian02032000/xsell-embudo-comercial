@@ -594,23 +594,29 @@ def build_dataset():
 
 
 def diagnosticar_token():
-    """Diagnóstico temporal: le pregunta a HubSpot a qué app pertenece este token
-    y qué permisos tiene REALMENTE, según HubSpot (no según lo que vemos en la
-    pantalla de la app). Esto es para resolver una duda puntual sobre cuál de las
-    apps privadas es la que usa este repositorio; se puede borrar esta función
-    (y su llamada en main()) una vez resuelto."""
+    """Diagnóstico temporal: prueba llamadas a endpoints que solo funcionan si el
+    token tiene ciertos permisos, para deducir cuál app privada de HubSpot es
+    realmente la que usa este repositorio (hay más de una app con permisos
+    parecidos y necesitamos saber cuál). Se puede borrar esta función (y su
+    llamada en main()) una vez resuelto."""
     if not HUBSPOT_TOKEN:
         return
-    try:
-        url = f"{HUBSPOT_BASE}/oauth/v1/access-tokens/{HUBSPOT_TOKEN}"
-        with urllib.request.urlopen(url, timeout=15) as resp:
-            info = json.loads(resp.read().decode("utf-8"))
-        log(
-            "DIAGNOSTICO TOKEN -> hub_id=%s app_id=%s user=%s scopes=%s"
-            % (info.get("hub_id"), info.get("app_id"), info.get("user"), info.get("scopes"))
-        )
-    except Exception as e:  # noqa: BLE001
-        log(f"DIAGNOSTICO TOKEN -> no se pudo consultar: {e}")
+    headers = {"Authorization": f"Bearer {HUBSPOT_TOKEN}"}
+    pruebas = [
+        ("crm.objects.companies.read (solo mcp_claude lo tiene)", "/crm/v3/objects/companies?limit=1"),
+        ("crm.objects.emails.read", "/crm/v3/objects/emails?limit=1"),
+    ]
+    for etiqueta, path in pruebas:
+        try:
+            req = urllib.request.Request(f"{HUBSPOT_BASE}{path}", headers=headers)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                resp.read()
+            log(f"DIAGNOSTICO TOKEN -> {etiqueta}: OK (el token SI tiene este permiso)")
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8", errors="ignore")[:200]
+            log(f"DIAGNOSTICO TOKEN -> {etiqueta}: HTTP {e.code} (el token NO tiene este permiso) {body}")
+        except Exception as e:  # noqa: BLE001
+            log(f"DIAGNOSTICO TOKEN -> {etiqueta}: error {e}")
 
 
 def main():
