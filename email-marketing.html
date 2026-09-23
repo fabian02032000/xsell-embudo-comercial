@@ -126,7 +126,7 @@
   .btn-primary:hover{opacity:.9;}
 
   /* --- Prospect cards --- */
-  #listWrap{display:flex;flex-direction:column;gap:10px;}
+  #mktListWrap{display:flex;flex-direction:column;gap:10px;}
   .prospecto{
     background:var(--panel);border:1px solid var(--border);border-radius:12px;overflow:hidden;
   }
@@ -151,9 +151,37 @@
     font-size:11px;font-weight:700;padding:4px 10px;border-radius:99px;white-space:nowrap;flex-shrink:0;
   }
   .status.Programado{color:var(--programado);background:var(--programado-bg);}
+  .status.Procesando{color:var(--programado);background:var(--programado-bg);}
   .status.Enviado{color:var(--enviado);background:var(--enviado-bg);}
   .status.Rebotado{color:var(--rebotado);background:var(--rebotado-bg);}
+  .status.Fallido{color:var(--rebotado);background:var(--rebotado-bg);}
   .status.Respondido{color:var(--respondido);background:var(--respondido-bg);}
+
+  /* --- Vistas con datos reales (Correos Insight / Email Marketing Pauta) --- */
+  .view-intro{color:var(--text-muted);font-size:13px;margin:0 0 16px;line-height:1.5;}
+  .kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:14px;}
+  .kpi-cell{
+    background:var(--panel);border:1px solid var(--border);border-radius:10px;
+    padding:14px 14px;display:flex;flex-direction:column;gap:4px;
+  }
+  .kpi-cell .n{font-size:24px;font-weight:800;line-height:1;color:var(--accent);}
+  .kpi-cell .lbl{font-size:10.5px;color:var(--text-faint);font-weight:600;text-transform:uppercase;letter-spacing:.03em;}
+  .callout{
+    background:var(--panel-2);border:1px solid var(--border);border-left:3px solid var(--accent);
+    border-radius:9px;padding:12px 14px;font-size:12.5px;color:var(--text-muted);line-height:1.5;margin-bottom:14px;
+  }
+  .pill-soft{
+    display:inline-block;padding:3px 10px;border-radius:999px;font-size:11px;font-weight:700;
+    background:var(--panel-2);border:1px solid var(--border);color:var(--text-muted);white-space:nowrap;
+  }
+  .table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:10px;margin-top:4px;}
+  table{width:100%;border-collapse:collapse;font-size:12.5px;}
+  thead th{
+    text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-faint);
+    font-weight:700;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel-2);white-space:nowrap;
+  }
+  tbody td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
 
   .remitente-tag{
     font-size:11.5px;color:var(--text-faint);white-space:nowrap;flex-shrink:0;
@@ -245,23 +273,44 @@
   </header>
 
   <div class="modo-row" id="modoRow">
-    <div class="modo-tab active" data-modo="insight">📇 Email con Insight</div>
+    <div class="modo-tab active" data-modo="insight">📇 Correos Insight</div>
+    <div class="modo-tab" data-modo="pauta">📣 Email Marketing (Pauta)</div>
     <div class="modo-tab" data-modo="mkt">🔄 Email MKT (clientes antiguos)</div>
   </div>
 
   <div id="viewInsight">
-    <div class="rubro-row" id="rubroRow"></div>
-
-    <div class="toolbar">
-      <div style="color:var(--text-muted);font-size:13px;" id="resultCount"></div>
-      <button class="btn-primary" id="addBtn">+ Nuevo prospecto</button>
+    <p class="view-intro">Correos "insight" que Ingrid envía uno por uno desde HubSpot — datos reales de HubSpot, sin tipificar a mano. Se actualiza solo cada 10 minutos.</p>
+    <div class="kpi-row" id="insightKpiRow"></div>
+    <div class="callout" id="insightCallout"></div>
+    <button class="btn-sm" type="button" id="insightToggle" aria-expanded="false">▸ Ver detalle de cada correo</button>
+    <div class="table-wrap" id="insightTableWrap" style="display:none;">
+      <table>
+        <thead>
+          <tr>
+            <th>Fecha</th><th>Hora</th><th>Destinatario</th><th>Empresa / Rubro</th>
+            <th>Asunto</th><th>Estado</th><th>Apert.</th><th>Clics</th><th>Resp.</th>
+          </tr>
+        </thead>
+        <tbody id="insightTableBody"></tbody>
+      </table>
     </div>
+  </div>
 
-    <div id="listWrap"></div>
+  <div id="viewPauta" style="display:none;">
+    <p class="view-intro">Contactos que llegaron por formulario/pauta y sí consideramos potenciales para un reenvío "tibio" por correo, según el Estadio del Lead que tipifica Ingrid — la Urgencia se usa aparte, para decidir qué contenido enviarle a cada quien. Se actualiza solo cada 10 minutos.</p>
+    <div class="kpi-row" id="pautaKpiRow"></div>
+    <div class="callout" id="pautaCallout"></div>
+    <button class="btn-sm" type="button" id="pautaToggle" aria-expanded="false">▸ Ver contactos</button>
+    <div class="table-wrap" id="pautaTableWrap" style="display:none;">
+      <table>
+        <thead><tr><th>Nombre</th><th>Correo</th><th>Empresa</th><th>Estadio</th><th>Urgencia</th></tr></thead>
+        <tbody id="pautaTableBody"></tbody>
+      </table>
+    </div>
   </div>
 
   <div id="viewMkt" style="display:none;">
-    <p style="color:var(--text-muted);font-size:13px;margin-top:0;">
+    <p class="view-intro">
       Negocios marcados como <strong>Descartados</strong> en HubSpot — no son clientes activos, así que son buenos candidatos para reenganchar por correo. Esta lista se actualiza sola cada 10 minutos.
     </p>
     <div class="toolbar">
@@ -382,11 +431,11 @@
   const auth = getAuth(app);
   const db = getFirestore(app);
 
-  const RUBROS = ["Todos", "Inmobiliaria", "Textil", "Automotriz", "E-commerce"];
-  let rubroActivo = "Todos";
   let modoActivo = "insight";
   let prospectos = [];
   let clientesAntiguos = [];
+  let correosInsight = null;
+  let audienciaTibia = null;
   let gruposAbiertos = new Set();
   let unsub = null;
 
@@ -419,7 +468,7 @@
       appEl.style.display = "block";
       document.getElementById("userEmail").textContent = user.email;
       iniciarEscucha();
-      cargarClientesAntiguos();
+      cargarDatosFunnel();
     } else {
       loginScreen.style.display = "block";
       appEl.style.display = "none";
@@ -433,47 +482,128 @@
     const q = query(collection(db, "prospectos"), orderBy("creado_en", "desc"));
     unsub = onSnapshot(q, (snap) => {
       prospectos = snap.docs.map(d => ({ id: d.id, ...d.data() }));
-      render();
       renderMkt();
     }, (err) => {
-      document.getElementById("listWrap").innerHTML =
+      document.getElementById("mktListWrap").innerHTML =
         `<div class="empty">No se pudo cargar la información (${err.message}).</div>`;
     });
   }
 
-  // ---------- Clientes antiguos (desde data/funnel.json, generado por HubSpot) ----------
-  async function cargarClientesAntiguos() {
+  // ---------- Correos Insight / Audiencia tibia / Clientes antiguos (desde data/funnel.json, generado por HubSpot) ----------
+  async function cargarDatosFunnel() {
     try {
       const res = await fetch("data/funnel.json", { cache: "no-store" });
       const data = await res.json();
       clientesAntiguos = data.clientes_antiguos || [];
+      correosInsight = data.correos_insight || null;
+      audienciaTibia = data.audiencia_tibia || null;
     } catch (e) {
       clientesAntiguos = [];
+      correosInsight = null;
+      audienciaTibia = null;
     }
     renderMkt();
+    renderCorreosInsight();
+    renderAudienciaTibia();
   }
 
-  // ---------- Cambio de pestaña (Insight / Email MKT) ----------
+  // ---------- Cambio de pestaña (Correos Insight / Email Marketing Pauta / Email MKT) ----------
   document.querySelectorAll(".modo-tab").forEach(el => {
     el.addEventListener("click", () => {
       modoActivo = el.dataset.modo;
       document.querySelectorAll(".modo-tab").forEach(t => t.classList.toggle("active", t === el));
       document.getElementById("viewInsight").style.display = modoActivo === "insight" ? "" : "none";
+      document.getElementById("viewPauta").style.display = modoActivo === "pauta" ? "" : "none";
       document.getElementById("viewMkt").style.display = modoActivo === "mkt" ? "" : "none";
     });
   });
 
-  // ---------- Render de pestañas de rubro ----------
-  function renderRubros() {
-    const row = document.getElementById("rubroRow");
-    const soloInsight = prospectos.filter(p => p.origen !== "HubSpot");
-    row.innerHTML = RUBROS.map(r => {
-      const count = r === "Todos" ? soloInsight.length : soloInsight.filter(p => p.rubro === r).length;
-      return `<div class="rubro-pill ${r===rubroActivo?'active':''}" data-rubro="${r}">${r} <span class="count">${count}</span></div>`;
-    }).join("");
-    row.querySelectorAll(".rubro-pill").forEach(el => {
-      el.addEventListener("click", () => { rubroActivo = el.dataset.rubro; render(); });
+  // ---------- Mostrar/ocultar el detalle (tabla) de Correos Insight / Pauta ----------
+  function armarToggle(btnId, wrapId, textoCerrado, textoAbierto) {
+    const btn = document.getElementById(btnId);
+    const wrap = document.getElementById(wrapId);
+    btn.addEventListener("click", () => {
+      const abierto = wrap.style.display !== "none";
+      wrap.style.display = abierto ? "none" : "block";
+      btn.textContent = abierto ? textoCerrado : textoAbierto;
+      btn.setAttribute("aria-expanded", String(!abierto));
     });
+  }
+  armarToggle("insightToggle", "insightTableWrap", "▸ Ver detalle de cada correo", "▾ Ocultar detalle de cada correo");
+  armarToggle("pautaToggle", "pautaTableWrap", "▸ Ver contactos", "▾ Ocultar contactos");
+
+  // ---------- Render de Correos Insight (datos reales de HubSpot) ----------
+  function renderCorreosInsight() {
+    const kpiRow = document.getElementById("insightKpiRow");
+    const callout = document.getElementById("insightCallout");
+    const tbody = document.getElementById("insightTableBody");
+    if (!kpiRow) return;
+
+    if (!correosInsight || !correosInsight.disponible) {
+      kpiRow.innerHTML = `<div class="kpi-cell"><div class="n">—</div><div class="lbl">Correos de Ingrid</div></div>`;
+      callout.textContent = 'Aún no se ha ejecutado la primera actualización de este dato, o falta activar el permiso "crm.objects.emails.read" en el token de HubSpot de este repositorio (ver README.md).';
+      tbody.innerHTML = "";
+      return;
+    }
+
+    kpiRow.innerHTML = `
+      <div class="kpi-cell"><div class="n">${correosInsight.total_enviados}</div><div class="lbl">Enviados</div></div>
+      <div class="kpi-cell"><div class="n">${correosInsight.tasa_apertura}%</div><div class="lbl">Tasa de apertura</div></div>
+      <div class="kpi-cell"><div class="n">${correosInsight.tasa_clics}%</div><div class="lbl">Tasa de clics</div></div>
+      <div class="kpi-cell"><div class="n">${correosInsight.tasa_respuestas}%</div><div class="lbl">Tasa de respuestas</div></div>
+    `;
+    callout.textContent = `El "rubro/empresa" solo está disponible para ${correosInsight.cobertura_rubro}% de los destinatarios (los que ya existían en HubSpot). Para el resto se muestra una empresa "adivinada" a partir del dominio del correo, marcada con *.`;
+
+    if (!correosInsight.detalle.length) {
+      tbody.innerHTML = `<tr><td colspan="9" class="empty">Todavía no hay correos registrados en este rango.</td></tr>`;
+      return;
+    }
+    tbody.innerHTML = correosInsight.detalle.map(r => `
+      <tr>
+        <td>${r.fecha || "—"}</td>
+        <td>${r.hora || "—"}</td>
+        <td>${escapeHtml(r.destinatario_nombre) || escapeHtml(r.destinatario_email)}</td>
+        <td>${escapeHtml(r.empresa) || "—"}${r.empresa_adivinada ? " *" : ""}</td>
+        <td>${escapeHtml(r.asunto)}</td>
+        <td><span class="status ${r.estado}">${escapeHtml(r.estado)}</span></td>
+        <td>${r.aperturas}</td>
+        <td>${r.clics}</td>
+        <td>${r.respuestas}</td>
+      </tr>
+    `).join("");
+  }
+
+  // ---------- Render de Email Marketing (Pauta) — audiencia tibia ----------
+  function renderAudienciaTibia() {
+    const kpiRow = document.getElementById("pautaKpiRow");
+    const callout = document.getElementById("pautaCallout");
+    const tbody = document.getElementById("pautaTableBody");
+    if (!kpiRow) return;
+
+    if (!audienciaTibia) {
+      kpiRow.innerHTML = `<div class="kpi-cell"><div class="n">—</div><div class="lbl">Contactos potenciales</div></div>`;
+      callout.textContent = "Aún no se ha ejecutado la primera actualización de este dato.";
+      tbody.innerHTML = "";
+      return;
+    }
+
+    kpiRow.innerHTML = `<div class="kpi-cell"><div class="n">${audienciaTibia.total}</div><div class="lbl">Contactos potenciales</div></div>`;
+    const excluidos = (audienciaTibia.excluir_estadios || []).join(" o ");
+    callout.textContent = `Se excluyen los contactos en Estadio ${excluidos || "no potencial"}, y los que aún no tienen Negocio o Estadio cargado en HubSpot (no se puede saber si son potenciales).`;
+
+    if (!audienciaTibia.detalle.length) {
+      tbody.innerHTML = `<tr><td colspan="5" class="empty">No hay contactos que cumplan el filtro todavía.</td></tr>`;
+      return;
+    }
+    tbody.innerHTML = audienciaTibia.detalle.map(r => `
+      <tr>
+        <td>${escapeHtml(r.nombre)}</td>
+        <td>${escapeHtml(r.correo) || "—"}</td>
+        <td>${escapeHtml(r.empresa) || "—"}</td>
+        <td><span class="pill-soft">${escapeHtml(r.estadio_lead)}</span></td>
+        <td>${r.nivel_urgencia ? `<span class="pill-soft">${escapeHtml(r.nivel_urgencia)}</span>` : "—"}</td>
+      </tr>
+    `).join("");
   }
 
   function escapeHtml(str) {
@@ -483,11 +613,11 @@
 
   function toggleFicha(id) {
     if (gruposAbiertos.has(id)) gruposAbiertos.delete(id); else gruposAbiertos.add(id);
-    render();
+    renderMkt();
   }
   window.toggleFicha = toggleFicha;
 
-  // Cuerpo de la ficha (desplegable) que comparten la vista Insight y Email MKT
+  // Cuerpo de la ficha (desplegable) que usan las tarjetas de Email MKT
   function fichaBodyHtml(p) {
     const fecha = p.fecha_envio ? p.fecha_envio : "—";
     return `
@@ -511,43 +641,6 @@
         <button class="btn-sm danger" onclick="event.stopPropagation(); borrarProspecto('${p.id}')">Eliminar</button>
       </div>
     `;
-  }
-
-  function render() {
-    renderRubros();
-    const wrap = document.getElementById("listWrap");
-    const soloInsight = prospectos.filter(p => p.origen !== "HubSpot");
-    const filtrados = rubroActivo === "Todos" ? soloInsight : soloInsight.filter(p => p.rubro === rubroActivo);
-    document.getElementById("resultCount").textContent =
-      `${filtrados.length} prospecto${filtrados.length === 1 ? "" : "s"}`;
-
-    if (!filtrados.length) {
-      wrap.innerHTML = `<div class="empty">No hay prospectos todavía en este rubro. Agrega el primero con "+ Nuevo prospecto".</div>`;
-      return;
-    }
-
-    wrap.innerHTML = filtrados.map(p => {
-      const abierto = gruposAbiertos.has(p.id);
-      const fecha = p.fecha_envio ? p.fecha_envio : "—";
-      return `
-        <div class="prospecto">
-          <div class="prospecto-head" onclick="toggleFicha('${p.id}')">
-            <span class="chev">${abierto ? "▾" : "▸"}</span>
-            <span class="rubro-tag ${p.rubro}">${p.rubro}</span>
-            <div class="head-main">
-              <div class="head-empresa">${escapeHtml(p.empresa) || "(sin nombre)"}</div>
-              <div class="head-contacto">${escapeHtml(p.contacto) || "(sin contacto)"}</div>
-            </div>
-            <span class="remitente-tag"><span class="remitente-dot ${p.remitente}"></span>${escapeHtml(p.remitente) || "—"}</span>
-            <span class="fecha-tag">${fecha}</span>
-            <span class="status ${p.estado}">${p.estado || "Programado"}</span>
-          </div>
-          <div class="prospecto-body ${abierto ? "open" : ""}">
-            ${fichaBodyHtml(p)}
-          </div>
-        </div>
-      `;
-    }).join("");
   }
 
   // ---------- Render de Email MKT (clientes antiguos de HubSpot) ----------
@@ -670,7 +763,6 @@
     document.getElementById("fEmail").readOnly = false;
   }
 
-  document.getElementById("addBtn").addEventListener("click", () => abrirModal(null));
   document.getElementById("cancelBtn").addEventListener("click", cerrarModal);
   modalOverlay.addEventListener("click", (e) => { if (e.target === modalOverlay) cerrarModal(); });
 
