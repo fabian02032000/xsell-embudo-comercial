@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-23T13:58:25.326080+00:00",
+  "generado": "2026-09-23T14:00:11.493438+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -73781,7 +73781,7 @@
       {
         "id": "116687226489",
         "destinatario_email": "antonio.x.torres@scania.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -73845,7 +73845,7 @@
       {
         "id": "115684229987",
         "destinatario_email": "antonio.x.torres@scania.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -73861,7 +73861,7 @@
       {
         "id": "115684202415",
         "destinatario_email": "antonio.x.torres@scania.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -73877,7 +73877,7 @@
       {
         "id": "115671025847",
         "destinatario_email": "antonio.x.torres@scania.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -74053,7 +74053,7 @@
       {
         "id": "115429454716",
         "destinatario_email": "antonio.x.torres@scania.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -74069,7 +74069,7 @@
       {
         "id": "115390907146",
         "destinatario_email": "antonio.x.torres@scania.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -74085,7 +74085,7 @@
       {
         "id": "115207906050",
         "destinatario_email": "antonio.x.torres@scania.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -74181,7 +74181,7 @@
       {
         "id": "115141273960",
         "destinatario_email": "gustavo.schon@scania.com;merlys.jimenez@scania.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -74437,7 +74437,7 @@
       {
         "id": "114611897944",
         "destinatario_email": "gustavo.schon@scania.com;merlys.jimenez@scania.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -74453,7 +74453,7 @@
       {
         "id": "114598182232",
         "destinatario_email": "gustavo.schon@scania.com;merlys.jimenez@scania.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -74469,7 +74469,7 @@
       {
         "id": "114176324172",
         "destinatario_email": "zoila.cortez@3eriza.com.pe;javierje.lavado.v@astara.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "3Eriza",
         "empresa_adivinada": true,
         "rubro": null,
@@ -74805,7 +74805,7 @@
       {
         "id": "112780823129",
         "destinatario_email": "gustavo.schon@scania.com;merlys.jimenez@scania.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -74869,7 +74869,7 @@
       {
         "id": "112123025180",
         "destinatario_email": "gustavo.schon@scania.com;merlys.jimenez@scania.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -75045,7 +75045,7 @@
       {
         "id": "111362878216",
         "destinatario_email": "jefatura.marketing@ecoplaza.com.pe;gerente.ti@ecoplaza.com.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Ecoplaza",
         "empresa_adivinada": true,
         "rubro": null,
@@ -75109,7 +75109,7 @@
       {
         "id": "111235813305",
         "destinatario_email": "fcondori@importacionescaso.com;jmedina@importacionescaso.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Importacionescaso",
         "empresa_adivinada": true,
         "rubro": null,
@@ -75397,7 +75397,7 @@
       {
         "id": "111126028138",
         "destinatario_email": "gustavo.schon@scania.com;merlys.jimenez@scania.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -75733,7 +75733,7 @@
       {
         "id": "110789821229",
         "destinatario_email": "jmedina@importacionescaso.com;jmeza@importacionescaso.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Importacionescaso",
         "empresa_adivinada": true,
         "rubro": null,
@@ -75781,7 +75781,7 @@
       {
         "id": "110646321666",
         "destinatario_email": "jmedina@importacionescaso.com;jmeza@importacionescaso.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Importacionescaso",
         "empresa_adivinada": true,
         "rubro": null,
@@ -75989,7 +75989,7 @@
       {
         "id": "110600614035",
         "destinatario_email": "jmeza@importacionescaso.com;jmedina@importacionescaso.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Importacionescaso",
         "empresa_adivinada": true,
         "rubro": null,
@@ -76005,7 +76005,7 @@
       {
         "id": "110600901495",
         "destinatario_email": "lizeth.talledo@integraretail.pe",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Integraretail",
         "empresa_adivinada": true,
         "rubro": null,
@@ -76037,7 +76037,7 @@
       {
         "id": "110595210368",
         "destinatario_email": "jmeza@importacionescaso.com;jmedina@importacionescaso.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Importacionescaso",
         "empresa_adivinada": true,
         "rubro": null,
@@ -76053,7 +76053,7 @@
       {
         "id": "110587531269",
         "destinatario_email": "jazmin.gamarra@gacsa.pe;manuel.juarez@gacsa.pe",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Gacsa",
         "empresa_adivinada": true,
         "rubro": null,
@@ -76869,7 +76869,7 @@
       {
         "id": "109752736529",
         "destinatario_email": "javier.medina@3eriza.pe;pparedes@qualityproducts.com.pe;csanjoylao@qualityproducts.com.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "3Eriza",
         "empresa_adivinada": true,
         "rubro": null,
@@ -76885,7 +76885,7 @@
       {
         "id": "109711866267",
         "destinatario_email": "javier.medina@3eriza.pe;pparedes@qualityproducts.com.pe;csanjoylao@qualityproducts.com.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "3Eriza",
         "empresa_adivinada": true,
         "rubro": null,
@@ -76901,7 +76901,7 @@
       {
         "id": "109740013382",
         "destinatario_email": "javier.medina@3eriza.pe;pparedes@qualityproducts.com.pe;csanjoylao@qualityproducts.com.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "3Eriza",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77269,7 +77269,7 @@
       {
         "id": "109139447475",
         "destinatario_email": "aponce@sportwagen-peru.com;joelgarcia@sportwagen-peru.com;msanchez@sportwagen-peru.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Sportwagen Peru",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77301,7 +77301,7 @@
       {
         "id": "108991926929",
         "destinatario_email": "joelgarcia@sportwagen-peru.com;msanchez@sportwagen-peru.com;aponce@sportwagen-peru.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Sportwagen Peru",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77333,7 +77333,7 @@
       {
         "id": "108848697423",
         "destinatario_email": "aponce@sportwagen-peru.com;joelgarcia@sportwagen-peru.com;msanchez@sportwagen-peru.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Sportwagen Peru",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77349,7 +77349,7 @@
       {
         "id": "108835571610",
         "destinatario_email": "joelgarcia@sportwagen-peru.com;msanchez@sportwagen-peru.com;aponce@sportwagen-peru.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Sportwagen Peru",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77365,7 +77365,7 @@
       {
         "id": "108836467992",
         "destinatario_email": "aponce@sportwagen-peru.com;joelgarcia@sportwagen-peru.com;msanchez@sportwagen-peru.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Sportwagen Peru",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77413,7 +77413,7 @@
       {
         "id": "108734520682",
         "destinatario_email": "aponce@sportwagen-peru.com;joelgarcia@sportwagen-peru.com;msanchez@sportwagen-peru.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Sportwagen Peru",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77477,7 +77477,7 @@
       {
         "id": "108442328993",
         "destinatario_email": "aponce@sportwagen-peru.com;joelgarcia@sportwagen-peru.com;msanchez@sportwagen-peru.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Sportwagen Peru",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77493,7 +77493,7 @@
       {
         "id": "108377443455",
         "destinatario_email": "joelgarcia@sportwagen-peru.com;msanchez@sportwagen-peru.com;aponce@sportwagen-peru.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Sportwagen Peru",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77605,7 +77605,7 @@
       {
         "id": "108362147479",
         "destinatario_email": "rpalacios@globokas.com;atencion@kasnet.com",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Globokas",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77733,7 +77733,7 @@
       {
         "id": "107994394961",
         "destinatario_email": "angelo.storace@abbott.com;nashacecilia.pulgar@abbott.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Abbott",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77749,7 +77749,7 @@
       {
         "id": "107829919629",
         "destinatario_email": "ronald.landeo@laive.pe;danielle.yepez@laive.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Laive",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77813,7 +77813,7 @@
       {
         "id": "107810770573",
         "destinatario_email": "ronald.landeo@laive.pe;danielle.yepez@laive.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Laive",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77845,7 +77845,7 @@
       {
         "id": "107562956881",
         "destinatario_email": "jeanfranco.bayona@3eriza.com.pe;ollaccta@gildemeister.pe;zoila.cortez@3eriza.com.pe;respinoza@gildemeister.pe;malvarezv@gildemeister.pe;hcornelio@gildemeister.pe;rjamanca@gildemeister.pe",
-        "destinatario_nombre": "Ronny Espinoza Espinoza",
+        "destinatario_nombre": null,
         "empresa": "3Eriza",
         "empresa_adivinada": true,
         "rubro": null,
@@ -77861,7 +77861,7 @@
       {
         "id": "107559183209",
         "destinatario_email": "rjamanca@gildemeister.pe;hcornelio@gildemeister.pe;ollaccta@gildemeister.pe;respinoza@gildemeister.pe",
-        "destinatario_nombre": "Ronny Espinoza Espinoza",
+        "destinatario_nombre": null,
         "empresa": "Gildemeister",
         "empresa_adivinada": true,
         "rubro": null,
@@ -78501,7 +78501,7 @@
       {
         "id": "106106657559",
         "destinatario_email": "sebastian.cornejo@laive.pe;ronald.landeo@laive.pe;claudia.palacios@laive.pe",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Laive",
         "empresa_adivinada": true,
         "rubro": null,
@@ -78565,7 +78565,7 @@
       {
         "id": "106029642656",
         "destinatario_email": "yflorian@metaltruck.pe;reategui@bemarksolutions.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Metaltruck",
         "empresa_adivinada": true,
         "rubro": null,
@@ -78597,7 +78597,7 @@
       {
         "id": "105794557362",
         "destinatario_email": "aalmonacid@maquinarias.pe;egates@maquinarias.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Maquinarias",
         "empresa_adivinada": true,
         "rubro": null,
@@ -78629,7 +78629,7 @@
       {
         "id": "105780670570",
         "destinatario_email": "yflorian@metaltruck.pe;reategui@bemarksolutions.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Metaltruck",
         "empresa_adivinada": true,
         "rubro": null,
@@ -78645,7 +78645,7 @@
       {
         "id": "105771614299",
         "destinatario_email": "darispe@interamericanatrujillo.com;csabana@interamericanatrujillo.com;ecastillo@interamericanatrujillo.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Interamericanatrujillo",
         "empresa_adivinada": true,
         "rubro": null,
@@ -78677,7 +78677,7 @@
       {
         "id": "105693475680",
         "destinatario_email": "egates@maquinarias.pe;aalmonacid@maquinarias.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Maquinarias",
         "empresa_adivinada": true,
         "rubro": null,
@@ -78709,7 +78709,7 @@
       {
         "id": "105544881006",
         "destinatario_email": "egates@maquinarias.pe;aalmonacid@maquinarias.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Maquinarias",
         "empresa_adivinada": true,
         "rubro": null,
@@ -78725,7 +78725,7 @@
       {
         "id": "105478186927",
         "destinatario_email": "isabel.tello@sanna.pe;yulisa.vasquez@sanna.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Sanna",
         "empresa_adivinada": true,
         "rubro": null,
@@ -78805,7 +78805,7 @@
       {
         "id": "105267871279",
         "destinatario_email": "zoila.cortez@3eriza.com.pe;anthony.nunez@3eriza.pe;javierje.lavado.v@astara.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "3Eriza",
         "empresa_adivinada": true,
         "rubro": null,
@@ -78965,7 +78965,7 @@
       {
         "id": "104931492452",
         "destinatario_email": "egates@maquinarias.pe;aalmonacid@maquinarias.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Maquinarias",
         "empresa_adivinada": true,
         "rubro": null,
@@ -78997,7 +78997,7 @@
       {
         "id": "104842716312",
         "destinatario_email": "yflorian@metaltruck.pe;reategui@bemarksolutions.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Metaltruck",
         "empresa_adivinada": true,
         "rubro": null,
@@ -79013,7 +79013,7 @@
       {
         "id": "104842594197",
         "destinatario_email": "yflorian@metaltruck.pe;reategui@bemarksolutions.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Metaltruck",
         "empresa_adivinada": true,
         "rubro": null,
@@ -79029,7 +79029,7 @@
       {
         "id": "104840015282",
         "destinatario_email": "egates@maquinarias.pe;aalmonacid@maquinarias.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Maquinarias",
         "empresa_adivinada": true,
         "rubro": null,
@@ -79077,7 +79077,7 @@
       {
         "id": "104680785691",
         "destinatario_email": "talia.barreto@ferreyros.com.pe;david.flores@ferreyros.com.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Ferreyros",
         "empresa_adivinada": true,
         "rubro": null,
@@ -79205,7 +79205,7 @@
       {
         "id": "104433373012",
         "destinatario_email": "carlos.portocarrero@astara.com;diana.effio.c@astara.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Astara",
         "empresa_adivinada": true,
         "rubro": null,
@@ -79397,7 +79397,7 @@
       {
         "id": "104010636935",
         "destinatario_email": "angelo.storace@abbott.com;nashacecilia.pulgar@abbott.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Abbott",
         "empresa_adivinada": true,
         "rubro": null,
@@ -79589,7 +79589,7 @@
       {
         "id": "103785325748",
         "destinatario_email": "diana.effio.c@astara.com;carlos.portocarrero@astara.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Astara",
         "empresa_adivinada": true,
         "rubro": null,
@@ -79637,7 +79637,7 @@
       {
         "id": "103404784155",
         "destinatario_email": "angelo.storace@abbott.com;nashacecilia.pulgar@abbott.com",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Abbott",
         "empresa_adivinada": true,
         "rubro": null,
@@ -79653,7 +79653,7 @@
       {
         "id": "103300497783",
         "destinatario_email": "drodriguezn@utp.edu.pe;noropeza@utp.edu.pe",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Utp",
         "empresa_adivinada": true,
         "rubro": null,
@@ -79733,7 +79733,7 @@
       {
         "id": "103288277562",
         "destinatario_email": "responsablemarketing@corporacionenerjet.com.pe;marianella.cabanillas@corporacionenerjet.com.pe",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Corporacionenerjet",
         "empresa_adivinada": true,
         "rubro": null,
@@ -79845,7 +79845,7 @@
       {
         "id": "103180165964",
         "destinatario_email": "sguillen@bim.pe;cquispe@bim.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "Bim",
         "empresa_adivinada": true,
         "rubro": null,
@@ -80309,7 +80309,7 @@
       {
         "id": "102203836484",
         "destinatario_email": "desarrollo@corporacionenerjet.com.pe;gestionhumana@corporacionenerjet.com.pe",
-        "destinatario_nombre": "Ingrid Mio Vasquez",
+        "destinatario_nombre": null,
         "empresa": "Corporacionenerjet",
         "empresa_adivinada": true,
         "rubro": null,
@@ -81109,7 +81109,7 @@
       {
         "id": "101335136522",
         "destinatario_email": "edinson.delgado@scania.com",
-        "destinatario_nombre": "Zoila Cortez Aguirre",
+        "destinatario_nombre": null,
         "empresa": "Scania",
         "empresa_adivinada": true,
         "rubro": null,
@@ -81237,7 +81237,7 @@
       {
         "id": "101148699730",
         "destinatario_email": "javier.medina@3eriza.com.pe",
-        "destinatario_nombre": "Javier Medina",
+        "destinatario_nombre": null,
         "empresa": "3Eriza",
         "empresa_adivinada": true,
         "rubro": null,
