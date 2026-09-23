@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-23T13:09:12.458669+00:00",
+  "generado": "2026-09-23T13:22:11.703746+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -73299,7 +73299,7 @@
     "cobertura_rubro": 0.0,
     "detalle": [],
     "disponible": false,
-    "error": "HTTP 403 on /crm/v3/objects/emails/search: {\"status\":\"error\",\"message\":\"This app hasn't been granted all required scopes to make this call. Read more about required scopes here: https://developers.hubspot.com/scopes.\",\"correlationId\":\"01a0ce62-6e6e-7665-a0c5-4c3b982b5986\",\"errors\":[{\"message\":\"One or more of the following scopes are required.\",\"context\":{\"requiredGranularScopes\":[\"crm.schemas.emails.read\",\"crm.objects.emails.read\",\"sales-email-read\"]}}],\"links\":{\"scopes\":\"https://developers.hubs"
+    "error": "HTTP 403 on /crm/v3/objects/emails/search: {\"status\":\"error\",\"message\":\"This app hasn't been granted all required scopes to make this call. Read more about required scopes here: https://developers.hubspot.com/scopes.\",\"correlationId\":\"01a0ce6e-5251-7523-bf00-676d69253851\",\"errors\":[{\"message\":\"One or more of the following scopes are required.\",\"context\":{\"requiredGranularScopes\":[\"crm.schemas.emails.read\",\"crm.objects.emails.read\",\"sales-email-read\"]}}],\"links\":{\"scopes\":\"https://developers.hubs"
   },
   "audiencia_tibia": {
     "excluir_estadios": [
