@@ -593,7 +593,28 @@ def build_dataset():
     }
 
 
+def diagnosticar_token():
+    """Diagnóstico temporal: le pregunta a HubSpot a qué app pertenece este token
+    y qué permisos tiene REALMENTE, según HubSpot (no según lo que vemos en la
+    pantalla de la app). Esto es para resolver una duda puntual sobre cuál de las
+    apps privadas es la que usa este repositorio; se puede borrar esta función
+    (y su llamada en main()) una vez resuelto."""
+    if not HUBSPOT_TOKEN:
+        return
+    try:
+        url = f"{HUBSPOT_BASE}/oauth/v1/access-tokens/{HUBSPOT_TOKEN}"
+        with urllib.request.urlopen(url, timeout=15) as resp:
+            info = json.loads(resp.read().decode("utf-8"))
+        log(
+            "DIAGNOSTICO TOKEN -> hub_id=%s app_id=%s user=%s scopes=%s"
+            % (info.get("hub_id"), info.get("app_id"), info.get("user"), info.get("scopes"))
+        )
+    except Exception as e:  # noqa: BLE001
+        log(f"DIAGNOSTICO TOKEN -> no se pudo consultar: {e}")
+
+
 def main():
+    diagnosticar_token()
     dataset = build_dataset()
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
