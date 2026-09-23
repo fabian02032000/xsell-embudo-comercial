@@ -288,6 +288,12 @@
 
   <div id="viewInsight">
     <p class="view-intro">Correos "insight" que Ingrid envía uno por uno desde HubSpot — datos reales de HubSpot, sin tipificar a mano. Se actualiza solo cada 10 minutos.</p>
+    <div class="toolbar" style="margin-bottom:12px;">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <label for="insightMesSelect" style="font-size:12px;color:var(--text-muted);font-weight:600;">Ver:</label>
+        <select id="insightMesSelect" style="background:var(--panel-2);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:7px 10px;font-size:13px;font-family:inherit;"></select>
+      </div>
+    </div>
     <div class="kpi-row" id="insightKpiRow"></div>
     <div class="callout" id="insightCallout"></div>
     <button class="btn-sm" type="button" id="insightToggle" aria-expanded="false">▸ Ver detalle de cada correo</button>
@@ -479,9 +485,16 @@
   let correosInsight = null;
   let audienciaTibia = null;
   let etiquetasInsight = {}; // id del correo (HubSpot) -> { empresa, contacto, rubro }
+  let mesInsightSeleccionado = "todos";
   let gruposAbiertos = new Set();
   let unsub = null;
   let unsubTags = null;
+
+  const MESES_ES = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+  function etiquetaMes(mesKey) {
+    const [y, m] = mesKey.split("-").map(Number);
+    return `${MESES_ES[m - 1]} ${y}`;
+  }
 
   // ---------- Auth ----------
   const loginScreen = document.getElementById("loginScreen");
@@ -585,33 +598,87 @@
   armarToggle("insightToggle", "insightTableWrap", "▸ Ver detalle de cada correo", "▾ Ocultar detalle de cada correo");
   armarToggle("pautaToggle", "pautaTableWrap", "▸ Ver contactos", "▾ Ocultar contactos");
 
+  document.getElementById("insightMesSelect").addEventListener("change", (e) => {
+    mesInsightSeleccionado = e.target.value;
+    renderCorreosInsight();
+  });
+
+  // ---------- Filtro por mes (Correos Insight) ----------
+  function mesesDisponiblesInsight() {
+    const set = new Set();
+    (correosInsight?.detalle || []).forEach(r => { if (r.fecha) set.add(r.fecha.slice(0, 7)); });
+    return Array.from(set).sort().reverse(); // más reciente primero
+  }
+
+  function pct(n, d) { return d ? Math.round((100 * n / d) * 10) / 10 : 0; }
+
+  // KPIs calculados en el navegador para el mes elegido (los que trae funnel.json
+  // son sobre todo el rango desde config/mapping.json, no por mes).
+  function kpisDe(detalle) {
+    const totalSent = detalle.filter(r => r.estado_raw === "SENT").length;
+    const totalOpened = detalle.filter(r => r.aperturas > 0).length;
+    const totalClicked = detalle.filter(r => r.clics > 0).length;
+    const totalReplied = detalle.filter(r => r.respuestas > 0).length;
+    const totalConRubro = detalle.filter(r => (etiquetasInsight[r.id] && etiquetasInsight[r.id].rubro) || r.rubro).length;
+    return {
+      total_enviados: totalSent,
+      tasa_apertura: pct(totalOpened, totalSent),
+      tasa_clics: pct(totalClicked, totalSent),
+      tasa_respuestas: pct(totalReplied, totalSent),
+      cobertura_rubro: pct(totalConRubro, detalle.length),
+    };
+  }
+
   // ---------- Render de Correos Insight (datos reales de HubSpot) ----------
   function renderCorreosInsight() {
     const kpiRow = document.getElementById("insightKpiRow");
     const callout = document.getElementById("insightCallout");
     const tbody = document.getElementById("insightTableBody");
+    const mesSelect = document.getElementById("insightMesSelect");
     if (!kpiRow) return;
 
     if (!correosInsight || !correosInsight.disponible) {
       kpiRow.innerHTML = `<div class="kpi-cell"><div class="n">—</div><div class="lbl">Correos de Ingrid</div></div>`;
       callout.textContent = 'Aún no se ha ejecutado la primera actualización de este dato, o falta activar el permiso "crm.objects.emails.read" en el token de HubSpot de este repositorio (ver README.md).';
       tbody.innerHTML = "";
+      mesSelect.innerHTML = "";
       return;
     }
 
+    // Selector de mes: se arma una vez por cada juego de meses distinto, sin
+    // pisar la selección del usuario si ya había elegido uno.
+    const meses = mesesDisponiblesInsight();
+    const opcionesEsperadas = ["todos", ...meses].join(",");
+    if (mesSelect.dataset.opciones !== opcionesEsperadas) {
+      mesSelect.dataset.opciones = opcionesEsperadas;
+      mesSelect.innerHTML = `<option value="todos">Todos los meses</option>` +
+        meses.map(m => `<option value="${m}">${etiquetaMes(m)}</option>`).join("");
+      if (meses.includes(mesInsightSeleccionado) || mesInsightSeleccionado === "todos") {
+        mesSelect.value = mesInsightSeleccionado;
+      } else {
+        mesInsightSeleccionado = "todos";
+        mesSelect.value = "todos";
+      }
+    }
+
+    const detalleFiltrado = mesInsightSeleccionado === "todos"
+      ? correosInsight.detalle
+      : correosInsight.detalle.filter(r => (r.fecha || "").slice(0, 7) === mesInsightSeleccionado);
+
+    const kpis = kpisDe(detalleFiltrado);
     kpiRow.innerHTML = `
-      <div class="kpi-cell"><div class="n">${correosInsight.total_enviados}</div><div class="lbl">Enviados</div></div>
-      <div class="kpi-cell"><div class="n">${correosInsight.tasa_apertura}%</div><div class="lbl">Tasa de apertura</div></div>
-      <div class="kpi-cell"><div class="n">${correosInsight.tasa_clics}%</div><div class="lbl">Tasa de clics</div></div>
-      <div class="kpi-cell"><div class="n">${correosInsight.tasa_respuestas}%</div><div class="lbl">Tasa de respuestas</div></div>
+      <div class="kpi-cell"><div class="n">${kpis.total_enviados}</div><div class="lbl">Enviados</div></div>
+      <div class="kpi-cell"><div class="n">${kpis.tasa_apertura}%</div><div class="lbl">Tasa de apertura</div></div>
+      <div class="kpi-cell"><div class="n">${kpis.tasa_clics}%</div><div class="lbl">Tasa de clics</div></div>
+      <div class="kpi-cell"><div class="n">${kpis.tasa_respuestas}%</div><div class="lbl">Tasa de respuestas</div></div>
     `;
-    callout.textContent = `El "rubro/empresa" solo está disponible para ${correosInsight.cobertura_rubro}% de los destinatarios (los que ya existían en HubSpot). Para el resto se muestra una empresa "adivinada" a partir del dominio del correo, marcada con *. Usa "+ Etiquetar" en cualquier fila para completar el rubro y el contacto a mano — queda guardado para ese correo.`;
+    callout.textContent = `El "rubro/empresa" solo está disponible para ${kpis.cobertura_rubro}% de los destinatarios (los que ya existían en HubSpot, o los que etiquetaste a mano). Para el resto se muestra una empresa "adivinada" a partir del dominio del correo, marcada con *. Usa "+ Etiquetar" en cualquier fila para completar el rubro y el contacto a mano — queda guardado para ese correo.`;
 
-    if (!correosInsight.detalle.length) {
-      tbody.innerHTML = `<tr><td colspan="9" class="empty">Todavía no hay correos registrados en este rango.</td></tr>`;
+    if (!detalleFiltrado.length) {
+      tbody.innerHTML = `<tr><td colspan="9" class="empty">No hay correos registrados en ${mesInsightSeleccionado === "todos" ? "este rango" : etiquetaMes(mesInsightSeleccionado)}.</td></tr>`;
       return;
     }
-    tbody.innerHTML = correosInsight.detalle.map(r => {
+    tbody.innerHTML = detalleFiltrado.map(r => {
       const tag = r.id ? etiquetasInsight[r.id] : null;
       const empresa = (tag && tag.empresa) || r.empresa;
       const contacto = (tag && tag.contacto) || r.destinatario_nombre;
