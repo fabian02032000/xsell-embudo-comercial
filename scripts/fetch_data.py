@@ -231,6 +231,7 @@ def build_email_detail_row(email_obj, contact_props):
 
     estado_raw = props.get("hs_email_status") or ""
     return {
+        "id": email_obj.get("id"),
         "destinatario_email": props.get("hs_email_to_email") or "(sin correo)",
         "destinatario_nombre": full_name or None,
         "empresa": empresa,

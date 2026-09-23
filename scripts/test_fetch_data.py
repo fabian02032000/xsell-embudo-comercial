@@ -128,4 +128,51 @@ correos = dataset["correos_insight"]
 assert correos["disponible"] is False
 assert correos["detalle"] == []
 
+# --- build_email_detail_row: forma de una fila real (con y sin contacto
+# enriquecido en HubSpot), usada por la pestaña "Correos Insight" y por el
+# etiquetado manual (que guarda en Firestore usando el "id" de esta fila) ---
+fila_con_contacto = fd.build_email_detail_row(
+    {
+        "id": "999",
+        "properties": {
+            "hs_timestamp": "2026-09-10T14:30:00Z",
+            "hs_email_subject": "Vimos su expansión en Trujillo",
+            "hs_email_to_email": "gerente@constructoraxyz.pe",
+            "hs_email_status": "SENT",
+            "hs_email_open_count": "2",
+            "hs_email_click_count": "0",
+            "hs_email_reply_count": "1",
+        },
+    },
+    {"firstname": "Marco", "lastname": "Ibañez", "company": "Constructora XYZ", "rubro": "Construcción"},
+)
+assert fila_con_contacto["id"] == "999"
+assert fila_con_contacto["destinatario_nombre"] == "Marco Ibañez"
+assert fila_con_contacto["empresa"] == "Constructora XYZ"
+assert fila_con_contacto["empresa_adivinada"] is False
+assert fila_con_contacto["rubro"] == "Construcción"
+assert fila_con_contacto["estado"] == "Enviado"
+assert fila_con_contacto["aperturas"] == 2
+assert fila_con_contacto["respuestas"] == 1
+assert fila_con_contacto["fecha"] == "2026-09-10"
+
+fila_sin_contacto = fd.build_email_detail_row(
+    {
+        "id": "998",
+        "properties": {
+            "hs_timestamp": "2026-09-11T09:00:00Z",
+            "hs_email_subject": "Seguimiento",
+            "hs_email_to_email": "info@panaderiaelsol.com",
+            "hs_email_status": "BOUNCED",
+        },
+    },
+    None,
+)
+assert fila_sin_contacto["id"] == "998"
+assert fila_sin_contacto["destinatario_nombre"] is None
+assert fila_sin_contacto["empresa"] == "Panaderiaelsol", "sin datos de HubSpot, adivina la empresa por el dominio"
+assert fila_sin_contacto["empresa_adivinada"] is True
+assert fila_sin_contacto["rubro"] is None, "sin contacto enriquecido, no hay rubro (se etiqueta a mano después)"
+assert fila_sin_contacto["estado"] == "Rebotado"
+
 print("\nOK: todas las validaciones pasaron")

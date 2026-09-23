@@ -174,6 +174,14 @@
     display:inline-block;padding:3px 10px;border-radius:999px;font-size:11px;font-weight:700;
     background:var(--panel-2);border:1px solid var(--border);color:var(--text-muted);white-space:nowrap;
   }
+  .tag-btn{
+    background:transparent;border:1px dashed var(--border);color:var(--text-faint);
+    border-radius:7px;padding:3px 9px;font-size:11px;cursor:pointer;font-family:inherit;font-weight:600;
+    margin-top:5px;white-space:nowrap;
+  }
+  .tag-btn:hover{color:var(--accent);border-color:var(--accent);}
+  .tag-btn.tagged{border-style:solid;color:var(--text-muted);}
+  .modal.modal-sm{max-width:400px;}
   .table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:10px;margin-top:4px;}
   table{width:100%;border-collapse:collapse;font-size:12.5px;}
   thead th{
@@ -320,6 +328,40 @@
   </div>
 </div>
 
+<!-- Modal chico para etiquetar rubro/empresa/contacto de un correo Insight (dato que HubSpot no tiene) -->
+<div class="modal-overlay" id="tagModalOverlay">
+  <div class="modal modal-sm">
+    <h3>Etiquetar correo</h3>
+    <p class="view-intro" style="margin-top:-10px;">HubSpot no tiene el rubro ni el nombre de esta empresa para este destinatario. Complétalo a mano; se guarda para este correo.</p>
+    <form id="tagForm">
+      <input type="hidden" id="tagEmailId" />
+      <div class="form-row">
+        <label>Empresa</label>
+        <input type="text" id="tagEmpresa" placeholder="Ej: Constructora XYZ" />
+      </div>
+      <div class="form-row">
+        <label>Persona de contacto</label>
+        <input type="text" id="tagContacto" placeholder="Ej: Marco Ibañez" />
+      </div>
+      <div class="form-row">
+        <label>Rubro</label>
+        <select id="tagRubro">
+          <option value="">(sin especificar)</option>
+          <option value="Inmobiliaria">Inmobiliaria</option>
+          <option value="Textil">Textil</option>
+          <option value="Automotriz">Automotriz</option>
+          <option value="E-commerce">E-commerce</option>
+          <option value="Otro">Otro</option>
+        </select>
+      </div>
+      <div class="modal-actions">
+        <button type="button" class="btn-ghost" id="tagCancelBtn">Cancelar</button>
+        <button type="submit" class="btn-primary">Guardar</button>
+      </div>
+    </form>
+  </div>
+</div>
+
 <!-- Modal para agregar/editar prospecto -->
 <div class="modal-overlay" id="modalOverlay">
   <div class="modal">
@@ -414,7 +456,7 @@
     getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut
   } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js";
   import {
-    getFirestore, collection, onSnapshot, addDoc, updateDoc, deleteDoc,
+    getFirestore, collection, onSnapshot, addDoc, updateDoc, deleteDoc, setDoc,
     doc, serverTimestamp, query, orderBy
   } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
 
@@ -436,8 +478,10 @@
   let clientesAntiguos = [];
   let correosInsight = null;
   let audienciaTibia = null;
+  let etiquetasInsight = {}; // id del correo (HubSpot) -> { empresa, contacto, rubro }
   let gruposAbiertos = new Set();
   let unsub = null;
+  let unsubTags = null;
 
   // ---------- Auth ----------
   const loginScreen = document.getElementById("loginScreen");
@@ -473,6 +517,7 @@
       loginScreen.style.display = "block";
       appEl.style.display = "none";
       if (unsub) { unsub(); unsub = null; }
+      if (unsubTags) { unsubTags(); unsubTags = null; }
     }
   });
 
@@ -486,6 +531,14 @@
     }, (err) => {
       document.getElementById("mktListWrap").innerHTML =
         `<div class="empty">No se pudo cargar la información (${err.message}).</div>`;
+    });
+
+    // Etiquetas manuales (empresa/contacto/rubro) para los correos Insight que
+    // HubSpot no trae completos — se guardan una por correo, por su id de HubSpot.
+    unsubTags = onSnapshot(collection(db, "correos_insight_tags"), (snap) => {
+      etiquetasInsight = {};
+      snap.docs.forEach(d => { etiquetasInsight[d.id] = d.data(); });
+      renderCorreosInsight();
     });
   }
 
@@ -552,26 +605,82 @@
       <div class="kpi-cell"><div class="n">${correosInsight.tasa_clics}%</div><div class="lbl">Tasa de clics</div></div>
       <div class="kpi-cell"><div class="n">${correosInsight.tasa_respuestas}%</div><div class="lbl">Tasa de respuestas</div></div>
     `;
-    callout.textContent = `El "rubro/empresa" solo está disponible para ${correosInsight.cobertura_rubro}% de los destinatarios (los que ya existían en HubSpot). Para el resto se muestra una empresa "adivinada" a partir del dominio del correo, marcada con *.`;
+    callout.textContent = `El "rubro/empresa" solo está disponible para ${correosInsight.cobertura_rubro}% de los destinatarios (los que ya existían en HubSpot). Para el resto se muestra una empresa "adivinada" a partir del dominio del correo, marcada con *. Usa "+ Etiquetar" en cualquier fila para completar el rubro y el contacto a mano — queda guardado para ese correo.`;
 
     if (!correosInsight.detalle.length) {
       tbody.innerHTML = `<tr><td colspan="9" class="empty">Todavía no hay correos registrados en este rango.</td></tr>`;
       return;
     }
-    tbody.innerHTML = correosInsight.detalle.map(r => `
+    tbody.innerHTML = correosInsight.detalle.map(r => {
+      const tag = r.id ? etiquetasInsight[r.id] : null;
+      const empresa = (tag && tag.empresa) || r.empresa;
+      const contacto = (tag && tag.contacto) || r.destinatario_nombre;
+      const rubro = (tag && tag.rubro) || r.rubro;
+      const empresaHtml = empresa
+        ? `${escapeHtml(empresa)}${(!tag && r.empresa_adivinada) ? " *" : ""}`
+        : "—";
+      const rubroHtml = rubro ? `<div class="pill-soft" style="margin-top:3px;">${escapeHtml(rubro)}</div>` : "";
+      const tagBtn = r.id
+        ? `<button type="button" class="tag-btn ${tag ? "tagged" : ""}" onclick="abrirTagModal('${r.id}')">${tag ? "✎ Editar" : "+ Etiquetar"}</button>`
+        : "";
+      return `
       <tr>
         <td>${r.fecha || "—"}</td>
         <td>${r.hora || "—"}</td>
-        <td>${escapeHtml(r.destinatario_nombre) || escapeHtml(r.destinatario_email)}</td>
-        <td>${escapeHtml(r.empresa) || "—"}${r.empresa_adivinada ? " *" : ""}</td>
+        <td>${escapeHtml(contacto) || escapeHtml(r.destinatario_email)}</td>
+        <td>
+          <div>${empresaHtml}</div>
+          ${rubroHtml}
+          ${tagBtn}
+        </td>
         <td>${escapeHtml(r.asunto)}</td>
         <td><span class="status ${r.estado}">${escapeHtml(r.estado)}</span></td>
         <td>${r.aperturas}</td>
         <td>${r.clics}</td>
         <td>${r.respuestas}</td>
       </tr>
-    `).join("");
+    `;
+    }).join("");
   }
+
+  // ---------- Etiquetado manual (empresa/contacto/rubro) de un correo Insight ----------
+  window.abrirTagModal = function (emailId) {
+    const fila = (correosInsight?.detalle || []).find(r => r.id === emailId);
+    const tag = etiquetasInsight[emailId];
+    document.getElementById("tagEmailId").value = emailId;
+    document.getElementById("tagEmpresa").value = tag?.empresa || fila?.empresa || "";
+    document.getElementById("tagContacto").value = tag?.contacto || fila?.destinatario_nombre || "";
+    document.getElementById("tagRubro").value = tag?.rubro || "";
+    document.getElementById("tagModalOverlay").classList.add("open");
+  };
+
+  function cerrarTagModal() {
+    document.getElementById("tagModalOverlay").classList.remove("open");
+    document.getElementById("tagForm").reset();
+  }
+
+  document.getElementById("tagCancelBtn").addEventListener("click", cerrarTagModal);
+  document.getElementById("tagModalOverlay").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("tagModalOverlay")) cerrarTagModal();
+  });
+
+  document.getElementById("tagForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const emailId = document.getElementById("tagEmailId").value;
+    if (!emailId) return;
+    const data = {
+      empresa: document.getElementById("tagEmpresa").value.trim(),
+      contacto: document.getElementById("tagContacto").value.trim(),
+      rubro: document.getElementById("tagRubro").value,
+      actualizado_en: serverTimestamp(),
+    };
+    try {
+      await setDoc(doc(db, "correos_insight_tags", emailId), data, { merge: true });
+      cerrarTagModal();
+    } catch (err) {
+      alert("No se pudo guardar la etiqueta: " + err.message);
+    }
+  });
 
   // ---------- Render de Email Marketing (Pauta) — audiencia tibia ----------
   function renderAudienciaTibia() {
