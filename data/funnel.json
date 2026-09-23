@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-23T14:00:11.493438+00:00",
+  "generado": "2026-09-23T14:08:18.838877+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -81398,23 +81398,22 @@
     "disponible": true
   },
   "audiencia_tibia": {
-    "excluir_estadios": [
-      "En Crecimiento",
-      "Semilla"
+    "incluir_estadios": [
+      "Consolidado"
     ],
-    "total": 9,
+    "total": 7,
     "detalle": [
-      {
-        "nombre": "Alina Ricsi",
-        "correo": "alina.ricsi@syscopyperu.com",
-        "empresa": "Syscopy Perú ",
-        "estadio_lead": "Consolidado",
-        "nivel_urgencia": null
-      },
       {
         "nombre": "Amdres Reyes",
         "correo": "victorandresrecaldereyes8@gmail.com",
         "empresa": "Domcar",
+        "estadio_lead": "Consolidado",
+        "nivel_urgencia": "Medio"
+      },
+      {
+        "nombre": "Franco B",
+        "correo": "frankren.18@gmail.com",
+        "empresa": "Agroinvest Perú",
         "estadio_lead": "Consolidado",
         "nivel_urgencia": "Medio"
       },
@@ -81426,32 +81425,11 @@
         "nivel_urgencia": "Bajo"
       },
       {
-        "nombre": "Daniela Mori Bertetti",
-        "correo": "danielamori2015@gmail.com",
-        "empresa": "Iseia Swim",
-        "estadio_lead": "Alto Nivel",
-        "nivel_urgencia": "Bajo"
-      },
-      {
         "nombre": "Fernando Arias Rebolledo",
         "correo": "farias@alvcom.com.pe",
         "empresa": "Alvcom - Sef solution sac",
         "estadio_lead": "Consolidado",
         "nivel_urgencia": "Bajo"
-      },
-      {
-        "nombre": "Franco B",
-        "correo": "frankren.18@gmail.com",
-        "empresa": "Agroinvest Perú",
-        "estadio_lead": "Consolidado",
-        "nivel_urgencia": "Medio"
-      },
-      {
-        "nombre": "Jorge Barco Fenco",
-        "correo": "jorgebarcofenco@gmail.com",
-        "empresa": "Creative Focus ",
-        "estadio_lead": "Consolidado",
-        "nivel_urgencia": null
       },
       {
         "nombre": "Pedro Valdez",
@@ -81461,11 +81439,18 @@
         "nivel_urgencia": "Bajo"
       },
       {
-        "nombre": "Rodolfo Enrique Montoya Miniza",
-        "correo": "rodolfo.montoya@oymgroup.com",
-        "empresa": "O&M SERVICIOS COMERCIALES SAC",
-        "estadio_lead": "Alto Nivel",
-        "nivel_urgencia": "Bajo"
+        "nombre": "Alina Ricsi",
+        "correo": "alina.ricsi@syscopyperu.com",
+        "empresa": "Syscopy Perú ",
+        "estadio_lead": "Consolidado",
+        "nivel_urgencia": null
+      },
+      {
+        "nombre": "Jorge Barco Fenco",
+        "correo": "jorgebarcofenco@gmail.com",
+        "empresa": "Creative Focus ",
+        "estadio_lead": "Consolidado",
+        "nivel_urgencia": null
       }
     ]
   }
