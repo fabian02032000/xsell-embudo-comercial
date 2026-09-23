@@ -112,7 +112,7 @@ def hubspot_post(path, body, retries=3):
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
             err_body = e.read().decode("utf-8", errors="ignore")
-            last_err = f"HTTP {e.code} on {path}: {err_body[:300]}"
+            last_err = f"HTTP {e.code} on {path}: {err_body[:1200]}"
             if e.code in (401, 403):
                 # Sin permiso: no tiene sentido reintentar, hay que avisar rápido.
                 raise RuntimeError(last_err)
