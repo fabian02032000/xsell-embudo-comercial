@@ -23,7 +23,7 @@ Se actualiza solo, cada 10 minutos, sin que nadie tenga que hacer nada.
 Página aparte (con inicio de sesión) para el equipo comercial, con 3 pestañas:
 
 - **📇 Correos Insight**: datos reales de HubSpot sobre los correos de prospección en frío que Ingrid envía uno por uno (enviados, tasa de apertura, clics, respuestas, y el detalle de cada correo). Nadie tiene que tipificar nada a mano.
-- **📣 Email Marketing (Pauta)**: la "audiencia tibia" — contactos que llegaron por formulario/pauta y que sí consideramos potenciales para un reenvío, según el Estadio del Lead que tipifica Ingrid en el Negocio (se excluyen Semilla y En Crecimiento; la Urgencia no filtra, se usa aparte para elegir el contenido a enviar).
+- **📣 Email Marketing (Pauta)**: la "audiencia tibia" — contactos que llegaron por formulario/pauta y están en Estadio del Lead = Consolidado (el único estadio incluido; los demás, como Alto Nivel/Semilla/En Crecimiento, quedan afuera). Se muestran ordenados de más a menos urgente: la Urgencia no filtra a quién se le envía, pero sí decide la estrategia de envío (qué tan pronto y con qué contenido).
 - **🔄 Email MKT (clientes antiguos)**: negocios "Descartados" en HubSpot, para reenganche manual (esto sigue funcionando igual que antes, con Firebase).
 
 Las primeras dos pestañas se llenan solas cada 10 minutos, junto con el resto del embudo (mismo `data/funnel.json`, mismo robot).
@@ -32,7 +32,7 @@ Las primeras dos pestañas se llenan solas cada 10 minutos, junto con el resto d
 
 ## Si algo se ve mal
 
-- **Las metas mensuales, a qué grupo (Comercial/MKT Pauta) pertenece cada "Canal" de HubSpot, el correo desde el que Ingrid manda sus correos insight, o qué Estadios se excluyen de la audiencia tibia**: se edita en `config/mapping.json`. No hace falta tocar código, solo pídele a Claude que lo ajuste.
+- **Las metas mensuales, a qué grupo (Comercial/MKT Pauta) pertenece cada "Canal" de HubSpot, el correo desde el que Ingrid manda sus correos insight, o qué Estadios entran en la audiencia tibia**: se edita en `config/mapping.json`. No hace falta tocar código, solo pídele a Claude que lo ajuste.
 - **El robot dejó de actualizar**: revisa la pestaña "Actions" en GitHub, ahí se ve si hubo un error (por ejemplo, si la llave de HubSpot venció).
 - **La llave de HubSpot venció o se borró**: hay que crear una nueva "Clave de servicio" en HubSpot (Configuración → Desarrollo → Claves → Claves de servicio) con permisos de lectura sobre Contacts, Deals y Emails, y actualizar el secreto `HUBSPOT_TOKEN` en este repositorio (Settings → Secrets and variables → Actions).
 

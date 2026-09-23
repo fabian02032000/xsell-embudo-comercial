@@ -572,9 +572,12 @@ def build_dataset():
     # --- Audiencia tibia: contactos de MKT Pauta que sí consideramos
     # potenciales para un reenvío por correo, según el Estadio del Lead
     # (ver comentario en config/mapping.json). El Nivel de Urgencia no se usa
-    # para incluir/excluir, solo se muestra como referencia. ---
+    # para incluir/excluir, solo se muestra como referencia -- decide la
+    # estrategia de envío (qué tan pronto y con qué contenido), por eso la
+    # lista sale ordenada de más a menos urgente. ---
     audiencia_tibia_cfg = config.get("audiencia_tibia", {})
-    excluir_estadios = set(audiencia_tibia_cfg.get("excluir_estadios", ["Semilla", "En Crecimiento"]))
+    incluir_estadios = set(audiencia_tibia_cfg.get("incluir_estadios", ["Consolidado"]))
+    URGENCIA_ORDEN = {"Alto": 0, "Medio": 1, "Bajo": 2}
 
     audiencia_tibia_detalle = []
     for c in contacts:
@@ -585,7 +588,7 @@ def build_dataset():
             continue
         status = contact_lead_status.get(c["id"])
         estadio = status.get("estadio_lead") if status else None
-        if not estadio or estadio in excluir_estadios:
+        if not estadio or estadio not in incluir_estadios:
             continue
         nombre = " ".join(
             filter(None, [props.get("firstname"), props.get("lastname")])
@@ -599,7 +602,9 @@ def build_dataset():
                 "nivel_urgencia": status.get("nivel_urgencia"),
             }
         )
-    audiencia_tibia_detalle.sort(key=lambda r: r["nombre"])
+    audiencia_tibia_detalle.sort(
+        key=lambda r: (URGENCIA_ORDEN.get(r["nivel_urgencia"], 99), r["nombre"])
+    )
 
     # --- Correos insight (Ingrid) ---
     correos_insight = fetch_ingrid_emails_summary(config.get("email_insight", {}))
@@ -611,7 +616,7 @@ def build_dataset():
         "clientes_antiguos": clientes_antiguos,
         "correos_insight": correos_insight,
         "audiencia_tibia": {
-            "excluir_estadios": sorted(excluir_estadios),
+            "incluir_estadios": sorted(incluir_estadios),
             "total": len(audiencia_tibia_detalle),
             "detalle": audiencia_tibia_detalle,
         },

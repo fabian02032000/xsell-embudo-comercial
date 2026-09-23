@@ -53,8 +53,8 @@
     "desde_fecha": "2026-01-01"
   },
 
-  "_comentario_audiencia_tibia": "Contactos que llegaron por MKT Pauta (formulario/Facebook) que sí consideramos potenciales para un reenvío 'tibio' por correo, según el Estadio del Lead que tipifica Ingrid en el Negocio. El Nivel de Urgencia NO se usa para incluir/excluir: se muestra aparte, para decidir qué contenido enviarle a cada quien. Un contacto sin Negocio, o con Negocio pero sin Estadio cargado, no entra (no se puede saber si es potencial).",
+  "_comentario_audiencia_tibia": "Contactos que llegaron por MKT Pauta (formulario/Facebook) que sí consideramos potenciales para un reenvío 'tibio' por correo. Solo entran los que están en Estadio del Lead = Consolidado (los demás estadios, como Alto Nivel/Semilla/En Crecimiento, quedan afuera). El Nivel de Urgencia NO se usa para incluir/excluir: se muestra aparte, para decidir la estrategia de envío (qué tan pronto y qué contenido enviarle a cada quien). Un contacto sin Negocio, o con Negocio pero sin Estadio cargado, no entra (no se puede saber si es potencial).",
   "audiencia_tibia": {
-    "excluir_estadios": ["Semilla", "En Crecimiento"]
+    "incluir_estadios": ["Consolidado"]
   }
 }

@@ -764,8 +764,8 @@
     }
 
     kpiRow.innerHTML = `<div class="kpi-cell"><div class="n">${audienciaTibia.total}</div><div class="lbl">Contactos potenciales</div></div>`;
-    const excluidos = (audienciaTibia.excluir_estadios || []).join(" o ");
-    callout.textContent = `Se excluyen los contactos en Estadio ${excluidos || "no potencial"}, y los que aún no tienen Negocio o Estadio cargado en HubSpot (no se puede saber si son potenciales).`;
+    const incluidos = (audienciaTibia.incluir_estadios || []).join(" o ");
+    callout.textContent = `Solo se incluyen los contactos en Estadio ${incluidos || "Consolidado"} (los demás estadios quedan afuera, igual que los que aún no tienen Negocio o Estadio cargado en HubSpot). Están ordenados de más a menos urgente, para priorizar el envío.`;
 
     if (!audienciaTibia.detalle.length) {
       tbody.innerHTML = `<tr><td colspan="5" class="empty">No hay contactos que cumplan el filtro todavía.</td></tr>`;

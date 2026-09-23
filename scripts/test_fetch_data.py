@@ -11,6 +11,7 @@ D1 = f"{MES}-01"
 D2 = f"{MES}-02"
 D3 = f"{MES}-03"
 D4 = f"{MES}-04"
+D_KARLA = f"{MES}-06"  # día aparte, para no alterar el conteo de contactos del D4
 
 fake_contacts = [
     {"id": "1", "properties": {"canal": "Whatsapp", "createdate": f"{D1}T00:00:00Z", "firstname": "Ana", "lastname": "Ruiz"}},
@@ -20,6 +21,7 @@ fake_contacts = [
     # Meta): debe detectarse igual como MKT Pauta gracias al fallback por
     # hs_analytics_source / hs_analytics_source_data_1.
     {"id": "4", "properties": {"createdate": f"{D4}T00:00:00Z", "firstname": "Jorge", "lastname": "Barco", "email": "jorge@empresa.pe", "hs_analytics_source": "PAID_SOCIAL", "hs_analytics_source_data_1": "Facebook"}},
+    {"id": "5", "properties": {"canal": "Facebook", "createdate": f"{D_KARLA}T00:00:00Z", "firstname": "Karla", "lastname": "Soto", "email": "karla@empresa.pe"}},
 ]
 
 fake_deals = [
@@ -46,10 +48,20 @@ fake_deals = [
         "id": "d4",
         "properties": {
             "dealname": "Deal Jorge (Meta sin canal)", "dealstage": "appointmentscheduled", "createdate": f"{D4}T00:00:00Z",
-            # MKT Pauta pero Estadio "Semilla" (excluido) -> NO debe entrar en audiencia tibia.
+            # MKT Pauta pero Estadio "Semilla" (no incluido) -> NO debe entrar en audiencia tibia.
             "etapa_final": "Semilla", "hs_priority": "high",
         },
         "associations": {"contacts": {"results": [{"id": "4"}]}},
+    },
+    {
+        "id": "d5",
+        "properties": {
+            "dealname": "Deal Karla", "dealstage": "appointmentscheduled", "createdate": f"{D_KARLA}T00:00:00Z",
+            # MKT Pauta pero Estadio "Alto Nivel" (ya no está en incluir_estadios,
+            # solo "Consolidado" -> NO debe entrar en audiencia tibia).
+            "etapa_final": "Alto Nivel", "hs_priority": "high",
+        },
+        "associations": {"contacts": {"results": [{"id": "5"}]}},
     },
 ]
 
@@ -110,17 +122,20 @@ assert clientes_antiguos[0]["deal_id"] == "d3"
 assert "metas_mensuales_default" in dataset
 assert dataset["metas_mensuales_default"]["reuniones"] == 8
 
-# --- audiencia_tibia: solo MKT Pauta, con Estadio del Lead cargado y sin
-# estar en la lista de exclusión (Semilla / En Crecimiento) ---
+# --- audiencia_tibia: solo MKT Pauta, Estadio del Lead = Consolidado
+# (única entrada en incluir_estadios) ---
 audiencia = dataset["audiencia_tibia"]
 nombres = [r["nombre"] for r in audiencia["detalle"]]
 assert "Luis Perez" in nombres, "Luis (MKT Pauta, Consolidado) debe entrar en la audiencia tibia"
-assert "Jorge Barco" not in nombres, "Jorge (MKT Pauta, Semilla) debe excluirse"
+assert "Jorge Barco" not in nombres, "Jorge (MKT Pauta, Semilla) no debe entrar"
+assert "Karla Soto" not in nombres, "Karla (MKT Pauta, Alto Nivel) ya no debe entrar -- solo Consolidado"
 assert "Ana Ruiz" not in nombres, "Ana es Comercial (Whatsapp), no MKT Pauta: no debe entrar"
 assert "Rosa Diaz" not in nombres, "Rosa no tiene Estadio del Lead cargado: no debe entrar"
 luis = next(r for r in audiencia["detalle"] if r["nombre"] == "Luis Perez")
 assert luis["estadio_lead"] == "Consolidado"
 assert luis["nivel_urgencia"] == "Medio", "hs_priority=medium debe traducirse a 'Medio'"
+assert audiencia["detalle"][0]["nombre"] == "Luis Perez", \
+    "la lista debe venir ordenada de más a menos urgente (acá, Luis es el único con urgencia cargada)"
 
 # --- correos_insight: sin HUBSPOT_TOKEN en el entorno de prueba, no debe
 # intentar llamar a HubSpot; debe devolver el resumen vacío sin explotar ---
