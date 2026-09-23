@@ -45,5 +45,16 @@
     "reuniones": 8,
     "propuestas": 8,
     "ventas": { "Comercial": 1, "MKT Pauta": 1, "LinkedIn PACS": 1 }
+  },
+
+  "_comentario_email_insight": "Config del correo de prospección en frío que Ingrid envía uno por uno desde HubSpot. Se muestra en la pestaña 'Correos Insight' de email-marketing.html, con datos reales de HubSpot (nadie tiene que tipificarlo a mano). El token de HubSpot de este repo necesita el permiso 'crm.objects.emails.read' para que esto funcione.",
+  "email_insight": {
+    "remitente": "ingrid.mio@3eriza.com.pe",
+    "desde_fecha": "2026-01-01"
+  },
+
+  "_comentario_audiencia_tibia": "Contactos que llegaron por MKT Pauta (formulario/Facebook) que sí consideramos potenciales para un reenvío 'tibio' por correo, según el Estadio del Lead que tipifica Ingrid en el Negocio. El Nivel de Urgencia NO se usa para incluir/excluir: se muestra aparte, para decidir qué contenido enviarle a cada quien. Un contacto sin Negocio, o con Negocio pero sin Estadio cargado, no entra (no se puede saber si es potencial).",
+  "audiencia_tibia": {
+    "excluir_estadios": ["Semilla", "En Crecimiento"]
   }
 }
