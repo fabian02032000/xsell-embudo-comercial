@@ -301,6 +301,7 @@ def fetch_ingrid_emails_summary(email_cfg):
         }
     except Exception as e:  # noqa: BLE001
         log(f"AVISO: no se pudo traer los correos de Ingrid (¿falta el permiso crm.objects.emails.read del token?): {e}")
+        vacio["error"] = str(e)[:500]
         return vacio
 
 
