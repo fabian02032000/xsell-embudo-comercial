@@ -202,15 +202,18 @@ def pick_matching_contact(contact_props_list, to_email):
     """Entre los contactos asociados a un correo, elige el que de verdad es el
     destinatario (comparando el email). Sin esto, si HubSpot asocia también a
     Ingrid (la remitente) al mismo engagement, se corre el riesgo de mostrarla
-    a ella como si fuera la destinataria."""
+    a ella como si fuera la destinataria.
+
+    Si ninguno coincide por email, se prefiere no mostrar contacto (None) antes
+    que mostrar uno que probablemente esté mal -- pasó con varios correos de
+    respuesta (RE:) donde el único contacto asociado era la propia Ingrid."""
     if not contact_props_list:
         return None
     to_email_norm = (to_email or "").strip().lower()
     for props in contact_props_list:
         if to_email_norm and (props.get("email") or "").strip().lower() == to_email_norm:
             return props
-    # Ninguno coincide por email (raro): se usa el primero, como antes.
-    return contact_props_list[0]
+    return None
 
 
 def guess_company_from_domain(email_address):
