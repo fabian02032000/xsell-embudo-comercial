@@ -52,9 +52,32 @@ FUERA_DEL_EMBUDO = "Fuera del embudo"
 NIVEL_ORDEN = {etiqueta: i for i, etiqueta in enumerate(NIVEL_LABELS)}
 NIVEL_ORDEN[FUERA_DEL_EMBUDO] = len(NIVEL_LABELS)
 
+# --- Correos "insight" (prospección en frío de Ingrid, ver fetch_ingrid_emails_summary) ---
+GENERIC_EMAIL_DOMAINS = {
+    "gmail.com", "hotmail.com", "outlook.com", "yahoo.com", "live.com",
+    "icloud.com", "msn.com", "yahoo.es", "hotmail.es",
+}
+EMAIL_STATUS_LABELS = {
+    "SENT": "Enviado",
+    "BOUNCED": "Rebotado",
+    "FAILED": "Fallido",
+    "SCHEDULED": "Programado",
+    "PROCESSING": "Procesando",
+}
+NIVEL_URGENCIA_LABELS = {"low": "Bajo", "medium": "Medio", "high": "Alto"}
+EMAIL_PROPERTIES = [
+    "hs_timestamp", "hs_email_subject", "hs_email_to_email", "hs_email_status",
+    "hs_email_open_count", "hs_email_click_count", "hs_email_reply_count",
+]
+
 
 def log(msg):
     print(f"[fetch_data] {msg}", file=sys.stderr)
+
+
+def chunked(lst, size):
+    for i in range(0, len(lst), size):
+        yield lst[i:i + size]
 
 
 def http_get_json(url, headers=None, retries=3):
@@ -73,6 +96,212 @@ def http_get_json(url, headers=None, retries=3):
         log(f"intento {attempt}/{retries} falló -> {last_err}")
         time.sleep(2 * attempt)
     raise RuntimeError(last_err)
+
+
+def hubspot_post(path, body, retries=3):
+    """POST autenticado a la API de HubSpot (para /search y /batch/read)."""
+    if not HUBSPOT_TOKEN:
+        raise RuntimeError("Falta la variable de entorno HUBSPOT_TOKEN")
+    headers = {"Authorization": f"Bearer {HUBSPOT_TOKEN}", "Content-Type": "application/json"}
+    data = json.dumps(body).encode("utf-8")
+    last_err = None
+    for attempt in range(1, retries + 1):
+        try:
+            req = urllib.request.Request(f"{HUBSPOT_BASE}{path}", data=data, headers=headers, method="POST")
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            err_body = e.read().decode("utf-8", errors="ignore")
+            last_err = f"HTTP {e.code} on {path}: {err_body[:300]}"
+            if e.code in (401, 403):
+                # Sin permiso: no tiene sentido reintentar, hay que avisar rápido.
+                raise RuntimeError(last_err)
+        except Exception as e:  # noqa: BLE001
+            last_err = f"{type(e).__name__} on {path}: {e}"
+        log(f"intento {attempt}/{retries} falló -> {last_err}")
+        time.sleep(2 * attempt)
+    raise RuntimeError(last_err)
+
+
+def date_to_epoch_ms(date_str):
+    dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    return int(dt.timestamp() * 1000)
+
+
+def fetch_all_ingrid_emails(from_email, since_date_str):
+    """Trae todos los correos (engagements de tipo Email) enviados desde
+    from_email, desde since_date_str (paginado)."""
+    emails = []
+    after = None
+    since_epoch = date_to_epoch_ms(since_date_str)
+    while True:
+        body = {
+            "filterGroups": [
+                {
+                    "filters": [
+                        {"propertyName": "hs_email_from_email", "operator": "EQ", "value": from_email},
+                        {"propertyName": "hs_email_direction", "operator": "EQ", "value": "EMAIL"},
+                        {"propertyName": "hs_timestamp", "operator": "GTE", "value": str(since_epoch)},
+                    ]
+                }
+            ],
+            "properties": EMAIL_PROPERTIES,
+            "limit": 100,
+            "sorts": [{"propertyName": "hs_timestamp", "direction": "DESCENDING"}],
+        }
+        if after:
+            body["after"] = after
+        data = hubspot_post("/crm/v3/objects/emails/search", body)
+        emails.extend(data.get("results", []))
+        after = data.get("paging", {}).get("next", {}).get("after")
+        if not after:
+            break
+    return emails
+
+
+def fetch_contact_by_email_map(email_ids):
+    """Para cada correo (engagement), busca el contacto asociado y trae su
+    nombre, empresa y rubro/industria. Best-effort: si algo falla, todos
+    quedan sin contacto asociado en vez de romper el script completo."""
+    contact_by_email_id = {eid: None for eid in email_ids}
+    if not email_ids:
+        return contact_by_email_id
+
+    email_to_contact_ids = {}
+    for batch in chunked(email_ids, 100):
+        body = {"inputs": [{"id": eid} for eid in batch]}
+        resp = hubspot_post("/crm/v4/associations/emails/contacts/batch/read", body)
+        for row in resp.get("results", []):
+            from_id = row.get("from", {}).get("id")
+            contact_ids = [t.get("toObjectId") for t in row.get("to", [])]
+            if from_id and contact_ids:
+                email_to_contact_ids[from_id] = contact_ids[0]
+
+    all_contact_ids = sorted({str(cid) for cid in email_to_contact_ids.values()})
+
+    contact_info = {}
+    contact_properties = ["firstname", "lastname", "email", "company", "rubro", "industry", "industria"]
+    for batch in chunked(all_contact_ids, 100):
+        body = {"inputs": [{"id": cid} for cid in batch], "properties": contact_properties}
+        resp = hubspot_post("/crm/v3/objects/contacts/batch/read", body)
+        for c in resp.get("results", []):
+            contact_info[c["id"]] = c.get("properties", {})
+
+    for eid, cid in email_to_contact_ids.items():
+        contact_by_email_id[eid] = contact_info.get(str(cid))
+
+    return contact_by_email_id
+
+
+def guess_company_from_domain(email_address):
+    """Adivina un nombre de empresa a partir del dominio del correo, solo
+    como referencia visual. Devuelve None si el dominio es de un proveedor
+    genérico (Gmail, Hotmail, etc.)."""
+    if not email_address or "@" not in email_address:
+        return None
+    domain = email_address.split("@", 1)[1].lower().strip()
+    if domain in GENERIC_EMAIL_DOMAINS:
+        return None
+    base = domain.split(".")[0]
+    return base.replace("-", " ").replace("_", " ").title()
+
+
+def build_email_detail_row(email_obj, contact_props):
+    props = email_obj.get("properties", {})
+    contact_props = contact_props or {}
+
+    full_name = " ".join(
+        x for x in [contact_props.get("firstname"), contact_props.get("lastname")] if x
+    ).strip()
+
+    empresa = contact_props.get("company")
+    empresa_adivinada = False
+    if not empresa:
+        empresa = guess_company_from_domain(props.get("hs_email_to_email"))
+        empresa_adivinada = empresa is not None
+
+    rubro = contact_props.get("rubro") or contact_props.get("industry") or contact_props.get("industria")
+
+    timestamp = props.get("hs_timestamp")
+    fecha, hora = None, None
+    if timestamp:
+        dt = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
+        fecha = dt.date().isoformat()
+        hora = dt.strftime("%H:%M")
+
+    estado_raw = props.get("hs_email_status") or ""
+    return {
+        "destinatario_email": props.get("hs_email_to_email") or "(sin correo)",
+        "destinatario_nombre": full_name or None,
+        "empresa": empresa,
+        "empresa_adivinada": empresa_adivinada,
+        "rubro": rubro,
+        "asunto": props.get("hs_email_subject") or "(sin asunto)",
+        "fecha": fecha,
+        "hora": hora,
+        "estado": EMAIL_STATUS_LABELS.get(estado_raw, estado_raw or "Sin dato"),
+        "estado_raw": estado_raw,
+        "aperturas": int(float(props.get("hs_email_open_count") or 0)),
+        "clics": int(float(props.get("hs_email_click_count") or 0)),
+        "respuestas": int(float(props.get("hs_email_reply_count") or 0)),
+    }
+
+
+def fetch_ingrid_emails_summary(email_cfg):
+    """Arma el resumen + detalle de los correos 'insight' para la pestaña
+    Correos Insight de email-marketing.html. Best-effort: si el token no
+    tiene el permiso crm.objects.emails.read (o cualquier otra cosa falla),
+    devuelve un resumen vacío con 'disponible': False en vez de romper todo
+    el dashboard — así el resto de datos (embudo, clientes antiguos) se
+    siguen actualizando igual."""
+    from_email = email_cfg.get("remitente", "ingrid.mio@3eriza.com.pe")
+    desde_fecha = email_cfg.get("desde_fecha", "2026-01-01")
+    vacio = {
+        "remitente": from_email,
+        "desde_fecha": desde_fecha,
+        "total_enviados": 0,
+        "tasa_apertura": 0.0,
+        "tasa_clics": 0.0,
+        "tasa_respuestas": 0.0,
+        "cobertura_rubro": 0.0,
+        "detalle": [],
+        "disponible": False,
+    }
+    if not HUBSPOT_TOKEN:
+        return vacio
+    try:
+        log("descargando correos insight de Ingrid...")
+        emails = fetch_all_ingrid_emails(from_email, desde_fecha)
+        email_ids = [e["id"] for e in emails]
+        contact_by_email_id = fetch_contact_by_email_map(email_ids)
+        detalle = [build_email_detail_row(e, contact_by_email_id.get(e["id"])) for e in emails]
+        detalle.sort(key=lambda r: (r["fecha"] or "", r["hora"] or ""), reverse=True)
+
+        total = len(detalle)
+        total_sent = sum(1 for r in detalle if r["estado_raw"] == "SENT")
+        total_opened = sum(1 for r in detalle if r["aperturas"] > 0)
+        total_clicked = sum(1 for r in detalle if r["clics"] > 0)
+        total_replied = sum(1 for r in detalle if r["respuestas"] > 0)
+        total_con_rubro = sum(1 for r in detalle if r["rubro"])
+
+        def pct(n, d):
+            return round(100 * n / d, 1) if d else 0.0
+
+        log(f"  {total} correos de Ingrid, {total_sent} enviados, {total_opened} abiertos")
+        return {
+            "remitente": from_email,
+            "desde_fecha": desde_fecha,
+            "total_enviados": total_sent,
+            "tasa_apertura": pct(total_opened, total_sent),
+            "tasa_clics": pct(total_clicked, total_sent),
+            "tasa_respuestas": pct(total_replied, total_sent),
+            "cobertura_rubro": pct(total_con_rubro, total),
+            "detalle": detalle,
+            "disponible": True,
+        }
+    except Exception as e:  # noqa: BLE001
+        log(f"AVISO: no se pudo traer los correos de Ingrid (¿falta el permiso crm.objects.emails.read del token?): {e}")
+        return vacio
 
 
 def hubspot_paginate(path, properties, extra_params=""):
@@ -145,7 +374,12 @@ def fetch_hubspot_deals():
     log("descargando negocios (deals) de HubSpot...")
     deals = hubspot_paginate(
         "/crm/v3/objects/deals",
-        ["dealname", "dealstage", "pipeline", "createdate", "closedate", "amount"],
+        [
+            "dealname", "dealstage", "pipeline", "createdate", "closedate", "amount",
+            # Campos que Ingrid tipifica a mano en el Negocio, usados para la
+            # audiencia tibia de la pestaña Email Marketing (Pauta):
+            "etapa_final", "hs_priority",
+        ],
         extra_params="&associations=contacts",
     )
     log(f"  {len(deals)} negocios descargados")
@@ -186,6 +420,9 @@ def build_dataset():
     dias_vistos = set()
     # negocios "Descartados" (closedlost) -> insumo para Email MKT (clientes antiguos)
     clientes_antiguos = []
+    # contact_id -> {deal_id, deal_name, createdate, estadio_lead, nivel_urgencia}
+    # (del Negocio más reciente de cada contacto) -> insumo para audiencia tibia
+    contact_lead_status = {}
 
     # --- Contactos / Leads: uno por contacto, según su día de creación ---
     for c in contacts:
@@ -212,7 +449,8 @@ def build_dataset():
         contacto_nombre = None
         contacto_email = None
         if assoc:
-            contact = contact_by_id.get(assoc[0].get("id"))
+            contact_id = assoc[0].get("id")
+            contact = contact_by_id.get(contact_id)
             if contact:
                 cprops = contact.get("properties", {})
                 canal = canal_de_contacto(cprops)
@@ -220,6 +458,20 @@ def build_dataset():
                     filter(None, [cprops.get("firstname"), cprops.get("lastname")])
                 ) or cprops.get("email")
                 contacto_email = cprops.get("email")
+
+            # Guarda el Estadio del Lead / Nivel de Urgencia del negocio más
+            # reciente de este contacto (insumo para la audiencia tibia).
+            createdate = props.get("createdate") or ""
+            previo = contact_lead_status.get(contact_id)
+            if contact_id and (not previo or createdate > previo.get("createdate", "")):
+                urgencia_raw = props.get("hs_priority")
+                contact_lead_status[contact_id] = {
+                    "deal_id": d.get("id"),
+                    "deal_name": props.get("dealname"),
+                    "createdate": createdate,
+                    "estadio_lead": props.get("etapa_final") or None,
+                    "nivel_urgencia": NIVEL_URGENCIA_LABELS.get((urgencia_raw or "").lower(), urgencia_raw) if urgencia_raw else None,
+                }
         fuente = canal_a_fuente.get(canal, fuente_default)
 
         nivel = etapa_hs_a_nivel.get(dealstage)
@@ -292,11 +544,52 @@ def build_dataset():
             "detalle": sorted(detalle.get(dia, []), key=lambda r: (NIVEL_ORDEN[r["nivel"]], r["fuente"])),
         }
 
+    # --- Audiencia tibia: contactos de MKT Pauta que sí consideramos
+    # potenciales para un reenvío por correo, según el Estadio del Lead
+    # (ver comentario en config/mapping.json). El Nivel de Urgencia no se usa
+    # para incluir/excluir, solo se muestra como referencia. ---
+    audiencia_tibia_cfg = config.get("audiencia_tibia", {})
+    excluir_estadios = set(audiencia_tibia_cfg.get("excluir_estadios", ["Semilla", "En Crecimiento"]))
+
+    audiencia_tibia_detalle = []
+    for c in contacts:
+        props = c.get("properties", {})
+        canal = canal_de_contacto(props)
+        fuente = canal_a_fuente.get(canal, fuente_default)
+        if fuente != "MKT Pauta":
+            continue
+        status = contact_lead_status.get(c["id"])
+        estadio = status.get("estadio_lead") if status else None
+        if not estadio or estadio in excluir_estadios:
+            continue
+        nombre = " ".join(
+            filter(None, [props.get("firstname"), props.get("lastname")])
+        ) or props.get("email") or "(sin nombre)"
+        audiencia_tibia_detalle.append(
+            {
+                "nombre": nombre,
+                "correo": props.get("email") or "",
+                "empresa": status.get("deal_name") or "",
+                "estadio_lead": estadio,
+                "nivel_urgencia": status.get("nivel_urgencia"),
+            }
+        )
+    audiencia_tibia_detalle.sort(key=lambda r: r["nombre"])
+
+    # --- Correos insight (Ingrid) ---
+    correos_insight = fetch_ingrid_emails_summary(config.get("email_insight", {}))
+
     return {
         "generado": datetime.now(timezone.utc).isoformat(),
         "dias": dias_out,
         "metas_mensuales_default": metas_default,
         "clientes_antiguos": clientes_antiguos,
+        "correos_insight": correos_insight,
+        "audiencia_tibia": {
+            "excluir_estadios": sorted(excluir_estadios),
+            "total": len(audiencia_tibia_detalle),
+            "detalle": audiencia_tibia_detalle,
+        },
     }
 
 

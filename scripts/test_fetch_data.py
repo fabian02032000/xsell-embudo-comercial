@@ -30,7 +30,11 @@ fake_deals = [
     },
     {
         "id": "d2",
-        "properties": {"dealname": "Deal Luis", "dealstage": "closedwon", "createdate": f"{D2}T00:00:00Z"},
+        "properties": {
+            "dealname": "Deal Luis", "dealstage": "closedwon", "createdate": f"{D2}T00:00:00Z",
+            # MKT Pauta + Estadio "Consolidado" (no excluido) -> debe entrar en audiencia tibia.
+            "etapa_final": "Consolidado", "hs_priority": "medium",
+        },
         "associations": {"contacts": {"results": [{"id": "2"}]}},
     },
     {
@@ -40,7 +44,11 @@ fake_deals = [
     },
     {
         "id": "d4",
-        "properties": {"dealname": "Deal Jorge (Meta sin canal)", "dealstage": "appointmentscheduled", "createdate": f"{D4}T00:00:00Z"},
+        "properties": {
+            "dealname": "Deal Jorge (Meta sin canal)", "dealstage": "appointmentscheduled", "createdate": f"{D4}T00:00:00Z",
+            # MKT Pauta pero Estadio "Semilla" (excluido) -> NO debe entrar en audiencia tibia.
+            "etapa_final": "Semilla", "hs_priority": "high",
+        },
         "associations": {"contacts": {"results": [{"id": "4"}]}},
     },
 ]
@@ -101,5 +109,23 @@ assert clientes_antiguos[0]["deal_id"] == "d3"
 # metas_mensuales_default ahora es un solo bloque global (ya no uno por mes)
 assert "metas_mensuales_default" in dataset
 assert dataset["metas_mensuales_default"]["reuniones"] == 8
+
+# --- audiencia_tibia: solo MKT Pauta, con Estadio del Lead cargado y sin
+# estar en la lista de exclusión (Semilla / En Crecimiento) ---
+audiencia = dataset["audiencia_tibia"]
+nombres = [r["nombre"] for r in audiencia["detalle"]]
+assert "Luis Perez" in nombres, "Luis (MKT Pauta, Consolidado) debe entrar en la audiencia tibia"
+assert "Jorge Barco" not in nombres, "Jorge (MKT Pauta, Semilla) debe excluirse"
+assert "Ana Ruiz" not in nombres, "Ana es Comercial (Whatsapp), no MKT Pauta: no debe entrar"
+assert "Rosa Diaz" not in nombres, "Rosa no tiene Estadio del Lead cargado: no debe entrar"
+luis = next(r for r in audiencia["detalle"] if r["nombre"] == "Luis Perez")
+assert luis["estadio_lead"] == "Consolidado"
+assert luis["nivel_urgencia"] == "Medio", "hs_priority=medium debe traducirse a 'Medio'"
+
+# --- correos_insight: sin HUBSPOT_TOKEN en el entorno de prueba, no debe
+# intentar llamar a HubSpot; debe devolver el resumen vacío sin explotar ---
+correos = dataset["correos_insight"]
+assert correos["disponible"] is False
+assert correos["detalle"] == []
 
 print("\nOK: todas las validaciones pasaron")
