@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T12:18:06.807572+00:00",
+  "generado": "2026-09-24T17:23:29.544343+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -63906,7 +63906,7 @@
         },
         "MKT Pauta": {
           "contactos": 2,
-          "reuniones": 0,
+          "reuniones": 1,
           "propuestas": 0,
           "ventas": 0
         },
@@ -63919,11 +63919,20 @@
       },
       "total": {
         "contactos": 2,
-        "reuniones": 0,
+        "reuniones": 1,
         "propuestas": 0,
         "ventas": 0
       },
       "detalle": [
+        {
+          "fecha": "2026-08-13",
+          "fuente": "MKT Pauta",
+          "contacto": "Eddy Fuño Becerril",
+          "negocio": "Tu Podcaste ",
+          "etapa": "Reunión Agendadas",
+          "nivel": "Reuniones Agendadas",
+          "origen": "HubSpot"
+        },
         {
           "fecha": "2026-08-13",
           "fuente": "Comercial",
@@ -63938,15 +63947,6 @@
           "fuente": "MKT Pauta",
           "contacto": "Pio Rondon Vera",
           "negocio": "Pio Rondon Vera",
-          "etapa": "Descartada",
-          "nivel": "Fuera del embudo",
-          "origen": "HubSpot"
-        },
-        {
-          "fecha": "2026-08-13",
-          "fuente": "MKT Pauta",
-          "contacto": "Eddy Fuño Becerril",
-          "negocio": "Tu Podcaste ",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot"
@@ -64896,7 +64896,7 @@
         },
         "MKT Pauta": {
           "contactos": 7,
-          "reuniones": 1,
+          "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
         },
@@ -64909,7 +64909,7 @@
       },
       "total": {
         "contactos": 9,
-        "reuniones": 1,
+        "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
@@ -64928,8 +64928,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Amdres Reyes",
           "negocio": "Domcar",
-          "etapa": "Reunión Agendadas",
-          "nivel": "Reuniones Agendadas",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot"
         },
         {
@@ -66046,15 +66046,6 @@
         {
           "fecha": "2026-09-22",
           "fuente": "Comercial",
-          "contacto": "Diomedez Huaman Pastor",
-          "negocio": "Inoved Operaciones & Logistica EIRL",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot"
-        },
-        {
-          "fecha": "2026-09-22",
-          "fuente": "Comercial",
           "contacto": "atencionalcliente@jymgrupoinmobiliario.com",
           "negocio": "JyM Grupo Inmobiliario",
           "etapa": "Prospectos Contactados",
@@ -66195,6 +66186,15 @@
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "Comercial",
+          "contacto": "Diomedez Huaman Pastor",
+          "negocio": "Inoved Operaciones & Logistica EIRL",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot"
         }
       ]
     },
@@ -66208,7 +66208,7 @@
         },
         "MKT Pauta": {
           "contactos": 2,
-          "reuniones": 0,
+          "reuniones": 1,
           "propuestas": 0,
           "ventas": 0
         },
@@ -66221,7 +66221,7 @@
       },
       "total": {
         "contactos": 7,
-        "reuniones": 0,
+        "reuniones": 1,
         "propuestas": 0,
         "ventas": 0
       },
@@ -66265,15 +66265,6 @@
         {
           "fecha": "2026-09-23",
           "fuente": "MKT Pauta",
-          "contacto": "luis tenorio",
-          "negocio": "Corporación Logística & TransporteDeal",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot"
-        },
-        {
-          "fecha": "2026-09-23",
-          "fuente": "MKT Pauta",
           "contacto": "Jose Melendez Quesada",
           "negocio": "Geonet Import Sac",
           "etapa": "Prospectos Contactados",
@@ -66287,6 +66278,15 @@
           "negocio": "CCprojects SAC",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-23",
+          "fuente": "MKT Pauta",
+          "contacto": "luis tenorio",
+          "negocio": "Corporación Logística & TransporteDeal",
+          "etapa": "Reunión Agendadas",
+          "nivel": "Reuniones Agendadas",
           "origen": "HubSpot"
         },
         {
@@ -66345,7 +66345,17 @@
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-09-24",
+          "fuente": "MKT Pauta",
+          "contacto": "Eric Torres",
+          "negocio": "Claro Perú ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -72820,12 +72830,6 @@
       "email": "roversac@hotmail.com"
     },
     {
-      "deal_id": "63834741832",
-      "negocio": "Tu Podcaste ",
-      "contacto": "Eddy Fuño Becerril",
-      "email": "comercial@tupodcaste.pe"
-    },
-    {
       "deal_id": "63834804004",
       "negocio": "PANDERO S.A. EAFC",
       "contacto": "Tu Casa Con Luis Valladares",
@@ -73120,6 +73124,12 @@
       "email": "fer9918orbegoso@gmail.com"
     },
     {
+      "deal_id": "64623859322",
+      "negocio": "Domcar",
+      "contacto": "Amdres Reyes",
+      "email": "victorandresrecaldereyes8@gmail.com"
+    },
+    {
       "deal_id": "64623859534",
       "negocio": "O&M SERVICIOS COMERCIALES SAC",
       "contacto": "Rodolfo Enrique Montoya Miniza",
@@ -73336,6 +73346,12 @@
       "email": ""
     },
     {
+      "deal_id": "65162690064",
+      "negocio": "Inoved Operaciones & Logistica EIRL",
+      "contacto": "Diomedez Huaman Pastor",
+      "email": "dihuamandhp@gmail.com"
+    },
+    {
       "deal_id": "65204229473",
       "negocio": "Villa MBC Logística",
       "contacto": "(sin contacto)",
@@ -73351,12 +73367,60 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 443,
+    "total_enviados": 446,
     "tasa_apertura": 64.6,
     "tasa_clics": 0.0,
     "tasa_respuestas": 29.6,
     "cobertura_rubro": 0.6,
     "detalle": [
+      {
+        "id": "117385715595",
+        "destinatario_email": "luis.tenorio@cltsac.com.pe;luistenoriof@gmail.com",
+        "destinatario_nombre": null,
+        "empresa": "Cltsac",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Portafolio Xsell ",
+        "fecha": "2026-09-24",
+        "hora": "17:07",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 1,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117382995242",
+        "destinatario_email": "dihuamandhp@gmail.com",
+        "destinatario_nombre": "Diomedez Huaman Pastor",
+        "empresa": "Inoved Operaciones & Logistica EIRL",
+        "empresa_adivinada": false,
+        "rubro": null,
+        "asunto": "Gracias por la reunión ",
+        "fecha": "2026-09-24",
+        "hora": "15:53",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 1,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117380731147",
+        "destinatario_email": "antonio.x.torres@scania.com;diego.duthu@scania.com",
+        "destinatario_nombre": null,
+        "empresa": "Scania",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "RE:  Scania Chile - Propuesta Económica",
+        "fecha": "2026-09-24",
+        "hora": "14:39",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "117316145234",
         "destinatario_email": "dihuamandhp@gmail.com",
@@ -73369,7 +73433,7 @@
         "hora": "21:11",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 6,
+        "aperturas": 8,
         "clics": 0,
         "respuestas": 0
       },
@@ -73673,7 +73737,7 @@
         "hora": "23:07",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 6,
+        "aperturas": 8,
         "clics": 0,
         "respuestas": 1
       },
@@ -73867,7 +73931,7 @@
         "estado_raw": "SENT",
         "aperturas": 0,
         "clics": 0,
-        "respuestas": 0
+        "respuestas": 1
       },
       {
         "id": "116455678746",
@@ -81476,7 +81540,7 @@
     "incluir_estadios": [
       "Consolidado"
     ],
-    "total": 7,
+    "total": 9,
     "detalle": [
       {
         "nombre": "Amdres Reyes",
@@ -81524,6 +81588,20 @@
         "nombre": "Jorge Barco Fenco",
         "correo": "jorgebarcofenco@gmail.com",
         "empresa": "Creative Focus ",
+        "estadio_lead": "Consolidado",
+        "nivel_urgencia": null
+      },
+      {
+        "nombre": "Miguel Angel Cayo Veit",
+        "correo": "administracion@privateacher.edu.pe",
+        "empresa": "Privateacher International ",
+        "estadio_lead": "Consolidado",
+        "nivel_urgencia": null
+      },
+      {
+        "nombre": "luis tenorio",
+        "correo": "luis.tenorio@cltsac.com.pe",
+        "empresa": "Corporación Logística & TransporteDeal",
         "estadio_lead": "Consolidado",
         "nivel_urgencia": null
       }
