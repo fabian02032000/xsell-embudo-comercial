@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T17:23:29.544343+00:00",
+  "generado": "2026-09-24T20:42:19.766672+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -73385,7 +73385,7 @@
         "hora": "17:07",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
