@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T23:34:41.489911+00:00",
+  "generado": "2026-09-25T01:55:00.063190+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -66356,6 +66356,35 @@
           "origen": "HubSpot"
         }
       ]
+    },
+    "2026-09-25": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -73401,7 +73430,7 @@
         "hora": "15:53",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
