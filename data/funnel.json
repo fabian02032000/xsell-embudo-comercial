@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-28T01:56:21.953640+00:00",
+  "generado": "2026-09-28T08:37:00.817123+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -66443,7 +66443,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -66456,7 +66456,7 @@
         }
       },
       "total": {
-        "contactos": 15,
+        "contactos": 16,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -73609,12 +73609,124 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 447,
-    "tasa_apertura": 64.4,
+    "total_enviados": 453,
+    "tasa_apertura": 63.6,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 29.5,
+    "tasa_respuestas": 29.1,
     "cobertura_rubro": 0.6,
     "detalle": [
+      {
+        "id": "117467684376",
+        "destinatario_email": "vyv@vyv.pe",
+        "destinatario_nombre": null,
+        "empresa": "Vyv",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "6 minutos. ¿Y la cifra?",
+        "fecha": "2026-09-28",
+        "hora": "04:31",
+        "estado": "Fallido",
+        "estado_raw": "FAILED",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117459868746",
+        "destinatario_email": "atencionalcliente@besco.com.pe",
+        "destinatario_nombre": null,
+        "empresa": "Besco",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Bea, ¿tan pronto?",
+        "fecha": "2026-09-28",
+        "hora": "04:20",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117467681871",
+        "destinatario_email": "ventas@ciudaris.com",
+        "destinatario_nombre": null,
+        "empresa": "Ciudaris",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Iconik: ¿llegó?",
+        "fecha": "2026-09-28",
+        "hora": "04:09",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117459866625",
+        "destinatario_email": "contactanos@urbanaperu.com.pe",
+        "destinatario_nombre": null,
+        "empresa": "Urbanaperu",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "15 minutos. ¿Lo mismo?",
+        "fecha": "2026-09-28",
+        "hora": "04:03",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117467657878",
+        "destinatario_email": "contacto@abril.pe",
+        "destinatario_nombre": null,
+        "empresa": "Abril",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "¿Y Las Begonias?",
+        "fecha": "2026-09-28",
+        "hora": "03:58",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117467667475",
+        "destinatario_email": "info@edifica.com.pe",
+        "destinatario_nombre": null,
+        "empresa": "Edifica",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Una experiencia en Edifica",
+        "fecha": "2026-09-28",
+        "hora": "03:53",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117467663879",
+        "destinatario_email": "callcenter@imagina.pe",
+        "destinatario_nombre": null,
+        "empresa": "Imagina",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Imagina: 10:30 p. m.",
+        "fecha": "2026-09-28",
+        "hora": "03:46",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "117438309435",
         "destinatario_email": "merlys.jimenez@scania.com",
