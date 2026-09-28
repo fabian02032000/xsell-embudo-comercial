@@ -56,5 +56,16 @@
   "_comentario_audiencia_tibia": "Contactos que llegaron por MKT Pauta (formulario/Facebook) que sí consideramos potenciales para un reenvío 'tibio' por correo. Solo entran los que están en Estadio del Lead = Consolidado (los demás estadios, como Alto Nivel/Semilla/En Crecimiento, quedan afuera). El Nivel de Urgencia NO se usa para incluir/excluir: se muestra aparte, para decidir la estrategia de envío (qué tan pronto y qué contenido enviarle a cada quien). Un contacto sin Negocio, o con Negocio pero sin Estadio cargado, no entra (no se puede saber si es potencial).",
   "audiencia_tibia": {
     "incluir_estadios": ["Consolidado"]
+  },
+
+  "_comentario_whatsapp_campana": "Antes de 'desde_fecha', Canal=\"Whatsapp\" siempre significó que un vendedor le escribió a alguien por su cuenta (gestión Comercial). Desde 'desde_fecha', ese mismo valor de Canal también se usa (en el otro dashboard, el de la campaña de Meta) para marcar los leads que SÍ vinieron de la campaña paga de WhatsApp — esos deben contar aquí como MKT Pauta, no Comercial. Por seguridad, si el Negocio asociado tiene en su nombre alguna de las palabras de 'excluir_dealname_keywords' (ej. Mitsubishi \"Whatsapp SALIENTES\", Crosland \"PERFILAMIENTO de Leads\"), es en realidad otra gestión de ventas y se deja como Comercial.",
+  "whatsapp_campana_meta": {
+    "desde_fecha": "2026-09-01",
+    "excluir_dealname_keywords": ["saliente", "perfilamiento"]
+  },
+
+  "_comentario_actividades": "Config de la pestaña 'Actividades'. Cuenta correos, notas y llamadas reales desde esta fecha (dato real de HubSpot, nadie tipifica nada a mano). 'Reuniones' y 'WhatsApp' no se pueden traer todavía: el token de este repositorio no tiene permiso para leer Reuniones (hay que volver a autorizar la conexión de HubSpot) y no existe un objeto de WhatsApp en esta cuenta.",
+  "actividades": {
+    "desde_fecha": "2026-01-01"
   }
 }
