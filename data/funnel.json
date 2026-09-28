@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-27T23:22:30.327452+00:00",
+  "generado": "2026-09-28T01:56:21.953640+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -66433,6 +66433,171 @@
         "ventas": 0
       },
       "detalle": []
+    },
+    "2026-09-28": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 15,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 15,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": [
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "info@capacasociados.com",
+          "negocio": "Capac Asociados Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "contactanos@urbanaperu.com.pe",
+          "negocio": "Urbana Perú Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "contacto@abril.pe",
+          "negocio": "Abril Grupo Inmobiliario",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "etomas@senda.pe",
+          "negocio": "Senda Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "atencionalcliente@besco.com.pe",
+          "negocio": "Besco Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "informes@madridinmobiliaria.pe",
+          "negocio": "Madrid Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "info@msinmobiliaria.pe",
+          "negocio": "MS Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "informes@grupoaurora.pe",
+          "negocio": "Aurora Grupo Inmobiliario",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "info@edifica.com.pe",
+          "negocio": "Edifica Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "vyv@vyv.pe",
+          "negocio": "V&V Grupo Inmobiliario",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "jefedeventas@moryasoc.pe",
+          "negocio": "Morgenstern Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "callcenter@imagina.pe",
+          "negocio": "Imagina Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "ventas@ciudaris.com",
+          "negocio": "Ciudaris Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "info@grupomg.pe",
+          "negocio": "Grupo MG Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "contacto@balance.pe",
+          "negocio": "Balance Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
