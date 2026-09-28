@@ -18,6 +18,17 @@ Se actualiza solo, cada 10 minutos, sin que nadie tenga que hacer nada.
 3. Junta todo en un archivo (`data/funnel.json`).
 4. La página web (`index.html`) lee ese archivo y lo muestra.
 
+## Pestañas del dashboard (`index.html`)
+
+- **📊 Embudo Comercial**: la vista de siempre — Comercial / MKT Pauta / LinkedIn PACS contra las metas mensuales, por mes o por rango de fechas.
+- **🔺 Pipeline**: foto de ahora mismo (no por día) de todos los negocios: cuántos hay y cuánto valen en cada etapa, y el pipeline activo total (excluye los descartados).
+- **🏷 Negocios**: la lista completa de negocios, con filtros por País y Tipo de Negocio. El País usa el campo real de HubSpot cuando está lleno; si no, se adivina del nombre del negocio (se marca con un `*`). El Tipo de Negocio (ATC, Perfilamiento de Leads, Agendamiento de Citas, Carritos Abandonados, Encuestas, Ventas, Otro) siempre se adivina del nombre — no hay ningún campo en HubSpot que ya traiga esa clasificación lista.
+- **⚡ Actividades**: cuántos correos, notas y llamadas reales se registraron en HubSpot desde el 1 de enero de 2026. "Reuniones" y "WhatsApp" no se pueden mostrar todavía: Reuniones necesita que alguien vuelva a autorizar la conexión de HubSpot (permiso de lectura de Reuniones), y no existe ningún dato de WhatsApp disponible en esta cuenta de HubSpot.
+
+### El caso especial de Canal="Whatsapp"
+
+Antes de setiembre de 2026, que un contacto tuviera Canal="Whatsapp" siempre significaba que un vendedor le escribió por su cuenta (Comercial). Desde que empezó la campaña paga de WhatsApp por Meta (setiembre 2026), ese mismo valor de Canal también se usa — en el otro dashboard, el de la campaña — para marcar los leads que sí vienen de esa campaña. Para que ambos dashboards cuadren, aquí esos contactos (los creados desde `whatsapp_campana_meta.desde_fecha` en `config/mapping.json`) se cuentan como MKT Pauta en vez de Comercial, salvo que el nombre de su Negocio tenga alguna palabra de las de `excluir_dealname_keywords` (eso indica que en realidad es otra gestión de ventas, no un lead de la campaña).
+
 ## Email Marketing (`email-marketing.html`)
 
 Página aparte (con inicio de sesión) para el equipo comercial, con 3 pestañas:
@@ -32,7 +43,8 @@ Las primeras dos pestañas se llenan solas cada 10 minutos, junto con el resto d
 
 ## Si algo se ve mal
 
-- **Las metas mensuales, a qué grupo (Comercial/MKT Pauta) pertenece cada "Canal" de HubSpot, el correo desde el que Ingrid manda sus correos insight, o qué Estadios entran en la audiencia tibia**: se edita en `config/mapping.json`. No hace falta tocar código, solo pídele a Claude que lo ajuste.
+- **Las metas mensuales, a qué grupo (Comercial/MKT Pauta) pertenece cada "Canal" de HubSpot, el correo desde el que Ingrid manda sus correos insight, qué Estadios entran en la audiencia tibia, desde cuándo cuenta la campaña de WhatsApp de Meta, o desde cuándo se cuentan las Actividades**: se edita en `config/mapping.json`. No hace falta tocar código, solo pídele a Claude que lo ajuste.
+- **Quieres que "Reuniones" y "WhatsApp" también se muestren en Actividades**: para Reuniones, hay que volver a autorizar la conexión de HubSpot para que incluya el permiso de leer Reuniones. Para WhatsApp, esta cuenta de HubSpot no tiene ningún objeto que registre esas conversaciones, así que no hay de dónde traerlo todavía.
 - **El robot dejó de actualizar**: revisa la pestaña "Actions" en GitHub, ahí se ve si hubo un error (por ejemplo, si la llave de HubSpot venció).
 - **La llave de HubSpot venció o se borró**: hay que crear una nueva "Clave de servicio" en HubSpot (Configuración → Desarrollo → Claves → Claves de servicio) con permisos de lectura sobre Contacts, Deals y Emails, y actualizar el secreto `HUBSPOT_TOKEN` en este repositorio (Settings → Secrets and variables → Actions).
 

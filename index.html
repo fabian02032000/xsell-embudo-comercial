@@ -259,6 +259,24 @@
   .empty{color:var(--text-faint);font-size:13.5px;padding:20px 0;text-align:center;}
   .foot{color:var(--text-faint);font-size:12px;text-align:center;margin-top:24px;line-height:1.6;}
   .foot a{color:var(--text-muted);}
+
+  .kpi-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;}
+  .kpi-card{
+    background:var(--panel-2);border:1px solid var(--border);border-radius:12px;
+    padding:14px 16px;display:flex;flex-direction:column;gap:4px;
+  }
+  .kpi-card .kv{font-size:22px;font-weight:800;line-height:1;}
+  .kpi-card .kl{font-size:11.5px;color:var(--text-faint);font-weight:600;text-transform:uppercase;letter-spacing:.03em;}
+  .kpi-card .ks{font-size:11.5px;color:var(--text-muted);}
+  .kpi-card.na .kv{color:var(--text-faint);font-size:14px;font-weight:700;}
+
+  .filtro-pill{
+    border:1.5px solid var(--border);background:transparent;color:var(--text-muted);
+    padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600;cursor:pointer;
+    font-family:inherit;transition:all .12s ease;
+  }
+  .filtro-pill:hover{border-color:#3d3d48;color:var(--text);}
+  .filtro-pill.active{background:var(--comercial-bg);color:var(--comercial);border-color:var(--comercial);}
 </style>
 </head>
 <body>
@@ -271,6 +289,10 @@
       <div class="live"><span class="dot" id="liveDot"></span><span id="liveText">Cargando…</span></div>
     </div>
   </header>
+
+  <div class="pill-row" id="mainTabRow" style="margin-bottom:18px;"></div>
+
+  <div class="tab-panel active" id="tabpanel-embudo">
 
   <div class="card">
     <div class="month-label">Ver por</div>
@@ -326,6 +348,44 @@
     <div id="detalleWrap"><div class="empty">Sin datos todavía.</div></div>
   </div>
 
+  </div><!-- /tabpanel-embudo -->
+
+  <div class="tab-panel" id="tabpanel-pipeline" style="display:none;">
+    <div class="card">
+      <div class="funnel-title"><h2>Pipeline · foto actual</h2></div>
+      <div class="kpi-grid" id="pipelineTotales"></div>
+    </div>
+    <div class="card">
+      <div class="funnel-title"><h2>Negocios por etapa</h2></div>
+      <div class="kpi-grid" id="pipelineEtapas"></div>
+    </div>
+  </div><!-- /tabpanel-pipeline -->
+
+  <div class="tab-panel" id="tabpanel-negocios" style="display:none;">
+    <div class="card">
+      <div class="funnel-title"><h2>Filtrar negocios</h2></div>
+      <div class="month-label">País</div>
+      <div class="pill-row" id="filtroPaisRow" style="margin-bottom:14px;"></div>
+      <div class="month-label">Tipo de negocio</div>
+      <div class="pill-row" id="filtroTipoRow"></div>
+    </div>
+    <div class="card">
+      <div class="funnel-title">
+        <h2>Todos los negocios</h2>
+        <span class="periodo" id="negociosCount"></span>
+      </div>
+      <div id="negociosWrap" style="max-height:520px;overflow-y:auto;"><div class="empty">Sin datos todavía.</div></div>
+    </div>
+  </div><!-- /tabpanel-negocios -->
+
+  <div class="tab-panel" id="tabpanel-actividades" style="display:none;">
+    <div class="card">
+      <div class="funnel-title"><h2>Actividades registradas</h2></div>
+      <div class="kpi-grid" id="actividadesGrid"></div>
+      <div class="empty" id="actividadesNota" style="text-align:left;padding-top:4px;"></div>
+    </div>
+  </div><!-- /tabpanel-actividades -->
+
   <div class="foot">
     Datos de HubSpot y del repo de LinkedIn PACS. Se actualiza solo cada 10 minutos.<br>
     <span id="genInfo"></span>
@@ -349,6 +409,24 @@ let rangoInicio = null;
 let rangoFin = null;
 let fuenteActiva = "Total"; // solo afecta el filtro del detalle
 let gruposAbiertos = new Set(); // niveles del embudo expandidos en el detalle por lead
+
+// ---- Pestañas principales + filtros de la pestaña Negocios ----
+const TABS = [
+  {key:"embudo", label:"📊 Embudo Comercial"},
+  {key:"pipeline", label:"🔺 Pipeline"},
+  {key:"negocios", label:"🏷 Negocios"},
+  {key:"actividades", label:"⚡ Actividades"},
+];
+let tabActiva = "embudo";
+let paisesActivos = new Set();   // vacío = mostrar todos
+let tiposActivos = new Set();    // vacío = mostrar todos
+
+function fmtMonto(n){
+  if (!n) return "S/ 0";
+  if (n >= 1e6) return "S/ " + (n/1e6).toFixed(2) + "M";
+  if (n >= 1e3) return "S/ " + (n/1e3).toFixed(1) + "K";
+  return "S/ " + Math.round(n).toLocaleString("es-PE");
+}
 
 function metaDe(metas, nivelKey, fuente){
   const m = metas[nivelKey];
@@ -693,6 +771,138 @@ function renderAll(){
   renderDetalle();
 }
 
+// ---------- Pestañas principales ----------
+function initTabs(){
+  const row = document.getElementById("mainTabRow");
+  row.innerHTML = "";
+  TABS.forEach(t=>{
+    const b = document.createElement("button");
+    b.className = "pill" + (t.key === tabActiva ? " active" : "");
+    b.textContent = t.label;
+    b.onclick = ()=>{
+      tabActiva = t.key;
+      TABS.forEach(t2=>{
+        document.getElementById("tabpanel-"+t2.key).style.display = (t2.key===tabActiva ? "" : "none");
+      });
+      row.querySelectorAll(".pill").forEach(p=>p.classList.remove("active"));
+      b.classList.add("active");
+    };
+    row.appendChild(b);
+  });
+}
+
+// ---------- Pipeline (foto actual de todos los negocios) ----------
+function renderPipeline(){
+  const pipe = dataset.negocios_pipeline;
+  const totales = document.getElementById("pipelineTotales");
+  const etapas = document.getElementById("pipelineEtapas");
+  if (!pipe){ totales.innerHTML = etapas.innerHTML = '<div class="empty">Sin datos todavía.</div>'; return; }
+
+  totales.innerHTML = `
+    <div class="kpi-card"><div class="kv" style="color:var(--total)">${pipe.total_deals}</div><div class="kl">Total de negocios</div><div class="ks">Todas las etapas</div></div>
+    <div class="kpi-card"><div class="kv" style="color:var(--total)">${fmtMonto(pipe.pipeline_activo_valor)}</div><div class="kl">Pipeline activo</div><div class="ks">Excluye descartados</div></div>
+  `;
+
+  etapas.innerHTML = pipe.por_etapa.map(e=>`
+    <div class="kpi-card">
+      <div class="kv">${e.cantidad}</div>
+      <div class="kl">${e.etapa_label}</div>
+      <div class="ks">${fmtMonto(e.valor)}</div>
+    </div>
+  `).join("");
+}
+
+// ---------- Negocios (tabla filtrable) ----------
+function renderFiltrosNegocios(){
+  const detalle = dataset.negocios_detalle || [];
+  const paises = [...new Set(detalle.map(d=>d.pais))].sort();
+  const tipos = [...new Set(detalle.map(d=>d.tipo_negocio_label))].sort();
+
+  const paisRow = document.getElementById("filtroPaisRow");
+  paisRow.innerHTML = "";
+  paises.forEach(p=>{
+    const b = document.createElement("button");
+    b.className = "filtro-pill" + (paisesActivos.has(p) ? " active" : "");
+    b.textContent = p;
+    b.onclick = ()=>{
+      if (paisesActivos.has(p)) paisesActivos.delete(p); else paisesActivos.add(p);
+      renderFiltrosNegocios(); renderNegociosTabla();
+    };
+    paisRow.appendChild(b);
+  });
+
+  const tipoRow = document.getElementById("filtroTipoRow");
+  tipoRow.innerHTML = "";
+  tipos.forEach(t=>{
+    const b = document.createElement("button");
+    b.className = "filtro-pill" + (tiposActivos.has(t) ? " active" : "");
+    b.textContent = t;
+    b.onclick = ()=>{
+      if (tiposActivos.has(t)) tiposActivos.delete(t); else tiposActivos.add(t);
+      renderFiltrosNegocios(); renderNegociosTabla();
+    };
+    tipoRow.appendChild(b);
+  });
+}
+
+function renderNegociosTabla(){
+  const wrap = document.getElementById("negociosWrap");
+  const countEl = document.getElementById("negociosCount");
+  const detalle = dataset.negocios_detalle || [];
+  const filtrado = detalle.filter(d=>
+    (paisesActivos.size === 0 || paisesActivos.has(d.pais)) &&
+    (tiposActivos.size === 0 || tiposActivos.has(d.tipo_negocio_label))
+  );
+  countEl.textContent = filtrado.length + " negocios";
+  if (!filtrado.length){
+    wrap.innerHTML = '<div class="empty">No hay negocios para este filtro.</div>';
+    return;
+  }
+  wrap.innerHTML = `
+    <table>
+      <thead><tr><th>Negocio</th><th>País</th><th>Tipo de negocio</th><th>Etapa</th><th>Monto</th><th>Creado</th><th>Últ. actividad</th></tr></thead>
+      <tbody>
+        ${filtrado.map(d=>`
+          <tr>
+            <td style="font-weight:600;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${d.nombre}">${d.nombre}</td>
+            <td>${d.pais}${d.pais_real ? "" : ' <span style="color:var(--text-faint)">*</span>'}</td>
+            <td>${d.tipo_negocio_label}</td>
+            <td><span class="status ${statusClass(d.etapa_label)}">${d.etapa_label}</span></td>
+            <td style="font-weight:700">${fmtMonto(d.monto)}</td>
+            <td style="color:var(--text-faint)">${etiquetaFecha(d.creado)}</td>
+            <td style="color:var(--text-faint)">${etiquetaFecha(d.ultima_actividad)}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+    <div class="empty" style="text-align:left;padding-top:10px;">* País adivinado del nombre del negocio (no tenía el campo real lleno en HubSpot).</div>
+  `;
+}
+
+// ---------- Actividades ----------
+function renderActividades(){
+  const grid = document.getElementById("actividadesGrid");
+  const nota = document.getElementById("actividadesNota");
+  const act = dataset.actividades;
+  if (!act){ grid.innerHTML = '<div class="empty">Sin datos todavía.</div>'; return; }
+
+  const tile = (valor, label, sub) => valor == null
+    ? `<div class="kpi-card na"><div class="kv">No disponible</div><div class="kl">${label}</div><div class="ks">${sub}</div></div>`
+    : `<div class="kpi-card"><div class="kv">${valor.toLocaleString("es-PE")}</div><div class="kl">${label}</div><div class="ks">${sub}</div></div>`;
+
+  grid.innerHTML = [
+    tile(act.correos, "Correos", "Desde " + etiquetaFecha(act.desde_fecha)),
+    tile(act.notas, "Notas", "Desde " + etiquetaFecha(act.desde_fecha)),
+    tile(act.llamadas, "Llamadas", "Desde " + etiquetaFecha(act.desde_fecha)),
+    tile(null, "Reuniones", "Falta permiso en HubSpot"),
+    tile(null, "WhatsApp", "No existe ese dato en HubSpot"),
+  ].join("");
+
+  nota.textContent = act.disponible
+    ? "Correos, Notas y Llamadas son datos reales de HubSpot. Reuniones y WhatsApp no se pueden traer todavía (ver README)."
+    : "Todavía no se pudo traer este dato de HubSpot.";
+}
+
 function actualizarLive(ok, generado){
   const dot = document.getElementById("liveDot");
   const txt = document.getElementById("liveText");
@@ -729,6 +939,10 @@ async function cargar(){
       inputHasta.max = dias[dias.length-1];
     }
     renderAll();
+    renderPipeline();
+    renderFiltrosNegocios();
+    renderNegociosTabla();
+    renderActividades();
     actualizarLive(true, dataset.generado);
   }catch(e){
     console.error(e);
@@ -736,6 +950,7 @@ async function cargar(){
   }
 }
 
+initTabs();
 initCalendarEvents();
 initModoEvents();
 cargar();
