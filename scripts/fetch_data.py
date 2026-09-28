@@ -19,6 +19,7 @@ import json
 import os
 import sys
 import time
+import unicodedata
 import urllib.request
 import urllib.error
 from collections import defaultdict
@@ -44,6 +45,14 @@ STAGE_NAMES = {
     "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a": "Stand By",
     "1194313252": "Requerimientos Adicionales",
 }
+
+# Orden en el que se muestran las etapas en la pestaña "Pipeline" (sigue el
+# avance real del negocio, de más nuevo a más avanzado/descartado).
+STAGE_ORDER = [
+    "1275439753", "appointmentscheduled", "qualifiedtobuy", "decisionmakerboughtin",
+    "contractsent", "closedwon", "44cdeaeb-93ef-4f46-a125-d47bfb1a7694",
+    "1194313252", "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a", "closedlost",
+]
 
 FUENTES = ["Comercial", "MKT Pauta", "LinkedIn PACS"]
 NIVELES = ["contactos", "reuniones", "propuestas", "ventas"]
@@ -377,6 +386,149 @@ def canal_de_contacto(cprops):
     return None
 
 
+def strip_accents(s):
+    return "".join(c for c in unicodedata.normalize("NFD", s or "") if unicodedata.category(c) != "Mn")
+
+
+def fuente_de_contacto(cprops, contact_id, dealnames_by_contact, canal_a_fuente, fuente_default, whatsapp_cfg):
+    """
+    A qué fuente pertenece el contacto (Comercial / MKT Pauta / etc.), con el caso
+    especial de Canal="Whatsapp" (ver 'whatsapp_campana_meta' en config/mapping.json):
+
+    Antes de la fecha de la campaña, Canal="Whatsapp" siempre significó que un
+    vendedor le escribió a alguien por su cuenta (Comercial). Desde esa fecha, el
+    dashboard de la campaña de Meta también usa ese mismo valor para marcar los
+    leads que sí vinieron de la campaña paga de WhatsApp — esos deben contar aquí
+    como MKT Pauta. Por seguridad, si el Negocio asociado tiene en su nombre alguna
+    palabra de exclusión (ej. "saliente", "perfilamiento"), es en realidad otra
+    gestión de ventas y se queda como Comercial.
+    """
+    canal = canal_de_contacto(cprops)
+    if canal and canal.strip().lower() == "whatsapp":
+        desde = whatsapp_cfg.get("desde_fecha")
+        creado = dia_key(cprops.get("createdate"))
+        if desde and creado and creado >= desde:
+            keywords = whatsapp_cfg.get("excluir_dealname_keywords", [])
+            dealnames = dealnames_by_contact.get(contact_id, [])
+            haystack = strip_accents(" ".join(dealnames).lower())
+            if not any(kw in haystack for kw in keywords):
+                return "MKT Pauta"
+    return canal_a_fuente.get(canal, fuente_default)
+
+
+PAIS_KEYWORDS = [
+    ("Chile", ["chile"]),
+    ("Colombia", ["colombia"]),
+    ("México", ["mexico"]),
+    ("Argentina", ["argentina"]),
+    ("Ecuador", ["ecuador"]),
+]
+
+
+def guess_pais_from_name(nombre):
+    """Adivina el país leyendo el nombre del negocio, solo como respaldo
+    cuando el campo real de HubSpot ("accion_comercial") está vacío."""
+    m = strip_accents((nombre or "").lower())
+    for pais, keywords in PAIS_KEYWORDS:
+        if any(k in m for k in keywords):
+            return pais
+    return "Perú"
+
+
+def pais_de_negocio(props):
+    """
+    A qué país pertenece el negocio. Se prefiere el campo real de HubSpot
+    ("accion_comercial" / "País": Perú, Colombia, México, Argentina, Chile,
+    Ecuador), que es más confiable. Cuando está vacío (pasa en varios
+    negocios), se adivina leyendo el nombre del negocio como respaldo.
+    Devuelve (país, es_dato_real).
+    """
+    real = (props.get("accion_comercial") or "").strip()
+    if real:
+        return real, True
+    return guess_pais_from_name(props.get("dealname")), False
+
+
+TIPO_NEGOCIO_LABELS = {
+    "ATC": "ATC / Atención al Cliente",
+    "LEADS": "Perfilamiento de Leads",
+    "CITAS": "Agendamiento de Citas",
+    "CARTS": "Carritos Abandonados",
+    "ENCUESTA": "Encuestas / Aleatorias",
+    "VENTAS": "Ventas",
+    "OTRO": "Otro",
+}
+
+
+def guess_tipo_negocio(nombre):
+    """
+    Adivina a qué tipo de servicio (de los que ofrece Xsell/3Eriza como BPO)
+    pertenece el negocio, leyendo palabras clave en su nombre. Se revisaron
+    los campos "producto" y "categoria" de HubSpot y ninguno separa estos
+    tipos de servicio (casi todos los negocios recientes usan el mismo valor
+    de "producto"), así que se adivina del nombre — igual que ya hacía el
+    reporte de referencia armado a mano que compartió Fabián.
+    """
+    m = strip_accents((nombre or "").lower())
+    if any(k in m for k in ["atc", "atencion", "reclamo"]):
+        key = "ATC"
+    elif any(k in m for k in ["perfilam", "leads"]):
+        key = "LEADS"
+    elif any(k in m for k in ["agendamiento", "citas", "central de citas"]):
+        key = "CITAS"
+    elif any(k in m for k in ["carrito", "abandonado", "abondonado"]):
+        key = "CARTS"
+    elif any(k in m for k in ["encuesta", "desertores", "aleatorias", "kacs", "kscs", "korea", "himla", "nps", "wsp verif"]):
+        key = "ENCUESTA"
+    elif any(k in m for k in ["venta", "cliente incognito"]):
+        key = "VENTAS"
+    else:
+        key = "OTRO"
+    return key, TIPO_NEGOCIO_LABELS[key]
+
+
+def fetch_activity_count(object_type, since_epoch):
+    """Cuenta cuántos objetos de este tipo (calls/emails/notes) hay desde
+    since_epoch, usando el campo 'total' que devuelve el buscador de HubSpot
+    — no hace falta traer todos los resultados, solo el conteo."""
+    body = {
+        "filterGroups": [{"filters": [{"propertyName": "hs_timestamp", "operator": "GTE", "value": str(since_epoch)}]}],
+        "limit": 1,
+    }
+    data = hubspot_post(f"/crm/v3/objects/{object_type}/search", body)
+    return data.get("total", 0)
+
+
+def fetch_actividades_resumen(cfg):
+    """
+    Cuenta correos, notas y llamadas reales desde HubSpot (nadie tiene que
+    tipificar nada a mano). "Reuniones" y "WhatsApp" NO están disponibles con
+    los permisos actuales del token de este repositorio — se probó
+    directamente contra la API: el objeto de Reuniones (MEETING_EVENT)
+    necesita que alguien vuelva a autorizar la conexión de HubSpot, y no
+    existe ningún objeto de WhatsApp disponible en esta cuenta. En vez de
+    inventar un número, se muestran como "no disponible".
+    """
+    desde_fecha = cfg.get("desde_fecha", "2026-01-01")
+    since_epoch = date_to_epoch_ms(desde_fecha)
+    resultado = {
+        "desde_fecha": desde_fecha,
+        "correos": None, "notas": None, "llamadas": None,
+        "disponible": False,
+    }
+    if not HUBSPOT_TOKEN:
+        return resultado
+    ok = False
+    for clave, tipo in (("correos", "emails"), ("notas", "notes"), ("llamadas", "calls")):
+        try:
+            resultado[clave] = fetch_activity_count(tipo, since_epoch)
+            ok = True
+        except Exception as e:  # noqa: BLE001
+            log(f"AVISO: no se pudo contar {clave} ({tipo}): {e}")
+    resultado["disponible"] = ok
+    return resultado
+
+
 def load_config():
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -404,6 +556,10 @@ def fetch_hubspot_deals():
             # Campos que Ingrid tipifica a mano en el Negocio, usados para la
             # audiencia tibia de la pestaña Email Marketing (Pauta):
             "etapa_final", "hs_priority",
+            # Campo real de País en HubSpot (no siempre está lleno, ver pais_de_negocio).
+            "accion_comercial",
+            # Para la columna "Última actividad" de la pestaña Negocios.
+            "hs_lastmodifieddate",
         ],
         extra_params="&associations=contacts",
     )
@@ -436,6 +592,18 @@ def build_dataset():
     pacs = fetch_pacs_prospectos()
 
     contact_by_id = {c["id"]: c for c in contacts}
+    whatsapp_cfg = config.get("whatsapp_campana_meta", {})
+
+    # contact_id -> [nombres de sus Negocios] (para el caso especial de Canal=Whatsapp)
+    dealnames_by_contact = defaultdict(list)
+    for d in deals:
+        nombre = d.get("properties", {}).get("dealname")
+        if not nombre:
+            continue
+        for a in d.get("associations", {}).get("contacts", {}).get("results", []):
+            cid = a.get("id")
+            if cid:
+                dealnames_by_contact[cid].append(nombre)
 
     # día -> fuente -> nivel -> contador
     counts = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
@@ -452,8 +620,7 @@ def build_dataset():
     # --- Contactos / Leads: uno por contacto, según su día de creación ---
     for c in contacts:
         props = c.get("properties", {})
-        canal = canal_de_contacto(props)
-        fuente = canal_a_fuente.get(canal, fuente_default)
+        fuente = fuente_de_contacto(props, c["id"], dealnames_by_contact, canal_a_fuente, fuente_default, whatsapp_cfg)
         dia = dia_key(props.get("createdate"))
         if not dia:
             continue
@@ -470,7 +637,7 @@ def build_dataset():
         dias_vistos.add(dia)
 
         assoc = d.get("associations", {}).get("contacts", {}).get("results", [])
-        canal = None
+        fuente = fuente_default
         contacto_nombre = None
         contacto_email = None
         if assoc:
@@ -478,7 +645,7 @@ def build_dataset():
             contact = contact_by_id.get(contact_id)
             if contact:
                 cprops = contact.get("properties", {})
-                canal = canal_de_contacto(cprops)
+                fuente = fuente_de_contacto(cprops, contact_id, dealnames_by_contact, canal_a_fuente, fuente_default, whatsapp_cfg)
                 contacto_nombre = " ".join(
                     filter(None, [cprops.get("firstname"), cprops.get("lastname")])
                 ) or cprops.get("email")
@@ -497,7 +664,6 @@ def build_dataset():
                     "estadio_lead": props.get("etapa_final") or None,
                     "nivel_urgencia": NIVEL_URGENCIA_LABELS.get((urgencia_raw or "").lower(), urgencia_raw) if urgencia_raw else None,
                 }
-        fuente = canal_a_fuente.get(canal, fuente_default)
 
         nivel = etapa_hs_a_nivel.get(dealstage)
         if nivel is not None:
@@ -582,8 +748,7 @@ def build_dataset():
     audiencia_tibia_detalle = []
     for c in contacts:
         props = c.get("properties", {})
-        canal = canal_de_contacto(props)
-        fuente = canal_a_fuente.get(canal, fuente_default)
+        fuente = fuente_de_contacto(props, c["id"], dealnames_by_contact, canal_a_fuente, fuente_default, whatsapp_cfg)
         if fuente != "MKT Pauta":
             continue
         status = contact_lead_status.get(c["id"])
@@ -609,6 +774,61 @@ def build_dataset():
     # --- Correos insight (Ingrid) ---
     correos_insight = fetch_ingrid_emails_summary(config.get("email_insight", {}))
 
+    # --- Pipeline y Negocios: foto actual de TODOS los negocios (no por día,
+    # como el embudo de arriba, sino como están AHORA), para las pestañas
+    # "Pipeline" y "Negocios". Reutiliza los mismos negocios ya descargados
+    # arriba, sin pedirle nada nuevo a HubSpot. ---
+    negocios_detalle = []
+    por_etapa_count = defaultdict(int)
+    por_etapa_valor = defaultdict(float)
+    pipeline_activo_valor = 0.0
+    for d in deals:
+        props = d.get("properties", {})
+        dealstage = props.get("dealstage")
+        monto = float(props.get("amount") or 0)
+        pais, pais_real = pais_de_negocio(props)
+        tipo_key, tipo_label = guess_tipo_negocio(props.get("dealname"))
+        por_etapa_count[dealstage] += 1
+        por_etapa_valor[dealstage] += monto
+        if dealstage != "closedlost":
+            pipeline_activo_valor += monto
+        negocios_detalle.append(
+            {
+                "id": d.get("id"),
+                "nombre": props.get("dealname") or "(sin nombre de negocio)",
+                "pais": pais,
+                "pais_real": pais_real,
+                "tipo_negocio": tipo_key,
+                "tipo_negocio_label": tipo_label,
+                "etapa": dealstage,
+                "etapa_label": STAGE_NAMES.get(dealstage, dealstage or "Sin etapa"),
+                "monto": monto,
+                "creado": dia_key(props.get("createdate")),
+                "cierre": dia_key(props.get("closedate")),
+                "ultima_actividad": dia_key(props.get("hs_lastmodifieddate")),
+            }
+        )
+    negocios_detalle.sort(key=lambda r: r["ultima_actividad"] or "", reverse=True)
+
+    etapas_vistas = STAGE_ORDER + [s for s in por_etapa_count if s not in STAGE_ORDER]
+    negocios_pipeline = {
+        "total_deals": len(deals),
+        "pipeline_activo_valor": pipeline_activo_valor,
+        "por_etapa": [
+            {
+                "etapa": stage_id,
+                "etapa_label": STAGE_NAMES.get(stage_id, stage_id or "Sin etapa"),
+                "cantidad": por_etapa_count[stage_id],
+                "valor": por_etapa_valor[stage_id],
+            }
+            for stage_id in etapas_vistas
+            if por_etapa_count.get(stage_id)
+        ],
+    }
+
+    # --- Actividades reales (correos, notas, llamadas) ---
+    actividades = fetch_actividades_resumen(config.get("actividades", {}))
+
     return {
         "generado": datetime.now(timezone.utc).isoformat(),
         "dias": dias_out,
@@ -620,6 +840,9 @@ def build_dataset():
             "total": len(audiencia_tibia_detalle),
             "detalle": audiencia_tibia_detalle,
         },
+        "negocios_pipeline": negocios_pipeline,
+        "negocios_detalle": negocios_detalle,
+        "actividades": actividades,
     }
 
 
