@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-28T19:11:10.098401+00:00",
+  "generado": "2026-09-28T22:32:46.855850+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -75908,12 +75908,92 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 453,
-    "tasa_apertura": 63.6,
+    "total_enviados": 458,
+    "tasa_apertura": 62.9,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 29.1,
+    "tasa_respuestas": 28.8,
     "cobertura_rubro": 0.6,
     "detalle": [
+      {
+        "id": "117615673180",
+        "destinatario_email": "informes@madridinmobiliaria.pe",
+        "destinatario_nombre": null,
+        "empresa": "Madridinmobiliaria",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Gracias, ¿y el correo?",
+        "fecha": "2026-09-28",
+        "hora": "21:43",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117615271791",
+        "destinatario_email": "info@grupomg.pe",
+        "destinatario_nombre": null,
+        "empresa": "Grupomg",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Surquillo, pero ¿cuál?",
+        "fecha": "2026-09-28",
+        "hora": "21:21",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117615175480",
+        "destinatario_email": "contacto@balance.pe",
+        "destinatario_nombre": null,
+        "empresa": "Balance",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Hercelles: la cifra que falta",
+        "fecha": "2026-09-28",
+        "hora": "21:15",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117615171162",
+        "destinatario_email": "jefedeventas@moryasoc.pe",
+        "destinatario_nombre": null,
+        "empresa": "Moryasoc",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "¿Alguien al otro lado?",
+        "fecha": "2026-09-28",
+        "hora": "21:09",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117615225897",
+        "destinatario_email": "etomas@senda.pe",
+        "destinatario_nombre": null,
+        "empresa": "Senda",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Edem ya estaba en la pregunta",
+        "fecha": "2026-09-28",
+        "hora": "21:02",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "117467684376",
         "destinatario_email": "vyv@vyv.pe",
@@ -115027,7 +115107,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 753,
+    "correos": 758,
     "notas": 248,
     "llamadas": 49,
     "disponible": true
