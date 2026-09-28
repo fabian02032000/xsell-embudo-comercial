@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-28T08:37:00.817123+00:00",
+  "generado": "2026-09-28T17:02:40.795788+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -66256,8 +66256,8 @@
         {
           "fecha": "2026-09-23",
           "fuente": "Comercial",
-          "contacto": "(sin contacto)",
-          "negocio": "aduva6 - Sin datos ",
+          "contacto": "Sin datos - aduva6",
+          "negocio": "Sin datos - aduva6",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot"
@@ -66348,8 +66348,8 @@
       "detalle": [
         {
           "fecha": "2026-09-24",
-          "fuente": "MKT Pauta",
-          "contacto": "Eric Torres",
+          "fuente": "Comercial",
+          "contacto": "Eric  Torres",
           "negocio": "Claro Perú ",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
@@ -66437,13 +66437,13 @@
     "2026-09-28": {
       "fuentes": {
         "Comercial": {
-          "contactos": 15,
+          "contactos": 22,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 1,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -66456,7 +66456,7 @@
         }
       },
       "total": {
-        "contactos": 16,
+        "contactos": 24,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -66595,6 +66595,96 @@
           "negocio": "Balance Inmobiliaria",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "Esaú Ur",
+          "negocio": "Sin datos - Esaú Ur",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "Luisa  Paucar Rojas",
+          "negocio": "Sin datos - Luisa Paucar Rojas",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "TPD",
+          "negocio": "Sin datos - Tpd",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "Violeta  Navarro moscoso",
+          "negocio": "Sin datos - Violeta Navarro moscoso",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
+          "contacto": "Johan Flores Ramos",
+          "negocio": "Johan Flores Ramos",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
+          "contacto": "Javier Salmon",
+          "negocio": "JS INDUSTRIAL",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
+          "contacto": "Jorge Izquierdo",
+          "negocio": "Pintaza",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "Comercial",
+          "contacto": "@negociosindustriales331",
+          "negocio": "Sin datos - @negociosindustriales331",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
+          "contacto": "Karl vasquez",
+          "negocio": "Proser-group",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
+          "contacto": "Cristian Mestanza Ortiz",
+          "negocio": "Loops",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot"
         }
       ]
@@ -73604,6 +73694,24 @@
       "negocio": "Reasam Corredor de Seguros",
       "contacto": "Renato Sánchez",
       "email": "corredor@renatosanchez-seguros.com"
+    },
+    {
+      "deal_id": "65308669558",
+      "negocio": "Proser-group",
+      "contacto": "Karl vasquez",
+      "email": "karl.vasquez.u@gmail.com"
+    },
+    {
+      "deal_id": "65308670740",
+      "negocio": "Sin datos - @negociosindustriales331",
+      "contacto": "@negociosindustriales331",
+      "email": ""
+    },
+    {
+      "deal_id": "65308854393",
+      "negocio": "Loops",
+      "contacto": "Cristian Mestanza Ortiz",
+      "email": "cristianmestanzaortiz870@gmail.com"
     }
   ],
   "correos_insight": {
