@@ -46,6 +46,8 @@ STAGE_NAMES = {
     "1194313252": "Requerimientos Adicionales",
 }
 
+STAND_BY_STAGE_ID = "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a"
+
 # Orden en el que se muestran las etapas en la pestaña "Pipeline" (sigue el
 # avance real del negocio, de más nuevo a más avanzado/descartado).
 STAGE_ORDER = [
@@ -487,6 +489,27 @@ def guess_tipo_negocio(nombre):
     return key, TIPO_NEGOCIO_LABELS[key]
 
 
+def motivo_de_negocio(props):
+    """
+    El motivo real (tal como lo escribió el vendedor en HubSpot) de por qué un
+    negocio se Descartó o quedó en Stand By. Nunca se inventa: si nadie lo
+    llenó en HubSpot, se devuelve None y el dashboard simplemente no muestra
+    nada ahí (en vez de un motivo inventado).
+
+    Para "Descartada" se prefiere 'closed_lost_reason' (texto libre que el
+    vendedor escribe con sus propias palabras) y si está vacío se usa
+    'motivo_de_cierre_perdidos_2' (una lista fija de motivos). Para "Stand By"
+    se usa 'motivo_de_stand_by' (también una lista fija).
+    """
+    dealstage = props.get("dealstage")
+    if dealstage == "closedlost":
+        libre = (props.get("closed_lost_reason") or "").strip()
+        return libre or props.get("motivo_de_cierre_perdidos_2") or None
+    if dealstage == STAND_BY_STAGE_ID:
+        return props.get("motivo_de_stand_by") or None
+    return None
+
+
 def fetch_activity_count(object_type, since_epoch):
     """Cuenta cuántos objetos de este tipo (calls/emails/notes) hay desde
     since_epoch, usando el campo 'total' que devuelve el buscador de HubSpot
@@ -560,6 +583,9 @@ def fetch_hubspot_deals():
             "accion_comercial",
             # Para la columna "Última actividad" de la pestaña Negocios.
             "hs_lastmodifieddate",
+            # Motivo real de Descarte / Stand By, tal como lo escribe el vendedor
+            # (ver motivo_de_negocio). Nunca se inventa si está vacío.
+            "closed_lost_reason", "motivo_de_cierre_perdidos_2", "motivo_de_stand_by",
         ],
         extra_params="&associations=contacts",
     )
@@ -679,6 +705,7 @@ def build_dataset():
                 "etapa": STAGE_NAMES.get(dealstage, dealstage or "Sin etapa"),
                 "nivel": NIVEL_LABELS[nivel] if nivel is not None else FUERA_DEL_EMBUDO,
                 "origen": "HubSpot",
+                "motivo": motivo_de_negocio(props),
             }
         )
 
