@@ -20,7 +20,7 @@ Se actualiza solo, cada 10 minutos, sin que nadie tenga que hacer nada.
 
 ## Pestañas del dashboard (`index.html`)
 
-- **📊 Embudo Comercial**: la vista de siempre — Comercial / MKT Pauta / LinkedIn PACS contra las metas mensuales, por mes o por rango de fechas.
+- **📊 Embudo Comercial**: la vista de siempre — Comercial / MKT Pauta / LinkedIn PACS contra las metas mensuales, por mes o por rango de fechas. Debajo del embudo está "Detalle por lead": la lista de negocios de cada nivel (Reuniones Agendadas, Propuestas Enviadas, etc.), y para los Descartados o en Stand By se muestra el motivo real que el vendedor escribió en HubSpot (si nadie lo llenó ahí, no se muestra nada — no se inventa).
 - **🔺 Pipeline**: foto de ahora mismo (no por día) de todos los negocios: cuántos hay y cuánto valen en cada etapa, y el pipeline activo total (excluye los descartados).
 - **🏷 Negocios**: la lista completa de negocios, con filtros por País y Tipo de Negocio. El País usa el campo real de HubSpot cuando está lleno; si no, se adivina del nombre del negocio (se marca con un `*`). El Tipo de Negocio (ATC, Perfilamiento de Leads, Agendamiento de Citas, Carritos Abandonados, Encuestas, Ventas, Otro) siempre se adivina del nombre — no hay ningún campo en HubSpot que ya traiga esa clasificación lista.
 - **⚡ Actividades**: cuántos correos, notas y llamadas reales se registraron en HubSpot desde el 1 de enero de 2026. "Reuniones" y "WhatsApp" no se pueden mostrar todavía: Reuniones necesita que alguien vuelva a autorizar la conexión de HubSpot (permiso de lectura de Reuniones), y no existe ningún dato de WhatsApp disponible en esta cuenta de HubSpot.
