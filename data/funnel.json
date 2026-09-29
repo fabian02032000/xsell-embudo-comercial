@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T15:09:51.441881+00:00",
+  "generado": "2026-09-29T20:01:22.694942+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -67716,10 +67716,10 @@
           "fuente": "MKT Pauta",
           "contacto": "Jorge Barco Fenco",
           "negocio": "Creative Focus ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-09-15",
@@ -67914,18 +67914,18 @@
         {
           "fecha": "2026-09-18",
           "fuente": "MKT Pauta",
-          "contacto": "Cristian",
-          "negocio": "Inversiones ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "contacto": "Jim Brayan uceda Pisfil",
+          "negocio": "Metal Import Sac",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-09-18",
           "fuente": "MKT Pauta",
-          "contacto": "Jim Brayan uceda Pisfil",
-          "negocio": "Metal Import Sac",
+          "contacto": "Cristian",
+          "negocio": "Inversiones ",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -68032,68 +68032,8 @@
         {
           "fecha": "2026-09-21",
           "fuente": "MKT Pauta",
-          "contacto": "Paul Gamarra",
-          "negocio": "Mural ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-21",
-          "fuente": "MKT Pauta",
-          "contacto": "Chiara Cruz Hernandez",
-          "negocio": "Rimac Seguros",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-21",
-          "fuente": "MKT Pauta",
-          "contacto": "Zulma Rosario",
-          "negocio": "Expo Group Librerías Multilibros ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-21",
-          "fuente": "MKT Pauta",
-          "contacto": "Eugenio Basilio Davila Paca",
-          "negocio": "Academia Braineer ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-21",
-          "fuente": "MKT Pauta",
           "contacto": "JORGE LUIS TRAGODARA ACOSTA",
           "negocio": "Trarmar SAC",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-21",
-          "fuente": "MKT Pauta",
-          "contacto": "Sin datos - Liliana padilla",
-          "negocio": "Sin datos - Liliana padilla",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-21",
-          "fuente": "MKT Pauta",
-          "contacto": "Jean Pierre",
-          "negocio": "Sin datos - Hotel ",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot",
@@ -68132,8 +68072,68 @@
         {
           "fecha": "2026-09-21",
           "fuente": "MKT Pauta",
+          "contacto": "Paul Gamarra",
+          "negocio": "Mural ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-21",
+          "fuente": "MKT Pauta",
+          "contacto": "Chiara Cruz Hernandez",
+          "negocio": "Rimac Seguros",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-21",
+          "fuente": "MKT Pauta",
+          "contacto": "Zulma Rosario",
+          "negocio": "Expo Group Librerías Multilibros ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-21",
+          "fuente": "MKT Pauta",
+          "contacto": "Eugenio Basilio Davila Paca",
+          "negocio": "Academia Braineer ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-21",
+          "fuente": "MKT Pauta",
           "contacto": "Micaela",
           "negocio": "Sin datos registrados  ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-21",
+          "fuente": "MKT Pauta",
+          "contacto": "Sin datos - Liliana padilla",
+          "negocio": "Sin datos - Liliana padilla",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-21",
+          "fuente": "MKT Pauta",
+          "contacto": "Jean Pierre",
+          "negocio": "Sin datos - Hotel ",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -68302,16 +68302,6 @@
         {
           "fecha": "2026-09-22",
           "fuente": "MKT Pauta",
-          "contacto": "Thony",
-          "negocio": "Sin datos - Thony",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-22",
-          "fuente": "MKT Pauta",
           "contacto": "Miguel Galvez",
           "negocio": "SGS SERVICE EIRL",
           "etapa": "Prospectos Contactados",
@@ -68344,6 +68334,16 @@
           "fuente": "Comercial",
           "contacto": "Diomedez Huaman Pastor",
           "negocio": "Inoved Operaciones & Logistica EIRL",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "MKT Pauta",
+          "contacto": "Thony",
+          "negocio": "Sin datos - Thony",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -68392,48 +68392,8 @@
         {
           "fecha": "2026-09-23",
           "fuente": "MKT Pauta",
-          "contacto": "Sin datos",
-          "negocio": "Sin datos - 958 282 830",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-23",
-          "fuente": "MKT Pauta",
           "contacto": "Perez",
           "negocio": "Sin datos - Perez",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-23",
-          "fuente": "MKT Pauta",
-          "contacto": "Jose Melendez Quesada",
-          "negocio": "Geonet Import Sac",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-23",
-          "fuente": "MKT Pauta",
-          "contacto": "Sin datos - aduva6",
-          "negocio": "Sin datos - aduva6",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-23",
-          "fuente": "MKT Pauta",
-          "contacto": "Ricardo Callenes Palacios",
-          "negocio": "CCprojects SAC",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot",
@@ -68464,6 +68424,46 @@
           "fuente": "Comercial",
           "contacto": "(sin contacto)",
           "negocio": "Villa MBC Logística",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-23",
+          "fuente": "MKT Pauta",
+          "contacto": "Sin datos",
+          "negocio": "Sin datos - 958 282 830",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-23",
+          "fuente": "MKT Pauta",
+          "contacto": "Jose Melendez Quesada",
+          "negocio": "Geonet Import Sac",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-23",
+          "fuente": "MKT Pauta",
+          "contacto": "Sin datos - aduva6",
+          "negocio": "Sin datos - aduva6",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-23",
+          "fuente": "MKT Pauta",
+          "contacto": "Ricardo Callenes Palacios",
+          "negocio": "CCprojects SAC",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -68514,10 +68514,10 @@
           "fuente": "MKT Pauta",
           "contacto": "Eric  Torres",
           "negocio": "Claro Perú ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         }
       ]
     },
@@ -68564,10 +68564,10 @@
           "fuente": "MKT Pauta",
           "contacto": "Pedro Romero",
           "negocio": "New house",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         }
       ]
     },
@@ -68895,19 +68895,56 @@
           "ventas": 0
         },
         "LinkedIn PACS": {
-          "contactos": 0,
+          "contactos": 3,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
         }
       },
       "total": {
-        "contactos": 2,
+        "contactos": 5,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
       "detalle": [
+        {
+          "fecha": "2026-09-29",
+          "fuente": "LinkedIn PACS",
+          "contacto": "Juan Carlos de la Fuente Raffo",
+          "negocio": null,
+          "etapa": "Identificado",
+          "nivel": "Contactos",
+          "origen": "LinkedIn PACS"
+        },
+        {
+          "fecha": "2026-09-29",
+          "fuente": "LinkedIn PACS",
+          "contacto": "Angelina Castillo",
+          "negocio": null,
+          "etapa": "Identificado",
+          "nivel": "Contactos",
+          "origen": "LinkedIn PACS"
+        },
+        {
+          "fecha": "2026-09-29",
+          "fuente": "LinkedIn PACS",
+          "contacto": "Silvia Seminario",
+          "negocio": null,
+          "etapa": "Identificado",
+          "nivel": "Contactos",
+          "origen": "LinkedIn PACS"
+        },
+        {
+          "fecha": "2026-09-29",
+          "fuente": "MKT Pauta",
+          "contacto": "Mariangelica López Castañeda",
+          "negocio": "IRON GROUP SAC",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
         {
           "fecha": "2026-09-29",
           "fuente": "MKT Pauta",
@@ -75819,6 +75856,12 @@
       "email": "grupoleonex@hotmail.com"
     },
     {
+      "deal_id": "65027161097",
+      "negocio": "Creative Focus ",
+      "contacto": "Jorge Barco Fenco",
+      "email": "jorgebarcofenco@gmail.com"
+    },
+    {
       "deal_id": "65027164086",
       "negocio": "Drsusse",
       "contacto": "Dardent Alejandría Alarcón",
@@ -75891,15 +75934,75 @@
       "email": "gerencia@ascensoresmesac.com"
     },
     {
+      "deal_id": "65076966781",
+      "negocio": "Mural ",
+      "contacto": "Paul Gamarra",
+      "email": "soypaulgamarra@gmail.com"
+    },
+    {
+      "deal_id": "65076973224",
+      "negocio": "Rimac Seguros",
+      "contacto": "Chiara Cruz Hernandez",
+      "email": "dimajo2024@gmail.com"
+    },
+    {
+      "deal_id": "65076975196",
+      "negocio": "Expo Group Librerías Multilibros ",
+      "contacto": "Zulma Rosario",
+      "email": "zpalomino@eventosmultilibros.com.pe"
+    },
+    {
+      "deal_id": "65076975399",
+      "negocio": "Academia Braineer ",
+      "contacto": "Eugenio Basilio Davila Paca",
+      "email": "edavila@academiasbraineer.com"
+    },
+    {
+      "deal_id": "65083601251",
+      "negocio": "Inversiones ",
+      "contacto": "Cristian",
+      "email": "cristaco.t@gmail.com"
+    },
+    {
       "deal_id": "65124295075",
       "negocio": "Manufactura Emisa",
       "contacto": "Paolo Gaspar",
       "email": "pgaspar@manufacturasemisa.com"
     },
     {
+      "deal_id": "65162344334",
+      "negocio": "Sin datos - Thony",
+      "contacto": "Thony",
+      "email": ""
+    },
+    {
       "deal_id": "65162403240",
       "negocio": "Sin datos registrados  ",
       "contacto": "Micaela",
+      "email": ""
+    },
+    {
+      "deal_id": "65162445929",
+      "negocio": "Sin datos - 958 282 830",
+      "contacto": "Sin datos",
+      "email": ""
+    },
+    {
+      "deal_id": "65162529613",
+      "negocio": "Sin datos - Liliana padilla",
+      "contacto": "Sin datos - Liliana padilla",
+      "email": ""
+    },
+    {
+      "deal_id": "65162567004",
+      "negocio": "Geonet Import Sac",
+      "contacto": "Jose Melendez Quesada",
+      "email": "gerencia@geonet.top"
+    },
+    {
+      "deal_id": "65162626863",
+      "negocio": "Sin datos - aduva6",
+      "contacto": "Sin datos - aduva6",
       "email": ""
     },
     {
@@ -75915,16 +76018,40 @@
       "email": "dihuamandhp@gmail.com"
     },
     {
+      "deal_id": "65168381564",
+      "negocio": "Sin datos - Hotel ",
+      "contacto": "Jean Pierre",
+      "email": ""
+    },
+    {
       "deal_id": "65204229473",
       "negocio": "Villa MBC Logística",
       "contacto": "(sin contacto)",
       "email": ""
     },
     {
+      "deal_id": "65204485148",
+      "negocio": "CCprojects SAC",
+      "contacto": "Ricardo Callenes Palacios",
+      "email": "callenesricardo@gmail.com"
+    },
+    {
       "deal_id": "65204543076",
       "negocio": "Reasam Corredor de Seguros",
       "contacto": "Renato Sánchez",
       "email": "corredor@renatosanchez-seguros.com"
+    },
+    {
+      "deal_id": "65211154048",
+      "negocio": "Claro Perú ",
+      "contacto": "Eric  Torres",
+      "email": "eric.torres.p.@gmail.com"
+    },
+    {
+      "deal_id": "65264882846",
+      "negocio": "New house",
+      "contacto": "Pedro Romero",
+      "email": "renanpromero@gmail.com"
     },
     {
       "deal_id": "65308669558",
@@ -75948,12 +76075,60 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 459,
-    "tasa_apertura": 62.7,
+    "total_enviados": 461,
+    "tasa_apertura": 62.5,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 29.0,
+    "tasa_respuestas": 28.9,
     "cobertura_rubro": 0.6,
     "detalle": [
+      {
+        "id": "117658008162",
+        "destinatario_email": "informes@grupoaurora.pe",
+        "destinatario_nombre": null,
+        "empresa": "Grupoaurora",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Dos habitaciones, tres preguntas",
+        "fecha": "2026-09-29",
+        "hora": "18:59",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117658488372",
+        "destinatario_email": "info@msinmobiliaria.pe",
+        "destinatario_nombre": null,
+        "empresa": "Msinmobiliaria",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "¿Cinco datos para empezar?",
+        "fecha": "2026-09-29",
+        "hora": "18:21",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117657308762",
+        "destinatario_email": "info@capacasociados.com",
+        "destinatario_nombre": null,
+        "empresa": "Capacasociados",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Capac, el hola que no salió ",
+        "fecha": "2026-09-29",
+        "hora": "17:24",
+        "estado": "Rebotado",
+        "estado_raw": "BOUNCED",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "117577021288",
         "destinatario_email": "merlys.jimenez@scania.com",
@@ -84420,13 +84595,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2192,
+    "total_deals": 2193,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 348,
+        "cantidad": 334,
         "valor": 15784583.0
       },
       {
@@ -84474,7 +84649,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1168,
+        "cantidad": 1183,
         "valor": 123067885.2
       },
       {
@@ -84501,6 +84676,300 @@
       "ultima_actividad": "2026-09-29"
     },
     {
+      "id": "65027161097",
+      "nombre": "Creative Focus ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-15",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65076966781",
+      "nombre": "Mural ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-21",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65076973224",
+      "nombre": "Rimac Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-21",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65076975196",
+      "nombre": "Expo Group Librerías Multilibros ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-21",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65076975399",
+      "nombre": "Academia Braineer ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-21",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65083601251",
+      "nombre": "Inversiones ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-18",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65124262421",
+      "nombre": "Trarmar SAC",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-21",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65162344334",
+      "nombre": "Sin datos - Thony",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-22",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65162445929",
+      "nombre": "Sin datos - 958 282 830",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-23",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65162529613",
+      "nombre": "Sin datos - Liliana padilla",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-21",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65162567004",
+      "nombre": "Geonet Import Sac",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-23",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65162626863",
+      "nombre": "Sin datos - aduva6",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-23",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65168381564",
+      "nombre": "Sin datos - Hotel ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-21",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65204485148",
+      "nombre": "CCprojects SAC",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-23",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65211154048",
+      "nombre": "Claro Perú ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-24",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65264882846",
+      "nombre": "New house",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-25",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65294180142",
+      "nombre": "Capac Asociados Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65294660615",
+      "nombre": "MS Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65294668929",
+      "nombre": "Aurora Grupo Inmobiliario",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65309347341",
+      "nombre": "Pintaza",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65352782900",
+      "nombre": "IRON GROUP SAC",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-29",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
       "id": "65352827165",
       "nombre": "Mariana",
       "pais": "Perú",
@@ -84515,20 +84984,6 @@
       "ultima_actividad": "2026-09-29"
     },
     {
-      "id": "65162344334",
-      "nombre": "Sin datos - Thony",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-22",
-      "cierre": "2026-10-01",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
       "id": "65162403240",
       "nombre": "Sin datos registrados  ",
       "pais": "Perú",
@@ -84540,20 +84995,6 @@
       "monto": 0.0,
       "creado": "2026-09-21",
       "cierre": "2026-09-21",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65162445929",
-      "nombre": "Sin datos - 958 282 830",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-23",
-      "cierre": "2026-10-01",
       "ultima_actividad": "2026-09-28"
     },
     {
@@ -84571,48 +85012,6 @@
       "ultima_actividad": "2026-09-28"
     },
     {
-      "id": "65162529613",
-      "nombre": "Sin datos - Liliana padilla",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-21",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65162626863",
-      "nombre": "Sin datos - aduva6",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-23",
-      "cierre": "2026-10-01",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65168381564",
-      "nombre": "Sin datos - Hotel ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-21",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
       "id": "65204229473",
       "nombre": "Villa MBC Logística",
       "pais": "Perú",
@@ -84627,20 +85026,6 @@
       "ultima_actividad": "2026-09-28"
     },
     {
-      "id": "65211154048",
-      "nombre": "Claro Perú ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-24",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
       "id": "65260465425",
       "nombre": "Xiomi Perú",
       "pais": "Perú",
@@ -84651,20 +85036,6 @@
       "etapa_label": "Prospectos Contactados",
       "monto": 0.0,
       "creado": "2026-09-25",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65294180142",
-      "nombre": "Capac Asociados Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
       "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-28"
     },
@@ -84727,34 +85098,6 @@
     {
       "id": "65294656772",
       "nombre": "Madrid Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65294660615",
-      "nombre": "MS Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65294668929",
-      "nombre": "Aurora Grupo Inmobiliario",
       "pais": "Perú",
       "pais_real": false,
       "tipo_negocio": "OTRO",
@@ -84977,20 +85320,6 @@
       "ultima_actividad": "2026-09-28"
     },
     {
-      "id": "65309347341",
-      "nombre": "Pintaza",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
       "id": "65309350464",
       "nombre": "Sin datos - Violeta Navarro moscoso",
       "pais": "Perú",
@@ -85016,20 +85345,6 @@
       "monto": 0.0,
       "creado": "2026-09-22",
       "cierre": "2026-09-24",
-      "ultima_actividad": "2026-09-25"
-    },
-    {
-      "id": "65264882846",
-      "nombre": "New house",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-25",
-      "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-25"
     },
     {
@@ -85113,20 +85428,6 @@
       "etapa_label": "Reunión Agendadas",
       "monto": 0.0,
       "creado": "2026-09-21",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-24"
-    },
-    {
-      "id": "65204485148",
-      "nombre": "CCprojects SAC",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-23",
       "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-24"
     },
@@ -85324,20 +85625,6 @@
       "monto": 0.0,
       "creado": "2026-09-14",
       "cierre": null,
-      "ultima_actividad": "2026-09-23"
-    },
-    {
-      "id": "65027161097",
-      "nombre": "Creative Focus ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-15",
-      "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-23"
     },
     {
@@ -85551,20 +85838,6 @@
       "ultima_actividad": "2026-09-23"
     },
     {
-      "id": "65083601251",
-      "nombre": "Inversiones ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-18",
-      "cierre": null,
-      "ultima_actividad": "2026-09-23"
-    },
-    {
       "id": "65124295075",
       "nombre": "Manufactura Emisa",
       "pais": "Perú",
@@ -85588,20 +85861,6 @@
       "etapa": "1275439753",
       "etapa_label": "Prospectos Contactados",
       "monto": 1143.0,
-      "creado": "2026-09-23",
-      "cierre": "2026-10-01",
-      "ultima_actividad": "2026-09-23"
-    },
-    {
-      "id": "65162567004",
-      "nombre": "Geonet Import Sac",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
       "creado": "2026-09-23",
       "cierre": "2026-10-01",
       "ultima_actividad": "2026-09-23"
@@ -85870,76 +86129,6 @@
       "monto": 0.0,
       "creado": "2026-09-21",
       "cierre": "2026-09-21",
-      "ultima_actividad": "2026-09-21"
-    },
-    {
-      "id": "65076966781",
-      "nombre": "Mural ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-21",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-21"
-    },
-    {
-      "id": "65076973224",
-      "nombre": "Rimac Seguros",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-21",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-21"
-    },
-    {
-      "id": "65076975196",
-      "nombre": "Expo Group Librerías Multilibros ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-21",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-21"
-    },
-    {
-      "id": "65076975399",
-      "nombre": "Academia Braineer ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-21",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-21"
-    },
-    {
-      "id": "65124262421",
-      "nombre": "Trarmar SAC",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-21",
-      "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-21"
     },
     {
@@ -115177,9 +115366,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 761,
-    "notas": 248,
-    "llamadas": 50,
+    "correos": 764,
+    "notas": 262,
+    "llamadas": 54,
     "disponible": true
   }
 }
