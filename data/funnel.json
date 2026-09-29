@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-28T22:32:46.855850+00:00",
+  "generado": "2026-09-29T02:18:37.172988+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -68879,6 +68879,35 @@
           "motivo": "Otros"
         }
       ]
+    },
+    "2026-09-29": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -75908,12 +75937,28 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 458,
-    "tasa_apertura": 62.9,
+    "total_enviados": 459,
+    "tasa_apertura": 62.7,
     "tasa_clics": 0.0,
     "tasa_respuestas": 28.8,
     "cobertura_rubro": 0.6,
     "detalle": [
+      {
+        "id": "117577021288",
+        "destinatario_email": "merlys.jimenez@scania.com",
+        "destinatario_nombre": "merlys merlys",
+        "empresa": "Scania",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Re:  Scania Chile - Propuesta Económica",
+        "fecha": "2026-09-28",
+        "hora": "23:25",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "117615673180",
         "destinatario_email": "informes@madridinmobiliaria.pe",
@@ -84431,6 +84476,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "54616168313",
+      "nombre": "Scania Chile Perfilamiento de Leads",
+      "pais": "Chile",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "decisionmakerboughtin",
+      "etapa_label": "Propuesta Enviada/en revisión",
+      "monto": 36582.0,
+      "creado": "2026-01-26",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-09-28"
+    },
+    {
       "id": "65162344334",
       "nombre": "Sin datos - Thony",
       "pais": "Perú",
@@ -84919,20 +84978,6 @@
       "creado": "2026-09-28",
       "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "54616168313",
-      "nombre": "Scania Chile Perfilamiento de Leads",
-      "pais": "Chile",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "decisionmakerboughtin",
-      "etapa_label": "Propuesta Enviada/en revisión",
-      "monto": 36582.0,
-      "creado": "2026-01-26",
-      "cierre": "2026-04-30",
-      "ultima_actividad": "2026-09-25"
     },
     {
       "id": "65162690064",
@@ -115107,7 +115152,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 758,
+    "correos": 759,
     "notas": 248,
     "llamadas": 49,
     "disponible": true
