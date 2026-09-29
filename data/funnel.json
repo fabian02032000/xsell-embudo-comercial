@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T08:46:38.881986+00:00",
+  "generado": "2026-09-29T15:09:51.441881+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -75951,7 +75951,7 @@
     "total_enviados": 459,
     "tasa_apertura": 62.7,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 28.8,
+    "tasa_respuestas": 29.0,
     "cobertura_rubro": 0.6,
     "detalle": [
       {
@@ -75968,7 +75968,7 @@
         "estado_raw": "SENT",
         "aperturas": 0,
         "clics": 0,
-        "respuestas": 0
+        "respuestas": 2
       },
       {
         "id": "117615673180",
@@ -84487,6 +84487,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "54616168313",
+      "nombre": "Scania Chile Perfilamiento de Leads",
+      "pais": "Chile",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "decisionmakerboughtin",
+      "etapa_label": "Propuesta Enviada/en revisión",
+      "monto": 36582.0,
+      "creado": "2026-01-26",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
       "id": "65352827165",
       "nombre": "Mariana",
       "pais": "Perú",
@@ -84499,20 +84513,6 @@
       "creado": "2026-09-29",
       "cierre": "2026-10-01",
       "ultima_actividad": "2026-09-29"
-    },
-    {
-      "id": "54616168313",
-      "nombre": "Scania Chile Perfilamiento de Leads",
-      "pais": "Chile",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "decisionmakerboughtin",
-      "etapa_label": "Propuesta Enviada/en revisión",
-      "monto": 36582.0,
-      "creado": "2026-01-26",
-      "cierre": "2026-04-30",
-      "ultima_actividad": "2026-09-28"
     },
     {
       "id": "65162344334",
@@ -115177,7 +115177,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 759,
+    "correos": 761,
     "notas": 248,
     "llamadas": 50,
     "disponible": true
