@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T20:01:22.694942+00:00",
+  "generado": "2026-09-29T23:42:04.336494+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -68011,7 +68011,7 @@
         },
         "MKT Pauta": {
           "contactos": 7,
-          "reuniones": 2,
+          "reuniones": 1,
           "propuestas": 0,
           "ventas": 0
         },
@@ -68024,7 +68024,7 @@
       },
       "total": {
         "contactos": 8,
-        "reuniones": 2,
+        "reuniones": 1,
         "propuestas": 0,
         "ventas": 0
       },
@@ -68036,16 +68036,6 @@
           "negocio": "Trarmar SAC",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-21",
-          "fuente": "MKT Pauta",
-          "contacto": "Luis Alvarez Caro",
-          "negocio": "e-Robot",
-          "etapa": "Reunión Agendadas",
-          "nivel": "Reuniones Agendadas",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -68064,6 +68054,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Raquel Alvarado",
           "negocio": "Ascensores Eurolive",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-21",
+          "fuente": "MKT Pauta",
+          "contacto": "Luis Alvarez Caro",
+          "negocio": "e-Robot",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -75934,6 +75934,12 @@
       "email": "gerencia@ascensoresmesac.com"
     },
     {
+      "deal_id": "65076966685",
+      "negocio": "e-Robot",
+      "contacto": "Luis Alvarez Caro",
+      "email": "luis.alvarez@e-robot.pe"
+    },
+    {
       "deal_id": "65076966781",
       "negocio": "Mural ",
       "contacto": "Paul Gamarra",
@@ -76076,9 +76082,9 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 461,
-    "tasa_apertura": 62.5,
+    "tasa_apertura": 62.9,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 28.9,
+    "tasa_respuestas": 29.1,
     "cobertura_rubro": 0.6,
     "detalle": [
       {
@@ -76093,7 +76099,7 @@
         "hora": "18:59",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 4,
         "clics": 0,
         "respuestas": 0
       },
@@ -76893,9 +76899,9 @@
         "hora": "18:37",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 2,
         "clics": 0,
-        "respuestas": 0
+        "respuestas": 1
       },
       {
         "id": "116687226489",
@@ -81005,7 +81011,7 @@
         "hora": "16:47",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 114,
+        "aperturas": 115,
         "clics": 0,
         "respuestas": 0
       },
@@ -81021,7 +81027,7 @@
         "hora": "14:57",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 114,
+        "aperturas": 115,
         "clics": 0,
         "respuestas": 1
       },
@@ -84607,7 +84613,7 @@
       {
         "etapa": "appointmentscheduled",
         "etapa_label": "Reunión Agendadas",
-        "cantidad": 133,
+        "cantidad": 132,
         "valor": 9634.0
       },
       {
@@ -84649,7 +84655,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1183,
+        "cantidad": 1184,
         "valor": 123067885.2
       },
       {
@@ -84676,6 +84682,20 @@
       "ultima_actividad": "2026-09-29"
     },
     {
+      "id": "65026285958",
+      "nombre": "CALZADO NEW ATHLETIC GROUP S.A.C.",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-14",
+      "cierre": null,
+      "ultima_actividad": "2026-09-29"
+    },
+    {
       "id": "65027161097",
       "nombre": "Creative Focus ",
       "pais": "Perú",
@@ -84686,6 +84706,20 @@
       "etapa_label": "Descartada",
       "monto": 0.0,
       "creado": "2026-09-15",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65076966685",
+      "nombre": "e-Robot",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-21",
       "cierre": "2026-09-29",
       "ultima_actividad": "2026-09-29"
     },
@@ -84768,6 +84802,20 @@
       "tipo_negocio_label": "Otro",
       "etapa": "1275439753",
       "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-21",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65162284801",
+      "nombre": "Privateacher International ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "appointmentscheduled",
+      "etapa_label": "Reunión Agendadas",
       "monto": 0.0,
       "creado": "2026-09-21",
       "cierre": "2026-09-30",
@@ -84883,6 +84931,20 @@
       "monto": 0.0,
       "creado": "2026-09-24",
       "cierre": "2026-09-29",
+      "ultima_actividad": "2026-09-29"
+    },
+    {
+      "id": "65260465425",
+      "nombre": "Xiomi Perú",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-25",
+      "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-29"
     },
     {
@@ -85023,20 +85085,6 @@
       "monto": 0.0,
       "creado": "2026-09-23",
       "cierre": "2026-09-23",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65260465425",
-      "nombre": "Xiomi Perú",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-25",
-      "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-28"
     },
     {
@@ -85390,20 +85438,6 @@
       "ultima_actividad": "2026-09-24"
     },
     {
-      "id": "65076966685",
-      "nombre": "e-Robot",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "appointmentscheduled",
-      "etapa_label": "Reunión Agendadas",
-      "monto": 0.0,
-      "creado": "2026-09-21",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-24"
-    },
-    {
       "id": "65077108369",
       "nombre": "Corporación Logística & TransporteDeal",
       "pais": "Perú",
@@ -85415,20 +85449,6 @@
       "monto": 0.0,
       "creado": "2026-09-23",
       "cierre": "2026-10-01",
-      "ultima_actividad": "2026-09-24"
-    },
-    {
-      "id": "65162284801",
-      "nombre": "Privateacher International ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "appointmentscheduled",
-      "etapa_label": "Reunión Agendadas",
-      "monto": 0.0,
-      "creado": "2026-09-21",
-      "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-24"
     },
     {
@@ -85611,20 +85631,6 @@
       "monto": 0.0,
       "creado": "2026-09-14",
       "cierre": "2026-09-23",
-      "ultima_actividad": "2026-09-23"
-    },
-    {
-      "id": "65026285958",
-      "nombre": "CALZADO NEW ATHLETIC GROUP S.A.C.",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-14",
-      "cierre": null,
       "ultima_actividad": "2026-09-23"
     },
     {
@@ -115366,9 +115372,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 764,
-    "notas": 262,
-    "llamadas": 54,
+    "correos": 766,
+    "notas": 263,
+    "llamadas": 55,
     "disponible": true
   }
 }
