@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T23:42:04.336494+00:00",
+  "generado": "2026-09-30T02:28:35.634385+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -68956,6 +68956,35 @@
           "motivo": null
         }
       ]
+    },
+    "2026-09-30": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -76081,12 +76110,28 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 461,
-    "tasa_apertura": 62.9,
+    "total_enviados": 462,
+    "tasa_apertura": 62.8,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 29.1,
+    "tasa_respuestas": 29.0,
     "cobertura_rubro": 0.6,
     "detalle": [
+      {
+        "id": "117776467517",
+        "destinatario_email": "jorgeizquierdocobos@gmail.com",
+        "destinatario_nombre": "Jorge Izquierdo",
+        "empresa": "Pintaza",
+        "empresa_adivinada": false,
+        "rubro": null,
+        "asunto": "Brief Xsell ",
+        "fecha": "2026-09-30",
+        "hora": "02:01",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "117658008162",
         "destinatario_email": "informes@grupoaurora.pe",
@@ -84668,6 +84713,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "65309347341",
+      "nombre": "Pintaza",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-30"
+    },
+    {
       "id": "54616168313",
       "nombre": "Scania Chile Perfilamiento de Leads",
       "pais": "Chile",
@@ -84994,20 +85053,6 @@
       "nombre": "Aurora Grupo Inmobiliario",
       "pais": "Perú",
       "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-29"
-    },
-    {
-      "id": "65309347341",
-      "nombre": "Pintaza",
-      "pais": "Perú",
-      "pais_real": true,
       "tipo_negocio": "OTRO",
       "tipo_negocio_label": "Otro",
       "etapa": "1275439753",
@@ -115372,7 +115417,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 766,
+    "correos": 767,
     "notas": 263,
     "llamadas": 55,
     "disponible": true
