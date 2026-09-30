@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T08:58:21.677593+00:00",
+  "generado": "2026-09-30T15:52:08.257087+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -84713,6 +84713,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "54616168313",
+      "nombre": "Scania Chile Perfilamiento de Leads",
+      "pais": "Chile",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "decisionmakerboughtin",
+      "etapa_label": "Propuesta Enviada/en revisión",
+      "monto": 36582.0,
+      "creado": "2026-01-26",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-09-30"
+    },
+    {
       "id": "65309347341",
       "nombre": "Pintaza",
       "pais": "Perú",
@@ -84725,20 +84739,6 @@
       "creado": "2026-09-28",
       "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-30"
-    },
-    {
-      "id": "54616168313",
-      "nombre": "Scania Chile Perfilamiento de Leads",
-      "pais": "Chile",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "decisionmakerboughtin",
-      "etapa_label": "Propuesta Enviada/en revisión",
-      "monto": 36582.0,
-      "creado": "2026-01-26",
-      "cierre": "2026-04-30",
-      "ultima_actividad": "2026-09-29"
     },
     {
       "id": "65026285958",
@@ -115417,7 +115417,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 767,
+    "correos": 768,
     "notas": 263,
     "llamadas": 55,
     "disponible": true
