@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-01T19:00:18.692559+00:00",
+  "generado": "2026-10-01T23:07:29.701380+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69008,16 +69008,6 @@
         {
           "fecha": "2026-09-30",
           "fuente": "MKT Pauta",
-          "contacto": "Susana Galvez Arce",
-          "negocio": "Susana Galvez Arce",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-30",
-          "fuente": "MKT Pauta",
           "contacto": "Vanessa Melgarejo",
           "negocio": "Vanessa ",
           "etapa": "Descartada",
@@ -69044,6 +69034,16 @@
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-30",
+          "fuente": "MKT Pauta",
+          "contacto": "Susana Galvez Arce",
+          "negocio": "Susana Galvez Arce",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
         }
       ]
     },
@@ -69056,7 +69056,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -69069,12 +69069,33 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 2,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-10-01",
+          "fuente": "MKT Pauta",
+          "contacto": "Sin datos - Foryou",
+          "negocio": "Sin datos - Foryou",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-01",
+          "fuente": "MKT Pauta",
+          "contacto": "Sin datos",
+          "negocio": "Sin datos - 970 486 405",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -76213,6 +76234,12 @@
       "negocio": "SmartPlaza",
       "contacto": "René",
       "email": "adm.smartplaza@gmail.com"
+    },
+    {
+      "deal_id": "65572593966",
+      "negocio": "Susana Galvez Arce",
+      "contacto": "Susana Galvez Arce",
+      "email": ""
     }
   ],
   "correos_insight": {
@@ -84770,13 +84797,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2199,
+    "total_deals": 2201,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 337,
+        "cantidad": 338,
         "valor": 15784583.0
       },
       {
@@ -84824,7 +84851,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1187,
+        "cantidad": 1188,
         "valor": 123067885.2
       },
       {
@@ -84851,6 +84878,20 @@
       "ultima_actividad": "2026-10-01"
     },
     {
+      "id": "62852775191",
+      "nombre": "Scania Conductoras",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "decisionmakerboughtin",
+      "etapa_label": "Propuesta Enviada/en revisión",
+      "monto": 3400.0,
+      "creado": "2026-07-20",
+      "cierre": "2026-07-31",
+      "ultima_actividad": "2026-10-01"
+    },
+    {
       "id": "65309347341",
       "nombre": "Pintaza",
       "pais": "Perú",
@@ -84862,6 +84903,34 @@
       "monto": 0.0,
       "creado": "2026-09-28",
       "cierre": "2026-09-30",
+      "ultima_actividad": "2026-10-01"
+    },
+    {
+      "id": "65428617643",
+      "nombre": "Sin datos - Foryou",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-01",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-01"
+    },
+    {
+      "id": "65428806463",
+      "nombre": "Sin datos - 970 486 405",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-01",
+      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-01"
     },
     {
@@ -84890,6 +84959,20 @@
       "monto": 0.0,
       "creado": "2026-09-30",
       "cierre": "2026-09-30",
+      "ultima_actividad": "2026-10-01"
+    },
+    {
+      "id": "65572593966",
+      "nombre": "Susana Galvez Arce",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-30",
+      "cierre": "2026-10-01",
       "ultima_actividad": "2026-10-01"
     },
     {
@@ -84943,20 +85026,6 @@
       "tipo_negocio_label": "Otro",
       "etapa": "closedlost",
       "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-09-30",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-30"
-    },
-    {
-      "id": "65572593966",
-      "nombre": "Susana Galvez Arce",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
       "monto": 0.0,
       "creado": "2026-09-30",
       "cierre": "2026-09-30",
@@ -89104,20 +89173,6 @@
       "monto": 60000.0,
       "creado": "2026-06-09",
       "cierre": "2026-06-30",
-      "ultima_actividad": "2026-07-20"
-    },
-    {
-      "id": "62852775191",
-      "nombre": "Scania Conductoras",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "decisionmakerboughtin",
-      "etapa_label": "Propuesta Enviada/en revisión",
-      "monto": 3400.0,
-      "creado": "2026-07-20",
-      "cierre": "2026-07-31",
       "ultima_actividad": "2026-07-20"
     },
     {
@@ -115626,8 +115681,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 770,
-    "notas": 267,
-    "llamadas": 62,
+    "notas": 268,
+    "llamadas": 65,
     "disponible": true
   }
 }
