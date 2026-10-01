@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-01T13:22:34.543895+00:00",
+  "generado": "2026-10-01T19:00:18.692559+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -76218,12 +76218,28 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 462,
-    "tasa_apertura": 62.8,
+    "total_enviados": 463,
+    "tasa_apertura": 62.9,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 29.0,
+    "tasa_respuestas": 28.9,
     "cobertura_rubro": 0.6,
     "detalle": [
+      {
+        "id": "117827561219",
+        "destinatario_email": "zoraida.rodriguez@wexsell.co",
+        "destinatario_nombre": null,
+        "empresa": "Wexsell",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "RV:  Scania Chile - Propuesta Económica",
+        "fecha": "2026-10-01",
+        "hora": "17:19",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "117776467517",
         "destinatario_email": "jorgeizquierdocobos@gmail.com",
@@ -76236,7 +76252,7 @@
         "hora": "02:01",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -84821,6 +84837,34 @@
   },
   "negocios_detalle": [
     {
+      "id": "54616168313",
+      "nombre": "Scania Chile Perfilamiento de Leads",
+      "pais": "Chile",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "decisionmakerboughtin",
+      "etapa_label": "Propuesta Enviada/en revisión",
+      "monto": 36582.0,
+      "creado": "2026-01-26",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-10-01"
+    },
+    {
+      "id": "65309347341",
+      "nombre": "Pintaza",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-10-01"
+    },
+    {
       "id": "65489694045",
       "nombre": "Aquino",
       "pais": "Perú",
@@ -84849,20 +84893,6 @@
       "ultima_actividad": "2026-10-01"
     },
     {
-      "id": "54616168313",
-      "nombre": "Scania Chile Perfilamiento de Leads",
-      "pais": "Chile",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "decisionmakerboughtin",
-      "etapa_label": "Propuesta Enviada/en revisión",
-      "monto": 36582.0,
-      "creado": "2026-01-26",
-      "cierre": "2026-04-30",
-      "ultima_actividad": "2026-09-30"
-    },
-    {
       "id": "65076975399",
       "nombre": "Academia Braineer ",
       "pais": "Perú",
@@ -84874,20 +84904,6 @@
       "monto": 0.0,
       "creado": "2026-09-21",
       "cierre": "2026-09-29",
-      "ultima_actividad": "2026-09-30"
-    },
-    {
-      "id": "65309347341",
-      "nombre": "Pintaza",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-30"
     },
     {
@@ -115609,7 +115625,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 768,
+    "correos": 770,
     "notas": 267,
     "llamadas": 62,
     "disponible": true
