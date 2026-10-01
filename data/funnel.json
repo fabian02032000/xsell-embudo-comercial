@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T20:44:31.634169+00:00",
+  "generado": "2026-10-01T00:12:58.685213+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -68966,7 +68966,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 2,
+          "contactos": 6,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -68979,12 +68979,22 @@
         }
       },
       "total": {
-        "contactos": 2,
+        "contactos": 6,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
       "detalle": [
+        {
+          "fecha": "2026-09-30",
+          "fuente": "MKT Pauta",
+          "contacto": "Sin datos Wsp ",
+          "negocio": "Sin datos - Wsp ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
         {
           "fecha": "2026-09-30",
           "fuente": "MKT Pauta",
@@ -68998,14 +69008,73 @@
         {
           "fecha": "2026-09-30",
           "fuente": "MKT Pauta",
+          "contacto": "Susana Galvez Arce",
+          "negocio": "Susana Galvez Arce",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-09-30",
+          "fuente": "MKT Pauta",
+          "contacto": "Vanessa Melgarejo",
+          "negocio": "Vanessa ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-30",
+          "fuente": "MKT Pauta",
           "contacto": "Aquino",
           "negocio": "Aquino",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-30",
+          "fuente": "MKT Pauta",
+          "contacto": "René",
+          "negocio": "SmartPlaza",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
         }
       ]
+    },
+    "2026-10-01": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -76128,10 +76197,22 @@
       "email": "cristianmestanzaortiz870@gmail.com"
     },
     {
+      "deal_id": "65489576340",
+      "negocio": "Vanessa ",
+      "contacto": "Vanessa Melgarejo",
+      "email": ""
+    },
+    {
       "deal_id": "65489694045",
       "negocio": "Aquino",
       "contacto": "Aquino",
       "email": ""
+    },
+    {
+      "deal_id": "65571975691",
+      "negocio": "SmartPlaza",
+      "contacto": "René",
+      "email": "adm.smartplaza@gmail.com"
     }
   ],
   "correos_insight": {
@@ -81051,7 +81132,7 @@
         "hora": "20:02",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 101,
+        "aperturas": 102,
         "clics": 0,
         "respuestas": 3
       },
@@ -81067,7 +81148,7 @@
         "hora": "18:56",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 101,
+        "aperturas": 102,
         "clics": 0,
         "respuestas": 3
       },
@@ -84673,13 +84754,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2195,
+    "total_deals": 2199,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 335,
+        "cantidad": 337,
         "valor": 15784583.0
       },
       {
@@ -84727,7 +84808,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1185,
+        "cantidad": 1187,
         "valor": 123067885.2
       },
       {
@@ -84782,6 +84863,20 @@
       "ultima_actividad": "2026-09-30"
     },
     {
+      "id": "65489576340",
+      "nombre": "Vanessa ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-30",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-30"
+    },
+    {
       "id": "65489694045",
       "nombre": "Aquino",
       "pais": "Perú",
@@ -84796,8 +84891,50 @@
       "ultima_actividad": "2026-09-30"
     },
     {
+      "id": "65571974059",
+      "nombre": "Sin datos - Wsp ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-30",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-30"
+    },
+    {
+      "id": "65571975691",
+      "nombre": "SmartPlaza",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-30",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-30"
+    },
+    {
       "id": "65572586672",
       "nombre": "REMASA Yolanda T.",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-30",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-09-30"
+    },
+    {
+      "id": "65572593966",
+      "nombre": "Susana Galvez Arce",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -115473,8 +115610,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 768,
-    "notas": 265,
-    "llamadas": 58,
+    "notas": 267,
+    "llamadas": 62,
     "disponible": true
   }
 }
