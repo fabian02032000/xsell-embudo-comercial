@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-02T08:40:56.795264+00:00",
+  "generado": "2026-10-02T15:05:53.956224+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69116,7 +69116,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 2,
+          "contactos": 3,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -69129,12 +69129,33 @@
         }
       },
       "total": {
-        "contactos": 2,
+        "contactos": 3,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-10-02",
+          "fuente": "MKT Pauta",
+          "contacto": "𝐺𝑒𝑟𝑎𝑙𝑑𝑖𝑛𝑒 𝐿𝑎ℎ𝑢𝑟𝑎",
+          "negocio": "Mars Maquinarias",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Arturo ",
+          "negocio": "Sin datos - Arturo",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -76339,13 +76360,19 @@
       "negocio": "Susana Galvez Arce",
       "contacto": "Susana Galvez Arce",
       "email": ""
+    },
+    {
+      "deal_id": "65580238850",
+      "negocio": "Sin datos - Arturo",
+      "contacto": "Arturo ",
+      "email": ""
     }
   ],
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 463,
-    "tasa_apertura": 62.9,
+    "tasa_apertura": 63.1,
     "tasa_clics": 0.0,
     "tasa_respuestas": 28.9,
     "cobertura_rubro": 0.6,
@@ -76634,7 +76661,7 @@
         "hora": "03:46",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -77194,7 +77221,7 @@
         "hora": "18:37",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 2,
+        "aperturas": 3,
         "clics": 0,
         "respuestas": 1
       },
@@ -84896,13 +84923,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2202,
+    "total_deals": 2204,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 329,
+        "cantidad": 330,
         "valor": 15784583.0
       },
       {
@@ -84950,7 +84977,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1198,
+        "cantidad": 1199,
         "valor": 123067885.2
       },
       {
@@ -84962,6 +84989,20 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "65026285958",
+      "nombre": "CALZADO NEW ATHLETIC GROUP S.A.C.",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-14",
+      "cierre": null,
+      "ultima_actividad": "2026-10-02"
+    },
     {
       "id": "65124262421",
       "nombre": "Trarmar SAC",
@@ -85002,6 +85043,20 @@
       "monto": 0.0,
       "creado": "2026-09-22",
       "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65294998415",
+      "nombre": "Imagina Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-09-30",
       "ultima_actividad": "2026-10-02"
     },
     {
@@ -85173,6 +85228,34 @@
       "ultima_actividad": "2026-10-02"
     },
     {
+      "id": "65577948843",
+      "nombre": "Mars Maquinarias",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-02",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65580238850",
+      "nombre": "Sin datos - Arturo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-02",
+      "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
       "id": "54616168313",
       "nombre": "Scania Chile Perfilamiento de Leads",
       "pais": "Chile",
@@ -85269,20 +85352,6 @@
       "creado": "2026-09-30",
       "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-30"
-    },
-    {
-      "id": "65026285958",
-      "nombre": "CALZADO NEW ATHLETIC GROUP S.A.C.",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-14",
-      "cierre": null,
-      "ultima_actividad": "2026-09-29"
     },
     {
       "id": "65027161097",
@@ -85707,20 +85776,6 @@
     {
       "id": "65294946081",
       "nombre": "Morgenstern Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65294998415",
-      "nombre": "Imagina Inmobiliaria",
       "pais": "Perú",
       "pais_real": false,
       "tipo_negocio": "OTRO",
@@ -115795,7 +115850,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 770,
     "notas": 275,
-    "llamadas": 68,
+    "llamadas": 70,
     "disponible": true
   }
 }
