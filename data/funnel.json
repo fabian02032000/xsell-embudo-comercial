@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-01T23:07:29.701380+00:00",
+  "generado": "2026-10-02T02:16:13.362713+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69056,7 +69056,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 2,
+          "contactos": 3,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -69069,7 +69069,7 @@
         }
       },
       "total": {
-        "contactos": 2,
+        "contactos": 3,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -69094,8 +69094,47 @@
           "nivel": "Contactos",
           "origen": "HubSpot",
           "motivo": null
+        },
+        {
+          "fecha": "2026-10-01",
+          "fuente": "MKT Pauta",
+          "contacto": "Danny Calua Cotrina",
+          "negocio": "Representaciones Danny",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
         }
       ]
+    },
+    "2026-10-02": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -76216,6 +76255,12 @@
       "negocio": "Loops",
       "contacto": "Cristian Mestanza Ortiz",
       "email": "cristianmestanzaortiz870@gmail.com"
+    },
+    {
+      "deal_id": "65428809124",
+      "negocio": "Representaciones Danny",
+      "contacto": "Danny Calua Cotrina",
+      "email": "johancotrina012@gmail.com"
     },
     {
       "deal_id": "65489576340",
@@ -84797,7 +84842,7 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2201,
+    "total_deals": 2202,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
@@ -84851,7 +84896,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1188,
+        "cantidad": 1189,
         "valor": 123067885.2
       },
       {
@@ -84931,6 +84976,20 @@
       "monto": 0.0,
       "creado": "2026-10-01",
       "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-01"
+    },
+    {
+      "id": "65428809124",
+      "nombre": "Representaciones Danny",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-01",
+      "cierre": "2026-10-01",
       "ultima_actividad": "2026-10-01"
     },
     {
@@ -115681,8 +115740,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 770,
-    "notas": 268,
-    "llamadas": 65,
+    "notas": 269,
+    "llamadas": 66,
     "disponible": true
   }
 }
