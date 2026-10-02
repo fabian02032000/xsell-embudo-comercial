@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-02T15:05:53.956224+00:00",
+  "generado": "2026-10-02T19:56:56.384026+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69148,6 +69148,16 @@
         {
           "fecha": "2026-10-02",
           "fuente": "MKT Pauta",
+          "contacto": "Yeni PV",
+          "negocio": "BIMDEC",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-02",
+          "fuente": "MKT Pauta",
           "contacto": "Arturo ",
           "negocio": "Sin datos - Arturo",
           "etapa": "Descartada",
@@ -76371,12 +76381,44 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 463,
-    "tasa_apertura": 63.1,
+    "total_enviados": 465,
+    "tasa_apertura": 62.8,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 28.9,
+    "tasa_respuestas": 28.8,
     "cobertura_rubro": 0.6,
     "detalle": [
+      {
+        "id": "117925970870",
+        "destinatario_email": "atencionalcliente@newathletic.com.pe",
+        "destinatario_nombre": null,
+        "empresa": "Newathletic",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "RE: Casi compramos. Nadie lo notó.",
+        "fecha": "2026-10-02",
+        "hora": "15:45",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "117947504017",
+        "destinatario_email": "informes@grupoaurora.pe",
+        "destinatario_nombre": null,
+        "empresa": "Grupoaurora",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "RE: Dos habitaciones, tres preguntas",
+        "fecha": "2026-10-02",
+        "hora": "15:41",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "117827561219",
         "destinatario_email": "zoraida.rodriguez@wexsell.co",
@@ -84923,13 +84965,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2204,
+    "total_deals": 2205,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 330,
+        "cantidad": 331,
         "valor": 15784583.0
       },
       {
@@ -85043,6 +85085,20 @@
       "monto": 0.0,
       "creado": "2026-09-22",
       "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65294668929",
+      "nombre": "Aurora Grupo Inmobiliario",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-09-30",
       "ultima_actividad": "2026-10-02"
     },
     {
@@ -85230,6 +85286,20 @@
     {
       "id": "65577948843",
       "nombre": "Mars Maquinarias",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-02",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65580177044",
+      "nombre": "BIMDEC",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -85608,20 +85678,6 @@
     {
       "id": "65294660615",
       "nombre": "MS Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-29"
-    },
-    {
-      "id": "65294668929",
-      "nombre": "Aurora Grupo Inmobiliario",
       "pais": "Perú",
       "pais_real": false,
       "tipo_negocio": "OTRO",
@@ -115848,9 +115904,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 770,
+    "correos": 772,
     "notas": 275,
-    "llamadas": 70,
+    "llamadas": 71,
     "disponible": true
   }
 }
