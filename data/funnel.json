@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-02T02:16:13.362713+00:00",
+  "generado": "2026-10-02T08:40:56.795264+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -68032,16 +68032,6 @@
         {
           "fecha": "2026-09-21",
           "fuente": "MKT Pauta",
-          "contacto": "JORGE LUIS TRAGODARA ACOSTA",
-          "negocio": "Trarmar SAC",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-21",
-          "fuente": "MKT Pauta",
           "contacto": "Miguel Angel Cayo Veit",
           "negocio": "Privateacher International ",
           "etapa": "Reunión Agendadas",
@@ -68104,6 +68094,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Eugenio Basilio Davila Paca",
           "negocio": "Academia Braineer ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-21",
+          "fuente": "MKT Pauta",
+          "contacto": "JORGE LUIS TRAGODARA ACOSTA",
+          "negocio": "Trarmar SAC",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -68302,16 +68302,6 @@
         {
           "fecha": "2026-09-22",
           "fuente": "MKT Pauta",
-          "contacto": "Miguel Galvez",
-          "negocio": "SGS SERVICE EIRL",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-22",
-          "fuente": "MKT Pauta",
           "contacto": "ventas@armonhy.com.pe",
           "negocio": "Armonhy Inmobiliaria",
           "etapa": "Prospectos Contactados",
@@ -68344,6 +68334,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Thony",
           "negocio": "Sin datos - Thony",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-22",
+          "fuente": "MKT Pauta",
+          "contacto": "Miguel Galvez",
+          "negocio": "SGS SERVICE EIRL",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -68392,16 +68392,6 @@
         {
           "fecha": "2026-09-23",
           "fuente": "MKT Pauta",
-          "contacto": "Perez",
-          "negocio": "Sin datos - Perez",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-23",
-          "fuente": "MKT Pauta",
           "contacto": "luis tenorio",
           "negocio": "Corporación Logística & TransporteDeal",
           "etapa": "Reunión Agendadas",
@@ -68434,6 +68424,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Sin datos",
           "negocio": "Sin datos - 958 282 830",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-23",
+          "fuente": "MKT Pauta",
+          "contacto": "Perez",
+          "negocio": "Sin datos - Perez",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -68781,46 +68781,6 @@
         {
           "fecha": "2026-09-28",
           "fuente": "MKT Pauta",
-          "contacto": "Esaú Ur",
-          "negocio": "Sin datos - Esaú Ur",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-28",
-          "fuente": "MKT Pauta",
-          "contacto": "Luisa  Paucar Rojas",
-          "negocio": "Sin datos - Luisa Paucar Rojas",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-28",
-          "fuente": "MKT Pauta",
-          "contacto": "Johan Flores Ramos",
-          "negocio": "Johan Flores Ramos",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-28",
-          "fuente": "MKT Pauta",
-          "contacto": "TPD",
-          "negocio": "Sin datos - Tpd",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-28",
-          "fuente": "MKT Pauta",
           "contacto": "Javier Salmon",
           "negocio": "JS INDUSTRIAL",
           "etapa": "Prospectos Contactados",
@@ -68833,16 +68793,6 @@
           "fuente": "MKT Pauta",
           "contacto": "Jorge Izquierdo",
           "negocio": "Pintaza",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-28",
-          "fuente": "MKT Pauta",
-          "contacto": "Violeta  Navarro moscoso",
-          "negocio": "Sin datos - Violeta Navarro moscoso",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot",
@@ -68871,8 +68821,58 @@
         {
           "fecha": "2026-09-28",
           "fuente": "MKT Pauta",
+          "contacto": "Esaú Ur",
+          "negocio": "Sin datos - Esaú Ur",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
+          "contacto": "Luisa  Paucar Rojas",
+          "negocio": "Sin datos - Luisa Paucar Rojas",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
           "contacto": "Cristian Mestanza Ortiz",
           "negocio": "Loops",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
+          "contacto": "Johan Flores Ramos",
+          "negocio": "Johan Flores Ramos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
+          "contacto": "TPD",
+          "negocio": "Sin datos - Tpd",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
+          "contacto": "Violeta  Navarro moscoso",
+          "negocio": "Sin datos - Violeta Navarro moscoso",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -68950,10 +68950,10 @@
           "fuente": "MKT Pauta",
           "contacto": "Mariana ",
           "negocio": "Mariana",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         }
       ]
     },
@@ -69116,7 +69116,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -69129,7 +69129,7 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 2,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -76149,6 +76149,12 @@
       "email": "cristaco.t@gmail.com"
     },
     {
+      "deal_id": "65124262421",
+      "negocio": "Trarmar SAC",
+      "contacto": "JORGE LUIS TRAGODARA ACOSTA",
+      "email": "ventas@abmagre.com"
+    },
+    {
       "deal_id": "65124295075",
       "negocio": "Manufactura Emisa",
       "contacto": "Paolo Gaspar",
@@ -76170,6 +76176,12 @@
       "deal_id": "65162445929",
       "negocio": "Sin datos - 958 282 830",
       "contacto": "Sin datos",
+      "email": ""
+    },
+    {
+      "deal_id": "65162502459",
+      "negocio": "Sin datos - Perez",
+      "contacto": "Perez",
       "email": ""
     },
     {
@@ -76195,6 +76207,12 @@
       "negocio": "Jeaneth y sus Flores",
       "contacto": "(sin contacto)",
       "email": ""
+    },
+    {
+      "deal_id": "65162687550",
+      "negocio": "SGS SERVICE EIRL",
+      "contacto": "Miguel Galvez",
+      "email": "mr.galvezm@hotmail.com"
     },
     {
       "deal_id": "65162690064",
@@ -76251,10 +76269,46 @@
       "email": ""
     },
     {
+      "deal_id": "65308671086",
+      "negocio": "Sin datos - Esaú Ur",
+      "contacto": "Esaú Ur",
+      "email": ""
+    },
+    {
+      "deal_id": "65308671268",
+      "negocio": "Sin datos - Luisa Paucar Rojas",
+      "contacto": "Luisa  Paucar Rojas",
+      "email": ""
+    },
+    {
       "deal_id": "65308854393",
       "negocio": "Loops",
       "contacto": "Cristian Mestanza Ortiz",
       "email": "cristianmestanzaortiz870@gmail.com"
+    },
+    {
+      "deal_id": "65308917074",
+      "negocio": "Johan Flores Ramos",
+      "contacto": "Johan Flores Ramos",
+      "email": "johan_f_20@hotmail.com"
+    },
+    {
+      "deal_id": "65309226377",
+      "negocio": "Sin datos - Tpd",
+      "contacto": "TPD",
+      "email": ""
+    },
+    {
+      "deal_id": "65309350464",
+      "negocio": "Sin datos - Violeta Navarro moscoso",
+      "contacto": "Violeta  Navarro moscoso",
+      "email": ""
+    },
+    {
+      "deal_id": "65352827165",
+      "negocio": "Mariana",
+      "contacto": "Mariana ",
+      "email": ""
     },
     {
       "deal_id": "65428809124",
@@ -84848,7 +84902,7 @@
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 338,
+        "cantidad": 329,
         "valor": 15784583.0
       },
       {
@@ -84896,7 +84950,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1189,
+        "cantidad": 1198,
         "valor": 123067885.2
       },
       {
@@ -84908,6 +84962,216 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "65124262421",
+      "nombre": "Trarmar SAC",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-21",
+      "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65162502459",
+      "nombre": "Sin datos - Perez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-23",
+      "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65162687550",
+      "nombre": "SGS SERVICE EIRL",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-22",
+      "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65308671086",
+      "nombre": "Sin datos - Esaú Ur",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65308671268",
+      "nombre": "Sin datos - Luisa Paucar Rojas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65308917074",
+      "nombre": "Johan Flores Ramos",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65309226377",
+      "nombre": "Sin datos - Tpd",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65309350464",
+      "nombre": "Sin datos - Violeta Navarro moscoso",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65352827165",
+      "nombre": "Mariana",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-29",
+      "cierre": "2026-10-02",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65428617643",
+      "nombre": "Sin datos - Foryou",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-01",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65428806463",
+      "nombre": "Sin datos - 970 486 405",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-01",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65489576340",
+      "nombre": "Vanessa ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-30",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65489694045",
+      "nombre": "Aquino",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-30",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65571974059",
+      "nombre": "Sin datos - Wsp ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-30",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-10-02"
+    },
+    {
+      "id": "65572586672",
+      "nombre": "REMASA Yolanda T.",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-30",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-10-02"
+    },
     {
       "id": "54616168313",
       "nombre": "Scania Chile Perfilamiento de Leads",
@@ -84951,34 +85215,6 @@
       "ultima_actividad": "2026-10-01"
     },
     {
-      "id": "65428617643",
-      "nombre": "Sin datos - Foryou",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-01",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-01"
-    },
-    {
-      "id": "65428806463",
-      "nombre": "Sin datos - 970 486 405",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-01",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-01"
-    },
-    {
       "id": "65428809124",
       "nombre": "Representaciones Danny",
       "pais": "Perú",
@@ -84990,34 +85226,6 @@
       "monto": 0.0,
       "creado": "2026-10-01",
       "cierre": "2026-10-01",
-      "ultima_actividad": "2026-10-01"
-    },
-    {
-      "id": "65489694045",
-      "nombre": "Aquino",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-09-30",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-10-01"
-    },
-    {
-      "id": "65572586672",
-      "nombre": "REMASA Yolanda T.",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-30",
-      "cierre": "2026-09-30",
       "ultima_actividad": "2026-10-01"
     },
     {
@@ -85046,34 +85254,6 @@
       "monto": 0.0,
       "creado": "2026-09-21",
       "cierre": "2026-09-29",
-      "ultima_actividad": "2026-09-30"
-    },
-    {
-      "id": "65489576340",
-      "nombre": "Vanessa ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-09-30",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-30"
-    },
-    {
-      "id": "65571974059",
-      "nombre": "Sin datos - Wsp ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-30",
-      "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-30"
     },
     {
@@ -85186,20 +85366,6 @@
       "monto": 0.0,
       "creado": "2026-09-18",
       "cierre": "2026-09-29",
-      "ultima_actividad": "2026-09-29"
-    },
-    {
-      "id": "65124262421",
-      "nombre": "Trarmar SAC",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-21",
-      "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-29"
     },
     {
@@ -85413,20 +85579,6 @@
       "ultima_actividad": "2026-09-29"
     },
     {
-      "id": "65352827165",
-      "nombre": "Mariana",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-29",
-      "cierre": "2026-10-01",
-      "ultima_actividad": "2026-09-29"
-    },
-    {
       "id": "65162403240",
       "nombre": "Sin datos registrados  ",
       "pais": "Perú",
@@ -85438,20 +85590,6 @@
       "monto": 0.0,
       "creado": "2026-09-21",
       "cierre": "2026-09-21",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65162502459",
-      "nombre": "Sin datos - Perez",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-23",
-      "cierre": "2026-10-01",
       "ultima_actividad": "2026-09-28"
     },
     {
@@ -85665,34 +85803,6 @@
       "ultima_actividad": "2026-09-28"
     },
     {
-      "id": "65308671086",
-      "nombre": "Sin datos - Esaú Ur",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65308671268",
-      "nombre": "Sin datos - Luisa Paucar Rojas",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
       "id": "65308854393",
       "nombre": "Loops",
       "pais": "Perú",
@@ -85707,50 +85817,8 @@
       "ultima_actividad": "2026-09-28"
     },
     {
-      "id": "65308917074",
-      "nombre": "Johan Flores Ramos",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65309226377",
-      "nombre": "Sin datos - Tpd",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
       "id": "65309286032",
       "nombre": "JS INDUSTRIAL",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65309350464",
-      "nombre": "Sin datos - Violeta Navarro moscoso",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -86489,20 +86557,6 @@
       "creado": "2026-09-23",
       "cierre": "2026-09-23",
       "ultima_actividad": "2026-09-23"
-    },
-    {
-      "id": "65162687550",
-      "nombre": "SGS SERVICE EIRL",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-22",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-22"
     },
     {
       "id": "65076964200",
@@ -115740,8 +115794,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 770,
-    "notas": 269,
-    "llamadas": 66,
+    "notas": 275,
+    "llamadas": 68,
     "disponible": true
   }
 }
