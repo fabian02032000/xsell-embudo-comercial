@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-02T23:42:22.809297+00:00",
+  "generado": "2026-10-03T02:23:47.203927+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69166,6 +69166,35 @@
           "motivo": "Otros"
         }
       ]
+    },
+    "2026-10-03": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
