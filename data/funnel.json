@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-03T13:54:53.406916+00:00",
+  "generado": "2026-10-03T17:52:56.305081+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -76411,7 +76411,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 465,
-    "tasa_apertura": 62.8,
+    "tasa_apertura": 63.0,
     "tasa_clics": 0.0,
     "tasa_respuestas": 28.8,
     "cobertura_rubro": 0.6,
@@ -76428,7 +76428,7 @@
         "hora": "15:45",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 4,
         "clics": 0,
         "respuestas": 0
       },
@@ -77292,7 +77292,7 @@
         "hora": "18:37",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 3,
+        "aperturas": 4,
         "clics": 0,
         "respuestas": 1
       },
@@ -85072,7 +85072,7 @@
       "monto": 0.0,
       "creado": "2026-09-14",
       "cierre": null,
-      "ultima_actividad": "2026-10-02"
+      "ultima_actividad": "2026-10-03"
     },
     {
       "id": "65124262421",
