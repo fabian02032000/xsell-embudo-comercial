@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T09:08:12.250772+00:00",
+  "generado": "2026-10-06T15:58:15.790831+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -68554,10 +68554,10 @@
           "fuente": "MKT Pauta",
           "contacto": "Xiomi Peru",
           "negocio": "Xiomi Perú",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-09-25",
@@ -68940,10 +68940,10 @@
           "fuente": "MKT Pauta",
           "contacto": "Mariangelica López Castañeda",
           "negocio": "IRON GROUP SAC",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-09-29",
@@ -68988,26 +68988,6 @@
         {
           "fecha": "2026-09-30",
           "fuente": "MKT Pauta",
-          "contacto": "Sin datos Wsp ",
-          "negocio": "Sin datos - Wsp ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-30",
-          "fuente": "MKT Pauta",
-          "contacto": "REMASA Yolanda T.",
-          "negocio": "REMASA Yolanda T.",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-30",
-          "fuente": "MKT Pauta",
           "contacto": "Vanessa Melgarejo",
           "negocio": "Vanessa ",
           "etapa": "Descartada",
@@ -69028,8 +69008,28 @@
         {
           "fecha": "2026-09-30",
           "fuente": "MKT Pauta",
+          "contacto": "Sin datos Wsp ",
+          "negocio": "Sin datos - Wsp ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-30",
+          "fuente": "MKT Pauta",
           "contacto": "René",
           "negocio": "SmartPlaza",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-30",
+          "fuente": "MKT Pauta",
+          "contacto": "REMASA Yolanda T.",
+          "negocio": "REMASA Yolanda T.",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -76650,6 +76650,12 @@
       "email": "eric.torres.p.@gmail.com"
     },
     {
+      "deal_id": "65260465425",
+      "negocio": "Xiomi Perú",
+      "contacto": "Xiomi Peru",
+      "email": ""
+    },
+    {
       "deal_id": "65264882846",
       "negocio": "New house",
       "contacto": "Pedro Romero",
@@ -76704,6 +76710,12 @@
       "email": ""
     },
     {
+      "deal_id": "65352782900",
+      "negocio": "IRON GROUP SAC",
+      "contacto": "Mariangelica López Castañeda",
+      "email": "mariangelica.lop@gmail.com"
+    },
+    {
       "deal_id": "65352827165",
       "negocio": "Mariana",
       "contacto": "Mariana ",
@@ -76728,10 +76740,22 @@
       "email": ""
     },
     {
+      "deal_id": "65571974059",
+      "negocio": "Sin datos - Wsp ",
+      "contacto": "Sin datos Wsp ",
+      "email": ""
+    },
+    {
       "deal_id": "65571975691",
       "negocio": "SmartPlaza",
       "contacto": "René",
       "email": "adm.smartplaza@gmail.com"
+    },
+    {
+      "deal_id": "65572586672",
+      "negocio": "REMASA Yolanda T.",
+      "contacto": "REMASA Yolanda T.",
+      "email": ""
     },
     {
       "deal_id": "65572593966",
@@ -82593,7 +82617,7 @@
         "hora": "18:55",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 28,
+        "aperturas": 29,
         "clics": 0,
         "respuestas": 1
       },
@@ -85581,7 +85605,7 @@
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 353,
+        "cantidad": 349,
         "valor": 15784583.0
       },
       {
@@ -85629,7 +85653,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1202,
+        "cantidad": 1206,
         "valor": 123067885.2
       },
       {
@@ -85641,6 +85665,76 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "54616168313",
+      "nombre": "Scania Chile Perfilamiento de Leads",
+      "pais": "Chile",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "decisionmakerboughtin",
+      "etapa_label": "Propuesta Enviada/en revisión",
+      "monto": 36582.0,
+      "creado": "2026-01-26",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-10-06"
+    },
+    {
+      "id": "65260465425",
+      "nombre": "Xiomi Perú",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-25",
+      "cierre": "2026-10-06",
+      "ultima_actividad": "2026-10-06"
+    },
+    {
+      "id": "65352782900",
+      "nombre": "IRON GROUP SAC",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-29",
+      "cierre": "2026-10-06",
+      "ultima_actividad": "2026-10-06"
+    },
+    {
+      "id": "65571974059",
+      "nombre": "Sin datos - Wsp ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-30",
+      "cierre": "2026-10-06",
+      "ultima_actividad": "2026-10-06"
+    },
+    {
+      "id": "65572586672",
+      "nombre": "REMASA Yolanda T.",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-30",
+      "cierre": "2026-10-06",
+      "ultima_actividad": "2026-10-06"
+    },
     {
       "id": "65730616408",
       "nombre": "Sin datos - Ciro Falcon ",
@@ -85681,20 +85775,6 @@
       "monto": 100000.0,
       "creado": "2021-09-03",
       "cierre": "2021-09-13",
-      "ultima_actividad": "2026-10-05"
-    },
-    {
-      "id": "54616168313",
-      "nombre": "Scania Chile Perfilamiento de Leads",
-      "pais": "Chile",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "decisionmakerboughtin",
-      "etapa_label": "Propuesta Enviada/en revisión",
-      "monto": 36582.0,
-      "creado": "2026-01-26",
-      "cierre": "2026-04-30",
       "ultima_actividad": "2026-10-05"
     },
     {
@@ -86272,34 +86352,6 @@
       "ultima_actividad": "2026-10-02"
     },
     {
-      "id": "65571974059",
-      "nombre": "Sin datos - Wsp ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-30",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-10-02"
-    },
-    {
-      "id": "65572586672",
-      "nombre": "REMASA Yolanda T.",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-30",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-10-02"
-    },
-    {
       "id": "65577948843",
       "nombre": "Mars Maquinarias",
       "pais": "Perú",
@@ -86636,20 +86688,6 @@
       "ultima_actividad": "2026-09-29"
     },
     {
-      "id": "65260465425",
-      "nombre": "Xiomi Perú",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-25",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-29"
-    },
-    {
       "id": "65264882846",
       "nombre": "New house",
       "pais": "Perú",
@@ -86688,20 +86726,6 @@
       "etapa_label": "Prospectos Contactados",
       "monto": 0.0,
       "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-09-29"
-    },
-    {
-      "id": "65352782900",
-      "nombre": "IRON GROUP SAC",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-29",
       "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-29"
     },
@@ -116865,7 +116889,7 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 789,
-    "notas": 278,
+    "notas": 282,
     "llamadas": 80,
     "disponible": true
   }
