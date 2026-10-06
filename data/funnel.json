@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T15:58:15.790831+00:00",
+  "generado": "2026-10-06T20:55:23.051252+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69504,7 +69504,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 1,
+          "contactos": 3,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -69517,7 +69517,7 @@
         }
       },
       "total": {
-        "contactos": 1,
+        "contactos": 3,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -69528,6 +69528,26 @@
           "fuente": "MKT Pauta",
           "contacto": "Ciro  Falcón",
           "negocio": "Sin datos - Ciro Falcon ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-06",
+          "fuente": "MKT Pauta",
+          "contacto": "yuyo72",
+          "negocio": "Sin datos - yuyo72",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-06",
+          "fuente": "MKT Pauta",
+          "contacto": "Sin datos - @kkikw159 Adelavera I",
+          "negocio": "Sin datos - @kkikw159 Adelavera I",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -76785,6 +76805,18 @@
       "deal_id": "65730672463",
       "negocio": "Sin datos - Gloria Torres ",
       "contacto": "Gloria Torres",
+      "email": ""
+    },
+    {
+      "deal_id": "65730699528",
+      "negocio": "Sin datos - yuyo72",
+      "contacto": "yuyo72",
+      "email": ""
+    },
+    {
+      "deal_id": "65730761605",
+      "negocio": "Sin datos - @kkikw159 Adelavera I",
+      "contacto": "Sin datos - @kkikw159 Adelavera I",
       "email": ""
     }
   ],
@@ -85599,7 +85631,7 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2230,
+    "total_deals": 2232,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
@@ -85653,7 +85685,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1206,
+        "cantidad": 1208,
         "valor": 123067885.2
       },
       {
@@ -85738,6 +85770,34 @@
     {
       "id": "65730616408",
       "nombre": "Sin datos - Ciro Falcon ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-06",
+      "cierre": "2026-10-06",
+      "ultima_actividad": "2026-10-06"
+    },
+    {
+      "id": "65730699528",
+      "nombre": "Sin datos - yuyo72",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-06",
+      "cierre": "2026-10-06",
+      "ultima_actividad": "2026-10-06"
+    },
+    {
+      "id": "65730761605",
+      "nombre": "Sin datos - @kkikw159 Adelavera I",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -116889,8 +116949,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 789,
-    "notas": 282,
-    "llamadas": 80,
+    "notas": 283,
+    "llamadas": 82,
     "disponible": true
   }
 }
