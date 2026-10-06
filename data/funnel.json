@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-05T22:01:10.298167+00:00",
+  "generado": "2026-10-06T02:17:51.018042+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69494,6 +69494,46 @@
           "motivo": "Otros"
         }
       ]
+    },
+    "2026-10-06": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 1,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 1,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": [
+        {
+          "fecha": "2026-10-06",
+          "fuente": "MKT Pauta",
+          "contacto": "Ciro  Falcón",
+          "negocio": "Sin datos - Ciro Falcon ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -76712,6 +76752,12 @@
       "email": ""
     },
     {
+      "deal_id": "65730616408",
+      "negocio": "Sin datos - Ciro Falcon ",
+      "contacto": "Ciro  Falcón",
+      "email": ""
+    },
+    {
       "deal_id": "65730672463",
       "negocio": "Sin datos - Gloria Torres ",
       "contacto": "Gloria Torres",
@@ -77077,7 +77123,7 @@
         "estado_raw": "SENT",
         "aperturas": 0,
         "clics": 0,
-        "respuestas": 4
+        "respuestas": 5
       },
       {
         "id": "117615673180",
@@ -85529,7 +85575,7 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2229,
+    "total_deals": 2230,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
@@ -85583,7 +85629,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1201,
+        "cantidad": 1202,
         "valor": 123067885.2
       },
       {
@@ -85595,6 +85641,20 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "65730616408",
+      "nombre": "Sin datos - Ciro Falcon ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-06",
+      "cierre": "2026-10-06",
+      "ultima_actividad": "2026-10-06"
+    },
     {
       "id": "823576662",
       "nombre": "MENORCA: ACTUALIZACIÓN DATOS CLIENTES",
@@ -116804,8 +116864,8 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 788,
-    "notas": 277,
+    "correos": 789,
+    "notas": 278,
     "llamadas": 80,
     "disponible": true
   }
