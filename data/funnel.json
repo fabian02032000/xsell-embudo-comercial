@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-07T06:29:01.895546+00:00",
+  "generado": "2026-10-07T13:50:08.129203+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69564,7 +69564,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -69577,7 +69577,7 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 1,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
