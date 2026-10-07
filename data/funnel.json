@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T20:55:23.051252+00:00",
+  "generado": "2026-10-07T00:34:47.907854+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69554,6 +69554,35 @@
           "motivo": "Otros"
         }
       ]
+    },
+    "2026-10-07": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -85712,6 +85741,20 @@
       "ultima_actividad": "2026-10-06"
     },
     {
+      "id": "62852775191",
+      "nombre": "Scania Conductoras",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "decisionmakerboughtin",
+      "etapa_label": "Propuesta Enviada/en revisión",
+      "monto": 3400.0,
+      "creado": "2026-07-20",
+      "cierre": "2026-07-31",
+      "ultima_actividad": "2026-10-06"
+    },
+    {
       "id": "65260465425",
       "nombre": "Xiomi Perú",
       "pais": "Perú",
@@ -85765,6 +85808,20 @@
       "monto": 0.0,
       "creado": "2026-09-30",
       "cierre": "2026-10-06",
+      "ultima_actividad": "2026-10-06"
+    },
+    {
+      "id": "65664182302",
+      "nombre": "PA BUS Y TRUCKS",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-06"
     },
     {
@@ -85884,20 +85941,6 @@
       "nombre": "Sin datos  - @Sune9329 Textil",
       "pais": "Perú",
       "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-05"
-    },
-    {
-      "id": "65664182302",
-      "nombre": "PA BUS Y TRUCKS",
-      "pais": "Perú",
-      "pais_real": true,
       "tipo_negocio": "OTRO",
       "tipo_negocio_label": "Otro",
       "etapa": "1275439753",
@@ -86452,20 +86495,6 @@
       "creado": "2026-10-02",
       "cierre": "2026-10-02",
       "ultima_actividad": "2026-10-02"
-    },
-    {
-      "id": "62852775191",
-      "nombre": "Scania Conductoras",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "decisionmakerboughtin",
-      "etapa_label": "Propuesta Enviada/en revisión",
-      "monto": 3400.0,
-      "creado": "2026-07-20",
-      "cierre": "2026-07-31",
-      "ultima_actividad": "2026-10-01"
     },
     {
       "id": "65309347341",
