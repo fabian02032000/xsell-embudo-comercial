@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-08T05:47:38.853489+00:00",
+  "generado": "2026-10-08T12:16:58.190724+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -58846,6 +58846,16 @@
         {
           "fecha": "2026-01-14",
           "fuente": "Comercial",
+          "contacto": "Giuliano Lombardi",
+          "negocio": "EFE Perú Carritos Abandonados",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-01-14",
+          "fuente": "Comercial",
           "contacto": "Alfredo Ramón",
           "negocio": "Laboratorio el Ingeniero",
           "etapa": "Prospectos Contactados",
@@ -58892,16 +58902,6 @@
           "nivel": "Contactos",
           "origen": "HubSpot",
           "motivo": null
-        },
-        {
-          "fecha": "2026-01-14",
-          "fuente": "Comercial",
-          "contacto": "Giuliano Lombardi",
-          "negocio": "EFE Perú Carritos Abandonados",
-          "etapa": "Stand By",
-          "nivel": "Fuera del embudo",
-          "origen": "HubSpot",
-          "motivo": "No hay respuesta"
         },
         {
           "fecha": "2026-01-14",
@@ -60725,10 +60725,10 @@
           "fuente": "Comercial",
           "contacto": "Stefano Muttini",
           "negocio": "Mercedes Benz Perú Perfilamiento de Leads ",
-          "etapa": "Stand By",
-          "nivel": "Fuera del embudo",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
           "origen": "HubSpot",
-          "motivo": "No hay respuesta"
+          "motivo": null
         }
       ]
     },
@@ -63255,10 +63255,10 @@
           "fuente": "Comercial",
           "contacto": "Johans Herencia Nuñez",
           "negocio": "CAFAE-SE Perfilamiento de Leads Perú ",
-          "etapa": "Stand By",
-          "nivel": "Fuera del embudo",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
           "origen": "HubSpot",
-          "motivo": "Proyecto postergado"
+          "motivo": null
         }
       ]
     },
@@ -76924,12 +76924,124 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 475,
-    "tasa_apertura": 61.9,
+    "total_enviados": 482,
+    "tasa_apertura": 61.0,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 28.2,
+    "tasa_respuestas": 27.8,
     "cobertura_rubro": 3.1,
     "detalle": [
+      {
+        "id": "118214172287",
+        "destinatario_email": "jazmin.gamarra@gacsa.pe",
+        "destinatario_nombre": "Jazmin  Gamarra Longa",
+        "empresa": "Gacsa",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Jazmín, me acordé de ustedes",
+        "fecha": "2026-10-08",
+        "hora": "12:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "118214273356",
+        "destinatario_email": "darispe@interamericanatrujillo.com",
+        "destinatario_nombre": "Daniel Arispe",
+        "empresa": "Interamericanatrujillo",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "¿Cómo va el año en Trujillo, Daniel?",
+        "fecha": "2026-10-08",
+        "hora": "12:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "118214776499",
+        "destinatario_email": "smuttini@divemotor.com.pe",
+        "destinatario_nombre": "Stefano Muttini",
+        "empresa": "Divemotor",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Stefano, antes del cierre de año",
+        "fecha": "2026-10-08",
+        "hora": "12:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "118214221864",
+        "destinatario_email": "mtipian@europeanopenlatam.net",
+        "destinatario_nombre": "marian tipian",
+        "empresa": "EUROPEAN OPEN BUSINESS SCHOOL",
+        "empresa_adivinada": false,
+        "rubro": null,
+        "asunto": "Marian, sobre la campaña de matrículas",
+        "fecha": "2026-10-08",
+        "hora": "12:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "118214221319",
+        "destinatario_email": "jherencia@cafae-se.com.pe",
+        "destinatario_nombre": "Johans Herencia Nuñez",
+        "empresa": "CAFAE-SE",
+        "empresa_adivinada": false,
+        "rubro": null,
+        "asunto": "Johans, ¿cómo les fue estos meses?",
+        "fecha": "2026-10-08",
+        "hora": "12:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "118214220801",
+        "destinatario_email": "fborja@sole.com.pe",
+        "destinatario_nombre": "Fabiola Borja Lagos",
+        "empresa": "Sole",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Fabiola, se viene el verano",
+        "fecha": "2026-10-08",
+        "hora": "12:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "118214274407",
+        "destinatario_email": "glombardi@efe-lc.com.pe",
+        "destinatario_nombre": "Giuliano Lombardi",
+        "empresa": "Efe Lc",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Giuliano, ¿cómo les fue con los carritos abandonados?",
+        "fecha": "2026-10-08",
+        "hora": "12:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "118066963284",
         "destinatario_email": "ventas@codima.pe",
@@ -85738,8 +85850,8 @@
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 350,
-        "valor": 15784583.0
+        "cantidad": 353,
+        "valor": 15874583.0
       },
       {
         "etapa": "appointmentscheduled",
@@ -85780,8 +85892,8 @@
       {
         "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
         "etapa_label": "Stand By",
-        "cantidad": 297,
-        "valor": 100455272.6
+        "cantidad": 294,
+        "valor": 100365272.6
       },
       {
         "etapa": "closedlost",
@@ -85798,6 +85910,104 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "53754297921",
+      "nombre": "EFE Perú Carritos Abandonados",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "CARTS",
+      "tipo_negocio_label": "Carritos Abandonados",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-01-14",
+      "cierre": "2026-05-19",
+      "ultima_actividad": "2026-10-08"
+    },
+    {
+      "id": "56443197498",
+      "nombre": "Mercedes Benz Perú Perfilamiento de Leads ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-02-16",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-08"
+    },
+    {
+      "id": "56645821185",
+      "nombre": "EUROPEAN OPEN BUSINESS SCHOOL",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
+      "etapa_label": "Stand By",
+      "monto": 0.0,
+      "creado": "2026-02-19",
+      "cierre": "2026-04-16",
+      "ultima_actividad": "2026-10-08"
+    },
+    {
+      "id": "56709557539",
+      "nombre": "Wigo Motors Perú Perfilamiento de Leads",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-02-23",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-10-08"
+    },
+    {
+      "id": "57021836060",
+      "nombre": "Intermotors Perú Perfilamiento de Leads ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 60000.0,
+      "creado": "2026-02-25",
+      "cierre": "2026-03-23",
+      "ultima_actividad": "2026-10-08"
+    },
+    {
+      "id": "59963223397",
+      "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 30000.0,
+      "creado": "2026-05-04",
+      "cierre": "2026-06-23",
+      "ultima_actividad": "2026-10-08"
+    },
+    {
+      "id": "60355285402",
+      "nombre": "Sole Perú Ventas ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "VENTAS",
+      "tipo_negocio_label": "Ventas",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-05-19",
+      "cierre": "2026-05-31",
+      "ultima_actividad": "2026-10-08"
+    },
     {
       "id": "62852775191",
       "nombre": "Scania Conductoras",
@@ -89829,20 +90039,6 @@
       "creado": "2026-08-13",
       "cierre": "2026-08-13",
       "ultima_actividad": "2026-08-13"
-    },
-    {
-      "id": "56709557539",
-      "nombre": "Wigo Motors Perú Perfilamiento de Leads",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-02-23",
-      "cierre": "2026-02-28",
-      "ultima_actividad": "2026-08-12"
     },
     {
       "id": "57093657014",
@@ -102417,20 +102613,6 @@
       "ultima_actividad": "2026-07-17"
     },
     {
-      "id": "56645821185",
-      "nombre": "EUROPEAN OPEN BUSINESS SCHOOL",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
-      "etapa_label": "Stand By",
-      "monto": 0.0,
-      "creado": "2026-02-19",
-      "cierre": "2026-04-16",
-      "ultima_actividad": "2026-07-17"
-    },
-    {
       "id": "56709744443",
       "nombre": "Motored",
       "pais": "Perú",
@@ -108255,20 +108437,6 @@
       "ultima_actividad": "2026-07-16"
     },
     {
-      "id": "57021836060",
-      "nombre": "Intermotors Perú Perfilamiento de Leads ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 60000.0,
-      "creado": "2026-02-25",
-      "cierre": "2026-03-23",
-      "ultima_actividad": "2026-07-16"
-    },
-    {
       "id": "57030393627",
       "nombre": "SUM Vehículos Perú Agendamiento de Citas",
       "pais": "Perú",
@@ -110593,20 +110761,6 @@
       "ultima_actividad": "2026-07-10"
     },
     {
-      "id": "60355285402",
-      "nombre": "Sole Perú Ventas ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "VENTAS",
-      "tipo_negocio_label": "Ventas",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-05-19",
-      "cierre": "2026-05-31",
-      "ultima_actividad": "2026-07-10"
-    },
-    {
       "id": "379306613",
       "nombre": "PROSEGUR: ATENCIÓN DE VALORADOS",
       "pais": "Perú",
@@ -111444,20 +111598,6 @@
       "monto": 39600.0,
       "creado": "2025-09-22",
       "cierre": "2025-11-17",
-      "ultima_actividad": "2026-07-09"
-    },
-    {
-      "id": "53754297921",
-      "nombre": "EFE Perú Carritos Abandonados",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "CARTS",
-      "tipo_negocio_label": "Carritos Abandonados",
-      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
-      "etapa_label": "Stand By",
-      "monto": 0.0,
-      "creado": "2026-01-14",
-      "cierre": "2026-05-19",
       "ultima_actividad": "2026-07-09"
     },
     {
@@ -112690,20 +112830,6 @@
       "monto": 0.0,
       "creado": "2026-01-28",
       "cierre": "2026-02-01",
-      "ultima_actividad": "2026-07-08"
-    },
-    {
-      "id": "56443197498",
-      "nombre": "Mercedes Benz Perú Perfilamiento de Leads ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
-      "etapa_label": "Stand By",
-      "monto": 60000.0,
-      "creado": "2026-02-16",
-      "cierre": "2026-04-16",
       "ultima_actividad": "2026-07-08"
     },
     {
@@ -114034,20 +114160,6 @@
       "monto": 60000.0,
       "creado": "2026-03-13",
       "cierre": "2026-04-30",
-      "ultima_actividad": "2026-07-05"
-    },
-    {
-      "id": "59963223397",
-      "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
-      "etapa_label": "Stand By",
-      "monto": 30000.0,
-      "creado": "2026-05-04",
-      "cierre": "2026-06-23",
       "ultima_actividad": "2026-07-05"
     },
     {
@@ -117091,7 +117203,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 789,
+    "correos": 796,
     "notas": 285,
     "llamadas": 86,
     "disponible": true
