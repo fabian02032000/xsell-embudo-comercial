@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-08T18:55:40.045878+00:00",
+  "generado": "2026-10-08T23:43:07.110356+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69624,7 +69624,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -69637,7 +69637,7 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 1,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -76925,7 +76925,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 482,
-    "tasa_apertura": 61.0,
+    "tasa_apertura": 61.2,
     "tasa_clics": 0.0,
     "tasa_respuestas": 27.8,
     "cobertura_rubro": 3.1,
@@ -76958,7 +76958,7 @@
         "hora": "12:00",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
