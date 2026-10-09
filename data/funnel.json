@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-09T17:12:02.104644+00:00",
+  "generado": "2026-10-09T21:46:49.278814+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69647,13 +69647,13 @@
     "2026-10-09": {
       "fuentes": {
         "Comercial": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 1,
+          "contactos": 10,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -69666,12 +69666,32 @@
         }
       },
       "total": {
-        "contactos": 1,
+        "contactos": 11,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
       "detalle": [
+        {
+          "fecha": "2026-10-09",
+          "fuente": "Comercial",
+          "contacto": "(sin contacto)",
+          "negocio": "Sin datos - Alejandra ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Alejandra  Navarro",
+          "negocio": "Sin datos -  Alejandra Navarro ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
         {
           "fecha": "2026-10-09",
           "fuente": "MKT Pauta",
@@ -69685,8 +69705,98 @@
         {
           "fecha": "2026-10-09",
           "fuente": "MKT Pauta",
+          "contacto": "Sin datos ",
+          "negocio": "Sin datos  - 945 282 654",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Roxana",
+          "negocio": "Sin datos  - Roxana",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Carmen  Chacón ramirez",
+          "negocio": "Sin datos - Carmen Chacón ramirez",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "Comercial",
+          "contacto": "Valentino ",
+          "negocio": "Sin datos - Valentino",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Lourdes",
+          "negocio": "Sin datos - Lourdes",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Chabu",
+          "negocio": "Sin datos  - Chabu",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
           "contacto": "Angel Solorzano",
           "negocio": "S&S MEGATEK ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Sin datos",
+          "negocio": "Sin datos - Independiente",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Rouss Real",
+          "negocio": "Sin datos - Rouss Real",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Arturo Laguna",
+          "negocio": "Sin datos - 930 931 702",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -76971,10 +77081,46 @@
       "email": ""
     },
     {
+      "deal_id": "65739810670",
+      "negocio": "Sin datos - Valentino",
+      "contacto": "Valentino ",
+      "email": ""
+    },
+    {
+      "deal_id": "65739908413",
+      "negocio": "Sin datos - Lourdes",
+      "contacto": "Lourdes",
+      "email": ""
+    },
+    {
+      "deal_id": "65739925580",
+      "negocio": "Sin datos  - Chabu",
+      "contacto": "Chabu",
+      "email": ""
+    },
+    {
       "deal_id": "65791363666",
       "negocio": "S&S MEGATEK ",
       "contacto": "Angel Solorzano",
       "email": "asolorzano@megatekperu.com"
+    },
+    {
+      "deal_id": "65791368338",
+      "negocio": "Sin datos - Independiente",
+      "contacto": "Sin datos",
+      "email": ""
+    },
+    {
+      "deal_id": "65791378757",
+      "negocio": "Sin datos - Rouss Real",
+      "contacto": "Rouss Real",
+      "email": ""
+    },
+    {
+      "deal_id": "65791382098",
+      "negocio": "Sin datos - 930 931 702",
+      "contacto": "Arturo Laguna",
+      "email": ""
     }
   ],
   "correos_insight": {
@@ -81718,7 +81864,7 @@
         "hora": "21:50",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 14,
+        "aperturas": 15,
         "clics": 0,
         "respuestas": 0
       },
@@ -81734,7 +81880,7 @@
         "hora": "21:44",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 14,
+        "aperturas": 15,
         "clics": 0,
         "respuestas": 3
       },
@@ -81766,7 +81912,7 @@
         "hora": "21:07",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 14,
+        "aperturas": 15,
         "clics": 0,
         "respuestas": 3
       },
@@ -85900,13 +86046,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2237,
+    "total_deals": 2248,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 354,
+        "cantidad": 359,
         "valor": 15874583.0
       },
       {
@@ -85954,7 +86100,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1211,
+        "cantidad": 1217,
         "valor": 123067885.2
       },
       {
@@ -85981,6 +86127,34 @@
       "ultima_actividad": "2026-10-09"
     },
     {
+      "id": "65739808895",
+      "nombre": "Sin datos -  Alejandra Navarro ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
+      "id": "65739810670",
+      "nombre": "Sin datos - Valentino",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-09",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
       "id": "65739896609",
       "nombre": "Pegsa Industrial ",
       "pais": "Perú",
@@ -85995,8 +86169,134 @@
       "ultima_actividad": "2026-10-09"
     },
     {
+      "id": "65739907498",
+      "nombre": "Sin datos  - 945 282 654",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
+      "id": "65739908413",
+      "nombre": "Sin datos - Lourdes",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-09",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
+      "id": "65739915424",
+      "nombre": "Sin datos - Alejandra ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
+      "id": "65739924997",
+      "nombre": "Sin datos  - Roxana",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
+      "id": "65739925580",
+      "nombre": "Sin datos  - Chabu",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-09",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
       "id": "65791363666",
       "nombre": "S&S MEGATEK ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-09",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
+      "id": "65791368338",
+      "nombre": "Sin datos - Independiente",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-09",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
+      "id": "65791373695",
+      "nombre": "Sin datos - Carmen Chacón ramirez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
+      "id": "65791378757",
+      "nombre": "Sin datos - Rouss Real",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-09",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
+      "id": "65791382098",
+      "nombre": "Sin datos - 930 931 702",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -117288,8 +117588,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 796,
-    "notas": 286,
-    "llamadas": 88,
+    "notas": 293,
+    "llamadas": 98,
     "disponible": true
   }
 }
