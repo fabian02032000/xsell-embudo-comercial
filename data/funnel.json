@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-09T10:38:07.566836+00:00",
+  "generado": "2026-10-09T17:12:02.104644+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69671,7 +69671,28 @@
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Renato Carrera",
+          "negocio": "Pegsa Industrial ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Angel Solorzano",
+          "negocio": "S&S MEGATEK ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -76948,13 +76969,19 @@
       "negocio": "Claudio Saavedra ",
       "contacto": "Claudio  Saavedra",
       "email": ""
+    },
+    {
+      "deal_id": "65791363666",
+      "negocio": "S&S MEGATEK ",
+      "contacto": "Angel Solorzano",
+      "email": "asolorzano@megatekperu.com"
     }
   ],
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 482,
-    "tasa_apertura": 61.2,
+    "tasa_apertura": 61.4,
     "tasa_clics": 0.0,
     "tasa_respuestas": 27.8,
     "cobertura_rubro": 3.1,
@@ -77035,7 +77062,7 @@
         "hora": "12:00",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -85873,13 +85900,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2235,
+    "total_deals": 2237,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 353,
+        "cantidad": 354,
         "valor": 15874583.0
       },
       {
@@ -85927,7 +85954,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1210,
+        "cantidad": 1211,
         "valor": 123067885.2
       },
       {
@@ -85939,6 +85966,48 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "59963223397",
+      "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 30000.0,
+      "creado": "2026-05-04",
+      "cierre": "2026-06-23",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
+      "id": "65739896609",
+      "nombre": "Pegsa Industrial ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-09"
+    },
+    {
+      "id": "65791363666",
+      "nombre": "S&S MEGATEK ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-09",
+      "ultima_actividad": "2026-10-09"
+    },
     {
       "id": "53754297921",
       "nombre": "EFE Perú Carritos Abandonados",
@@ -86007,20 +86076,6 @@
       "monto": 60000.0,
       "creado": "2026-02-25",
       "cierre": "2026-03-23",
-      "ultima_actividad": "2026-10-08"
-    },
-    {
-      "id": "59963223397",
-      "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 30000.0,
-      "creado": "2026-05-04",
-      "cierre": "2026-06-23",
       "ultima_actividad": "2026-10-08"
     },
     {
@@ -117233,8 +117288,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 796,
-    "notas": 285,
-    "llamadas": 86,
+    "notas": 286,
+    "llamadas": 88,
     "disponible": true
   }
 }
