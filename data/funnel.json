@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-10T13:57:07.966168+00:00",
+  "generado": "2026-10-10T18:27:00.090537+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -86142,6 +86142,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "2843007412",
+      "nombre": "Cliente Incógnito: GILDEMEISTER",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "VENTAS",
+      "tipo_negocio_label": "Ventas",
+      "etapa": "appointmentscheduled",
+      "etapa_label": "Reunión Agendadas",
+      "monto": 0.0,
+      "creado": "2020-08-21",
+      "cierre": "2020-08-31",
+      "ultima_actividad": "2026-10-10"
+    },
+    {
       "id": "59963223397",
       "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
       "pais": "Perú",
@@ -115736,20 +115750,6 @@
       "creado": "2026-06-03",
       "cierre": "2026-06-30",
       "ultima_actividad": "2026-06-03"
-    },
-    {
-      "id": "2843007412",
-      "nombre": "Cliente Incógnito: GILDEMEISTER",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "VENTAS",
-      "tipo_negocio_label": "Ventas",
-      "etapa": "appointmentscheduled",
-      "etapa_label": "Reunión Agendadas",
-      "monto": 0.0,
-      "creado": "2020-08-21",
-      "cierre": "2020-08-31",
-      "ultima_actividad": "2026-04-06"
     },
     {
       "id": "1979702675",
