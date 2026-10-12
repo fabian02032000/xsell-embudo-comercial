@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-12T08:08:07.503483+00:00",
+  "generado": "2026-10-12T17:55:16.697096+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69871,7 +69871,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 1,
+          "contactos": 8,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -69884,12 +69884,133 @@
         }
       },
       "total": {
-        "contactos": 1,
+        "contactos": 8,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Leslie",
+          "negocio": "Sin datos  - Leslie",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Rouss",
+          "negocio": "Sin datos - Rouss",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Karla Sarmiento",
+          "negocio": "Kamasa Service",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Bryan  Oropeza Vasquez",
+          "negocio": "Si datos  - Bryan Oropeza Vasquez",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Hugo Fernando Vasquez Matias",
+          "negocio": "Motorgas",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Amparo  García Huapaya",
+          "negocio": "Sin datos - Amparo García Huapaya",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Anyela Asesora inmobiliaria",
+          "negocio": "Sin datos - Anyela Asesora inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Silvana  Grillo Gallardo",
+          "negocio": "Sin datos - Silvana Grillo Gallardo",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Alberto Huaman",
+          "negocio": "Remarc",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "ctecsolucionestecnologicas",
+          "negocio": "Sin datos  - ctecsolucionestecnologicas",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Omar Castro Salazar",
+          "negocio": "Independiente - Parque del Recuerdo",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Carlos Saavedra",
+          "negocio": "SAM Taller Automotriz",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -77186,6 +77307,12 @@
       "email": ""
     },
     {
+      "deal_id": "65740035493",
+      "negocio": "Independiente - Parque del Recuerdo",
+      "contacto": "Omar Castro Salazar",
+      "email": "omarcastrosalazarpr@gmail.com"
+    },
+    {
       "deal_id": "65791363666",
       "negocio": "S&S MEGATEK ",
       "contacto": "Angel Solorzano",
@@ -77208,17 +77335,71 @@
       "negocio": "Sin datos - 930 931 702",
       "contacto": "Arturo Laguna",
       "email": ""
+    },
+    {
+      "deal_id": "65887365790",
+      "negocio": "SAM Taller Automotriz",
+      "contacto": "Carlos Saavedra",
+      "email": "csaavedra@cassa.pe"
     }
   ],
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 482,
+    "total_enviados": 484,
     "tasa_apertura": 61.4,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 27.8,
+    "tasa_respuestas": 27.7,
     "cobertura_rubro": 3.1,
     "detalle": [
+      {
+        "id": "118379512206",
+        "destinatario_email": "jechevarriao@pandero.com.pe",
+        "destinatario_nombre": "Jose  Echevarria Olazabal",
+        "empresa": "Pandero",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "José, una idea sobre los interesados de Pandero",
+        "fecha": "2026-10-12",
+        "hora": "17:18",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 1,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "118379501104",
+        "destinatario_email": "desarrollo@corporacionenerjet.com.pe",
+        "destinatario_nombre": "Mariella Cabanillas",
+        "empresa": "Corporacionenerjet",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Mariella, ¿cómo va el año?",
+        "fecha": "2026-10-12",
+        "hora": "17:17",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "118379440162",
+        "destinatario_email": "ealarcon@maquinarias.pe",
+        "destinatario_nombre": "Eduardo Alarcón",
+        "empresa": "Maquinarias",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Eduardo, ¿cómo les fue estos meses?",
+        "fecha": "2026-10-12",
+        "hora": "17:15",
+        "estado": "Rebotado",
+        "estado_raw": "BOUNCED",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "118214172287",
         "destinatario_email": "jazmin.gamarra@gacsa.pe",
@@ -86058,7 +86239,7 @@
     "incluir_estadios": [
       "Consolidado"
     ],
-    "total": 10,
+    "total": 11,
     "detalle": [
       {
         "nombre": "Amdres Reyes",
@@ -86073,6 +86254,13 @@
         "empresa": "Agroinvest Perú",
         "estadio_lead": "Consolidado",
         "nivel_urgencia": "Medio"
+      },
+      {
+        "nombre": "Alberto Huaman",
+        "correo": "albertohd1991@gmail.com",
+        "empresa": "Remarc",
+        "estadio_lead": "Consolidado",
+        "nivel_urgencia": "Bajo"
       },
       {
         "nombre": "Carlos Peramás",
@@ -86133,13 +86321,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2248,
+    "total_deals": 2260,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 359,
+        "cantidad": 369,
         "valor": 15874583.0
       },
       {
@@ -86187,7 +86375,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1217,
+        "cantidad": 1219,
         "valor": 123067885.2
       },
       {
@@ -86199,6 +86387,216 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "42920537446",
+      "nombre": " Maquinarias Perú Agendamiento de Citas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "CITAS",
+      "tipo_negocio_label": "Agendamiento de Citas",
+      "etapa": "decisionmakerboughtin",
+      "etapa_label": "Propuesta Enviada/en revisión",
+      "monto": 227635.0,
+      "creado": "2025-08-27",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "54146996836",
+      "nombre": "Enerjet",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-01-19",
+      "cierre": "2026-02-01",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "60694834563",
+      "nombre": "Pandero Perú Ventas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "VENTAS",
+      "tipo_negocio_label": "Ventas",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-05-28",
+      "cierre": "2026-05-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65739840565",
+      "nombre": "Sin datos  - Leslie",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65740031277",
+      "nombre": "Sin datos - Rouss",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65740031881",
+      "nombre": "Kamasa Service",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65740032148",
+      "nombre": "Si datos  - Bryan Oropeza Vasquez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65740034858",
+      "nombre": "Motorgas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65740035493",
+      "nombre": "Independiente - Parque del Recuerdo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65887361123",
+      "nombre": "Sin datos - Amparo García Huapaya",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65887361328",
+      "nombre": "Sin datos - Anyela Asesora inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65887363922",
+      "nombre": "Sin datos - Silvana Grillo Gallardo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65887365790",
+      "nombre": "SAM Taller Automotriz",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65887964015",
+      "nombre": "Remarc",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65887964796",
+      "nombre": "Sin datos  - ctecsolucionestecnologicas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
     {
       "id": "2843007412",
       "nombre": "Cliente Incógnito: GILDEMEISTER",
@@ -94765,20 +95163,6 @@
       "monto": 7000.0,
       "creado": "2026-05-19",
       "cierre": "2026-07-16",
-      "ultima_actividad": "2026-07-18"
-    },
-    {
-      "id": "60694834563",
-      "nombre": "Pandero Perú Ventas",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "VENTAS",
-      "tipo_negocio_label": "Ventas",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-05-28",
-      "cierre": "2026-05-31",
       "ultima_actividad": "2026-07-18"
     },
     {
@@ -113262,20 +113646,6 @@
       "ultima_actividad": "2026-07-08"
     },
     {
-      "id": "42920537446",
-      "nombre": " Maquinarias Perú Agendamiento de Citas",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "CITAS",
-      "tipo_negocio_label": "Agendamiento de Citas",
-      "etapa": "decisionmakerboughtin",
-      "etapa_label": "Propuesta Enviada/en revisión",
-      "monto": 227635.0,
-      "creado": "2025-08-27",
-      "cierre": "2026-04-30",
-      "ultima_actividad": "2026-07-08"
-    },
-    {
       "id": "43899056696",
       "nombre": "Rotoplas Piloto",
       "pais": "Perú",
@@ -115516,20 +115886,6 @@
       "ultima_actividad": "2026-07-03"
     },
     {
-      "id": "54146996836",
-      "nombre": "Enerjet",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-01-19",
-      "cierre": "2026-02-01",
-      "ultima_actividad": "2026-07-03"
-    },
-    {
       "id": "56460923280",
       "nombre": "Euroshop Perú Perfilamiento de Leads",
       "pais": "Perú",
@@ -117674,9 +118030,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 796,
-    "notas": 293,
-    "llamadas": 98,
+    "correos": 799,
+    "notas": 296,
+    "llamadas": 110,
     "disponible": true
   }
 }
