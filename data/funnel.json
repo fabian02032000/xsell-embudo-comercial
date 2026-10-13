@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-12T17:55:16.697096+00:00",
+  "generado": "2026-10-13T00:30:49.471796+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69080,20 +69080,20 @@
           "fuente": "MKT Pauta",
           "contacto": "Sin datos - Foryou",
           "negocio": "Sin datos - Foryou",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-10-01",
           "fuente": "MKT Pauta",
           "contacto": "Sin datos",
           "negocio": "Sin datos - 970 486 405",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-10-01",
@@ -69140,20 +69140,20 @@
           "fuente": "MKT Pauta",
           "contacto": "𝐺𝑒𝑟𝑎𝑙𝑑𝑖𝑛𝑒 𝐿𝑎ℎ𝑢𝑟𝑎",
           "negocio": "Mars Maquinarias",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-10-02",
           "fuente": "MKT Pauta",
           "contacto": "Yeni PV",
           "negocio": "BIMDEC",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-10-02",
@@ -69398,70 +69398,30 @@
           "fuente": "MKT Pauta",
           "contacto": "Denis",
           "negocio": "La Benita Alimentos SAC",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-10-05",
           "fuente": "MKT Pauta",
           "contacto": "Junior Quintana",
           "negocio": "Quintana & Quinde Abogados",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-10-05",
           "fuente": "MKT Pauta",
           "contacto": "@Sune9329",
           "negocio": "Sin datos  - @Sune9329 Textil",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-05",
-          "fuente": "MKT Pauta",
-          "contacto": "Anderson Romero",
-          "negocio": "Inmobiliaria Alterra Perú",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-05",
-          "fuente": "MKT Pauta",
-          "contacto": "Johon",
-          "negocio": "Sin datos  - Johon Textil",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-05",
-          "fuente": "MKT Pauta",
-          "contacto": "Elteva",
-          "negocio": "Sin datos  - Elteva Textil ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-05",
-          "fuente": "MKT Pauta",
-          "contacto": "Ulises",
-          "negocio": "Sin datos  - Ulises Textil",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-10-05",
@@ -69476,8 +69436,48 @@
         {
           "fecha": "2026-10-05",
           "fuente": "MKT Pauta",
+          "contacto": "Anderson Romero",
+          "negocio": "Inmobiliaria Alterra Perú",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-05",
+          "fuente": "MKT Pauta",
+          "contacto": "Johon",
+          "negocio": "Sin datos  - Johon Textil",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-05",
+          "fuente": "MKT Pauta",
+          "contacto": "Elteva",
+          "negocio": "Sin datos  - Elteva Textil ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-05",
+          "fuente": "MKT Pauta",
           "contacto": "Carlos  Perez",
           "negocio": "Sin datos @capeza ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-05",
+          "fuente": "MKT Pauta",
+          "contacto": "Ulises",
+          "negocio": "Sin datos  - Ulises Textil",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -69871,20 +69871,20 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 8,
+          "contactos": 11,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
         },
         "LinkedIn PACS": {
-          "contactos": 0,
+          "contactos": 4,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
         }
       },
       "total": {
-        "contactos": 8,
+        "contactos": 15,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -69892,9 +69892,55 @@
       "detalle": [
         {
           "fecha": "2026-10-12",
+          "fuente": "LinkedIn PACS",
+          "contacto": "Fernando Augusto Alvarez Olivares",
+          "negocio": null,
+          "etapa": "Identificado",
+          "nivel": "Contactos",
+          "origen": "LinkedIn PACS"
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "LinkedIn PACS",
+          "contacto": "Daniel Chávez Briceño",
+          "negocio": null,
+          "etapa": "Identificado",
+          "nivel": "Contactos",
+          "origen": "LinkedIn PACS"
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "LinkedIn PACS",
+          "contacto": "Luis Alfredo Rivero Bahamonde",
+          "negocio": null,
+          "etapa": "Identificado",
+          "nivel": "Contactos",
+          "origen": "LinkedIn PACS"
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "LinkedIn PACS",
+          "contacto": "Mishell Danae De La Cruz Paredes",
+          "negocio": null,
+          "etapa": "Identificado",
+          "nivel": "Contactos",
+          "origen": "LinkedIn PACS"
+        },
+        {
+          "fecha": "2026-10-12",
           "fuente": "MKT Pauta",
           "contacto": "Leslie",
           "negocio": "Sin datos  - Leslie",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Eduardo",
+          "negocio": "GP Business Call ",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot",
@@ -69943,8 +69989,8 @@
         {
           "fecha": "2026-10-12",
           "fuente": "MKT Pauta",
-          "contacto": "Amparo  García Huapaya",
-          "negocio": "Sin datos - Amparo García Huapaya",
+          "contacto": "Katerin nilda alcahua rossell",
+          "negocio": "auto ya Automotriz",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot",
@@ -70003,6 +70049,16 @@
         {
           "fecha": "2026-10-12",
           "fuente": "MKT Pauta",
+          "contacto": "Amparo  García Huapaya",
+          "negocio": "Sin datos - Amparo García Huapaya",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
           "contacto": "Carlos Saavedra",
           "negocio": "SAM Taller Automotriz",
           "etapa": "Descartada",
@@ -70011,6 +70067,35 @@
           "motivo": "Otros"
         }
       ]
+    },
+    "2026-10-13": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -77199,6 +77284,18 @@
       "email": ""
     },
     {
+      "deal_id": "65428617643",
+      "negocio": "Sin datos - Foryou",
+      "contacto": "Sin datos - Foryou",
+      "email": ""
+    },
+    {
+      "deal_id": "65428806463",
+      "negocio": "Sin datos - 970 486 405",
+      "contacto": "Sin datos",
+      "email": ""
+    },
+    {
       "deal_id": "65428809124",
       "negocio": "Representaciones Danny",
       "contacto": "Danny Calua Cotrina",
@@ -77241,9 +77338,39 @@
       "email": ""
     },
     {
+      "deal_id": "65577948843",
+      "negocio": "Mars Maquinarias",
+      "contacto": "𝐺𝑒𝑟𝑎𝑙𝑑𝑖𝑛𝑒 𝐿𝑎ℎ𝑢𝑟𝑎",
+      "email": "melania.lc21@gmail.com"
+    },
+    {
+      "deal_id": "65578241864",
+      "negocio": "La Benita Alimentos SAC",
+      "contacto": "Denis",
+      "email": "falcon.denisgerman@gmail.com"
+    },
+    {
+      "deal_id": "65580177044",
+      "negocio": "BIMDEC",
+      "contacto": "Yeni PV",
+      "email": "paredes151218@gmail.com"
+    },
+    {
       "deal_id": "65580238850",
       "negocio": "Sin datos - Arturo",
       "contacto": "Arturo ",
+      "email": ""
+    },
+    {
+      "deal_id": "65580593792",
+      "negocio": "Quintana & Quinde Abogados",
+      "contacto": "Junior Quintana",
+      "email": "quintanaquindeabogados@gmail.com"
+    },
+    {
+      "deal_id": "65663664138",
+      "negocio": "Sin datos  - @Sune9329 Textil",
+      "contacto": "@Sune9329",
       "email": ""
     },
     {
@@ -77253,9 +77380,33 @@
       "email": "ventas@pabus.com.pe"
     },
     {
+      "deal_id": "65664182385",
+      "negocio": "Inmobiliaria Alterra Perú",
+      "contacto": "Anderson Romero",
+      "email": "romeroguillermoanderson@gmail.com"
+    },
+    {
+      "deal_id": "65664283286",
+      "negocio": "Sin datos  - Johon Textil",
+      "contacto": "Johon",
+      "email": ""
+    },
+    {
+      "deal_id": "65664469168",
+      "negocio": "Sin datos  - Elteva Textil ",
+      "contacto": "Elteva",
+      "email": ""
+    },
+    {
       "deal_id": "65664477551",
       "negocio": "Sin datos @capeza ",
       "contacto": "Carlos  Perez",
+      "email": ""
+    },
+    {
+      "deal_id": "65664530869",
+      "negocio": "Sin datos  - Ulises Textil",
+      "contacto": "Ulises",
       "email": ""
     },
     {
@@ -77334,6 +77485,12 @@
       "deal_id": "65791382098",
       "negocio": "Sin datos - 930 931 702",
       "contacto": "Arturo Laguna",
+      "email": ""
+    },
+    {
+      "deal_id": "65887361123",
+      "negocio": "Sin datos - Amparo García Huapaya",
+      "contacto": "Amparo  García Huapaya",
       "email": ""
     },
     {
@@ -86321,13 +86478,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2260,
+    "total_deals": 2262,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 369,
+        "cantidad": 359,
         "valor": 15874583.0
       },
       {
@@ -86375,7 +86532,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1219,
+        "cantidad": 1231,
         "valor": 123067885.2
       },
       {
@@ -86430,8 +86587,176 @@
       "ultima_actividad": "2026-10-12"
     },
     {
+      "id": "65428617643",
+      "nombre": "Sin datos - Foryou",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-01",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65428806463",
+      "nombre": "Sin datos - 970 486 405",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-01",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65577948843",
+      "nombre": "Mars Maquinarias",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-02",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65578241864",
+      "nombre": "La Benita Alimentos SAC",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65580177044",
+      "nombre": "BIMDEC",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-02",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65580593792",
+      "nombre": "Quintana & Quinde Abogados",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65663664138",
+      "nombre": "Sin datos  - @Sune9329 Textil",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65664182385",
+      "nombre": "Inmobiliaria Alterra Perú",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65664283286",
+      "nombre": "Sin datos  - Johon Textil",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65664469168",
+      "nombre": "Sin datos  - Elteva Textil ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65664530869",
+      "nombre": "Sin datos  - Ulises Textil",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
       "id": "65739840565",
       "nombre": "Sin datos  - Leslie",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65739850881",
+      "nombre": "GP Business Call ",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -86514,8 +86839,8 @@
       "ultima_actividad": "2026-10-12"
     },
     {
-      "id": "65887361123",
-      "nombre": "Sin datos - Amparo García Huapaya",
+      "id": "65740082214",
+      "nombre": "auto ya Automotriz",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -86525,6 +86850,20 @@
       "monto": 0.0,
       "creado": "2026-10-12",
       "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-12"
+    },
+    {
+      "id": "65887361123",
+      "nombre": "Sin datos - Amparo García Huapaya",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-12",
       "ultima_actividad": "2026-10-12"
     },
     {
@@ -87116,90 +87455,6 @@
       "ultima_actividad": "2026-10-05"
     },
     {
-      "id": "65578241864",
-      "nombre": "La Benita Alimentos SAC",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-05"
-    },
-    {
-      "id": "65580593792",
-      "nombre": "Quintana & Quinde Abogados",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-05"
-    },
-    {
-      "id": "65663664138",
-      "nombre": "Sin datos  - @Sune9329 Textil",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-05"
-    },
-    {
-      "id": "65664182385",
-      "nombre": "Inmobiliaria Alterra Perú",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-05"
-    },
-    {
-      "id": "65664283286",
-      "nombre": "Sin datos  - Johon Textil",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-05"
-    },
-    {
-      "id": "65664469168",
-      "nombre": "Sin datos  - Elteva Textil ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-05"
-    },
-    {
       "id": "65664477551",
       "nombre": "Sin datos @capeza ",
       "pais": "Perú",
@@ -87211,20 +87466,6 @@
       "monto": 0.0,
       "creado": "2026-10-05",
       "cierre": "2026-10-05",
-      "ultima_actividad": "2026-10-05"
-    },
-    {
-      "id": "65664530869",
-      "nombre": "Sin datos  - Ulises Textil",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-05"
     },
     {
@@ -87606,34 +87847,6 @@
       "ultima_actividad": "2026-10-02"
     },
     {
-      "id": "65428617643",
-      "nombre": "Sin datos - Foryou",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-01",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-02"
-    },
-    {
-      "id": "65428806463",
-      "nombre": "Sin datos - 970 486 405",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-01",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-02"
-    },
-    {
       "id": "65489576340",
       "nombre": "Vanessa ",
       "pais": "Perú",
@@ -87659,34 +87872,6 @@
       "monto": 0.0,
       "creado": "2026-09-30",
       "cierre": "2026-09-30",
-      "ultima_actividad": "2026-10-02"
-    },
-    {
-      "id": "65577948843",
-      "nombre": "Mars Maquinarias",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-02",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-02"
-    },
-    {
-      "id": "65580177044",
-      "nombre": "BIMDEC",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-02",
-      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-02"
     },
     {
@@ -118031,8 +118216,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 799,
-    "notas": 296,
-    "llamadas": 110,
+    "notas": 308,
+    "llamadas": 112,
     "disponible": true
   }
 }
