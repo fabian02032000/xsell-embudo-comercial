@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-13T20:40:31.420740+00:00",
+  "generado": "2026-10-13T23:57:36.797103+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -77514,12 +77514,28 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 484,
-    "tasa_apertura": 61.4,
+    "total_enviados": 485,
+    "tasa_apertura": 61.2,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 27.7,
+    "tasa_respuestas": 27.6,
     "cobertura_rubro": 3.1,
     "detalle": [
+      {
+        "id": "118487973919",
+        "destinatario_email": "mvasquezg@mitsuiautomotriz.com",
+        "destinatario_nombre": "Monica Vasquez Gonzalez",
+        "empresa": "Mitsuiautomotriz",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Mónica, una idea para el cierre de año",
+        "fecha": "2026-10-13",
+        "hora": "22:24",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "118379512206",
         "destinatario_email": "jechevarriao@pandero.com.pe",
@@ -86584,6 +86600,34 @@
       "ultima_actividad": "2026-10-13"
     },
     {
+      "id": "58332100412",
+      "nombre": "Mitsui Automotriz Perfilamiento de Leads Perú",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-03-25",
+      "cierre": "2026-05-31",
+      "ultima_actividad": "2026-10-13"
+    },
+    {
+      "id": "65204485148",
+      "nombre": "CCprojects SAC",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-23",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-10-13"
+    },
+    {
       "id": "65902544663",
       "nombre": "Feria De Carros los Brothers",
       "pais": "Perú",
@@ -88176,20 +88220,6 @@
       "etapa_label": "Descartada",
       "monto": 0.0,
       "creado": "2026-09-21",
-      "cierre": "2026-09-29",
-      "ultima_actividad": "2026-09-29"
-    },
-    {
-      "id": "65204485148",
-      "nombre": "CCprojects SAC",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-09-23",
       "cierre": "2026-09-29",
       "ultima_actividad": "2026-09-29"
     },
@@ -91201,20 +91231,6 @@
       "monto": 60000.0,
       "creado": "2026-03-11",
       "cierre": "2026-04-30",
-      "ultima_actividad": "2026-08-12"
-    },
-    {
-      "id": "58332100412",
-      "nombre": "Mitsui Automotriz Perfilamiento de Leads Perú",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-03-25",
-      "cierre": "2026-05-31",
       "ultima_actividad": "2026-08-12"
     },
     {
@@ -118240,7 +118256,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 800,
+    "correos": 801,
     "notas": 308,
     "llamadas": 113,
     "disponible": true
