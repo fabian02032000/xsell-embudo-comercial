@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T09:48:13.501080+00:00",
+  "generado": "2026-10-14T14:45:25.808069+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70135,7 +70135,18 @@
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-10-14",
+          "fuente": "MKT Pauta",
+          "contacto": "Kare",
+          "negocio": "Stevia Coronel ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -86614,13 +86625,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2263,
+    "total_deals": 2264,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 360,
+        "cantidad": 361,
         "valor": 15874583.0
       },
       {
@@ -89310,6 +89321,20 @@
       "monto": 0.0,
       "creado": "2026-10-12",
       "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-14"
+    },
+    {
+      "id": "65949567052",
+      "nombre": "Stevia Coronel ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-14",
+      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-14"
     },
     {
@@ -118367,7 +118392,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 808,
     "notas": 308,
-    "llamadas": 113,
+    "llamadas": 114,
     "disponible": true
   }
 }
