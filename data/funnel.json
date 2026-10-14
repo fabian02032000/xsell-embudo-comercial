@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T19:00:03.289900+00:00",
+  "generado": "2026-10-14T22:14:53.305586+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69598,10 +69598,10 @@
           "fuente": "MKT Pauta",
           "contacto": "@cecibelia73",
           "negocio": "@cecibelia73",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-10-07",
@@ -69647,13 +69647,13 @@
     "2026-10-09": {
       "fuentes": {
         "Comercial": {
-          "contactos": 1,
+          "contactos": 0,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 10,
+          "contactos": 11,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -69705,16 +69705,6 @@
         {
           "fecha": "2026-10-09",
           "fuente": "MKT Pauta",
-          "contacto": "Sin datos ",
-          "negocio": "Sin datos  - 945 282 654",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-09",
-          "fuente": "MKT Pauta",
           "contacto": "Roxana",
           "negocio": "Sin datos  - Roxana",
           "etapa": "Prospectos Contactados",
@@ -69725,18 +69715,18 @@
         {
           "fecha": "2026-10-09",
           "fuente": "MKT Pauta",
-          "contacto": "Carmen  Chacón ramirez",
-          "negocio": "Sin datos - Carmen Chacón ramirez",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "contacto": "Valentino ",
+          "negocio": "Sin datos - Valentino",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-10-09",
-          "fuente": "Comercial",
-          "contacto": "Valentino ",
-          "negocio": "Sin datos - Valentino",
+          "fuente": "MKT Pauta",
+          "contacto": "Sin datos ",
+          "negocio": "Sin datos  - 945 282 654",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -69777,6 +69767,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Sin datos",
           "negocio": "Sin datos - Independiente",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Carmen  Chacón ramirez",
+          "negocio": "Sin datos - Carmen Chacón ramirez",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -69979,16 +69979,6 @@
         {
           "fecha": "2026-10-12",
           "fuente": "MKT Pauta",
-          "contacto": "Hugo Fernando Vasquez Matias",
-          "negocio": "Motorgas",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-12",
-          "fuente": "MKT Pauta",
           "contacto": "Katerin nilda alcahua rossell",
           "negocio": "auto ya Automotriz",
           "etapa": "Prospectos Contactados",
@@ -70035,6 +70025,16 @@
           "nivel": "Contactos",
           "origen": "HubSpot",
           "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Hugo Fernando Vasquez Matias",
+          "negocio": "Motorgas",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-10-12",
@@ -77461,6 +77461,12 @@
       "email": ""
     },
     {
+      "deal_id": "65717810741",
+      "negocio": "@cecibelia73",
+      "contacto": "@cecibelia73",
+      "email": ""
+    },
+    {
       "deal_id": "65730616408",
       "negocio": "Sin datos - Ciro Falcon ",
       "contacto": "Ciro  Falcón",
@@ -77497,6 +77503,12 @@
       "email": ""
     },
     {
+      "deal_id": "65739907498",
+      "negocio": "Sin datos  - 945 282 654",
+      "contacto": "Sin datos ",
+      "email": ""
+    },
+    {
       "deal_id": "65739908413",
       "negocio": "Sin datos - Lourdes",
       "contacto": "Lourdes",
@@ -77507,6 +77519,12 @@
       "negocio": "Sin datos  - Chabu",
       "contacto": "Chabu",
       "email": ""
+    },
+    {
+      "deal_id": "65740034858",
+      "negocio": "Motorgas",
+      "contacto": "Hugo Fernando Vasquez Matias",
+      "email": "motorgasimport2014@gmail.com"
     },
     {
       "deal_id": "65740035493",
@@ -77524,6 +77542,12 @@
       "deal_id": "65791368338",
       "negocio": "Sin datos - Independiente",
       "contacto": "Sin datos",
+      "email": ""
+    },
+    {
+      "deal_id": "65791373695",
+      "negocio": "Sin datos - Carmen Chacón ramirez",
+      "contacto": "Carmen  Chacón ramirez",
       "email": ""
     },
     {
@@ -77555,7 +77579,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 526,
-    "tasa_apertura": 56.8,
+    "tasa_apertura": 57.4,
     "tasa_clics": 0.0,
     "tasa_respuestas": 25.7,
     "cobertura_rubro": 4.5,
@@ -77588,7 +77612,7 @@
         "hora": "18:40",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -77636,7 +77660,7 @@
         "hora": "18:37",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
@@ -77972,7 +77996,7 @@
         "hora": "18:14",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -78548,7 +78572,7 @@
         "hora": "20:39",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 2,
+        "aperturas": 4,
         "clics": 0,
         "respuestas": 0
       },
@@ -87239,7 +87263,7 @@
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 361,
+        "cantidad": 357,
         "valor": 15874583.0
       },
       {
@@ -87287,7 +87311,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1231,
+        "cantidad": 1235,
         "valor": 123067885.2
       },
       {
@@ -90100,6 +90124,20 @@
       "ultima_actividad": "2026-10-14"
     },
     {
+      "id": "65717810741",
+      "nombre": "@cecibelia73",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-07",
+      "cierre": "2026-10-14",
+      "ultima_actividad": "2026-10-14"
+    },
+    {
       "id": "65719584153",
       "nombre": "Paz Inmobiliaria",
       "pais": "Perú",
@@ -90254,6 +90292,20 @@
       "ultima_actividad": "2026-10-14"
     },
     {
+      "id": "65739808895",
+      "nombre": "Sin datos -  Alejandra Navarro ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-14"
+    },
+    {
       "id": "65739810670",
       "nombre": "Sin datos - Valentino",
       "pais": "Perú",
@@ -90265,6 +90317,20 @@
       "monto": 0.0,
       "creado": "2026-10-09",
       "cierre": "2026-10-09",
+      "ultima_actividad": "2026-10-14"
+    },
+    {
+      "id": "65739907498",
+      "nombre": "Sin datos  - 945 282 654",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-14",
       "ultima_actividad": "2026-10-14"
     },
     {
@@ -90282,6 +90348,20 @@
       "ultima_actividad": "2026-10-14"
     },
     {
+      "id": "65739924997",
+      "nombre": "Sin datos  - Roxana",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-14"
+    },
+    {
       "id": "65739925580",
       "nombre": "Sin datos  - Chabu",
       "pais": "Perú",
@@ -90293,6 +90373,34 @@
       "monto": 0.0,
       "creado": "2026-10-09",
       "cierre": "2026-10-09",
+      "ultima_actividad": "2026-10-14"
+    },
+    {
+      "id": "65740031881",
+      "nombre": "Kamasa Service",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-14"
+    },
+    {
+      "id": "65740034858",
+      "nombre": "Motorgas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-14",
       "ultima_actividad": "2026-10-14"
     },
     {
@@ -90380,6 +90488,20 @@
       "ultima_actividad": "2026-10-14"
     },
     {
+      "id": "65791373695",
+      "nombre": "Sin datos - Carmen Chacón ramirez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-14",
+      "ultima_actividad": "2026-10-14"
+    },
+    {
       "id": "65791378757",
       "nombre": "Sin datos - Rouss Real",
       "pais": "Perú",
@@ -90433,6 +90555,20 @@
       "monto": 0.0,
       "creado": "2026-10-12",
       "cierre": "2026-10-12",
+      "ultima_actividad": "2026-10-14"
+    },
+    {
+      "id": "65887964015",
+      "nombre": "Remarc",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-14"
     },
     {
@@ -90576,36 +90712,8 @@
       "ultima_actividad": "2026-10-12"
     },
     {
-      "id": "65740031881",
-      "nombre": "Kamasa Service",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-12"
-    },
-    {
       "id": "65740032148",
       "nombre": "Si datos  - Bryan Oropeza Vasquez",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-12"
-    },
-    {
-      "id": "65740034858",
-      "nombre": "Motorgas",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -90660,20 +90768,6 @@
       "ultima_actividad": "2026-10-12"
     },
     {
-      "id": "65887964015",
-      "nombre": "Remarc",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-12"
-    },
-    {
       "id": "65887964796",
       "nombre": "Sin datos  - ctecsolucionestecnologicas",
       "pais": "Perú",
@@ -90716,20 +90810,6 @@
       "ultima_actividad": "2026-10-09"
     },
     {
-      "id": "65739808895",
-      "nombre": "Sin datos -  Alejandra Navarro ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-09",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-09"
-    },
-    {
       "id": "65739896609",
       "nombre": "Pegsa Industrial ",
       "pais": "Perú",
@@ -90744,50 +90824,8 @@
       "ultima_actividad": "2026-10-09"
     },
     {
-      "id": "65739907498",
-      "nombre": "Sin datos  - 945 282 654",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-09",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-09"
-    },
-    {
       "id": "65739915424",
       "nombre": "Sin datos - Alejandra ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-09",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-09"
-    },
-    {
-      "id": "65739924997",
-      "nombre": "Sin datos  - Roxana",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-09",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-09"
-    },
-    {
-      "id": "65791373695",
-      "nombre": "Sin datos - Carmen Chacón ramirez",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -90900,20 +90938,6 @@
     {
       "id": "65717810545",
       "nombre": "Panorama Hogar ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-07",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-07"
-    },
-    {
-      "id": "65717810741",
-      "nombre": "@cecibelia73",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -118999,8 +119023,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 847,
-    "notas": 308,
-    "llamadas": 114,
+    "notas": 310,
+    "llamadas": 121,
     "disponible": true
   }
 }
