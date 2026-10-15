@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T19:04:38.551573+00:00",
+  "generado": "2026-10-15T22:15:12.718243+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70157,7 +70157,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 1,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -70170,7 +70170,7 @@
         }
       },
       "total": {
-        "contactos": 1,
+        "contactos": 2,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -70181,6 +70181,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Lizbeth  Taboada",
           "negocio": "Lizbeth Taboada ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-15",
+          "fuente": "MKT Pauta",
+          "contacto": "Isaias Apolinario Uscamayta",
+          "negocio": "ETtoday",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot",
@@ -87297,13 +87307,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2265,
+    "total_deals": 2266,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 358,
+        "cantidad": 359,
         "valor": 15874583.0
       },
       {
@@ -87403,6 +87413,20 @@
       "monto": 0.0,
       "creado": "2026-10-15",
       "cierre": null,
+      "ultima_actividad": "2026-10-15"
+    },
+    {
+      "id": "66021773227",
+      "nombre": "ETtoday",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-15",
+      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-15"
     },
     {
@@ -119078,7 +119102,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 847,
     "notas": 310,
-    "llamadas": 122,
+    "llamadas": 123,
     "disponible": true
   }
 }
