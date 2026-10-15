@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T00:37:11.631755+00:00",
+  "generado": "2026-10-15T05:14:23.120792+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70157,7 +70157,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -70170,7 +70170,7 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 1,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -77608,7 +77608,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 526,
-    "tasa_apertura": 57.4,
+    "tasa_apertura": 57.6,
     "tasa_clics": 0.0,
     "tasa_respuestas": 25.7,
     "cobertura_rubro": 4.5,
@@ -78505,7 +78505,7 @@
         "hora": "20:46",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -87353,6 +87353,34 @@
   },
   "negocios_detalle": [
     {
+      "id": "65717810741",
+      "nombre": "@cecibelia73",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-07",
+      "cierre": "2026-10-14",
+      "ultima_actividad": "2026-10-15"
+    },
+    {
+      "id": "65748149412",
+      "nombre": "Quatro Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": null,
+      "ultima_actividad": "2026-10-15"
+    },
+    {
       "id": "54616168313",
       "nombre": "Scania Chile Perfilamiento de Leads",
       "pais": "Chile",
@@ -90153,20 +90181,6 @@
       "ultima_actividad": "2026-10-14"
     },
     {
-      "id": "65717810741",
-      "nombre": "@cecibelia73",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-10-07",
-      "cierre": "2026-10-14",
-      "ultima_actividad": "2026-10-14"
-    },
-    {
       "id": "65719584153",
       "nombre": "Paz Inmobiliaria",
       "pais": "Perú",
@@ -90463,20 +90477,6 @@
     {
       "id": "65746291592",
       "nombre": "Albamar Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": null,
-      "ultima_actividad": "2026-10-14"
-    },
-    {
-      "id": "65748149412",
-      "nombre": "Quatro Inmobiliaria",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
