@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T15:00:32.063917+00:00",
+  "generado": "2026-10-15T19:04:38.551573+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70175,7 +70175,18 @@
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-10-15",
+          "fuente": "MKT Pauta",
+          "contacto": "Lizbeth  Taboada",
+          "negocio": "Lizbeth Taboada ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -87286,13 +87297,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2264,
+    "total_deals": 2265,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 357,
+        "cantidad": 358,
         "valor": 15874583.0
       },
       {
@@ -87377,6 +87388,20 @@
       "etapa_label": "Prospectos Contactados",
       "monto": 0.0,
       "creado": "2026-10-05",
+      "cierre": null,
+      "ultima_actividad": "2026-10-15"
+    },
+    {
+      "id": "66021702176",
+      "nombre": "Lizbeth Taboada ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-15",
       "cierre": null,
       "ultima_actividad": "2026-10-15"
     },
@@ -119053,7 +119078,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 847,
     "notas": 310,
-    "llamadas": 121,
+    "llamadas": 122,
     "disponible": true
   }
 }
