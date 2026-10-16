@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-16T00:30:42.055353+00:00",
+  "generado": "2026-10-16T04:57:03.730544+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -87403,6 +87403,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "65083601251",
+      "nombre": "Inversiones ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-18",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-10-16"
+    },
+    {
       "id": "65717810741",
       "nombre": "@cecibelia73",
       "pais": "Perú",
@@ -89275,20 +89289,6 @@
       "etapa_label": "Descartada",
       "monto": 0.0,
       "creado": "2026-09-21",
-      "cierre": "2026-09-29",
-      "ultima_actividad": "2026-10-14"
-    },
-    {
-      "id": "65083601251",
-      "nombre": "Inversiones ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-09-18",
       "cierre": "2026-09-29",
       "ultima_actividad": "2026-10-14"
     },
