@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-16T14:19:34.433568+00:00",
+  "generado": "2026-10-16T18:14:23.916668+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70231,10 +70231,10 @@
           "fuente": "MKT Pauta",
           "contacto": "Irving Chunga",
           "negocio": "Grupo Atlas",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         }
       ]
     }
@@ -77663,6 +77663,12 @@
       "negocio": "SAM Taller Automotriz",
       "contacto": "Carlos Saavedra",
       "email": "csaavedra@cassa.pe"
+    },
+    {
+      "deal_id": "66137582476",
+      "negocio": "Grupo Atlas",
+      "contacto": "Irving Chunga",
+      "email": "informes@grupoatlasperu.com"
     }
   ],
   "correos_insight": {
@@ -87353,7 +87359,7 @@
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 360,
+        "cantidad": 359,
         "valor": 15874583.0
       },
       {
@@ -87401,7 +87407,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1235,
+        "cantidad": 1236,
         "valor": 123067885.2
       },
       {
@@ -87434,11 +87440,11 @@
       "pais_real": true,
       "tipo_negocio": "OTRO",
       "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
       "monto": 0.0,
       "creado": "2026-10-16",
-      "cierre": "2026-10-31",
+      "cierre": "2026-10-16",
       "ultima_actividad": "2026-10-16"
     },
     {
@@ -119155,7 +119161,7 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 847,
-    "notas": 310,
+    "notas": 311,
     "llamadas": 124,
     "disponible": true
   }
