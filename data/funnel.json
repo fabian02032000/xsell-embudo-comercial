@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-16T21:23:56.382010+00:00",
+  "generado": "2026-10-16T23:49:06.454645+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70207,7 +70207,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 1,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -70220,12 +70220,22 @@
         }
       },
       "total": {
-        "contactos": 1,
+        "contactos": 2,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
       "detalle": [
+        {
+          "fecha": "2026-10-16",
+          "fuente": "MKT Pauta",
+          "contacto": "andres alejandro",
+          "negocio": "Colegio Militar \"Leoncio Prado\" CMLP-Callao",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
         {
           "fecha": "2026-10-16",
           "fuente": "MKT Pauta",
@@ -87353,13 +87363,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2267,
+    "total_deals": 2268,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 359,
+        "cantidad": 360,
         "valor": 15874583.0
       },
       {
@@ -87459,6 +87469,20 @@
       "monto": 0.0,
       "creado": "2026-10-16",
       "cierre": "2026-10-16",
+      "ultima_actividad": "2026-10-16"
+    },
+    {
+      "id": "66138336683",
+      "nombre": "Colegio Militar \"Leoncio Prado\" CMLP-Callao",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-16",
+      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-16"
     },
     {
@@ -119162,7 +119186,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 847,
     "notas": 311,
-    "llamadas": 124,
+    "llamadas": 125,
     "disponible": true
   }
 }
