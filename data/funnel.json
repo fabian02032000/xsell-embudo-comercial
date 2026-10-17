@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-17T02:03:49.201460+00:00",
+  "generado": "2026-10-17T06:54:34.759010+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -87459,6 +87459,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "65264882846",
+      "nombre": "New house",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-25",
+      "cierre": "2026-09-29",
+      "ultima_actividad": "2026-10-17"
+    },
+    {
       "id": "54616168313",
       "nombre": "Scania Chile Perfilamiento de Leads",
       "pais": "Chile",
@@ -89738,20 +89752,6 @@
       "monto": 0.0,
       "creado": "2026-09-25",
       "cierre": "2026-10-06",
-      "ultima_actividad": "2026-10-14"
-    },
-    {
-      "id": "65264882846",
-      "nombre": "New house",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-09-25",
-      "cierre": "2026-09-29",
       "ultima_actividad": "2026-10-14"
     },
     {
