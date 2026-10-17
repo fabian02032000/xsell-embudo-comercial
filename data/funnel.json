@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-17T17:29:53.589323+00:00",
+  "generado": "2026-10-17T19:42:11.514122+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -87473,6 +87473,20 @@
       "ultima_actividad": "2026-10-17"
     },
     {
+      "id": "65791363666",
+      "nombre": "S&S MEGATEK ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-09",
+      "ultima_actividad": "2026-10-17"
+    },
+    {
       "id": "54616168313",
       "nombre": "Scania Chile Perfilamiento de Leads",
       "pais": "Chile",
@@ -90648,20 +90662,6 @@
       "monto": 0.0,
       "creado": "2026-10-05",
       "cierre": null,
-      "ultima_actividad": "2026-10-14"
-    },
-    {
-      "id": "65791363666",
-      "nombre": "S&S MEGATEK ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-10-09",
-      "cierre": "2026-10-09",
       "ultima_actividad": "2026-10-14"
     },
     {
