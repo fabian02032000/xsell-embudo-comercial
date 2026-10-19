@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-19T11:02:23.518421+00:00",
+  "generado": "2026-10-19T17:28:09.826177+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69588,10 +69588,10 @@
           "fuente": "MKT Pauta",
           "contacto": "Eleazar Tapia Tarrillo",
           "negocio": "Panorama Hogar ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
-          "motivo": null
+          "motivo": "Otros"
         },
         {
           "fecha": "2026-10-07",
@@ -70280,13 +70280,13 @@
     "2026-10-19": {
       "fuentes": {
         "Comercial": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -70299,12 +70299,53 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 2,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-10-19",
+          "fuente": "Comercial",
+          "contacto": "contacto@blcorredoresdeseguros.com",
+          "negocio": "BL Corredores de Seguros",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-19",
+          "fuente": "MKT Pauta",
+          "contacto": "Luis",
+          "negocio": "ja&l house and services",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-19",
+          "fuente": "MKT Pauta",
+          "contacto": "Ysabel Rodriguez Bazan",
+          "negocio": "Caja Tacna",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-19",
+          "fuente": "MKT Pauta",
+          "contacto": "Elisa YJ",
+          "negocio": "Elisa Driver",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -77619,6 +77660,12 @@
       "email": ""
     },
     {
+      "deal_id": "65717810545",
+      "negocio": "Panorama Hogar ",
+      "contacto": "Eleazar Tapia Tarrillo",
+      "email": "eleazar.tapia@panoramahogar.com"
+    },
+    {
       "deal_id": "65717810741",
       "negocio": "@cecibelia73",
       "contacto": "@cecibelia73",
@@ -77737,17 +77784,67 @@
       "negocio": "Grupo Atlas",
       "contacto": "Irving Chunga",
       "email": "informes@grupoatlasperu.com"
+    },
+    {
+      "deal_id": "66277290119",
+      "negocio": "ja&l house and services",
+      "contacto": "Luis",
+      "email": "limacharli@gmail.com"
+    },
+    {
+      "deal_id": "66277909899",
+      "negocio": "Caja Tacna",
+      "contacto": "Ysabel Rodriguez Bazan",
+      "email": "ysamilarodbazanmathias@gmail.com"
+    },
+    {
+      "deal_id": "66277910075",
+      "negocio": "Elisa Driver",
+      "contacto": "Elisa YJ",
+      "email": "escuelaelisadriver@gmail.com"
     }
   ],
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 526,
-    "tasa_apertura": 57.6,
+    "total_enviados": 528,
+    "tasa_apertura": 57.4,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 25.7,
-    "cobertura_rubro": 4.5,
+    "tasa_respuestas": 25.6,
+    "cobertura_rubro": 4.7,
     "detalle": [
+      {
+        "id": "118898766352",
+        "destinatario_email": "contacto@blcorredoresdeseguros.com",
+        "destinatario_nombre": null,
+        "empresa": "BL Corredores de Seguros",
+        "empresa_adivinada": false,
+        "rubro": "Insurance",
+        "asunto": "Respondieron en un minuto, y aun así se enfrió",
+        "fecha": "2026-10-19",
+        "hora": "17:12",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "118870535820",
+        "destinatario_email": "giuliano.gonzales@3eriza.com.pe;merlys.jimenez@scania.com;zoraida.rodriguez@wexsell.co;anthony.nunez@3eriza.pe",
+        "destinatario_nombre": null,
+        "empresa": "3Eriza",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Re:  Scania Chile - Propuesta Económica",
+        "fecha": "2026-10-19",
+        "hora": "14:06",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "118668230316",
         "destinatario_email": "ventas@codima.pe",
@@ -77904,7 +78001,7 @@
         "hora": "18:30",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
@@ -78370,7 +78467,7 @@
         "estado_raw": "SENT",
         "aperturas": 0,
         "clics": 0,
-        "respuestas": 1
+        "respuestas": 2
       },
       {
         "id": "118488162469",
@@ -78832,7 +78929,7 @@
         "hora": "20:30",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
@@ -87421,7 +87518,7 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2268,
+    "total_deals": 2272,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
@@ -87475,7 +87572,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1236,
+        "cantidad": 1240,
         "valor": 123067885.2
       },
       {
@@ -87487,6 +87584,118 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "2843007412",
+      "nombre": "Cliente Incógnito: GILDEMEISTER",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "VENTAS",
+      "tipo_negocio_label": "Ventas",
+      "etapa": "appointmentscheduled",
+      "etapa_label": "Reunión Agendadas",
+      "monto": 0.0,
+      "creado": "2020-08-21",
+      "cierre": "2020-08-31",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "54616168313",
+      "nombre": "Scania Chile Perfilamiento de Leads",
+      "pais": "Chile",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "decisionmakerboughtin",
+      "etapa_label": "Propuesta Enviada/en revisión",
+      "monto": 36582.0,
+      "creado": "2026-01-26",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65717810545",
+      "nombre": "Panorama Hogar ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-07",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65731615281",
+      "nombre": "Marcan Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": null,
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "66277290119",
+      "nombre": "ja&l house and services",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-19",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "66277909899",
+      "nombre": "Caja Tacna",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-19",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "66277910075",
+      "nombre": "Elisa Driver",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-19",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "66316522031",
+      "nombre": "BL Corredores de Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-19",
+      "cierre": null,
+      "ultima_actividad": "2026-10-19"
+    },
     {
       "id": "65264882846",
       "nombre": "New house",
@@ -87514,20 +87723,6 @@
       "creado": "2026-10-09",
       "cierre": "2026-10-09",
       "ultima_actividad": "2026-10-17"
-    },
-    {
-      "id": "54616168313",
-      "nombre": "Scania Chile Perfilamiento de Leads",
-      "pais": "Chile",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "decisionmakerboughtin",
-      "etapa_label": "Propuesta Enviada/en revisión",
-      "monto": 36582.0,
-      "creado": "2026-01-26",
-      "cierre": "2026-04-30",
-      "ultima_actividad": "2026-10-16"
     },
     {
       "id": "65083601251",
@@ -90470,20 +90665,6 @@
       "ultima_actividad": "2026-10-14"
     },
     {
-      "id": "65731615281",
-      "nombre": "Marcan Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": null,
-      "ultima_actividad": "2026-10-14"
-    },
-    {
       "id": "65732234601",
       "nombre": "Grupo T&C Inmobiliaria",
       "pais": "Perú",
@@ -91002,20 +91183,6 @@
       "ultima_actividad": "2026-10-12"
     },
     {
-      "id": "2843007412",
-      "nombre": "Cliente Incógnito: GILDEMEISTER",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "VENTAS",
-      "tipo_negocio_label": "Ventas",
-      "etapa": "appointmentscheduled",
-      "etapa_label": "Reunión Agendadas",
-      "monto": 0.0,
-      "creado": "2020-08-21",
-      "cierre": "2020-08-31",
-      "ultima_actividad": "2026-10-10"
-    },
-    {
       "id": "59963223397",
       "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
       "pais": "Perú",
@@ -91153,20 +91320,6 @@
       "monto": 3400.0,
       "creado": "2026-07-20",
       "cierre": "2026-07-31",
-      "ultima_actividad": "2026-10-07"
-    },
-    {
-      "id": "65717810545",
-      "nombre": "Panorama Hogar ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-07",
-      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-07"
     },
     {
@@ -119242,9 +119395,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 847,
+    "correos": 851,
     "notas": 311,
-    "llamadas": 125,
+    "llamadas": 129,
     "disponible": true
   }
 }
