@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-19T17:28:09.826177+00:00",
+  "generado": "2026-10-19T21:43:23.625830+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -69677,8 +69677,8 @@
           "fuente": "Comercial",
           "contacto": "(sin contacto)",
           "negocio": "Sin datos - Alejandra ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -69687,28 +69687,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Alejandra  Navarro",
           "negocio": "Sin datos -  Alejandra Navarro ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-09",
-          "fuente": "MKT Pauta",
-          "contacto": "Renato Carrera",
-          "negocio": "Pegsa Industrial ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-09",
-          "fuente": "MKT Pauta",
-          "contacto": "Roxana",
-          "negocio": "Sin datos  - Roxana",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -69721,6 +69701,16 @@
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Renato Carrera",
+          "negocio": "Pegsa Industrial ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
         },
         {
           "fecha": "2026-10-09",
@@ -69741,6 +69731,16 @@
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Roxana",
+          "negocio": "Sin datos  - Roxana",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
         },
         {
           "fecha": "2026-10-09",
@@ -69931,8 +69931,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Leslie",
           "negocio": "Sin datos  - Leslie",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -69941,8 +69941,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Eduardo",
           "negocio": "GP Business Call ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -69951,8 +69951,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Rouss",
           "negocio": "Sin datos - Rouss",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -69961,8 +69961,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Karla Sarmiento",
           "negocio": "Kamasa Service",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -69971,58 +69971,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Bryan  Oropeza Vasquez",
           "negocio": "Si datos  - Bryan Oropeza Vasquez",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-12",
-          "fuente": "MKT Pauta",
-          "contacto": "Katerin nilda alcahua rossell",
-          "negocio": "auto ya Automotriz",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-12",
-          "fuente": "MKT Pauta",
-          "contacto": "Anyela Asesora inmobiliaria",
-          "negocio": "Sin datos - Anyela Asesora inmobiliaria",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-12",
-          "fuente": "MKT Pauta",
-          "contacto": "Silvana  Grillo Gallardo",
-          "negocio": "Sin datos - Silvana Grillo Gallardo",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-12",
-          "fuente": "MKT Pauta",
-          "contacto": "Alberto Huaman",
-          "negocio": "Remarc",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-12",
-          "fuente": "MKT Pauta",
-          "contacto": "ctecsolucionestecnologicas",
-          "negocio": "Sin datos  - ctecsolucionestecnologicas",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -70049,6 +69999,16 @@
         {
           "fecha": "2026-10-12",
           "fuente": "MKT Pauta",
+          "contacto": "Katerin nilda alcahua rossell",
+          "negocio": "auto ya Automotriz",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
           "contacto": "Amparo  García Huapaya",
           "negocio": "Sin datos - Amparo García Huapaya",
           "etapa": "Descartada",
@@ -70059,12 +70019,52 @@
         {
           "fecha": "2026-10-12",
           "fuente": "MKT Pauta",
+          "contacto": "Anyela Asesora inmobiliaria",
+          "negocio": "Sin datos - Anyela Asesora inmobiliaria",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Silvana  Grillo Gallardo",
+          "negocio": "Sin datos - Silvana Grillo Gallardo",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
           "contacto": "Carlos Saavedra",
           "negocio": "SAM Taller Automotriz",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Alberto Huaman",
+          "negocio": "Remarc",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-12",
+          "fuente": "MKT Pauta",
+          "contacto": "ctecsolucionestecnologicas",
+          "negocio": "Sin datos  - ctecsolucionestecnologicas",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
         }
       ]
     },
@@ -77702,10 +77702,34 @@
       "email": ""
     },
     {
+      "deal_id": "65739808895",
+      "negocio": "Sin datos -  Alejandra Navarro ",
+      "contacto": "Alejandra  Navarro",
+      "email": ""
+    },
+    {
       "deal_id": "65739810670",
       "negocio": "Sin datos - Valentino",
       "contacto": "Valentino ",
       "email": ""
+    },
+    {
+      "deal_id": "65739840565",
+      "negocio": "Sin datos  - Leslie",
+      "contacto": "Leslie",
+      "email": ""
+    },
+    {
+      "deal_id": "65739850881",
+      "negocio": "GP Business Call ",
+      "contacto": "Eduardo",
+      "email": "gary.priale@gpbusinesscall.com"
+    },
+    {
+      "deal_id": "65739896609",
+      "negocio": "Pegsa Industrial ",
+      "contacto": "Renato Carrera",
+      "email": "rcarrera@pegsaindustrial.com"
     },
     {
       "deal_id": "65739907498",
@@ -77720,9 +77744,39 @@
       "email": ""
     },
     {
+      "deal_id": "65739915424",
+      "negocio": "Sin datos - Alejandra ",
+      "contacto": "(sin contacto)",
+      "email": ""
+    },
+    {
+      "deal_id": "65739924997",
+      "negocio": "Sin datos  - Roxana",
+      "contacto": "Roxana",
+      "email": ""
+    },
+    {
       "deal_id": "65739925580",
       "negocio": "Sin datos  - Chabu",
       "contacto": "Chabu",
+      "email": ""
+    },
+    {
+      "deal_id": "65740031277",
+      "negocio": "Sin datos - Rouss",
+      "contacto": "Rouss",
+      "email": ""
+    },
+    {
+      "deal_id": "65740031881",
+      "negocio": "Kamasa Service",
+      "contacto": "Karla Sarmiento",
+      "email": "karla.sarmiento.trujillo@gmail.com"
+    },
+    {
+      "deal_id": "65740032148",
+      "negocio": "Si datos  - Bryan Oropeza Vasquez",
+      "contacto": "Bryan  Oropeza Vasquez",
       "email": ""
     },
     {
@@ -77736,6 +77790,12 @@
       "negocio": "Independiente - Parque del Recuerdo",
       "contacto": "Omar Castro Salazar",
       "email": "omarcastrosalazarpr@gmail.com"
+    },
+    {
+      "deal_id": "65740082214",
+      "negocio": "auto ya Automotriz",
+      "contacto": "Katerin nilda alcahua rossell",
+      "email": "katty23ar@gmail.com"
     },
     {
       "deal_id": "65791363666",
@@ -77774,10 +77834,34 @@
       "email": ""
     },
     {
+      "deal_id": "65887361328",
+      "negocio": "Sin datos - Anyela Asesora inmobiliaria",
+      "contacto": "Anyela Asesora inmobiliaria",
+      "email": ""
+    },
+    {
+      "deal_id": "65887363922",
+      "negocio": "Sin datos - Silvana Grillo Gallardo",
+      "contacto": "Silvana  Grillo Gallardo",
+      "email": ""
+    },
+    {
       "deal_id": "65887365790",
       "negocio": "SAM Taller Automotriz",
       "contacto": "Carlos Saavedra",
       "email": "csaavedra@cassa.pe"
+    },
+    {
+      "deal_id": "65887964015",
+      "negocio": "Remarc",
+      "contacto": "Alberto Huaman",
+      "email": "albertohd1991@gmail.com"
+    },
+    {
+      "deal_id": "65887964796",
+      "negocio": "Sin datos  - ctecsolucionestecnologicas",
+      "contacto": "ctecsolucionestecnologicas",
+      "email": ""
     },
     {
       "deal_id": "66137582476",
@@ -77808,9 +77892,9 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 528,
-    "tasa_apertura": 57.4,
+    "tasa_apertura": 57.6,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 25.6,
+    "tasa_respuestas": 25.8,
     "cobertura_rubro": 4.7,
     "detalle": [
       {
@@ -77825,9 +77909,9 @@
         "hora": "17:12",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 4,
         "clics": 0,
-        "respuestas": 0
+        "respuestas": 1
       },
       {
         "id": "118870535820",
@@ -87436,7 +87520,7 @@
     "incluir_estadios": [
       "Consolidado"
     ],
-    "total": 11,
+    "total": 10,
     "detalle": [
       {
         "nombre": "Amdres Reyes",
@@ -87451,13 +87535,6 @@
         "empresa": "Agroinvest Perú",
         "estadio_lead": "Consolidado",
         "nivel_urgencia": "Medio"
-      },
-      {
-        "nombre": "Alberto Huaman",
-        "correo": "albertohd1991@gmail.com",
-        "empresa": "Remarc",
-        "estadio_lead": "Consolidado",
-        "nivel_urgencia": "Bajo"
       },
       {
         "nombre": "Carlos Peramás",
@@ -87524,7 +87601,7 @@
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 360,
+        "cantidad": 346,
         "valor": 15874583.0
       },
       {
@@ -87572,7 +87649,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1240,
+        "cantidad": 1254,
         "valor": 123067885.2
       },
       {
@@ -87638,6 +87715,216 @@
       "monto": 0.0,
       "creado": "2026-10-05",
       "cierre": null,
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65739808895",
+      "nombre": "Sin datos -  Alejandra Navarro ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65739840565",
+      "nombre": "Sin datos  - Leslie",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65739850881",
+      "nombre": "GP Business Call ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65739896609",
+      "nombre": "Pegsa Industrial ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65739915424",
+      "nombre": "Sin datos - Alejandra ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65739924997",
+      "nombre": "Sin datos  - Roxana",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-09",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65740031277",
+      "nombre": "Sin datos - Rouss",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65740031881",
+      "nombre": "Kamasa Service",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65740032148",
+      "nombre": "Si datos  - Bryan Oropeza Vasquez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65740082214",
+      "nombre": "auto ya Automotriz",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65887361328",
+      "nombre": "Sin datos - Anyela Asesora inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65887363922",
+      "nombre": "Sin datos - Silvana Grillo Gallardo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65887964015",
+      "nombre": "Remarc",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65887964796",
+      "nombre": "Sin datos  - ctecsolucionestecnologicas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-12",
+      "cierre": "2026-10-19",
+      "ultima_actividad": "2026-10-19"
+    },
+    {
+      "id": "65902544663",
+      "nombre": "Feria De Carros los Brothers",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-13",
+      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-19"
     },
     {
@@ -90721,20 +91008,6 @@
       "ultima_actividad": "2026-10-14"
     },
     {
-      "id": "65739808895",
-      "nombre": "Sin datos -  Alejandra Navarro ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-09",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-14"
-    },
-    {
       "id": "65739810670",
       "nombre": "Sin datos - Valentino",
       "pais": "Perú",
@@ -90777,20 +91050,6 @@
       "ultima_actividad": "2026-10-14"
     },
     {
-      "id": "65739924997",
-      "nombre": "Sin datos  - Roxana",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-09",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-14"
-    },
-    {
       "id": "65739925580",
       "nombre": "Sin datos  - Chabu",
       "pais": "Perú",
@@ -90802,20 +91061,6 @@
       "monto": 0.0,
       "creado": "2026-10-09",
       "cierre": "2026-10-09",
-      "ultima_actividad": "2026-10-14"
-    },
-    {
-      "id": "65740031881",
-      "nombre": "Kamasa Service",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-14"
     },
     {
@@ -90959,20 +91204,6 @@
       "ultima_actividad": "2026-10-14"
     },
     {
-      "id": "65887964015",
-      "nombre": "Remarc",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-14"
-    },
-    {
       "id": "65949567052",
       "nombre": "Stevia Coronel ",
       "pais": "Perú",
@@ -91012,20 +91243,6 @@
       "monto": 60000.0,
       "creado": "2026-03-25",
       "cierre": "2026-05-31",
-      "ultima_actividad": "2026-10-13"
-    },
-    {
-      "id": "65902544663",
-      "nombre": "Feria De Carros los Brothers",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-13",
-      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-13"
     },
     {
@@ -91071,118 +91288,6 @@
       "ultima_actividad": "2026-10-12"
     },
     {
-      "id": "65739840565",
-      "nombre": "Sin datos  - Leslie",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-12"
-    },
-    {
-      "id": "65739850881",
-      "nombre": "GP Business Call ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-12"
-    },
-    {
-      "id": "65740031277",
-      "nombre": "Sin datos - Rouss",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-12"
-    },
-    {
-      "id": "65740032148",
-      "nombre": "Si datos  - Bryan Oropeza Vasquez",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-12"
-    },
-    {
-      "id": "65740082214",
-      "nombre": "auto ya Automotriz",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-12"
-    },
-    {
-      "id": "65887361328",
-      "nombre": "Sin datos - Anyela Asesora inmobiliaria",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-12"
-    },
-    {
-      "id": "65887363922",
-      "nombre": "Sin datos - Silvana Grillo Gallardo",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-12"
-    },
-    {
-      "id": "65887964796",
-      "nombre": "Sin datos  - ctecsolucionestecnologicas",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-12",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-12"
-    },
-    {
       "id": "59963223397",
       "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
       "pais": "Perú",
@@ -91194,34 +91299,6 @@
       "monto": 30000.0,
       "creado": "2026-05-04",
       "cierre": "2026-06-23",
-      "ultima_actividad": "2026-10-09"
-    },
-    {
-      "id": "65739896609",
-      "nombre": "Pegsa Industrial ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-09",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-09"
-    },
-    {
-      "id": "65739915424",
-      "nombre": "Sin datos - Alejandra ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-09",
-      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-09"
     },
     {
@@ -119395,9 +119472,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 851,
+    "correos": 852,
     "notas": 311,
-    "llamadas": 129,
+    "llamadas": 143,
     "disponible": true
   }
 }
