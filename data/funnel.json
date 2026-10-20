@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-20T15:20:35.397663+00:00",
+  "generado": "2026-10-20T19:27:19.604514+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70390,8 +70390,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Erick Maldonado",
           "negocio": "Erick Maldonado ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         }
@@ -77936,6 +77936,12 @@
       "negocio": "Elisa Driver",
       "contacto": "Elisa YJ",
       "email": "escuelaelisadriver@gmail.com"
+    },
+    {
+      "deal_id": "66407329028",
+      "negocio": "Erick Maldonado ",
+      "contacto": "Erick Maldonado",
+      "email": "erick.maldonadochavez.2025@gmail.com"
     }
   ],
   "correos_insight": {
@@ -87651,7 +87657,7 @@
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 348,
+        "cantidad": 347,
         "valor": 15874583.0
       },
       {
@@ -87699,7 +87705,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1254,
+        "cantidad": 1255,
         "valor": 123067885.2
       },
       {
@@ -87746,11 +87752,11 @@
       "pais_real": true,
       "tipo_negocio": "OTRO",
       "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
       "monto": 0.0,
       "creado": "2026-10-20",
-      "cierre": null,
+      "cierre": "2026-10-20",
       "ultima_actividad": "2026-10-20"
     },
     {
