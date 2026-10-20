@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-19T21:43:23.625830+00:00",
+  "generado": "2026-10-20T00:45:39.572228+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70346,6 +70346,35 @@
           "motivo": null
         }
       ]
+    },
+    "2026-10-20": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -77909,7 +77938,7 @@
         "hora": "17:12",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 4,
+        "aperturas": 7,
         "clics": 0,
         "respuestas": 1
       },
@@ -87662,6 +87691,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "66316522031",
+      "nombre": "BL Corredores de Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-19",
+      "cierre": null,
+      "ultima_actividad": "2026-10-20"
+    },
+    {
       "id": "2843007412",
       "nombre": "Cliente Incógnito: GILDEMEISTER",
       "pais": "Perú",
@@ -87967,20 +88010,6 @@
       "monto": 0.0,
       "creado": "2026-10-19",
       "cierre": "2026-10-19",
-      "ultima_actividad": "2026-10-19"
-    },
-    {
-      "id": "66316522031",
-      "nombre": "BL Corredores de Seguros",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-19",
-      "cierre": null,
       "ultima_actividad": "2026-10-19"
     },
     {
