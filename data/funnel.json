@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T11:38:27.605272+00:00",
+  "generado": "2026-10-21T16:07:51.029363+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70534,6 +70534,16 @@
           "nivel": "Contactos",
           "origen": "HubSpot",
           "motivo": null
+        },
+        {
+          "fecha": "2026-10-21",
+          "fuente": "MKT Pauta",
+          "contacto": "Melisa Ortega Moya",
+          "negocio": "AUTOCAMIONES DEL CENTRO",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
         }
       ]
     }
@@ -78082,29 +78092,35 @@
       "negocio": "Erick Maldonado ",
       "contacto": "Erick Maldonado",
       "email": "erick.maldonadochavez.2025@gmail.com"
+    },
+    {
+      "deal_id": "66440423941",
+      "negocio": "AUTOCAMIONES DEL CENTRO",
+      "contacto": "Melisa Ortega Moya",
+      "email": "mortega@autocamiones.com.pe"
     }
   ],
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 535,
-    "tasa_apertura": 56.8,
+    "total_enviados": 537,
+    "tasa_apertura": 56.6,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 25.4,
+    "tasa_respuestas": 25.3,
     "cobertura_rubro": 5.0,
     "detalle": [
       {
-        "id": "119194059629",
-        "destinatario_email": "mmontenegro@autolandperu.com",
-        "destinatario_nombre": "Marco  Montenegro Marreros",
-        "empresa": "Autolandperu",
+        "id": "119218692249",
+        "destinatario_email": "rhurtado@blcorredoresdeseguros.com;contacto@blcorredoresdeseguros.com",
+        "destinatario_nombre": null,
+        "empresa": "Blcorredoresdeseguros",
         "empresa_adivinada": true,
         "rubro": null,
-        "asunto": "Las SUV ya son el 55.6% de lo que se vende",
+        "asunto": "\tRE: Respondieron en un minuto, y aun así se enfrió",
         "fecha": "2026-10-21",
-        "hora": "12:00",
-        "estado": "Programado",
-        "estado_raw": "SCHEDULED",
+        "hora": "15:46",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
         "aperturas": 0,
         "clics": 0,
         "respuestas": 0
@@ -78119,8 +78135,24 @@
         "asunto": "17,871 hogares nuevos en Lima y Callao",
         "fecha": "2026-10-21",
         "hora": "12:00",
-        "estado": "Programado",
-        "estado_raw": "SCHEDULED",
+        "estado": "Rebotado",
+        "estado_raw": "BOUNCED",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "119194059629",
+        "destinatario_email": "mmontenegro@autolandperu.com",
+        "destinatario_nombre": "Marco  Montenegro Marreros",
+        "empresa": "Autolandperu",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Las SUV ya son el 55.6% de lo que se vende",
+        "fecha": "2026-10-21",
+        "hora": "12:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
         "aperturas": 0,
         "clics": 0,
         "respuestas": 0
@@ -78987,7 +79019,7 @@
         "estado_raw": "SENT",
         "aperturas": 0,
         "clics": 0,
-        "respuestas": 2
+        "respuestas": 3
       },
       {
         "id": "118488162469",
@@ -88031,7 +88063,7 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2285,
+    "total_deals": 2286,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
@@ -88085,7 +88117,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1255,
+        "cantidad": 1256,
         "valor": 123067885.2
       },
       {
@@ -88097,6 +88129,20 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "54616168313",
+      "nombre": "Scania Chile Perfilamiento de Leads",
+      "pais": "Chile",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "decisionmakerboughtin",
+      "etapa_label": "Propuesta Enviada/en revisión",
+      "monto": 36582.0,
+      "creado": "2026-01-26",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-10-21"
+    },
     {
       "id": "60076938338",
       "nombre": "Grupo Centenario Perú Perfilamiento de Leads ",
@@ -88137,6 +88183,34 @@
       "monto": 60000.0,
       "creado": "2026-05-19",
       "cierre": "2026-05-31",
+      "ultima_actividad": "2026-10-21"
+    },
+    {
+      "id": "66316522031",
+      "nombre": "BL Corredores de Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-19",
+      "cierre": null,
+      "ultima_actividad": "2026-10-21"
+    },
+    {
+      "id": "66440423941",
+      "nombre": "AUTOCAMIONES DEL CENTRO",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-21",
+      "cierre": "2026-10-21",
       "ultima_actividad": "2026-10-21"
     },
     {
@@ -88294,20 +88368,6 @@
       "ultima_actividad": "2026-10-21"
     },
     {
-      "id": "66316522031",
-      "nombre": "BL Corredores de Seguros",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-19",
-      "cierre": null,
-      "ultima_actividad": "2026-10-20"
-    },
-    {
       "id": "66400848916",
       "nombre": "Concreat",
       "pais": "Perú",
@@ -88347,20 +88407,6 @@
       "monto": 0.0,
       "creado": "2020-08-21",
       "cierre": "2020-08-31",
-      "ultima_actividad": "2026-10-19"
-    },
-    {
-      "id": "54616168313",
-      "nombre": "Scania Chile Perfilamiento de Leads",
-      "pais": "Chile",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "decisionmakerboughtin",
-      "etapa_label": "Propuesta Enviada/en revisión",
-      "monto": 36582.0,
-      "creado": "2026-01-26",
-      "cierre": "2026-04-30",
       "ultima_actividad": "2026-10-19"
     },
     {
@@ -120090,9 +120136,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 867,
+    "correos": 869,
     "notas": 311,
-    "llamadas": 145,
+    "llamadas": 146,
     "disponible": true
   }
 }
