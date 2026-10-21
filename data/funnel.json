@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-21T20:10:17.166201+00:00",
+  "generado": "2026-10-21T23:24:30.877742+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70412,14 +70412,14 @@
           "ventas": 0
         },
         "LinkedIn PACS": {
-          "contactos": 0,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 2,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -70544,6 +70544,24 @@
           "nivel": "Contactos",
           "origen": "HubSpot",
           "motivo": null
+        },
+        {
+          "fecha": "2026-10-21",
+          "fuente": "LinkedIn PACS",
+          "contacto": "Cesar Pfeiffer",
+          "negocio": null,
+          "etapa": "Identificado",
+          "nivel": "Contactos",
+          "origen": "LinkedIn PACS"
+        },
+        {
+          "fecha": "2026-10-21",
+          "fuente": "LinkedIn PACS",
+          "contacto": "Alejandro Olazábal Gómez de la Torre",
+          "negocio": null,
+          "etapa": "Identificado",
+          "nivel": "Contactos",
+          "origen": "LinkedIn PACS"
         },
         {
           "fecha": "2026-10-21",
@@ -89998,6 +90016,20 @@
       "ultima_actividad": "2026-10-21"
     },
     {
+      "id": "65580238850",
+      "nombre": "Sin datos - Arturo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-02",
+      "cierre": "2026-10-21",
+      "ultima_actividad": "2026-10-21"
+    },
+    {
       "id": "65580593792",
       "nombre": "Quintana & Quinde Abogados",
       "pais": "Perú",
@@ -92430,20 +92462,6 @@
       "etapa_label": "Descartada",
       "monto": 0.0,
       "creado": "2026-09-29",
-      "cierre": "2026-10-02",
-      "ultima_actividad": "2026-10-02"
-    },
-    {
-      "id": "65580238850",
-      "nombre": "Sin datos - Arturo",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-10-02",
       "cierre": "2026-10-02",
       "ultima_actividad": "2026-10-02"
     },
