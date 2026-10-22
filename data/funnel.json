@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T20:50:11.367973+00:00",
+  "generado": "2026-10-22T23:48:31.668629+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70584,7 +70584,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 4,
+          "contactos": 5,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -70597,7 +70597,7 @@
         }
       },
       "total": {
-        "contactos": 4,
+        "contactos": 5,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -70638,6 +70638,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Enrique Vera",
           "negocio": "Caras bonitas",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-22",
+          "fuente": "MKT Pauta",
+          "contacto": "Luis Miguel Molina S.",
+          "negocio": "LM Servicios comerciales",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot",
@@ -88241,13 +88251,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2291,
+    "total_deals": 2292,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 363,
+        "cantidad": 364,
         "valor": 15874583.0
       },
       {
@@ -88366,6 +88376,20 @@
     {
       "id": "66544748290",
       "nombre": "Caras bonitas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-22",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-22"
+    },
+    {
+      "id": "66642453089",
+      "nombre": "LM Servicios comerciales",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -120386,7 +120410,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 877,
     "notas": 311,
-    "llamadas": 150,
+    "llamadas": 151,
     "disponible": true
   }
 }
