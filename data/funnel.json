@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T17:38:11.756851+00:00",
+  "generado": "2026-10-22T20:50:11.367973+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -79197,7 +79197,7 @@
         "estado_raw": "SENT",
         "aperturas": 0,
         "clics": 0,
-        "respuestas": 5
+        "respuestas": 6
       },
       {
         "id": "118488162469",
@@ -120384,7 +120384,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 876,
+    "correos": 877,
     "notas": 311,
     "llamadas": 150,
     "disponible": true
