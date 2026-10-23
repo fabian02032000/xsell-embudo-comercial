@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T13:18:24.492901+00:00",
+  "generado": "2026-10-23T17:55:24.043537+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70664,7 +70664,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 1,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -70677,12 +70677,23 @@
         }
       },
       "total": {
-        "contactos": 1,
+        "contactos": 2,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-10-23",
+          "fuente": "MKT Pauta",
+          "contacto": "Richard Palomino Romano",
+          "negocio": "Asóciate Perú",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -78338,7 +78349,7 @@
         "hora": "15:46",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 9,
+        "aperturas": 10,
         "clics": 0,
         "respuestas": 0
       },
@@ -78594,7 +78605,7 @@
         "hora": "17:12",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 9,
+        "aperturas": 10,
         "clics": 0,
         "respuestas": 1
       },
@@ -88280,13 +88291,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2292,
+    "total_deals": 2293,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 364,
+        "cantidad": 365,
         "valor": 15874583.0
       },
       {
@@ -88346,6 +88357,34 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "66316522031",
+      "nombre": "BL Corredores de Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-19",
+      "cierre": null,
+      "ultima_actividad": "2026-10-23"
+    },
+    {
+      "id": "66637140106",
+      "nombre": "Asóciate Perú",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-23",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-23"
+    },
     {
       "id": "54616168313",
       "nombre": "Scania Chile Perfilamiento de Leads",
@@ -90402,20 +90441,6 @@
       "monto": 0.0,
       "creado": "2026-10-12",
       "cierre": "2026-10-19",
-      "ultima_actividad": "2026-10-21"
-    },
-    {
-      "id": "66316522031",
-      "nombre": "BL Corredores de Seguros",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-19",
-      "cierre": null,
       "ultima_actividad": "2026-10-21"
     },
     {
@@ -120439,7 +120464,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 877,
     "notas": 311,
-    "llamadas": 151,
+    "llamadas": 152,
     "disponible": true
   }
 }
