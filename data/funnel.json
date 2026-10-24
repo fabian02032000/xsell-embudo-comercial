@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T23:53:36.020536+00:00",
+  "generado": "2026-10-24T04:20:25.054240+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70704,6 +70704,35 @@
           "motivo": null
         }
       ]
+    },
+    "2026-10-24": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -78262,7 +78291,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 541,
-    "tasa_apertura": 56.6,
+    "tasa_apertura": 56.7,
     "tasa_clics": 0.0,
     "tasa_respuestas": 25.1,
     "cobertura_rubro": 5.0,
@@ -78999,7 +79028,7 @@
         "hora": "18:18",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -88368,6 +88397,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "65294998415",
+      "nombre": "Imagina Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-10-24"
+    },
+    {
       "id": "66316522031",
       "nombre": "BL Corredores de Seguros",
       "pais": "Perú",
@@ -91786,20 +91829,6 @@
     {
       "id": "65294946081",
       "nombre": "Morgenstern Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-10-14"
-    },
-    {
-      "id": "65294998415",
-      "nombre": "Imagina Inmobiliaria",
       "pais": "Perú",
       "pais_real": false,
       "tipo_negocio": "OTRO",
