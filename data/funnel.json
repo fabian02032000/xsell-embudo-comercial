@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-25T01:47:50.298479+00:00",
+  "generado": "2026-10-25T07:02:15.506229+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -88426,6 +88426,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "66137582476",
+      "nombre": "Grupo Atlas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-16",
+      "cierre": "2026-10-16",
+      "ultima_actividad": "2026-10-25"
+    },
+    {
       "id": "65294998415",
       "nombre": "Imagina Inmobiliaria",
       "pais": "Perú",
@@ -90958,20 +90972,6 @@
       "creado": "2026-10-09",
       "cierre": "2026-10-09",
       "ultima_actividad": "2026-10-17"
-    },
-    {
-      "id": "66137582476",
-      "nombre": "Grupo Atlas",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-10-16",
-      "cierre": "2026-10-16",
-      "ultima_actividad": "2026-10-16"
     },
     {
       "id": "66138336683",
