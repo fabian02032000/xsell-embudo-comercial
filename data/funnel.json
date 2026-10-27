@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-27T12:15:25.917430+00:00",
+  "generado": "2026-10-27T18:06:26.709496+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -78457,7 +78457,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 541,
-    "tasa_apertura": 56.7,
+    "tasa_apertura": 57.1,
     "tasa_clics": 0.0,
     "tasa_respuestas": 25.1,
     "cobertura_rubro": 5.0,
@@ -79226,7 +79226,7 @@
         "hora": "18:15",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -79452,7 +79452,7 @@
         "estado_raw": "SENT",
         "aperturas": 0,
         "clics": 0,
-        "respuestas": 6
+        "respuestas": 8
       },
       {
         "id": "118488162469",
@@ -80410,7 +80410,7 @@
         "hora": "02:41",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -88563,6 +88563,34 @@
   },
   "negocios_detalle": [
     {
+      "id": "54616168313",
+      "nombre": "Scania Chile Perfilamiento de Leads",
+      "pais": "Chile",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "decisionmakerboughtin",
+      "etapa_label": "Propuesta Enviada/en revisión",
+      "monto": 36582.0,
+      "creado": "2026-01-26",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-10-27"
+    },
+    {
+      "id": "65173175656",
+      "nombre": "Armonhy Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-22",
+      "cierre": null,
+      "ultima_actividad": "2026-10-27"
+    },
+    {
       "id": "66544686394",
       "nombre": "AutoPlan Financiamiento Vehicular",
       "pais": "Perú",
@@ -88743,20 +88771,6 @@
       "creado": "2026-10-22",
       "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-23"
-    },
-    {
-      "id": "54616168313",
-      "nombre": "Scania Chile Perfilamiento de Leads",
-      "pais": "Chile",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "decisionmakerboughtin",
-      "etapa_label": "Propuesta Enviada/en revisión",
-      "monto": 36582.0,
-      "creado": "2026-01-26",
-      "cierre": "2026-04-30",
-      "ultima_actividad": "2026-10-22"
     },
     {
       "id": "66544376944",
@@ -91757,20 +91771,6 @@
     {
       "id": "65169269611",
       "nombre": "JyM Grupo Inmobiliario",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-22",
-      "cierre": null,
-      "ultima_actividad": "2026-10-14"
-    },
-    {
-      "id": "65173175656",
-      "nombre": "Armonhy Inmobiliaria",
       "pais": "Perú",
       "pais_real": false,
       "tipo_negocio": "OTRO",
@@ -120765,7 +120765,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 877,
+    "correos": 879,
     "notas": 311,
     "llamadas": 159,
     "disponible": true
