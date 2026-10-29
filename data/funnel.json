@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T23:37:05.431056+00:00",
+  "generado": "2026-10-29T02:53:33.820423+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70853,7 +70853,7 @@
         }
       ]
     },
-    "2026-10-28": {
+    "2026-10-29": {
       "fuentes": {
         "Comercial": {
           "contactos": 0,
@@ -70862,7 +70862,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -70875,7 +70875,7 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 1,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
