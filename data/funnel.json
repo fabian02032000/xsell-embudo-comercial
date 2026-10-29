@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T09:45:36.371453+00:00",
+  "generado": "2026-10-29T16:27:29.168119+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70880,7 +70880,38 @@
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-10-29",
+          "fuente": "MKT Pauta",
+          "contacto": "Yeferson Carrion",
+          "negocio": "GACSA ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-29",
+          "fuente": "MKT Pauta",
+          "contacto": "Piero Marini Romero",
+          "negocio": "Grupo Romero",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-29",
+          "fuente": "MKT Pauta",
+          "contacto": "ysaac Rodriguez",
+          "negocio": "Ambacar",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -78451,17 +78482,39 @@
       "negocio": "Inmobiliaria V de vendeta",
       "contacto": "Carlos",
       "email": "arnoldisaacprojects@gmail.com"
+    },
+    {
+      "deal_id": "66966032453",
+      "negocio": "Ambacar",
+      "contacto": "ysaac Rodriguez",
+      "email": "saki_rodriguez@hotmail.com"
     }
   ],
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 541,
-    "tasa_apertura": 57.1,
+    "total_enviados": 542,
+    "tasa_apertura": 57.0,
     "tasa_clics": 0.0,
     "tasa_respuestas": 25.1,
     "cobertura_rubro": 5.0,
     "detalle": [
+      {
+        "id": "119930044302",
+        "destinatario_email": "antonio.x.torres@scania.com",
+        "destinatario_nombre": null,
+        "empresa": "Scania",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "RE:  Scania Chile - Propuesta Económica",
+        "fecha": "2026-10-29",
+        "hora": "15:57",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "119225704572",
         "destinatario_email": "flora.ortiz@origen-inmobiliaria.com",
@@ -88496,13 +88549,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2300,
+    "total_deals": 2303,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 369,
+        "cantidad": 371,
         "valor": 15874583.0
       },
       {
@@ -88550,7 +88603,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1259,
+        "cantidad": 1260,
         "valor": 123067885.2
       },
       {
@@ -88574,7 +88627,63 @@
       "monto": 36582.0,
       "creado": "2026-01-26",
       "cierre": "2026-04-30",
-      "ultima_actividad": "2026-10-27"
+      "ultima_actividad": "2026-10-29"
+    },
+    {
+      "id": "66730747230",
+      "nombre": "E Y B Celulares ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-26",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-29"
+    },
+    {
+      "id": "66949337730",
+      "nombre": "GACSA ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-29",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-29"
+    },
+    {
+      "id": "66966032453",
+      "nombre": "Ambacar",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-29",
+      "cierre": "2026-10-29",
+      "ultima_actividad": "2026-10-29"
+    },
+    {
+      "id": "66966150540",
+      "nombre": "Grupo Romero",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-29",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-29"
     },
     {
       "id": "65173175656",
@@ -88644,20 +88753,6 @@
       "monto": 0.0,
       "creado": "2026-10-26",
       "cierre": "2026-10-26",
-      "ultima_actividad": "2026-10-26"
-    },
-    {
-      "id": "66730747230",
-      "nombre": "E Y B Celulares ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-26",
-      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-26"
     },
     {
@@ -120765,9 +120860,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 879,
+    "correos": 880,
     "notas": 311,
-    "llamadas": 159,
+    "llamadas": 162,
     "disponible": true
   }
 }
