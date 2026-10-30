@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T21:22:32.929456+00:00",
+  "generado": "2026-10-30T01:18:37.609538+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70912,6 +70912,35 @@
           "motivo": null
         }
       ]
+    },
+    "2026-10-30": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 1,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 1,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -78493,12 +78522,108 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 542,
-    "tasa_apertura": 57.0,
+    "total_enviados": 547,
+    "tasa_apertura": 56.5,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 25.1,
-    "cobertura_rubro": 5.0,
+    "tasa_respuestas": 24.9,
+    "cobertura_rubro": 4.9,
     "detalle": [
+      {
+        "id": "119986399290",
+        "destinatario_email": "mmontenegro@autolandperu.com",
+        "destinatario_nombre": "Marco  Montenegro Marreros",
+        "empresa": "Autolandperu",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Re: Las SUV ya son el 55.6% de lo que se vende",
+        "fecha": "2026-10-30",
+        "hora": "01:18",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "119987823522",
+        "destinatario_email": "angie.salas@rimac.com.pe",
+        "destinatario_nombre": "Angie  Salas Gallardo",
+        "empresa": "Rimac",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Re: Los seguros crecen 8.8% en el Perú",
+        "fecha": "2026-10-30",
+        "hora": "01:17",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "119986424086",
+        "destinatario_email": "juanpablo.gonzalesrios@interbank.com",
+        "destinatario_nombre": "Juan Pablo  Gonzales Rios",
+        "empresa": "Interbank",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Re: El crédito hipotecario vuelve a mover el mercado",
+        "fecha": "2026-10-30",
+        "hora": "01:15",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "119986398636",
+        "destinatario_email": "rruizb@euromotors.com.pe",
+        "destinatario_nombre": "Renato Ruiz",
+        "empresa": "Euromotors",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Re: Posventa con varias marcas bajo un mismo grupo",
+        "fecha": "2026-10-30",
+        "hora": "01:14",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "119987822735",
+        "destinatario_email": "dcaro@toyotaperu.com.pe",
+        "destinatario_nombre": "David  Caro",
+        "empresa": "Toyotaperu",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Re: Llevar la posventa más cerca del cliente",
+        "fecha": "2026-10-30",
+        "hora": "01:13",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "119987749903",
+        "destinatario_email": "alagos@blccorredoresdeseguros.com",
+        "destinatario_nombre": null,
+        "empresa": "Blccorredoresdeseguros",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Un insight sobre la atención de BL",
+        "fecha": "2026-10-30",
+        "hora": "00:54",
+        "estado": "Rebotado",
+        "estado_raw": "BOUNCED",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "119930044302",
         "destinatario_email": "antonio.x.torres@scania.com",
@@ -88616,6 +88741,90 @@
   },
   "negocios_detalle": [
     {
+      "id": "53946000259",
+      "nombre": "Toyota del Perú ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-01-15",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "56611198307",
+      "nombre": "Euromotors Perú Encuestas ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "ENCUESTA",
+      "tipo_negocio_label": "Encuestas / Aleatorias",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 456000.0,
+      "creado": "2026-02-18",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "60275606158",
+      "nombre": "Rimac Seguros Ventas Perú ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "VENTAS",
+      "tipo_negocio_label": "Ventas",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-05-15",
+      "cierre": "2026-05-31",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "60694899583",
+      "nombre": "Interbank Perú Ventas ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "VENTAS",
+      "tipo_negocio_label": "Ventas",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-05-28",
+      "cierre": "2026-05-31",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "66316522031",
+      "nombre": "BL Corredores de Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-19",
+      "cierre": null,
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "66505606803",
+      "nombre": "Post venta Autoland",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "VENTAS",
+      "tipo_negocio_label": "Ventas",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-21",
+      "cierre": null,
+      "ultima_actividad": "2026-10-30"
+    },
+    {
       "id": "54616168313",
       "nombre": "Scania Chile Perfilamiento de Leads",
       "pais": "Chile",
@@ -88812,20 +89021,6 @@
       "ultima_actividad": "2026-10-24"
     },
     {
-      "id": "66316522031",
-      "nombre": "BL Corredores de Seguros",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-19",
-      "cierre": null,
-      "ultima_actividad": "2026-10-23"
-    },
-    {
       "id": "66637140106",
       "nombre": "Asóciate Perú",
       "pais": "Perú",
@@ -88910,34 +89105,6 @@
       "ultima_actividad": "2026-10-22"
     },
     {
-      "id": "53946000259",
-      "nombre": "Toyota del Perú ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-01-15",
-      "cierre": "2026-02-28",
-      "ultima_actividad": "2026-10-21"
-    },
-    {
-      "id": "56611198307",
-      "nombre": "Euromotors Perú Encuestas ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "ENCUESTA",
-      "tipo_negocio_label": "Encuestas / Aleatorias",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 456000.0,
-      "creado": "2026-02-18",
-      "cierre": "2026-02-28",
-      "ultima_actividad": "2026-10-21"
-    },
-    {
       "id": "60076938338",
       "nombre": "Grupo Centenario Perú Perfilamiento de Leads ",
       "pais": "Perú",
@@ -88966,20 +89133,6 @@
       "ultima_actividad": "2026-10-21"
     },
     {
-      "id": "60275606158",
-      "nombre": "Rimac Seguros Ventas Perú ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "VENTAS",
-      "tipo_negocio_label": "Ventas",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-05-15",
-      "cierre": "2026-05-31",
-      "ultima_actividad": "2026-10-21"
-    },
-    {
       "id": "60355223463",
       "nombre": "Verisure Perú ",
       "pais": "Perú",
@@ -88990,20 +89143,6 @@
       "etapa_label": "Prospectos Contactados",
       "monto": 60000.0,
       "creado": "2026-05-19",
-      "cierre": "2026-05-31",
-      "ultima_actividad": "2026-10-21"
-    },
-    {
-      "id": "60694899583",
-      "nombre": "Interbank Perú Ventas ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "VENTAS",
-      "tipo_negocio_label": "Ventas",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-05-28",
       "cierre": "2026-05-31",
       "ultima_actividad": "2026-10-21"
     },
@@ -90998,20 +91137,6 @@
     {
       "id": "66502041640",
       "nombre": "Post venta Ronco Motors",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "VENTAS",
-      "tipo_negocio_label": "Ventas",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-21",
-      "cierre": null,
-      "ultima_actividad": "2026-10-21"
-    },
-    {
-      "id": "66505606803",
-      "nombre": "Post venta Autoland",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "VENTAS",
@@ -120860,7 +120985,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 880,
+    "correos": 886,
     "notas": 311,
     "llamadas": 162,
     "disponible": true
