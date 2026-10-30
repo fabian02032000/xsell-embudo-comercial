@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-30T14:28:51.933389+00:00",
+  "generado": "2026-10-30T19:38:28.933879+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -68781,26 +68781,6 @@
         {
           "fecha": "2026-09-28",
           "fuente": "MKT Pauta",
-          "contacto": "Javier Salmon",
-          "negocio": "JS INDUSTRIAL",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-28",
-          "fuente": "MKT Pauta",
-          "contacto": "Jorge Izquierdo",
-          "negocio": "Pintaza",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-09-28",
-          "fuente": "MKT Pauta",
           "contacto": "Karl vasquez",
           "negocio": "Proser-group",
           "etapa": "Descartada",
@@ -68867,6 +68847,26 @@
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
+          "contacto": "Javier Salmon",
+          "negocio": "JS INDUSTRIAL",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-09-28",
+          "fuente": "MKT Pauta",
+          "contacto": "Jorge Izquierdo",
+          "negocio": "Pintaza",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
         },
         {
           "fecha": "2026-09-28",
@@ -70101,8 +70101,8 @@
           "fuente": "MKT Pauta",
           "contacto": "WALTER EDGARDO RUIZ CASTRO",
           "negocio": "Feria De Carros los Brothers",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         }
@@ -70141,8 +70141,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Kare",
           "negocio": "Stevia Coronel ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         }
@@ -70181,8 +70181,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Lizbeth  Taboada",
           "negocio": "Lizbeth Taboada ",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -70191,8 +70191,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Isaias Apolinario Uscamayta",
           "negocio": "ETtoday",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         }
@@ -70229,22 +70229,22 @@
         {
           "fecha": "2026-10-16",
           "fuente": "MKT Pauta",
-          "contacto": "andres alejandro",
-          "negocio": "Colegio Militar \"Leoncio Prado\" CMLP-Callao",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-16",
-          "fuente": "MKT Pauta",
           "contacto": "Irving Chunga",
           "negocio": "Grupo Atlas",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": "Otros"
+        },
+        {
+          "fecha": "2026-10-16",
+          "fuente": "MKT Pauta",
+          "contacto": "andres alejandro",
+          "negocio": "Colegio Militar \"Leoncio Prado\" CMLP-Callao",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
         }
       ]
     },
@@ -70380,8 +70380,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Yoni S",
           "negocio": "Concreat",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -70606,16 +70606,6 @@
         {
           "fecha": "2026-10-22",
           "fuente": "MKT Pauta",
-          "contacto": "Pedro villa",
-          "negocio": "As",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-10-22",
-          "fuente": "MKT Pauta",
           "contacto": "Jairo Santos",
           "negocio": "Importaciones Textil London",
           "etapa": "Prospectos Contactados",
@@ -70626,10 +70616,20 @@
         {
           "fecha": "2026-10-22",
           "fuente": "MKT Pauta",
+          "contacto": "Pedro villa",
+          "negocio": "As",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-22",
+          "fuente": "MKT Pauta",
           "contacto": "Esthefany Santi",
           "negocio": "AutoPlan Financiamiento Vehicular",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -70638,8 +70638,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Enrique Vera",
           "negocio": "Caras bonitas",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -70648,8 +70648,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Luis Miguel Molina S.",
           "negocio": "LM Servicios comerciales",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         }
@@ -70940,7 +70940,38 @@
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-10-30",
+          "fuente": "MKT Pauta",
+          "contacto": "Mauro de la Barra",
+          "negocio": "Mauro de la Barra",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-30",
+          "fuente": "MKT Pauta",
+          "contacto": "David Guevara Falla",
+          "negocio": "David Guevara Falla",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-10-30",
+          "fuente": "MKT Pauta",
+          "contacto": "Carlos Torres Cabrera",
+          "negocio": "Carlos  Torres Cabrera",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -78111,6 +78142,18 @@
       "email": ""
     },
     {
+      "deal_id": "65309286032",
+      "negocio": "JS INDUSTRIAL",
+      "contacto": "Javier Salmon",
+      "email": "jsalmon@jsindustrial.pe"
+    },
+    {
+      "deal_id": "65309347341",
+      "negocio": "Pintaza",
+      "contacto": "Jorge Izquierdo",
+      "email": "jorgeizquierdocobos@gmail.com"
+    },
+    {
       "deal_id": "65309350464",
       "negocio": "Sin datos - Violeta Navarro moscoso",
       "contacto": "Violeta  Navarro moscoso",
@@ -78459,10 +78502,40 @@
       "email": ""
     },
     {
+      "deal_id": "65902544663",
+      "negocio": "Feria De Carros los Brothers",
+      "contacto": "WALTER EDGARDO RUIZ CASTRO",
+      "email": "crosswalter1206@gmail.com"
+    },
+    {
+      "deal_id": "65949567052",
+      "negocio": "Stevia Coronel ",
+      "contacto": "Kare",
+      "email": "lcoronel@steviacoronel.net"
+    },
+    {
+      "deal_id": "66021702176",
+      "negocio": "Lizbeth Taboada ",
+      "contacto": "Lizbeth  Taboada",
+      "email": "lizbeth_taboada@hotmail.com"
+    },
+    {
+      "deal_id": "66021773227",
+      "negocio": "ETtoday",
+      "contacto": "Isaias Apolinario Uscamayta",
+      "email": "juanjecorjauregui4@gmal.com"
+    },
+    {
       "deal_id": "66137582476",
       "negocio": "Grupo Atlas",
       "contacto": "Irving Chunga",
       "email": "informes@grupoatlasperu.com"
+    },
+    {
+      "deal_id": "66138336683",
+      "negocio": "Colegio Militar \"Leoncio Prado\" CMLP-Callao",
+      "contacto": "andres alejandro",
+      "email": "sanchezchihuan@gmail.com"
     },
     {
       "deal_id": "66277290119",
@@ -78483,6 +78556,12 @@
       "email": "escuelaelisadriver@gmail.com"
     },
     {
+      "deal_id": "66400848916",
+      "negocio": "Concreat",
+      "contacto": "Yoni S",
+      "email": "administracion@concreartperu.com"
+    },
+    {
       "deal_id": "66407329028",
       "negocio": "Erick Maldonado ",
       "contacto": "Erick Maldonado",
@@ -78493,6 +78572,30 @@
       "negocio": "AUTOCAMIONES DEL CENTRO",
       "contacto": "Melisa Ortega Moya",
       "email": "mortega@autocamiones.com.pe"
+    },
+    {
+      "deal_id": "66544376944",
+      "negocio": "As",
+      "contacto": "Pedro villa",
+      "email": "sdd@gmail.com"
+    },
+    {
+      "deal_id": "66544686394",
+      "negocio": "AutoPlan Financiamiento Vehicular",
+      "contacto": "Esthefany Santi",
+      "email": "vvaldiviezocardoza02@gmail.com"
+    },
+    {
+      "deal_id": "66544748290",
+      "negocio": "Caras bonitas",
+      "contacto": "Enrique Vera",
+      "email": "hola@carasbonitas.pe"
+    },
+    {
+      "deal_id": "66642453089",
+      "negocio": "LM Servicios comerciales",
+      "contacto": "Luis Miguel Molina S.",
+      "email": "luismiguelmolinasarmiento25@gmail.com"
     },
     {
       "deal_id": "66730503523",
@@ -78517,6 +78620,12 @@
       "negocio": "Ambacar",
       "contacto": "ysaac Rodriguez",
       "email": "saki_rodriguez@hotmail.com"
+    },
+    {
+      "deal_id": "67153371544",
+      "negocio": "Carlos  Torres Cabrera",
+      "contacto": "Carlos Torres Cabrera",
+      "email": "carwill061@gmail.com"
     }
   ],
   "correos_insight": {
@@ -88946,13 +89055,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2303,
+    "total_deals": 2306,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 371,
+        "cantidad": 361,
         "valor": 15874583.0
       },
       {
@@ -89000,7 +89109,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1260,
+        "cantidad": 1273,
         "valor": 123067885.2
       },
       {
@@ -89279,6 +89388,104 @@
       "ultima_actividad": "2026-10-30"
     },
     {
+      "id": "65309286032",
+      "nombre": "JS INDUSTRIAL",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "65309347341",
+      "nombre": "Pintaza",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "65902544663",
+      "nombre": "Feria De Carros los Brothers",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-13",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "65949567052",
+      "nombre": "Stevia Coronel ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-14",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "66021702176",
+      "nombre": "Lizbeth Taboada ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-15",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "66021773227",
+      "nombre": "ETtoday",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-15",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "66138336683",
+      "nombre": "Colegio Militar \"Leoncio Prado\" CMLP-Callao",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-16",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
       "id": "66316522031",
       "nombre": "BL Corredores de Seguros",
       "pais": "Perú",
@@ -89290,6 +89497,20 @@
       "monto": 0.0,
       "creado": "2026-10-19",
       "cierre": null,
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "66400848916",
+      "nombre": "Concreat",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-20",
+      "cierre": "2026-10-30",
       "ultima_actividad": "2026-10-30"
     },
     {
@@ -89360,6 +89581,118 @@
       "monto": 0.0,
       "creado": "2026-10-21",
       "cierre": null,
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "66544376944",
+      "nombre": "As",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-22",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "66544377099",
+      "nombre": "Importaciones Textil London",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-22",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "66544686394",
+      "nombre": "AutoPlan Financiamiento Vehicular",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-22",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "66544748290",
+      "nombre": "Caras bonitas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-22",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "66642453089",
+      "nombre": "LM Servicios comerciales",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-22",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "67153371544",
+      "nombre": "Carlos  Torres Cabrera",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-30",
+      "cierre": "2026-10-30",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "67153433245",
+      "nombre": "Mauro de la Barra",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-30",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "67167659889",
+      "nombre": "David Guevara Falla",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-30",
+      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-30"
     },
     {
@@ -89445,20 +89778,6 @@
       "creado": "2026-09-22",
       "cierre": null,
       "ultima_actividad": "2026-10-27"
-    },
-    {
-      "id": "66544686394",
-      "nombre": "AutoPlan Financiamiento Vehicular",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-22",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-26"
     },
     {
       "id": "66730503523",
@@ -89585,62 +89904,6 @@
       "creado": "2026-10-23",
       "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-23"
-    },
-    {
-      "id": "66642453089",
-      "nombre": "LM Servicios comerciales",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-22",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-23"
-    },
-    {
-      "id": "66544376944",
-      "nombre": "As",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-22",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-22"
-    },
-    {
-      "id": "66544377099",
-      "nombre": "Importaciones Textil London",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-22",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-22"
-    },
-    {
-      "id": "66544748290",
-      "nombre": "Caras bonitas",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-22",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-22"
     },
     {
       "id": "60355223463",
@@ -91645,20 +91908,6 @@
       "ultima_actividad": "2026-10-21"
     },
     {
-      "id": "66400848916",
-      "nombre": "Concreat",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-20",
-      "cierre": null,
-      "ultima_actividad": "2026-10-20"
-    },
-    {
       "id": "66407329028",
       "nombre": "Erick Maldonado ",
       "pais": "Perú",
@@ -91813,20 +92062,6 @@
       "ultima_actividad": "2026-10-19"
     },
     {
-      "id": "65902544663",
-      "nombre": "Feria De Carros los Brothers",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-13",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-19"
-    },
-    {
       "id": "66277290119",
       "nombre": "ja&l house and services",
       "pais": "Perú",
@@ -91883,20 +92118,6 @@
       "ultima_actividad": "2026-10-17"
     },
     {
-      "id": "66138336683",
-      "nombre": "Colegio Militar \"Leoncio Prado\" CMLP-Callao",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-16",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-16"
-    },
-    {
       "id": "65717810741",
       "nombre": "@cecibelia73",
       "pais": "Perú",
@@ -91922,34 +92143,6 @@
       "monto": 0.0,
       "creado": "2026-10-05",
       "cierre": null,
-      "ultima_actividad": "2026-10-15"
-    },
-    {
-      "id": "66021702176",
-      "nombre": "Lizbeth Taboada ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-15",
-      "cierre": null,
-      "ultima_actividad": "2026-10-15"
-    },
-    {
-      "id": "66021773227",
-      "nombre": "ETtoday",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-15",
-      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-15"
     },
     {
@@ -93227,20 +93420,6 @@
       "ultima_actividad": "2026-10-14"
     },
     {
-      "id": "65949567052",
-      "nombre": "Stevia Coronel ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-14",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-14"
-    },
-    {
       "id": "35626911111",
       "nombre": "Grupo El Tablón - Central de ventas",
       "pais": "Perú",
@@ -93479,20 +93658,6 @@
       "ultima_actividad": "2026-10-02"
     },
     {
-      "id": "65309347341",
-      "nombre": "Pintaza",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-10-01"
-    },
-    {
       "id": "65162284801",
       "nombre": "Privateacher International ",
       "pais": "Perú",
@@ -93532,20 +93697,6 @@
       "monto": 0.0,
       "creado": "2026-09-23",
       "cierre": "2026-09-23",
-      "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65309286032",
-      "nombre": "JS INDUSTRIAL",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
       "ultima_actividad": "2026-09-28"
     },
     {
@@ -121258,8 +121409,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 904,
-    "notas": 311,
-    "llamadas": 162,
+    "notas": 314,
+    "llamadas": 173,
     "disponible": true
   }
 }
