@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-30T07:21:25.441663+00:00",
+  "generado": "2026-10-30T14:28:51.933389+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70922,7 +70922,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 1,
+          "contactos": 3,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -70935,7 +70935,7 @@
         }
       },
       "total": {
-        "contactos": 2,
+        "contactos": 4,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -78523,7 +78523,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 563,
-    "tasa_apertura": 55.4,
+    "tasa_apertura": 55.8,
     "tasa_clics": 0.0,
     "tasa_respuestas": 24.2,
     "cobertura_rubro": 4.8,
@@ -78780,7 +78780,7 @@
         "hora": "01:22",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -79068,7 +79068,7 @@
         "hora": "11:00",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -89107,6 +89107,20 @@
       "etapa_label": "Prospectos Contactados",
       "monto": 60000.0,
       "creado": "2026-02-23",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "56896657576",
+      "nombre": "Grupo Mannucci Perú Perfilamiento de Leads ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-02-24",
       "cierre": "2026-02-28",
       "ultima_actividad": "2026-10-30"
     },
@@ -112515,20 +112529,6 @@
       "etapa_label": "Prospectos Contactados",
       "monto": 60000.0,
       "creado": "2026-02-19",
-      "cierre": "2026-02-28",
-      "ultima_actividad": "2026-07-16"
-    },
-    {
-      "id": "56896657576",
-      "nombre": "Grupo Mannucci Perú Perfilamiento de Leads ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-02-24",
       "cierre": "2026-02-28",
       "ultima_actividad": "2026-07-16"
     },
