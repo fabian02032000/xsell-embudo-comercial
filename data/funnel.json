@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-30T23:15:55.922297+00:00",
+  "generado": "2026-10-31T02:31:16.617338+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -70972,6 +70972,35 @@
           "motivo": null
         }
       ]
+    },
+    "2026-10-31": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -83353,7 +83382,7 @@
         "hora": "22:11",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 5,
+        "aperturas": 6,
         "clics": 0,
         "respuestas": 0
       },
@@ -89371,6 +89400,20 @@
       "monto": 60000.0,
       "creado": "2026-05-28",
       "cierre": "2026-05-31",
+      "ultima_actividad": "2026-10-30"
+    },
+    {
+      "id": "60873477276",
+      "nombre": "LG Electronics Perú Ventas ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "VENTAS",
+      "tipo_negocio_label": "Ventas",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 60000.0,
+      "creado": "2026-06-04",
+      "cierre": "2026-07-15",
       "ultima_actividad": "2026-10-30"
     },
     {
@@ -113212,20 +113255,6 @@
       "etapa_label": "Stand By",
       "monto": 18000.0,
       "creado": "2026-03-30",
-      "cierre": "2026-07-15",
-      "ultima_actividad": "2026-07-15"
-    },
-    {
-      "id": "60873477276",
-      "nombre": "LG Electronics Perú Ventas ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "VENTAS",
-      "tipo_negocio_label": "Ventas",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 60000.0,
-      "creado": "2026-06-04",
       "cierre": "2026-07-15",
       "ultima_actividad": "2026-07-15"
     },
