@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-02T09:58:14.589098+00:00",
+  "generado": "2026-11-02T20:16:28.938124+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71040,7 +71040,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 3,
+          "contactos": 5,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -71053,12 +71053,123 @@
         }
       },
       "total": {
-        "contactos": 3,
+        "contactos": 5,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Javier Rafael Ramírez Ocas",
+          "negocio": "Javier Rafael Ramírez Ocas",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Carolyn Rendon",
+          "negocio": "Carolyn Rendon",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Hilma Ruiz de Timper",
+          "negocio": "Vendo edificio frente al mar",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Araceli Mejia Ramos",
+          "negocio": "Araceli Mejia Ramos",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Augusto Vargas Cabanillas",
+          "negocio": "Augusto Vargas Cabanillas",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Carina Saavedra",
+          "negocio": "inmobiliaria",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Cesar Augusto Florez Castro",
+          "negocio": "Cesar Augusto Florez Castro",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Luis Peralta Ramirez",
+          "negocio": "Luis Peralta Ramirez",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Fredy Rafael Moreno Chavez",
+          "negocio": "Fredy Rafael Moreno Chavez",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Santiago Elescano",
+          "negocio": "CORPORACION ELESCANO SAC",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Alicia Vergara Zavala",
+          "negocio": "Alicia Vergara Zavala",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -78713,13 +78824,49 @@
       "negocio": "Carlos  Torres Cabrera",
       "contacto": "Carlos Torres Cabrera",
       "email": "carwill061@gmail.com"
+    },
+    {
+      "deal_id": "67153602152",
+      "negocio": "inmobiliaria",
+      "contacto": "Carina Saavedra",
+      "email": "carinasaabedra.leudine@gmail.com"
+    },
+    {
+      "deal_id": "67167578757",
+      "negocio": "Cesar Augusto Florez Castro",
+      "contacto": "Cesar Augusto Florez Castro",
+      "email": ""
+    },
+    {
+      "deal_id": "67307177300",
+      "negocio": "Luis Peralta Ramirez",
+      "contacto": "Luis Peralta Ramirez",
+      "email": "luisbeto_peralta@yahoo.com"
+    },
+    {
+      "deal_id": "67307234642",
+      "negocio": "Fredy Rafael Moreno Chavez",
+      "contacto": "Fredy Rafael Moreno Chavez",
+      "email": "fredylibra2017@hotmail.com"
+    },
+    {
+      "deal_id": "67307235255",
+      "negocio": "CORPORACION ELESCANO SAC",
+      "contacto": "Santiago Elescano",
+      "email": "gerencia@ciacontinental.com"
+    },
+    {
+      "deal_id": "67307297079",
+      "negocio": "Alicia Vergara Zavala",
+      "contacto": "Alicia Vergara Zavala",
+      "email": "alivanza30@gmail.com"
     }
   ],
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 563,
-    "tasa_apertura": 55.8,
+    "tasa_apertura": 56.0,
     "tasa_clics": 0.0,
     "tasa_respuestas": 24.2,
     "cobertura_rubro": 4.8,
@@ -80288,7 +80435,7 @@
         "hora": "12:00",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -89142,13 +89289,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2306,
+    "total_deals": 2317,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 361,
+        "cantidad": 366,
         "valor": 15874583.0
       },
       {
@@ -89196,7 +89343,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1273,
+        "cantidad": 1279,
         "valor": 123067885.2
       },
       {
@@ -89208,6 +89355,174 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "56645821185",
+      "nombre": "EUROPEAN OPEN BUSINESS SCHOOL",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
+      "etapa_label": "Stand By",
+      "monto": 0.0,
+      "creado": "2026-02-19",
+      "cierre": "2026-04-16",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "67153476002",
+      "nombre": "Javier Rafael Ramírez Ocas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "67153476679",
+      "nombre": "Carolyn Rendon",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "67153601171",
+      "nombre": "Vendo edificio frente al mar",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "67153602152",
+      "nombre": "inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-02",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "67167578757",
+      "nombre": "Cesar Augusto Florez Castro",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-02",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "67167702666",
+      "nombre": "Araceli Mejia Ramos",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "67167702928",
+      "nombre": "Augusto Vargas Cabanillas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "67307177300",
+      "nombre": "Luis Peralta Ramirez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-02",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "67307234642",
+      "nombre": "Fredy Rafael Moreno Chavez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-02",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "67307235255",
+      "nombre": "CORPORACION ELESCANO SAC",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-02",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "67307297079",
+      "nombre": "Alicia Vergara Zavala",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-02",
+      "ultima_actividad": "2026-11-02"
+    },
     {
       "id": "53754297921",
       "nombre": "EFE Perú Carritos Abandonados",
@@ -93547,20 +93862,6 @@
       "creado": "2025-08-27",
       "cierre": "2026-04-30",
       "ultima_actividad": "2026-10-12"
-    },
-    {
-      "id": "56645821185",
-      "nombre": "EUROPEAN OPEN BUSINESS SCHOOL",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
-      "etapa_label": "Stand By",
-      "monto": 0.0,
-      "creado": "2026-02-19",
-      "cierre": "2026-04-16",
-      "ultima_actividad": "2026-10-08"
     },
     {
       "id": "57021836060",
@@ -121496,8 +121797,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 904,
-    "notas": 314,
-    "llamadas": 173,
+    "notas": 318,
+    "llamadas": 185,
     "disponible": true
   }
 }
