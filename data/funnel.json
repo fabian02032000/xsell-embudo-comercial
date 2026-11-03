@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-03T09:57:50.692989+00:00",
+  "generado": "2026-11-03T17:43:32.026408+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71180,7 +71180,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -71193,12 +71193,23 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 1,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-11-03",
+          "fuente": "MKT Pauta",
+          "contacto": "Rony Campos",
+          "negocio": "Rony Campos",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -78895,7 +78906,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 563,
-    "tasa_apertura": 56.1,
+    "tasa_apertura": 56.3,
     "tasa_clics": 0.0,
     "tasa_respuestas": 24.2,
     "cobertura_rubro": 4.8,
@@ -79232,7 +79243,7 @@
         "hora": "01:14",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
@@ -79328,7 +79339,7 @@
         "hora": "16:17",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 3,
         "clics": 0,
         "respuestas": 0
       },
@@ -89318,13 +89329,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2317,
+    "total_deals": 2318,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 366,
+        "cantidad": 367,
         "valor": 15874583.0
       },
       {
@@ -89385,6 +89396,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "56611198307",
+      "nombre": "Euromotors Perú Encuestas ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "ENCUESTA",
+      "tipo_negocio_label": "Encuestas / Aleatorias",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 456000.0,
+      "creado": "2026-02-18",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-11-03"
+    },
+    {
       "id": "63834804004",
       "nombre": "PANDERO S.A. EAFC",
       "pais": "Perú",
@@ -89410,6 +89435,20 @@
       "monto": 0.0,
       "creado": "2026-10-30",
       "cierre": "2026-10-31",
+      "ultima_actividad": "2026-11-03"
+    },
+    {
+      "id": "67348353104",
+      "nombre": "Rony Campos",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-03",
+      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-03"
     },
     {
@@ -89662,20 +89701,6 @@
       "monto": 60000.0,
       "creado": "2026-02-16",
       "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-30"
-    },
-    {
-      "id": "56611198307",
-      "nombre": "Euromotors Perú Encuestas ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "ENCUESTA",
-      "tipo_negocio_label": "Encuestas / Aleatorias",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 456000.0,
-      "creado": "2026-02-18",
-      "cierre": "2026-02-28",
       "ultima_actividad": "2026-10-30"
     },
     {
@@ -121827,7 +121852,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 904,
     "notas": 318,
-    "llamadas": 185,
+    "llamadas": 186,
     "disponible": true
   }
 }
