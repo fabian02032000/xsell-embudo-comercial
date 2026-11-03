@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-02T20:16:28.938124+00:00",
+  "generado": "2026-11-03T02:28:20.574083+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71170,6 +71170,35 @@
           "motivo": null
         }
       ]
+    },
+    "2026-11-03": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -78866,7 +78895,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 563,
-    "tasa_apertura": 56.0,
+    "tasa_apertura": 56.1,
     "tasa_clics": 0.0,
     "tasa_respuestas": 24.2,
     "cobertura_rubro": 4.8,
@@ -80163,7 +80192,7 @@
         "hora": "18:07",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -81363,7 +81392,7 @@
         "hora": "01:41",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
@@ -89356,6 +89385,34 @@
   },
   "negocios_detalle": [
     {
+      "id": "63834804004",
+      "nombre": "PANDERO S.A. EAFC",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-08-13",
+      "cierre": "2026-08-14",
+      "ultima_actividad": "2026-11-03"
+    },
+    {
+      "id": "67153433245",
+      "nombre": "Mauro de la Barra",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-30",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-11-03"
+    },
+    {
       "id": "56645821185",
       "nombre": "EUROPEAN OPEN BUSINESS SCHOOL",
       "pais": "Perú",
@@ -89367,6 +89424,20 @@
       "monto": 0.0,
       "creado": "2026-02-19",
       "cierre": "2026-04-16",
+      "ultima_actividad": "2026-11-02"
+    },
+    {
+      "id": "65169269611",
+      "nombre": "JyM Grupo Inmobiliario",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-22",
+      "cierre": null,
       "ultima_actividad": "2026-11-02"
     },
     {
@@ -89790,20 +89861,6 @@
       "ultima_actividad": "2026-10-30"
     },
     {
-      "id": "63834804004",
-      "nombre": "PANDERO S.A. EAFC",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-08-13",
-      "cierre": "2026-08-14",
-      "ultima_actividad": "2026-10-30"
-    },
-    {
       "id": "65309286032",
       "nombre": "JS INDUSTRIAL",
       "pais": "Perú",
@@ -90081,20 +90138,6 @@
       "monto": 0.0,
       "creado": "2026-10-30",
       "cierre": "2026-10-30",
-      "ultima_actividad": "2026-10-30"
-    },
-    {
-      "id": "67153433245",
-      "nombre": "Mauro de la Barra",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-30",
-      "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-30"
     },
     {
@@ -92993,20 +93036,6 @@
       "monto": 0.0,
       "creado": "2026-09-21",
       "cierre": "2026-09-21",
-      "ultima_actividad": "2026-10-14"
-    },
-    {
-      "id": "65169269611",
-      "nombre": "JyM Grupo Inmobiliario",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-22",
-      "cierre": null,
       "ultima_actividad": "2026-10-14"
     },
     {
