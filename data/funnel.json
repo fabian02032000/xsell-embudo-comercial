@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-03T17:43:32.026408+00:00",
+  "generado": "2026-11-03T22:36:01.406554+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71092,16 +71092,6 @@
         {
           "fecha": "2026-11-02",
           "fuente": "MKT Pauta",
-          "contacto": "Araceli Mejia Ramos",
-          "negocio": "Araceli Mejia Ramos",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-02",
-          "fuente": "MKT Pauta",
           "contacto": "Augusto Vargas Cabanillas",
           "negocio": "Augusto Vargas Cabanillas",
           "etapa": "Prospectos Contactados",
@@ -71124,6 +71114,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Cesar Augusto Florez Castro",
           "negocio": "Cesar Augusto Florez Castro",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Araceli Mejia Ramos",
+          "negocio": "Araceli Mejia Ramos",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -71180,7 +71180,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 1,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -71193,7 +71193,7 @@
         }
       },
       "total": {
-        "contactos": 1,
+        "contactos": 2,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -71204,6 +71204,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Rony Campos",
           "negocio": "Rony Campos",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-03",
+          "fuente": "MKT Pauta",
+          "contacto": "Karina Berrocal Mendoza",
+          "negocio": "Karina Berrocal Mendoza",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot",
@@ -78878,6 +78888,12 @@
       "email": ""
     },
     {
+      "deal_id": "67167702666",
+      "negocio": "Araceli Mejia Ramos",
+      "contacto": "Araceli Mejia Ramos",
+      "email": "aracelimejiaramos@gmail.com"
+    },
+    {
       "deal_id": "67307177300",
       "negocio": "Luis Peralta Ramirez",
       "contacto": "Luis Peralta Ramirez",
@@ -78906,7 +78922,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 563,
-    "tasa_apertura": 56.3,
+    "tasa_apertura": 56.5,
     "tasa_clics": 0.0,
     "tasa_respuestas": 24.2,
     "cobertura_rubro": 4.8,
@@ -79051,7 +79067,7 @@
         "hora": "01:26",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -81147,7 +81163,7 @@
         "hora": "21:11",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 8,
+        "aperturas": 9,
         "clics": 0,
         "respuestas": 0
       },
@@ -81451,7 +81467,7 @@
         "hora": "23:07",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 8,
+        "aperturas": 9,
         "clics": 0,
         "respuestas": 1
       },
@@ -89329,7 +89345,7 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2318,
+    "total_deals": 2319,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
@@ -89383,7 +89399,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1279,
+        "cantidad": 1280,
         "valor": 123067885.2
       },
       {
@@ -89410,6 +89426,20 @@
       "ultima_actividad": "2026-11-03"
     },
     {
+      "id": "59963223397",
+      "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 30000.0,
+      "creado": "2026-05-04",
+      "cierre": "2026-06-23",
+      "ultima_actividad": "2026-11-03"
+    },
+    {
       "id": "63834804004",
       "nombre": "PANDERO S.A. EAFC",
       "pais": "Perú",
@@ -89421,6 +89451,20 @@
       "monto": 0.0,
       "creado": "2026-08-13",
       "cierre": "2026-08-14",
+      "ultima_actividad": "2026-11-03"
+    },
+    {
+      "id": "65162690064",
+      "nombre": "Inoved Operaciones & Logistica EIRL",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-09-22",
+      "cierre": "2026-09-24",
       "ultima_actividad": "2026-11-03"
     },
     {
@@ -89438,8 +89482,36 @@
       "ultima_actividad": "2026-11-03"
     },
     {
+      "id": "67167702666",
+      "nombre": "Araceli Mejia Ramos",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-03",
+      "ultima_actividad": "2026-11-03"
+    },
+    {
       "id": "67348353104",
       "nombre": "Rony Campos",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-03",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-03"
+    },
+    {
+      "id": "67365385647",
+      "nombre": "Karina Berrocal Mendoza",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -89547,20 +89619,6 @@
       "monto": 0.0,
       "creado": "2026-11-02",
       "cierre": "2026-11-02",
-      "ultima_actividad": "2026-11-02"
-    },
-    {
-      "id": "67167702666",
-      "nombre": "Araceli Mejia Ramos",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-02",
-      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-02"
     },
     {
@@ -89757,20 +89815,6 @@
       "monto": 60000.0,
       "creado": "2026-03-25",
       "cierre": "2026-05-31",
-      "ultima_actividad": "2026-10-30"
-    },
-    {
-      "id": "59963223397",
-      "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 30000.0,
-      "creado": "2026-05-04",
-      "cierre": "2026-06-23",
       "ultima_actividad": "2026-10-30"
     },
     {
@@ -94154,20 +94198,6 @@
       "creado": "2026-09-23",
       "cierre": "2026-09-23",
       "ultima_actividad": "2026-09-28"
-    },
-    {
-      "id": "65162690064",
-      "nombre": "Inoved Operaciones & Logistica EIRL",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-09-22",
-      "cierre": "2026-09-24",
-      "ultima_actividad": "2026-09-25"
     },
     {
       "id": "63834741832",
@@ -121851,8 +121881,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 904,
-    "notas": 318,
-    "llamadas": 186,
+    "notas": 319,
+    "llamadas": 187,
     "disponible": true
   }
 }
