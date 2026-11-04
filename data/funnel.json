@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T17:56:55.952283+00:00",
+  "generado": "2026-11-04T23:33:33.288810+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71230,7 +71230,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 4,
+          "contactos": 5,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -71243,7 +71243,7 @@
         }
       },
       "total": {
-        "contactos": 4,
+        "contactos": 5,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -71262,8 +71262,8 @@
         {
           "fecha": "2026-11-04",
           "fuente": "MKT Pauta",
-          "contacto": "Edgar Garay Callalli",
-          "negocio": "Edgar Garay Callalli",
+          "contacto": "Diego Alonso Ortiz Rodriguez",
+          "negocio": "Diego Alonso Ortiz Rodríguez",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot",
@@ -71272,10 +71272,10 @@
         {
           "fecha": "2026-11-04",
           "fuente": "MKT Pauta",
-          "contacto": "Diego Alonso Ortiz Rodriguez",
-          "negocio": "Diego Alonso Ortiz Rodríguez",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "contacto": "Edgar Garay Callalli",
+          "negocio": "Edgar Garay Callalli",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -78986,6 +78986,12 @@
       "negocio": "Alicia Vergara Zavala",
       "contacto": "Alicia Vergara Zavala",
       "email": "alivanza30@gmail.com"
+    },
+    {
+      "deal_id": "67368725079",
+      "negocio": "Edgar Garay Callalli",
+      "contacto": "Edgar Garay Callalli",
+      "email": "edgargaray37@hotmail.com"
     },
     {
       "deal_id": "67368846445",
@@ -89427,7 +89433,7 @@
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 370,
+        "cantidad": 369,
         "valor": 15874583.0
       },
       {
@@ -89475,7 +89481,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1281,
+        "cantidad": 1282,
         "valor": 123067885.2
       },
       {
@@ -89508,11 +89514,11 @@
       "pais_real": true,
       "tipo_negocio": "OTRO",
       "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
       "monto": 0.0,
       "creado": "2026-11-04",
-      "cierre": "2026-11-30",
+      "cierre": "2026-11-04",
       "ultima_actividad": "2026-11-04"
     },
     {
