@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T03:44:09.339352+00:00",
+  "generado": "2026-11-05T11:38:48.561692+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71318,7 +71318,18 @@
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-11-05",
+          "fuente": "Comercial",
+          "contacto": "(sin contacto)",
+          "negocio": "Vida Cámara",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -79032,12 +79043,204 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 563,
-    "tasa_apertura": 56.5,
+    "total_enviados": 569,
+    "tasa_apertura": 56.1,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 24.2,
-    "cobertura_rubro": 4.8,
+    "tasa_respuestas": 23.9,
+    "cobertura_rubro": 5.2,
     "detalle": [
+      {
+        "id": "120503441732",
+        "destinatario_email": "rruizb@euromotors.com.pe",
+        "destinatario_nombre": "Renato Ruiz",
+        "empresa": "Euromotors",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Re: Posventa con varias marcas bajo un mismo grupo",
+        "fecha": "2026-11-05",
+        "hora": "12:30",
+        "estado": "Programado",
+        "estado_raw": "SCHEDULED",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120503408478",
+        "destinatario_email": "walter.garcia@quatroinmobiliaria.pe",
+        "destinatario_nombre": "Walter García",
+        "empresa": "Quatro Inmobiliaria",
+        "empresa_adivinada": false,
+        "rubro": "Real Estate",
+        "asunto": "Re: Antes de la visita, quería un precio",
+        "fecha": "2026-11-05",
+        "hora": "12:15",
+        "estado": "Programado",
+        "estado_raw": "SCHEDULED",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120503430737",
+        "destinatario_email": "jporlles@lider.com.pe",
+        "destinatario_nombre": "Jackeline Porlles Quinones",
+        "empresa": "Líder Grupo Constructor",
+        "empresa_adivinada": false,
+        "rubro": "Real Estate",
+        "asunto": "Re: Atreo ya estaba en su radar",
+        "fecha": "2026-11-05",
+        "hora": "12:15",
+        "estado": "Programado",
+        "estado_raw": "SCHEDULED",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120503396148",
+        "destinatario_email": "acasalino@mac-center.com",
+        "destinatario_nombre": "Axel  Casalino",
+        "empresa": "Mac Center",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Más compras online, ticket más bajo",
+        "fecha": "2026-11-05",
+        "hora": "12:00",
+        "estado": "Programado",
+        "estado_raw": "SCHEDULED",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120503450897",
+        "destinatario_email": "jimena.grana@oechsle.pe",
+        "destinatario_nombre": "Jimena  Grana",
+        "empresa": "Oechsle",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Más compras online y tickets más pequeños",
+        "fecha": "2026-11-05",
+        "hora": "12:00",
+        "estado": "Programado",
+        "estado_raw": "SCHEDULED",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120503452160",
+        "destinatario_email": "jechevarriao@pandero.com.pe",
+        "destinatario_nombre": "Jose  Echevarria Olazabal",
+        "empresa": "Pandero",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Re: José, una idea sobre los interesados de Pandero",
+        "fecha": "2026-11-05",
+        "hora": "12:00",
+        "estado": "Programado",
+        "estado_raw": "SCHEDULED",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120503407397",
+        "destinatario_email": "brenda.paca@vidacamara.com.pe",
+        "destinatario_nombre": "Brenda Paca",
+        "empresa": "CIA. DE SEGUROS DE VIDA CAMARA S.A.",
+        "empresa_adivinada": false,
+        "rubro": null,
+        "asunto": "Los seguros crecen 8.8% en el Perú",
+        "fecha": "2026-11-05",
+        "hora": "11:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120503439756",
+        "destinatario_email": "valvarado@marcan.com.pe",
+        "destinatario_nombre": "Valeria Alvarado Castillo",
+        "empresa": "Marcan",
+        "empresa_adivinada": false,
+        "rubro": "Real Estate",
+        "asunto": "Re: Diciembre cambió la conversación",
+        "fecha": "2026-11-05",
+        "hora": "11:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 2,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120506705515",
+        "destinatario_email": "rolando.sayan@gacsa.pe",
+        "destinatario_nombre": "Rolando Sayan",
+        "empresa": "Gacsa",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Repuestos para un parque de 14.5 años",
+        "fecha": "2026-11-05",
+        "hora": "11:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120503440423",
+        "destinatario_email": "victor.pguillena@verisure.pe",
+        "destinatario_nombre": "Victor  Perez",
+        "empresa": "Verisure",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Una mudanza, una conversación",
+        "fecha": "2026-11-05",
+        "hora": "11:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120506704956",
+        "destinatario_email": "darispe@interamericanatrujillo.com",
+        "destinatario_nombre": "Daniel Arispe",
+        "empresa": "Interamericanatrujillo",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Re: ¿Cómo va el año en Trujillo, Daniel?",
+        "fecha": "2026-11-05",
+        "hora": "10:30",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120503393948",
+        "destinatario_email": "mtipian@europeanopenlatam.net",
+        "destinatario_nombre": "marian tipian",
+        "empresa": "EUROPEAN OPEN BUSINESS SCHOOL",
+        "empresa_adivinada": false,
+        "rubro": null,
+        "asunto": "Re: Marian, sobre la campaña de matrículas",
+        "fecha": "2026-11-05",
+        "hora": "10:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "119987792189",
         "destinatario_email": "ivette.vilcarromero@pacifico.com.pe",
@@ -89456,13 +89659,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2323,
+    "total_deals": 2324,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 369,
+        "cantidad": 370,
         "valor": 15874583.0
       },
       {
@@ -89523,6 +89726,188 @@
   },
   "negocios_detalle": [
     {
+      "id": "53956376201",
+      "nombre": "MAC CENTER PERÚ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-01-15",
+      "cierre": "2026-01-31",
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "56611198307",
+      "nombre": "Euromotors Perú Encuestas ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "ENCUESTA",
+      "tipo_negocio_label": "Encuestas / Aleatorias",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 456000.0,
+      "creado": "2026-02-18",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "56645821185",
+      "nombre": "EUROPEAN OPEN BUSINESS SCHOOL",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
+      "etapa_label": "Stand By",
+      "monto": 0.0,
+      "creado": "2026-02-19",
+      "cierre": "2026-04-16",
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "56709557539",
+      "nombre": "Wigo Motors Perú Perfilamiento de Leads",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-02-23",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "57021836060",
+      "nombre": "Intermotors Perú Perfilamiento de Leads ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 60000.0,
+      "creado": "2026-02-25",
+      "cierre": "2026-03-23",
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "60083410487",
+      "nombre": "Oechsle Perú Carritos Abondonados",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "CARTS",
+      "tipo_negocio_label": "Carritos Abandonados",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-05-07",
+      "cierre": "2026-05-31",
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "60355223463",
+      "nombre": "Verisure Perú ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-05-19",
+      "cierre": "2026-05-31",
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "60694834563",
+      "nombre": "Pandero Perú Ventas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "VENTAS",
+      "tipo_negocio_label": "Ventas",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-05-28",
+      "cierre": "2026-05-31",
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "65726660665",
+      "nombre": "Líder Grupo Constructor",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": null,
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "65731615281",
+      "nombre": "Marcan Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": null,
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "65748149412",
+      "nombre": "Quatro Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": null,
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "66949337730",
+      "nombre": "GACSA ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-29",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-11-05"
+    },
+    {
+      "id": "67562856095",
+      "nombre": "Vida Cámara",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-05",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-05"
+    },
+    {
       "id": "67368303117",
       "nombre": "Elba Maria Mónica Mujica Oviedo",
       "pais": "Perú",
@@ -89577,20 +89962,6 @@
       "creado": "2026-11-04",
       "cierre": "2026-11-04",
       "ultima_actividad": "2026-11-04"
-    },
-    {
-      "id": "56611198307",
-      "nombre": "Euromotors Perú Encuestas ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "ENCUESTA",
-      "tipo_negocio_label": "Encuestas / Aleatorias",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 456000.0,
-      "creado": "2026-02-18",
-      "cierre": "2026-02-28",
-      "ultima_actividad": "2026-11-03"
     },
     {
       "id": "59963223397",
@@ -89689,20 +90060,6 @@
       "creado": "2026-11-03",
       "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-03"
-    },
-    {
-      "id": "56645821185",
-      "nombre": "EUROPEAN OPEN BUSINESS SCHOOL",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
-      "etapa_label": "Stand By",
-      "monto": 0.0,
-      "creado": "2026-02-19",
-      "cierre": "2026-04-16",
-      "ultima_actividad": "2026-11-02"
     },
     {
       "id": "65169269611",
@@ -89929,20 +90286,6 @@
       "ultima_actividad": "2026-10-30"
     },
     {
-      "id": "56709557539",
-      "nombre": "Wigo Motors Perú Perfilamiento de Leads",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-02-23",
-      "cierre": "2026-02-28",
-      "ultima_actividad": "2026-10-30"
-    },
-    {
       "id": "56896657576",
       "nombre": "Grupo Mannucci Perú Perfilamiento de Leads ",
       "pais": "Perú",
@@ -90051,20 +90394,6 @@
       "etapa_label": "Prospectos Contactados",
       "monto": 60000.0,
       "creado": "2026-05-19",
-      "cierre": "2026-05-31",
-      "ultima_actividad": "2026-10-30"
-    },
-    {
-      "id": "60694834563",
-      "nombre": "Pandero Perú Ventas",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "VENTAS",
-      "tipo_negocio_label": "Ventas",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-05-28",
       "cierre": "2026-05-31",
       "ultima_actividad": "2026-10-30"
     },
@@ -90419,20 +90748,6 @@
       "ultima_actividad": "2026-10-29"
     },
     {
-      "id": "66949337730",
-      "nombre": "GACSA ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-29",
-      "cierre": "2026-10-31",
-      "ultima_actividad": "2026-10-29"
-    },
-    {
       "id": "66966032453",
       "nombre": "Ambacar",
       "pais": "Perú",
@@ -90599,20 +90914,6 @@
       "creado": "2026-10-23",
       "cierre": "2026-10-31",
       "ultima_actividad": "2026-10-23"
-    },
-    {
-      "id": "60355223463",
-      "nombre": "Verisure Perú ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-05-19",
-      "cierre": "2026-05-31",
-      "ultima_actividad": "2026-10-21"
     },
     {
       "id": "63433669676",
@@ -92631,20 +92932,6 @@
       "ultima_actividad": "2026-10-19"
     },
     {
-      "id": "65731615281",
-      "nombre": "Marcan Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": null,
-      "ultima_actividad": "2026-10-19"
-    },
-    {
       "id": "65739808895",
       "nombre": "Sin datos -  Alejandra Navarro ",
       "pais": "Perú",
@@ -92824,20 +93111,6 @@
       "monto": 0.0,
       "creado": "2026-10-07",
       "cierre": "2026-10-14",
-      "ultima_actividad": "2026-10-15"
-    },
-    {
-      "id": "65748149412",
-      "nombre": "Quatro Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": null,
       "ultima_actividad": "2026-10-15"
     },
     {
@@ -93807,20 +94080,6 @@
       "ultima_actividad": "2026-10-14"
     },
     {
-      "id": "65726660665",
-      "nombre": "Líder Grupo Constructor",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": null,
-      "ultima_actividad": "2026-10-14"
-    },
-    {
       "id": "65730616408",
       "nombre": "Sin datos - Ciro Falcon ",
       "pais": "Perú",
@@ -94127,20 +94386,6 @@
       "creado": "2025-08-27",
       "cierre": "2026-04-30",
       "ultima_actividad": "2026-10-12"
-    },
-    {
-      "id": "57021836060",
-      "nombre": "Intermotors Perú Perfilamiento de Leads ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 60000.0,
-      "creado": "2026-02-25",
-      "cierre": "2026-03-23",
-      "ultima_actividad": "2026-10-08"
     },
     {
       "id": "62852775191",
@@ -108157,20 +108402,6 @@
       "ultima_actividad": "2026-07-17"
     },
     {
-      "id": "60083410487",
-      "nombre": "Oechsle Perú Carritos Abondonados",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "CARTS",
-      "tipo_negocio_label": "Carritos Abandonados",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-05-07",
-      "cierre": "2026-05-31",
-      "ultima_actividad": "2026-07-17"
-    },
-    {
       "id": "60177661218",
       "nombre": "Quality Products Cliente Incógnito ",
       "pais": "Perú",
@@ -113024,20 +113255,6 @@
       "etapa": "1275439753",
       "etapa_label": "Prospectos Contactados",
       "monto": 0.0,
-      "creado": "2026-01-15",
-      "cierre": "2026-01-31",
-      "ultima_actividad": "2026-07-16"
-    },
-    {
-      "id": "53956376201",
-      "nombre": "MAC CENTER PERÚ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
       "creado": "2026-01-15",
       "cierre": "2026-01-31",
       "ultima_actividad": "2026-07-16"
@@ -122047,7 +122264,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 904,
+    "correos": 917,
     "notas": 320,
     "llamadas": 191,
     "disponible": true
