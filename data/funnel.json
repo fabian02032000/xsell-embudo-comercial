@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T11:38:48.561692+00:00",
+  "generado": "2026-11-05T19:01:09.423759+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71300,7 +71300,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -71313,7 +71313,7 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 1,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -79043,10 +79043,10 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 569,
-    "tasa_apertura": 56.1,
+    "total_enviados": 575,
+    "tasa_apertura": 56.0,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 23.9,
+    "tasa_respuestas": 23.7,
     "cobertura_rubro": 5.2,
     "detalle": [
       {
@@ -79059,9 +79059,9 @@
         "asunto": "Re: Posventa con varias marcas bajo un mismo grupo",
         "fecha": "2026-11-05",
         "hora": "12:30",
-        "estado": "Programado",
-        "estado_raw": "SCHEDULED",
-        "aperturas": 0,
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -79075,9 +79075,9 @@
         "asunto": "Re: Antes de la visita, quería un precio",
         "fecha": "2026-11-05",
         "hora": "12:15",
-        "estado": "Programado",
-        "estado_raw": "SCHEDULED",
-        "aperturas": 0,
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -79091,9 +79091,9 @@
         "asunto": "Re: Atreo ya estaba en su radar",
         "fecha": "2026-11-05",
         "hora": "12:15",
-        "estado": "Programado",
-        "estado_raw": "SCHEDULED",
-        "aperturas": 0,
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -79107,24 +79107,8 @@
         "asunto": "Más compras online, ticket más bajo",
         "fecha": "2026-11-05",
         "hora": "12:00",
-        "estado": "Programado",
-        "estado_raw": "SCHEDULED",
-        "aperturas": 0,
-        "clics": 0,
-        "respuestas": 0
-      },
-      {
-        "id": "120503450897",
-        "destinatario_email": "jimena.grana@oechsle.pe",
-        "destinatario_nombre": "Jimena  Grana",
-        "empresa": "Oechsle",
-        "empresa_adivinada": true,
-        "rubro": null,
-        "asunto": "Más compras online y tickets más pequeños",
-        "fecha": "2026-11-05",
-        "hora": "12:00",
-        "estado": "Programado",
-        "estado_raw": "SCHEDULED",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
         "aperturas": 0,
         "clics": 0,
         "respuestas": 0
@@ -79139,8 +79123,24 @@
         "asunto": "Re: José, una idea sobre los interesados de Pandero",
         "fecha": "2026-11-05",
         "hora": "12:00",
-        "estado": "Programado",
-        "estado_raw": "SCHEDULED",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "120503450897",
+        "destinatario_email": "jimena.grana@oechsle.pe",
+        "destinatario_nombre": "Jimena  Grana",
+        "empresa": "Oechsle",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Más compras online y tickets más pequeños",
+        "fecha": "2026-11-05",
+        "hora": "12:00",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
         "aperturas": 0,
         "clics": 0,
         "respuestas": 0
@@ -79573,7 +79573,7 @@
         "hora": "01:14",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 2,
+        "aperturas": 3,
         "clics": 0,
         "respuestas": 0
       },
@@ -79669,7 +79669,7 @@
         "hora": "16:17",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 3,
+        "aperturas": 4,
         "clics": 0,
         "respuestas": 0
       },
