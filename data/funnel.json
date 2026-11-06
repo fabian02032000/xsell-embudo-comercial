@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-06T15:00:00.511786+00:00",
+  "generado": "2026-11-06T20:50:31.074532+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71361,6 +71361,86 @@
       "detalle": [
         {
           "fecha": "2026-11-06",
+          "fuente": "Comercial",
+          "contacto": "José Antonio Salmón",
+          "negocio": "Qualitas Seguros",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
+          "fuente": "Comercial",
+          "contacto": "Aurea Carrillo",
+          "negocio": "La Protectora Corredores de Seguros",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
+          "fuente": "Comercial",
+          "contacto": "Oscar Yaipén",
+          "negocio": "Mapfre Perú Vida",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
+          "fuente": "Comercial",
+          "contacto": "Carlos Mariátegui",
+          "negocio": "TAS Corredores de Seguros",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
+          "fuente": "Comercial",
+          "contacto": "Guillermo Naves",
+          "negocio": "Motocorp",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
+          "fuente": "Comercial",
+          "contacto": "Roger Cubas",
+          "negocio": "Promotora Opción",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
+          "fuente": "Comercial",
+          "contacto": "Carlos Peñaranda",
+          "negocio": "Scotiabank Perú, Marketing",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
+          "fuente": "Comercial",
+          "contacto": "Patricia Luna",
+          "negocio": "Insur Seguros",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
           "fuente": "MKT Pauta",
           "contacto": "Smith Velasquez",
           "negocio": "Smith Velasquez",
@@ -71386,6 +71466,16 @@
           "negocio": "jean piturri dijuber",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
+          "fuente": "MKT Pauta",
+          "contacto": "David Rios Cabrera",
+          "negocio": "David Ríos ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         }
@@ -79098,13 +79188,19 @@
       "negocio": "Carlos Alberto Ballico",
       "contacto": "Carlos Alberto Ballico",
       "email": "ballicocarlos@gmail.com"
+    },
+    {
+      "deal_id": "67602248377",
+      "negocio": "David Ríos ",
+      "contacto": "David Rios Cabrera",
+      "email": "smartracingperu@gmail.com"
     }
   ],
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 575,
-    "tasa_apertura": 56.2,
+    "tasa_apertura": 56.3,
     "tasa_clics": 0.0,
     "tasa_respuestas": 23.7,
     "cobertura_rubro": 5.2,
@@ -79281,7 +79377,7 @@
         "hora": "10:30",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -80833,7 +80929,7 @@
         "hora": "12:00",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
@@ -89719,13 +89815,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2327,
+    "total_deals": 2336,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 373,
+        "cantidad": 381,
         "valor": 15874583.0
       },
       {
@@ -89773,7 +89869,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1282,
+        "cantidad": 1283,
         "valor": 123067885.2
       },
       {
@@ -89797,6 +89893,20 @@
       "monto": 60000.0,
       "creado": "2026-02-23",
       "cierre": "2026-02-28",
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "57021836060",
+      "nombre": "Intermotors Perú Perfilamiento de Leads ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 60000.0,
+      "creado": "2026-02-25",
+      "cierre": "2026-03-23",
       "ultima_actividad": "2026-11-06"
     },
     {
@@ -89828,6 +89938,20 @@
       "ultima_actividad": "2026-11-06"
     },
     {
+      "id": "67602248377",
+      "nombre": "David Ríos ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": "2026-11-06",
+      "ultima_actividad": "2026-11-06"
+    },
+    {
       "id": "67609881447",
       "nombre": "jean piturri dijuber",
       "pais": "Perú",
@@ -89839,6 +89963,118 @@
       "monto": 0.0,
       "creado": "2026-11-06",
       "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "67659326230",
+      "nombre": "Qualitas Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": null,
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "67666758686",
+      "nombre": "La Protectora Corredores de Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": null,
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "67674349424",
+      "nombre": "Mapfre Perú Vida",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": null,
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "67680700676",
+      "nombre": "TAS Corredores de Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": null,
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "67681319799",
+      "nombre": "Motocorp",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": null,
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "67682868071",
+      "nombre": "Promotora Opción",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": null,
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "67686584195",
+      "nombre": "Scotiabank Perú, Marketing",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": null,
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "67700552605",
+      "nombre": "Insur Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": null,
       "ultima_actividad": "2026-11-06"
     },
     {
@@ -89881,20 +90117,6 @@
       "monto": 0.0,
       "creado": "2026-02-19",
       "cierre": "2026-04-16",
-      "ultima_actividad": "2026-11-05"
-    },
-    {
-      "id": "57021836060",
-      "nombre": "Intermotors Perú Perfilamiento de Leads ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 60000.0,
-      "creado": "2026-02-25",
-      "cierre": "2026-03-23",
       "ultima_actividad": "2026-11-05"
     },
     {
@@ -122368,7 +122590,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 917,
     "notas": 320,
-    "llamadas": 194,
+    "llamadas": 195,
     "disponible": true
   }
 }
