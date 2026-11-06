@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T19:01:09.423759+00:00",
+  "generado": "2026-11-06T00:13:33.269934+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71330,6 +71330,35 @@
           "motivo": null
         }
       ]
+    },
+    "2026-11-06": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -79173,7 +79202,7 @@
         "hora": "11:00",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 2,
+        "aperturas": 3,
         "clics": 0,
         "respuestas": 0
       },
