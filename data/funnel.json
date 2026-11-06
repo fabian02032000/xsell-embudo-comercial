@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-06T00:13:33.269934+00:00",
+  "generado": "2026-11-06T07:01:37.834833+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71340,7 +71340,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -71353,7 +71353,7 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 1,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -79073,7 +79073,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 575,
-    "tasa_apertura": 56.0,
+    "tasa_apertura": 56.2,
     "tasa_clics": 0.0,
     "tasa_respuestas": 23.7,
     "cobertura_rubro": 5.2,
@@ -79218,7 +79218,7 @@
         "hora": "11:00",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -89755,6 +89755,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "56709557539",
+      "nombre": "Wigo Motors Perú Perfilamiento de Leads",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-02-23",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-11-06"
+    },
+    {
       "id": "53956376201",
       "nombre": "MAC CENTER PERÚ",
       "pais": "Perú",
@@ -89794,20 +89808,6 @@
       "monto": 0.0,
       "creado": "2026-02-19",
       "cierre": "2026-04-16",
-      "ultima_actividad": "2026-11-05"
-    },
-    {
-      "id": "56709557539",
-      "nombre": "Wigo Motors Perú Perfilamiento de Leads",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-02-23",
-      "cierre": "2026-02-28",
       "ultima_actividad": "2026-11-05"
     },
     {
