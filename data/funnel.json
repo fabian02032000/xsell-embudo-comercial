@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-06T07:01:37.834833+00:00",
+  "generado": "2026-11-06T15:00:00.511786+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71340,7 +71340,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 1,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -71353,12 +71353,43 @@
         }
       },
       "total": {
-        "contactos": 1,
+        "contactos": 2,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-11-06",
+          "fuente": "MKT Pauta",
+          "contacto": "Smith Velasquez",
+          "negocio": "Smith Velasquez",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
+          "fuente": "MKT Pauta",
+          "contacto": "Ramiro Montes Rivera",
+          "negocio": "Ramiro Montes Rivera",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
+          "fuente": "MKT Pauta",
+          "contacto": "jean piturri dijuber",
+          "negocio": "jean piturri dijuber",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -89688,13 +89719,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2324,
+    "total_deals": 2327,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 370,
+        "cantidad": 373,
         "valor": 15874583.0
       },
       {
@@ -89766,6 +89797,48 @@
       "monto": 60000.0,
       "creado": "2026-02-23",
       "cierre": "2026-02-28",
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "67602060879",
+      "nombre": "Smith Velasquez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "67602187100",
+      "nombre": "Ramiro Montes Rivera",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-06"
+    },
+    {
+      "id": "67609881447",
+      "nombre": "jean piturri dijuber",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-06"
     },
     {
@@ -122295,7 +122368,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 917,
     "notas": 320,
-    "llamadas": 191,
+    "llamadas": 194,
     "disponible": true
   }
 }
