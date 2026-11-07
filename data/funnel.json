@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-07T00:49:32.875452+00:00",
+  "generado": "2026-11-07T06:43:12.787297+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71490,7 +71490,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -71503,7 +71503,7 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 1,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -79229,7 +79229,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 586,
-    "tasa_apertura": 55.8,
+    "tasa_apertura": 56.0,
     "tasa_clics": 0.0,
     "tasa_respuestas": 23.2,
     "cobertura_rubro": 5.2,
@@ -79390,7 +79390,7 @@
         "hora": "23:05",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -79838,7 +79838,7 @@
         "hora": "01:26",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
@@ -90167,6 +90167,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "56443197498",
+      "nombre": "Mercedes Benz Perú Perfilamiento de Leads ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-02-16",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-11-07"
+    },
+    {
       "id": "67666758686",
       "nombre": "La Protectora Corredores de Seguros",
       "pais": "Perú",
@@ -90192,20 +90206,6 @@
       "monto": 60000.0,
       "creado": "2026-01-15",
       "cierre": "2026-01-31",
-      "ultima_actividad": "2026-11-06"
-    },
-    {
-      "id": "56443197498",
-      "nombre": "Mercedes Benz Perú Perfilamiento de Leads ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-02-16",
-      "cierre": "2026-10-31",
       "ultima_actividad": "2026-11-06"
     },
     {
