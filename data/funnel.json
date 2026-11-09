@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-09T10:26:53.987391+00:00",
+  "generado": "2026-11-09T21:00:39.598128+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71064,8 +71064,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Javier Rafael Ramírez Ocas",
           "negocio": "Javier Rafael Ramírez Ocas",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -71074,8 +71074,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Carolyn Rendon",
           "negocio": "Carolyn Rendon",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -71084,18 +71084,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Hilma Ruiz de Timper",
           "negocio": "Vendo edificio frente al mar",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-02",
-          "fuente": "MKT Pauta",
-          "contacto": "Augusto Vargas Cabanillas",
-          "negocio": "Augusto Vargas Cabanillas",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -71124,6 +71114,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Araceli Mejia Ramos",
           "negocio": "Araceli Mejia Ramos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-02",
+          "fuente": "MKT Pauta",
+          "contacto": "Augusto Vargas Cabanillas",
+          "negocio": "Augusto Vargas Cabanillas",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -71204,8 +71204,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Rony Campos",
           "negocio": "Rony Campos",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -71214,8 +71214,8 @@
           "fuente": "MKT Pauta",
           "contacto": "Karina Berrocal Mendoza",
           "negocio": "Karina Berrocal Mendoza",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         }
@@ -71262,18 +71262,18 @@
         {
           "fecha": "2026-11-04",
           "fuente": "MKT Pauta",
-          "contacto": "Diego Alonso Ortiz Rodriguez",
-          "negocio": "Diego Alonso Ortiz Rodríguez",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "contacto": "Edgar Garay Callalli",
+          "negocio": "Edgar Garay Callalli",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
         {
           "fecha": "2026-11-04",
           "fuente": "MKT Pauta",
-          "contacto": "Edgar Garay Callalli",
-          "negocio": "Edgar Garay Callalli",
+          "contacto": "Diego Alonso Ortiz Rodriguez",
+          "negocio": "Diego Alonso Ortiz Rodríguez",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -71442,16 +71442,6 @@
         {
           "fecha": "2026-11-06",
           "fuente": "MKT Pauta",
-          "contacto": "Smith Velasquez",
-          "negocio": "Smith Velasquez",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-06",
-          "fuente": "MKT Pauta",
           "contacto": "Ramiro Montes Rivera",
           "negocio": "Ramiro Montes Rivera",
           "etapa": "Prospectos Contactados",
@@ -71462,10 +71452,10 @@
         {
           "fecha": "2026-11-06",
           "fuente": "MKT Pauta",
-          "contacto": "jean piturri dijuber",
-          "negocio": "jean piturri dijuber",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
+          "contacto": "Smith Velasquez",
+          "negocio": "Smith Velasquez",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -71474,6 +71464,16 @@
           "fuente": "MKT Pauta",
           "contacto": "David Rios Cabrera",
           "negocio": "David Ríos ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-06",
+          "fuente": "MKT Pauta",
+          "contacto": "jean piturri dijuber",
+          "negocio": "jean piturri dijuber",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -71542,13 +71542,13 @@
     "2026-11-09": {
       "fuentes": {
         "Comercial": {
-          "contactos": 0,
+          "contactos": 2,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 7,
+          "contactos": 9,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -71561,12 +71561,283 @@
         }
       },
       "total": {
-        "contactos": 7,
+        "contactos": 11,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-11-09",
+          "fuente": "Comercial",
+          "contacto": "Edson  Pinto",
+          "negocio": "Ontario Inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Luis Tafur Zapata | El Trafficker💻de la MYPE",
+          "negocio": "Luis Tafur Zapata | El Trafficker💻de la MYPE",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Renzo Caballero Valdivia",
+          "negocio": "Renzo Caballero Valdivia",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Willie Sanchez",
+          "negocio": "Willie  Sanchez",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Javier Sirlopu Mendoza",
+          "negocio": "Javier Sirlopu Mendoza",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "John Cabrera Carranza",
+          "negocio": "John Cabrera Carranza",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Renzo Sara Lafosse González",
+          "negocio": "Renzo Sara Lafosse González",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Helberth Cruces",
+          "negocio": "Helberth Cruces",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Jason romulo Puente De La Vega zuniga",
+          "negocio": "Jason romulo Puente De La Vega zuniga",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "yoanna escalante",
+          "negocio": "yoanna escalante",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Christiam La Rosa",
+          "negocio": "Christiam La Rosa",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Jorge Luis Santos Arauco",
+          "negocio": "Jorge Luis Santos Arauco",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Roosevelt Quispe Saldaña",
+          "negocio": "Roosevelt Quispe Saldaña",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Aracely Franco Alayo",
+          "negocio": "Aracely Franco Alayo",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Luis Miguel Herrera Andreu",
+          "negocio": "Miguel Herrera Andreu",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Jack Medina Mntaño",
+          "negocio": "Jack Medina Mntaño",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Luis Corman Bartolo",
+          "negocio": "Luis Corman Bartolo",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "MAGUIÑA LUGO LUQUE LUCIANO",
+          "negocio": "MAGUIÑA LUGO LUQUE LUCIANO",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Madeleine Emilia Pomaceno",
+          "negocio": "Emilia Pomaceno",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Jaime Victor Velarde Marin",
+          "negocio": "Jaime Victor Velarde Marin",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Kate M",
+          "negocio": "Kate M",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Darwin castellanos",
+          "negocio": "Darwin  castellanos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "José Amable Medina Oblitas",
+          "negocio": "José Amable Medina Oblitas",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Canaza Apaza Orlando",
+          "negocio": "Canaza Apaza Orlando ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Cesar Andia Yañac",
+          "negocio": "Cesar Andia Yañac",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Roger Rolando Alvarado Vásquez",
+          "negocio": "Roger Rolando Alvarado Vásquez",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-09",
+          "fuente": "MKT Pauta",
+          "contacto": "Richard",
+          "negocio": "Richard",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -79223,6 +79494,24 @@
       "email": "carwill061@gmail.com"
     },
     {
+      "deal_id": "67153476002",
+      "negocio": "Javier Rafael Ramírez Ocas",
+      "contacto": "Javier Rafael Ramírez Ocas",
+      "email": "rafaelocas806@gmail.com"
+    },
+    {
+      "deal_id": "67153476679",
+      "negocio": "Carolyn Rendon",
+      "contacto": "Carolyn Rendon",
+      "email": "deysicarolyn_rendon@hotmail.com"
+    },
+    {
+      "deal_id": "67153601171",
+      "negocio": "Vendo edificio frente al mar",
+      "contacto": "Hilma Ruiz de Timper",
+      "email": "hilmatimper@gmail.com"
+    },
+    {
       "deal_id": "67153602152",
       "negocio": "inmobiliaria",
       "contacto": "Carina Saavedra",
@@ -79239,6 +79528,12 @@
       "negocio": "Araceli Mejia Ramos",
       "contacto": "Araceli Mejia Ramos",
       "email": "aracelimejiaramos@gmail.com"
+    },
+    {
+      "deal_id": "67167702928",
+      "negocio": "Augusto Vargas Cabanillas",
+      "contacto": "Augusto Vargas Cabanillas",
+      "email": "avargascabanillas@gmail.com"
     },
     {
       "deal_id": "67307177300",
@@ -79265,10 +79560,28 @@
       "email": "alivanza30@gmail.com"
     },
     {
+      "deal_id": "67348353104",
+      "negocio": "Rony Campos",
+      "contacto": "Rony Campos",
+      "email": "ronycampos.contacto@gmail.com"
+    },
+    {
+      "deal_id": "67365385647",
+      "negocio": "Karina Berrocal Mendoza",
+      "contacto": "Karina Berrocal Mendoza",
+      "email": "berrocalkarina@hotmail.com"
+    },
+    {
       "deal_id": "67368725079",
       "negocio": "Edgar Garay Callalli",
       "contacto": "Edgar Garay Callalli",
       "email": "edgargaray37@hotmail.com"
+    },
+    {
+      "deal_id": "67368846387",
+      "negocio": "Diego Alonso Ortiz Rodríguez",
+      "contacto": "Diego Alonso Ortiz Rodriguez",
+      "email": "densitycapilar@gmail.com"
     },
     {
       "deal_id": "67368846445",
@@ -79277,21 +79590,109 @@
       "email": "ballicocarlos@gmail.com"
     },
     {
+      "deal_id": "67602060879",
+      "negocio": "Smith Velasquez",
+      "contacto": "Smith Velasquez",
+      "email": "contaauyoya@gmail.com"
+    },
+    {
       "deal_id": "67602248377",
       "negocio": "David Ríos ",
       "contacto": "David Rios Cabrera",
       "email": "smartracingperu@gmail.com"
+    },
+    {
+      "deal_id": "67609881447",
+      "negocio": "jean piturri dijuber",
+      "contacto": "jean piturri dijuber",
+      "email": "piturxfd@santander.com"
+    },
+    {
+      "deal_id": "67660967238",
+      "negocio": "MAGUIÑA LUGO LUQUE LUCIANO",
+      "contacto": "MAGUIÑA LUGO LUQUE LUCIANO",
+      "email": "maguinaluque@gmail.com"
+    },
+    {
+      "deal_id": "67661087808",
+      "negocio": "Emilia Pomaceno",
+      "contacto": "Madeleine Emilia Pomaceno",
+      "email": "madeleinepomaceno@gmail.com"
+    },
+    {
+      "deal_id": "67661527355",
+      "negocio": "Jaime Victor Velarde Marin",
+      "contacto": "Jaime Victor Velarde Marin",
+      "email": "jaimevelardemarin2@gmail.com"
+    },
+    {
+      "deal_id": "67661527902",
+      "negocio": "Kate M",
+      "contacto": "Kate M",
+      "email": "k.maticorena.a@gmail.com"
+    },
+    {
+      "deal_id": "67661538057",
+      "negocio": "Darwin  castellanos",
+      "contacto": "Darwin castellanos",
+      "email": "factory.terra.express@gmail.com"
+    },
+    {
+      "deal_id": "67661650705",
+      "negocio": "José Amable Medina Oblitas",
+      "contacto": "José Amable Medina Oblitas",
+      "email": "jose.medinao@minedu.edu.pe"
+    },
+    {
+      "deal_id": "67661716627",
+      "negocio": "Canaza Apaza Orlando ",
+      "contacto": "Canaza Apaza Orlando",
+      "email": "orl.canaza@gmail.com"
+    },
+    {
+      "deal_id": "67677307960",
+      "negocio": "Cesar Andia Yañac",
+      "contacto": "Cesar Andia Yañac",
+      "email": "cesarandia046@gmail.com"
+    },
+    {
+      "deal_id": "67677309756",
+      "negocio": "Roger Rolando Alvarado Vásquez",
+      "contacto": "Roger Rolando Alvarado Vásquez",
+      "email": "betaproyectosinmobiliarios@gmail.com"
+    },
+    {
+      "deal_id": "67677311489",
+      "negocio": "Richard",
+      "contacto": "Richard",
+      "email": "gerente@hyb.pe"
     }
   ],
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 586,
-    "tasa_apertura": 56.0,
+    "total_enviados": 587,
+    "tasa_apertura": 56.2,
     "tasa_clics": 0.0,
     "tasa_respuestas": 23.2,
     "cobertura_rubro": 5.2,
     "detalle": [
+      {
+        "id": "120790352714",
+        "destinatario_email": "epinto@ontario.com.pe;dparedes@ontario.com.pe",
+        "destinatario_nombre": null,
+        "empresa": "Ontario",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Insight Xsell ",
+        "fecha": "2026-11-09",
+        "hora": "19:21",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 1,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "120704531628",
         "destinatario_email": "guillermoaneves@motocorp.pe",
@@ -79624,7 +80025,7 @@
         "hora": "12:00",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -90158,13 +90559,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2336,
+    "total_deals": 2363,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 381,
+        "cantidad": 389,
         "valor": 15874583.0
       },
       {
@@ -90212,7 +90613,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1283,
+        "cantidad": 1302,
         "valor": 123067885.2
       },
       {
@@ -90224,6 +90625,552 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "60694834563",
+      "nombre": "Pandero Perú Ventas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "VENTAS",
+      "tipo_negocio_label": "Ventas",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-05-28",
+      "cierre": "2026-05-31",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67153476002",
+      "nombre": "Javier Rafael Ramírez Ocas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67153476679",
+      "nombre": "Carolyn Rendon",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-06",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67153601171",
+      "nombre": "Vendo edificio frente al mar",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67167702928",
+      "nombre": "Augusto Vargas Cabanillas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-02",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67348353104",
+      "nombre": "Rony Campos",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-03",
+      "cierre": "2026-11-06",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67365385647",
+      "nombre": "Karina Berrocal Mendoza",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-03",
+      "cierre": "2026-11-06",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67368303117",
+      "nombre": "Elba Maria Mónica Mujica Oviedo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-04",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67368846387",
+      "nombre": "Diego Alonso Ortiz Rodríguez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-04",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67602060879",
+      "nombre": "Smith Velasquez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67602187100",
+      "nombre": "Ramiro Montes Rivera",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67609881447",
+      "nombre": "jean piturri dijuber",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-06",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67660910005",
+      "nombre": "Luis Tafur Zapata | El Trafficker💻de la MYPE",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67660910205",
+      "nombre": "Renzo Caballero Valdivia",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67660967238",
+      "nombre": "MAGUIÑA LUGO LUQUE LUCIANO",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67660969130",
+      "nombre": "Willie  Sanchez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661085991",
+      "nombre": "Javier Sirlopu Mendoza",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661086128",
+      "nombre": "John Cabrera Carranza",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661087808",
+      "nombre": "Emilia Pomaceno",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-10-29",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661527355",
+      "nombre": "Jaime Victor Velarde Marin",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661527902",
+      "nombre": "Kate M",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661538057",
+      "nombre": "Darwin  castellanos",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661650705",
+      "nombre": "José Amable Medina Oblitas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661653012",
+      "nombre": "Renzo Sara Lafosse González",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661713316",
+      "nombre": "Helberth Cruces",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661715804",
+      "nombre": "Jason romulo Puente De La Vega zuniga",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661716067",
+      "nombre": "yoanna escalante",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661716627",
+      "nombre": "Canaza Apaza Orlando ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661717151",
+      "nombre": "Christiam La Rosa",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661717659",
+      "nombre": "Jorge Luis Santos Arauco",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661723148",
+      "nombre": "Roosevelt Quispe Saldaña",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661724844",
+      "nombre": "Ontario Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67661779602",
+      "nombre": "Aracely Franco Alayo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67677307219",
+      "nombre": "Miguel Herrera Andreu",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67677307960",
+      "nombre": "Cesar Andia Yañac",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67677309756",
+      "nombre": "Roger Rolando Alvarado Vásquez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67677311489",
+      "nombre": "Richard",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67677311638",
+      "nombre": "Jack Medina Mntaño",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
+    {
+      "id": "67677312060",
+      "nombre": "Luis Corman Bartolo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-09"
+    },
     {
       "id": "56443197498",
       "nombre": "Mercedes Benz Perú Perfilamiento de Leads ",
@@ -90379,34 +91326,6 @@
       "ultima_actividad": "2026-11-06"
     },
     {
-      "id": "67602060879",
-      "nombre": "Smith Velasquez",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-06",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-06"
-    },
-    {
-      "id": "67602187100",
-      "nombre": "Ramiro Montes Rivera",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-06",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-06"
-    },
-    {
       "id": "67602248377",
       "nombre": "David Ríos ",
       "pais": "Perú",
@@ -90418,20 +91337,6 @@
       "monto": 0.0,
       "creado": "2026-11-06",
       "cierre": "2026-11-06",
-      "ultima_actividad": "2026-11-06"
-    },
-    {
-      "id": "67609881447",
-      "nombre": "jean piturri dijuber",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-06",
-      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-06"
     },
     {
@@ -90603,20 +91508,6 @@
       "ultima_actividad": "2026-11-05"
     },
     {
-      "id": "60694834563",
-      "nombre": "Pandero Perú Ventas",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "VENTAS",
-      "tipo_negocio_label": "Ventas",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-05-28",
-      "cierre": "2026-05-31",
-      "ultima_actividad": "2026-11-05"
-    },
-    {
       "id": "65726660665",
       "nombre": "Líder Grupo Constructor",
       "pais": "Perú",
@@ -90687,20 +91578,6 @@
       "ultima_actividad": "2026-11-05"
     },
     {
-      "id": "67368303117",
-      "nombre": "Elba Maria Mónica Mujica Oviedo",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-04",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-04"
-    },
-    {
       "id": "67368725079",
       "nombre": "Edgar Garay Callalli",
       "pais": "Perú",
@@ -90712,20 +91589,6 @@
       "monto": 0.0,
       "creado": "2026-11-04",
       "cierre": "2026-11-04",
-      "ultima_actividad": "2026-11-04"
-    },
-    {
-      "id": "67368846387",
-      "nombre": "Diego Alonso Ortiz Rodríguez",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-04",
-      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-04"
     },
     {
@@ -90799,34 +91662,6 @@
       "ultima_actividad": "2026-11-03"
     },
     {
-      "id": "67348353104",
-      "nombre": "Rony Campos",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-03",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-03"
-    },
-    {
-      "id": "67365385647",
-      "nombre": "Karina Berrocal Mendoza",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-03",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-03"
-    },
-    {
       "id": "65169269611",
       "nombre": "JyM Grupo Inmobiliario",
       "pais": "Perú",
@@ -90838,48 +91673,6 @@
       "monto": 0.0,
       "creado": "2026-09-22",
       "cierre": null,
-      "ultima_actividad": "2026-11-02"
-    },
-    {
-      "id": "67153476002",
-      "nombre": "Javier Rafael Ramírez Ocas",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-02",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-02"
-    },
-    {
-      "id": "67153476679",
-      "nombre": "Carolyn Rendon",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-02",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-02"
-    },
-    {
-      "id": "67153601171",
-      "nombre": "Vendo edificio frente al mar",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-02",
-      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-02"
     },
     {
@@ -90908,20 +91701,6 @@
       "monto": 0.0,
       "creado": "2026-11-02",
       "cierre": "2026-11-02",
-      "ultima_actividad": "2026-11-02"
-    },
-    {
-      "id": "67167702928",
-      "nombre": "Augusto Vargas Cabanillas",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-02",
-      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-02"
     },
     {
@@ -122931,9 +123710,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 934,
-    "notas": 320,
-    "llamadas": 195,
+    "correos": 935,
+    "notas": 331,
+    "llamadas": 234,
     "disponible": true
   }
 }
