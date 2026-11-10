@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-10T03:33:25.415619+00:00",
+  "generado": "2026-11-10T11:47:14.579699+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71858,7 +71858,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 5,
+          "contactos": 8,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -71871,7 +71871,7 @@
         }
       },
       "total": {
-        "contactos": 5,
+        "contactos": 8,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -90665,6 +90665,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "67661538057",
+      "nombre": "Darwin  castellanos",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-09",
+      "ultima_actividad": "2026-11-10"
+    },
+    {
       "id": "67661723148",
       "nombre": "Roosevelt Quispe Saldaña",
       "pais": "Perú",
@@ -90975,20 +90989,6 @@
     {
       "id": "67661527902",
       "nombre": "Kate M",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-11-09",
-      "cierre": "2026-11-09",
-      "ultima_actividad": "2026-11-09"
-    },
-    {
-      "id": "67661538057",
-      "nombre": "Darwin  castellanos",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
