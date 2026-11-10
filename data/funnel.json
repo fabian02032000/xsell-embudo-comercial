@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-10T18:56:12.635432+00:00",
+  "generado": "2026-11-10T23:59:08.197962+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -71858,7 +71858,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 10,
+          "contactos": 13,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -71871,7 +71871,7 @@
         }
       },
       "total": {
-        "contactos": 20,
+        "contactos": 23,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -72030,6 +72030,16 @@
         {
           "fecha": "2026-11-10",
           "fuente": "MKT Pauta",
+          "contacto": "Juan Diego Ibarra Galindo",
+          "negocio": "Juan  Diego Ibarra Galindo",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-10",
+          "fuente": "MKT Pauta",
           "contacto": "Eduardo Figueroa",
           "negocio": "Eduardo Figueroa",
           "etapa": "Descartada",
@@ -72072,6 +72082,26 @@
           "fuente": "MKT Pauta",
           "contacto": "Daniel Saavedra",
           "negocio": "Daniel  Saavedra",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-10",
+          "fuente": "MKT Pauta",
+          "contacto": "Cesar Flores",
+          "negocio": "Cesar Flores ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-10",
+          "fuente": "MKT Pauta",
+          "contacto": "Andrea Rosales",
+          "negocio": "Andrea Rosales ",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -79936,6 +79966,18 @@
       "negocio": "Daniel  Saavedra",
       "contacto": "Daniel Saavedra",
       "email": "nestor.saavedra@gsa.com.pe"
+    },
+    {
+      "deal_id": "67797137710",
+      "negocio": "Cesar Flores ",
+      "contacto": "Cesar Flores",
+      "email": "cesarflores.pepsi@gmail.com"
+    },
+    {
+      "deal_id": "67797571900",
+      "negocio": "Andrea Rosales ",
+      "contacto": "Andrea Rosales",
+      "email": "alisrosalesc@gmail.com"
     }
   ],
   "correos_insight": {
@@ -79944,7 +79986,7 @@
     "total_enviados": 588,
     "tasa_apertura": 56.5,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 23.3,
+    "tasa_respuestas": 23.5,
     "cobertura_rubro": 5.2,
     "detalle": [
       {
@@ -79959,9 +80001,9 @@
         "hora": "15:09",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 5,
+        "aperturas": 7,
         "clics": 0,
-        "respuestas": 0
+        "respuestas": 2
       },
       {
         "id": "120790352714",
@@ -79975,9 +80017,9 @@
         "hora": "19:21",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 5,
+        "aperturas": 7,
         "clics": 0,
-        "respuestas": 1
+        "respuestas": 2
       },
       {
         "id": "120704531628",
@@ -90845,13 +90887,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2375,
+    "total_deals": 2378,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 396,
+        "cantidad": 397,
         "valor": 15874583.0
       },
       {
@@ -90899,7 +90941,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1307,
+        "cantidad": 1309,
         "valor": 123067885.2
       },
       {
@@ -91138,6 +91180,48 @@
     {
       "id": "67794267973",
       "nombre": "Daniel  Saavedra",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-10",
+      "cierre": "2026-11-10",
+      "ultima_actividad": "2026-11-10"
+    },
+    {
+      "id": "67797076039",
+      "nombre": "Juan  Diego Ibarra Galindo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-10",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-10"
+    },
+    {
+      "id": "67797137710",
+      "nombre": "Cesar Flores ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-10",
+      "cierre": "2026-11-10",
+      "ultima_actividad": "2026-11-10"
+    },
+    {
+      "id": "67797571900",
+      "nombre": "Andrea Rosales ",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -124164,9 +124248,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 937,
-    "notas": 334,
-    "llamadas": 247,
+    "correos": 938,
+    "notas": 336,
+    "llamadas": 250,
     "disponible": true
   }
 }
