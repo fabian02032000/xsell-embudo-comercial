@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-10T23:59:08.197962+00:00",
+  "generado": "2026-11-11T05:58:11.317527+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72108,6 +72108,35 @@
           "motivo": null
         }
       ]
+    },
+    "2026-11-11": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 7,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 7,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -90953,6 +90982,20 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "53943760650",
+      "nombre": "UTP - Revisión de Cursos Temporal",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
+      "etapa_label": "Stand By",
+      "monto": 30160.0,
+      "creado": "2026-01-15",
+      "cierre": "2026-02-06",
+      "ultima_actividad": "2026-11-11"
+    },
     {
       "id": "65902544663",
       "nombre": "Walter Edgardo Ruiz Castro",
@@ -121177,20 +121220,6 @@
       "monto": 0.0,
       "creado": "2026-01-15",
       "cierre": "2026-01-31",
-      "ultima_actividad": "2026-07-05"
-    },
-    {
-      "id": "53943760650",
-      "nombre": "UTP - Revisión de Cursos Temporal",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
-      "etapa_label": "Stand By",
-      "monto": 30160.0,
-      "creado": "2026-01-15",
-      "cierre": "2026-02-06",
       "ultima_actividad": "2026-07-05"
     },
     {
