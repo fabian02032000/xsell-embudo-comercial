@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-11T14:03:42.398621+00:00",
+  "generado": "2026-11-11T21:24:29.401819+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72118,7 +72118,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 9,
+          "contactos": 14,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -72131,12 +72131,143 @@
         }
       },
       "total": {
-        "contactos": 9,
+        "contactos": 14,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Fernando Marcelo Contreras Cárdenas",
+          "negocio": "Fernando Marcelo Contreras Cárdenas",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Adriana Pizarro",
+          "negocio": "Adriana Pizarro",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Christian Canta Delacruz",
+          "negocio": "Christian Canta Delacruz",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Jorge Coello",
+          "negocio": "Jorge Coello",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Liber Oblitas Araujo",
+          "negocio": "Liber Oblitas Araujo",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Carlos Del Valle Suarez",
+          "negocio": "Carlos Del Valle Suarez",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Tatiana V. Gallegos",
+          "negocio": "Tatiana V. Gallegos",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Dayana Susset Fernández Yépez",
+          "negocio": "Dayana Susset Fernández Yépez",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Frank Soto",
+          "negocio": "Frank Soto",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Luis Arturo Calderón Morales",
+          "negocio": "Luis Arturo Calderón Morales",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Jheyson kevin",
+          "negocio": "Jheyson kevin",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Yuri vera",
+          "negocio": "Yuri vera",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-11",
+          "fuente": "MKT Pauta",
+          "contacto": "Martin Lenyn",
+          "negocio": "Martin Lenyn",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -79997,27 +80128,73 @@
       "email": "nestor.saavedra@gsa.com.pe"
     },
     {
+      "deal_id": "67796970079",
+      "negocio": "Frank Soto",
+      "contacto": "Frank Soto",
+      "email": "franksoto.1@hotmail.com"
+    },
+    {
+      "deal_id": "67796970362",
+      "negocio": "Luis Arturo Calderón Morales",
+      "contacto": "Luis Arturo Calderón Morales",
+      "email": "lcalderonmo2@gmail.com"
+    },
+    {
+      "deal_id": "67797105926",
+      "negocio": "Jheyson kevin",
+      "contacto": "Jheyson kevin",
+      "email": "jheysonkevinkun7@gmail.com"
+    },
+    {
       "deal_id": "67797137710",
       "negocio": "Cesar Flores ",
       "contacto": "Cesar Flores",
       "email": "cesarflores.pepsi@gmail.com"
     },
     {
+      "deal_id": "67797537299",
+      "negocio": "Yuri vera",
+      "contacto": "Yuri vera",
+      "email": "cyberfoxxx2023@gmail.com"
+    },
+    {
       "deal_id": "67797571900",
       "negocio": "Andrea Rosales ",
       "contacto": "Andrea Rosales",
       "email": "alisrosalesc@gmail.com"
+    },
+    {
+      "deal_id": "67797593448",
+      "negocio": "Martin Lenyn",
+      "contacto": "Martin Lenyn",
+      "email": "mespinozas@utp.edu.pe"
     }
   ],
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 588,
+    "total_enviados": 589,
     "tasa_apertura": 56.5,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 23.5,
+    "tasa_respuestas": 23.6,
     "cobertura_rubro": 5.2,
     "detalle": [
+      {
+        "id": "120932903053",
+        "destinatario_email": "dparedes@ontario.com.pe",
+        "destinatario_nombre": "Diego  Paredes",
+        "empresa": "Ontario",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "RE: Insight Xsell",
+        "fecha": "2026-11-11",
+        "hora": "15:38",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 10,
+        "clics": 0,
+        "respuestas": 3
+      },
       {
         "id": "120832792848",
         "destinatario_email": "dparedes@ontario.com.pe",
@@ -80030,9 +80207,9 @@
         "hora": "15:09",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 7,
+        "aperturas": 10,
         "clics": 0,
-        "respuestas": 2
+        "respuestas": 3
       },
       {
         "id": "120790352714",
@@ -80046,9 +80223,9 @@
         "hora": "19:21",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 7,
+        "aperturas": 10,
         "clics": 0,
-        "respuestas": 2
+        "respuestas": 3
       },
       {
         "id": "120704531628",
@@ -90916,13 +91093,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2378,
+    "total_deals": 2391,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 397,
+        "cantidad": 405,
         "valor": 15874583.0
       },
       {
@@ -90970,7 +91147,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1309,
+        "cantidad": 1314,
         "valor": 123067885.2
       },
       {
@@ -90994,6 +91171,202 @@
       "monto": 30160.0,
       "creado": "2026-01-15",
       "cierre": "2026-02-06",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67661724844",
+      "nombre": "Ontario Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-09",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67796970079",
+      "nombre": "Frank Soto",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-11",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67796970362",
+      "nombre": "Luis Arturo Calderón Morales",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-11",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67796970545",
+      "nombre": "Fernando Marcelo Contreras Cárdenas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67797033728",
+      "nombre": "Adriana Pizarro",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67797036142",
+      "nombre": "Christian Canta Delacruz",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67797105926",
+      "nombre": "Jheyson kevin",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-11",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67797160585",
+      "nombre": "Jorge Coello",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67797537299",
+      "nombre": "Yuri vera",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-11",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67797593254",
+      "nombre": "Liber Oblitas Araujo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67797593448",
+      "nombre": "Martin Lenyn",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-11",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67797654317",
+      "nombre": "Carlos Del Valle Suarez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67797654909",
+      "nombre": "Tatiana V. Gallegos",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-11"
+    },
+    {
+      "id": "67797655737",
+      "nombre": "Dayana Susset Fernández Yépez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-11",
+      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-11"
     },
     {
@@ -91139,20 +91512,6 @@
     {
       "id": "67661723148",
       "nombre": "Roosevelt Quispe Saldaña",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-09",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-10"
-    },
-    {
-      "id": "67661724844",
-      "nombre": "Ontario Inmobiliaria",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -124277,9 +124636,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 938,
-    "notas": 336,
-    "llamadas": 250,
+    "correos": 940,
+    "notas": 340,
+    "llamadas": 263,
     "disponible": true
   }
 }
