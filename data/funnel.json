@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-12T10:12:17.699495+00:00",
+  "generado": "2026-11-12T18:26:14.200999+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72278,7 +72278,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 4,
+          "contactos": 5,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -72291,12 +72291,52 @@
         }
       },
       "total": {
-        "contactos": 4,
+        "contactos": 5,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
       "detalle": [
+        {
+          "fecha": "2026-11-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Miguel Pachón Iparraguirre",
+          "negocio": "Miguel Pachón Iparraguirre",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Patrick Valladares Palomino",
+          "negocio": "Patrick Valladares Palomino",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Nicole Quispe",
+          "negocio": "Nicole Quispe",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Diego Martin sanchez roman",
+          "negocio": "Diciembre cambió la conversación",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
         {
           "fecha": "2026-11-12",
           "fuente": "MKT Pauta",
@@ -91155,13 +91195,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2393,
+    "total_deals": 2397,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 405,
+        "cantidad": 409,
         "valor": 15874583.0
       },
       {
@@ -91247,6 +91287,62 @@
       "monto": 0.0,
       "creado": "2026-11-12",
       "cierre": "2026-11-12",
+      "ultima_actividad": "2026-11-12"
+    },
+    {
+      "id": "67884687391",
+      "nombre": "Miguel Pachón Iparraguirre",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-12",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-12"
+    },
+    {
+      "id": "67886668105",
+      "nombre": "Patrick Valladares Palomino",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-12",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-12"
+    },
+    {
+      "id": "67924968581",
+      "nombre": "Nicole Quispe",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-12",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-12"
+    },
+    {
+      "id": "67925076847",
+      "nombre": "Diciembre cambió la conversación",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-12",
+      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-12"
     },
     {
@@ -124728,7 +124824,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 940,
     "notas": 340,
-    "llamadas": 265,
+    "llamadas": 268,
     "disponible": true
   }
 }
