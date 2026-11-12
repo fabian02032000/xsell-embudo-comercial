@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-11T21:24:29.401819+00:00",
+  "generado": "2026-11-12T02:27:38.858762+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72118,7 +72118,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 14,
+          "contactos": 15,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -72131,7 +72131,7 @@
         }
       },
       "total": {
-        "contactos": 14,
+        "contactos": 15,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -72262,6 +72262,56 @@
           "fuente": "MKT Pauta",
           "contacto": "Martin Lenyn",
           "negocio": "Martin Lenyn",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
+    },
+    "2026-11-12": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": [
+        {
+          "fecha": "2026-11-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Sergio Angulo",
+          "negocio": "Sergio Angulo",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-12",
+          "fuente": "MKT Pauta",
+          "contacto": "Olga",
+          "negocio": "Olga",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -80158,6 +80208,12 @@
       "email": "cyberfoxxx2023@gmail.com"
     },
     {
+      "deal_id": "67797551205",
+      "negocio": "Sergio Angulo",
+      "contacto": "Sergio Angulo",
+      "email": "sergioanguloreategui4@gmail.com"
+    },
+    {
       "deal_id": "67797571900",
       "negocio": "Andrea Rosales ",
       "contacto": "Andrea Rosales",
@@ -80168,6 +80224,12 @@
       "negocio": "Martin Lenyn",
       "contacto": "Martin Lenyn",
       "email": "mespinozas@utp.edu.pe"
+    },
+    {
+      "deal_id": "67797730076",
+      "negocio": "Olga",
+      "contacto": "Olga",
+      "email": "ommendozav@gmail.com"
     }
   ],
   "correos_insight": {
@@ -91093,7 +91155,7 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2391,
+    "total_deals": 2393,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
@@ -91147,7 +91209,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1314,
+        "cantidad": 1316,
         "valor": 123067885.2
       },
       {
@@ -91159,6 +91221,34 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "67797551205",
+      "nombre": "Sergio Angulo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-12",
+      "cierre": "2026-11-12",
+      "ultima_actividad": "2026-11-12"
+    },
+    {
+      "id": "67797730076",
+      "nombre": "Olga",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-12",
+      "cierre": "2026-11-12",
+      "ultima_actividad": "2026-11-12"
+    },
     {
       "id": "53943760650",
       "nombre": "UTP - Revisión de Cursos Temporal",
@@ -124638,7 +124728,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 940,
     "notas": 340,
-    "llamadas": 263,
+    "llamadas": 265,
     "disponible": true
   }
 }
