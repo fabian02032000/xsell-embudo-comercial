@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-13T12:10:57.218918+00:00",
+  "generado": "2026-11-13T19:53:01.716338+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72378,7 +72378,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 2,
+          "contactos": 8,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -72391,12 +72391,93 @@
         }
       },
       "total": {
-        "contactos": 2,
+        "contactos": 8,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-11-13",
+          "fuente": "MKT Pauta",
+          "contacto": "Diego Enrrique Espejo Suarez",
+          "negocio": "Diego Enrrique Espejo Suarez",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-13",
+          "fuente": "MKT Pauta",
+          "contacto": "Juan Zentner Carrillo",
+          "negocio": "Juan Zentner Carrillo",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-13",
+          "fuente": "MKT Pauta",
+          "contacto": "Jackson Martin Vasquez Urbina",
+          "negocio": "Jackson Martin Vasquez Urbina",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-13",
+          "fuente": "MKT Pauta",
+          "contacto": "marcos poma",
+          "negocio": "marcos poma",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-13",
+          "fuente": "MKT Pauta",
+          "contacto": "Keilla Milagros Caso Villalobos",
+          "negocio": "Keilla Milagros Caso Villalobos",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-13",
+          "fuente": "MKT Pauta",
+          "contacto": "Ronny Maxwell Caqui Chavez",
+          "negocio": "Ronny Maxwell Caqui Chavez",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-13",
+          "fuente": "MKT Pauta",
+          "contacto": "Veronica Mocarro Palacios",
+          "negocio": "Veronica Mocarro Palacios",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-13",
+          "fuente": "MKT Pauta",
+          "contacto": "Oscar Rojas",
+          "negocio": "Oscar Rojas",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -80309,6 +80390,30 @@
       "negocio": "Olga",
       "contacto": "Olga",
       "email": "ommendozav@gmail.com"
+    },
+    {
+      "deal_id": "67884709258",
+      "negocio": "Keilla Milagros Caso Villalobos",
+      "contacto": "Keilla Milagros Caso Villalobos",
+      "email": "keillacaso@ucayalimotors.com"
+    },
+    {
+      "deal_id": "67884710534",
+      "negocio": "Ronny Maxwell Caqui Chavez",
+      "contacto": "Ronny Maxwell Caqui Chavez",
+      "email": "construmax2186@gmail.com"
+    },
+    {
+      "deal_id": "67884765956",
+      "negocio": "Veronica Mocarro Palacios",
+      "contacto": "Veronica Mocarro Palacios",
+      "email": "mocarropalaciosveronicadelmila@gmail.com"
+    },
+    {
+      "deal_id": "67884766307",
+      "negocio": "Oscar Rojas",
+      "contacto": "Oscar Rojas",
+      "email": "orojaslongoria2@gmail.com"
     },
     {
       "deal_id": "67886668105",
@@ -91246,13 +91351,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2398,
+    "total_deals": 2406,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 408,
+        "cantidad": 412,
         "valor": 15874583.0
       },
       {
@@ -91300,7 +91405,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1318,
+        "cantidad": 1322,
         "valor": 123067885.2
       },
       {
@@ -91324,6 +91429,118 @@
       "monto": 0.0,
       "creado": "2026-10-21",
       "cierre": "2026-10-21",
+      "ultima_actividad": "2026-11-13"
+    },
+    {
+      "id": "67884709258",
+      "nombre": "Keilla Milagros Caso Villalobos",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-13",
+      "cierre": "2026-11-13",
+      "ultima_actividad": "2026-11-13"
+    },
+    {
+      "id": "67884709426",
+      "nombre": "Diego Enrrique Espejo Suarez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-13",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-13"
+    },
+    {
+      "id": "67884710534",
+      "nombre": "Ronny Maxwell Caqui Chavez",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-13",
+      "cierre": "2026-11-13",
+      "ultima_actividad": "2026-11-13"
+    },
+    {
+      "id": "67884765956",
+      "nombre": "Veronica Mocarro Palacios",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-13",
+      "cierre": "2026-11-13",
+      "ultima_actividad": "2026-11-13"
+    },
+    {
+      "id": "67884766307",
+      "nombre": "Oscar Rojas",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-13",
+      "cierre": "2026-11-13",
+      "ultima_actividad": "2026-11-13"
+    },
+    {
+      "id": "67969875884",
+      "nombre": "Juan Zentner Carrillo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-13",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-13"
+    },
+    {
+      "id": "67969936231",
+      "nombre": "Jackson Martin Vasquez Urbina",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-13",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-13"
+    },
+    {
+      "id": "67984651565",
+      "nombre": "marcos poma",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-13",
+      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-13"
     },
     {
@@ -124888,8 +125105,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 940,
-    "notas": 343,
-    "llamadas": 270,
+    "notas": 346,
+    "llamadas": 278,
     "disponible": true
   }
 }
