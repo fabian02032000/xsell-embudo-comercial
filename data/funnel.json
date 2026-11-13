@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-12T23:49:19.731360+00:00",
+  "generado": "2026-11-13T04:06:25.231749+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72368,6 +72368,35 @@
           "motivo": null
         }
       ]
+    },
+    "2026-11-13": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 1,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 1,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -91284,6 +91313,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "66440423941",
+      "nombre": "AUTOCAMIONES DEL CENTRO",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-10-21",
+      "cierre": "2026-10-21",
+      "ultima_actividad": "2026-11-13"
+    },
+    {
       "id": "67797551205",
       "nombre": "Sergio Angulo",
       "pais": "Perú",
@@ -95411,20 +95454,6 @@
       "monto": 0.0,
       "creado": "2026-10-12",
       "cierre": "2026-10-19",
-      "ultima_actividad": "2026-10-21"
-    },
-    {
-      "id": "66440423941",
-      "nombre": "AUTOCAMIONES DEL CENTRO",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "closedlost",
-      "etapa_label": "Descartada",
-      "monto": 0.0,
-      "creado": "2026-10-21",
-      "cierre": "2026-10-21",
       "ultima_actividad": "2026-10-21"
     },
     {
