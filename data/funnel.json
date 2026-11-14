@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-13T19:53:01.716338+00:00",
+  "generado": "2026-11-14T00:50:51.889705+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72378,7 +72378,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 8,
+          "contactos": 9,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -72391,7 +72391,7 @@
         }
       },
       "total": {
-        "contactos": 8,
+        "contactos": 9,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -72472,6 +72472,66 @@
           "fuente": "MKT Pauta",
           "contacto": "Oscar Rojas",
           "negocio": "Oscar Rojas",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
+    },
+    "2026-11-14": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 1,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 1,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": [
+        {
+          "fecha": "2026-11-14",
+          "fuente": "MKT Pauta",
+          "contacto": "Ramon Orrego Serran",
+          "negocio": "Ramon Orrego Serran",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-14",
+          "fuente": "MKT Pauta",
+          "contacto": "Néstor Ruíz Zegarra",
+          "negocio": "Néstor Ruíz Zegarra",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-14",
+          "fuente": "MKT Pauta",
+          "contacto": "Zoraida Maruja Villaverde Escarrache",
+          "negocio": "Zoraida Maruja Villaverde Escarrache",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -80426,6 +80486,12 @@
       "negocio": "Jc Cruz",
       "contacto": "Jc Cruz",
       "email": "jcdelacruz282000@gmail.com"
+    },
+    {
+      "deal_id": "67925117279",
+      "negocio": "Zoraida Maruja Villaverde Escarrache",
+      "contacto": "Zoraida Maruja Villaverde Escarrache",
+      "email": "zoraidave13@gmail.com"
     }
   ],
   "correos_insight": {
@@ -91351,13 +91417,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2406,
+    "total_deals": 2409,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 412,
+        "cantidad": 414,
         "valor": 15874583.0
       },
       {
@@ -91405,7 +91471,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1322,
+        "cantidad": 1323,
         "valor": 123067885.2
       },
       {
@@ -91417,6 +91483,48 @@
     ]
   },
   "negocios_detalle": [
+    {
+      "id": "67925117279",
+      "nombre": "Zoraida Maruja Villaverde Escarrache",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-14",
+      "cierre": "2026-11-14",
+      "ultima_actividad": "2026-11-14"
+    },
+    {
+      "id": "67984671406",
+      "nombre": "Ramon Orrego Serran",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-14",
+      "cierre": "2026-12-01",
+      "ultima_actividad": "2026-11-14"
+    },
+    {
+      "id": "67984671531",
+      "nombre": "Néstor Ruíz Zegarra",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-14",
+      "cierre": "2026-12-01",
+      "ultima_actividad": "2026-11-14"
+    },
     {
       "id": "66440423941",
       "nombre": "AUTOCAMIONES DEL CENTRO",
@@ -125105,8 +125213,8 @@
   "actividades": {
     "desde_fecha": "2026-01-01",
     "correos": 940,
-    "notas": 346,
-    "llamadas": 278,
+    "notas": 347,
+    "llamadas": 281,
     "disponible": true
   }
 }
