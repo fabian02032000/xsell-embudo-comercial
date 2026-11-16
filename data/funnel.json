@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-16T02:01:45.952581+00:00",
+  "generado": "2026-11-16T09:37:08.882218+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72577,7 +72577,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 0,
+          "contactos": 3,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -72590,7 +72590,7 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 3,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -91542,6 +91542,34 @@
   },
   "negocios_detalle": [
     {
+      "id": "6748079994",
+      "nombre": "3eriza - Ducis",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "qualifiedtobuy",
+      "etapa_label": "Propuesta en elaboración",
+      "monto": 600.0,
+      "creado": "2021-10-25",
+      "cierre": "2021-10-31",
+      "ultima_actividad": "2026-11-16"
+    },
+    {
+      "id": "67969936231",
+      "nombre": "Jackson Martin Vasquez Urbina",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-13",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-16"
+    },
+    {
       "id": "67925117279",
       "nombre": "Zoraida Maruja Villaverde Escarrache",
       "pais": "Perú",
@@ -91670,20 +91698,6 @@
     {
       "id": "67969875884",
       "nombre": "Juan Zentner Carrillo",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-13",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-13"
-    },
-    {
-      "id": "67969936231",
-      "nombre": "Jackson Martin Vasquez Urbina",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -98526,20 +98540,6 @@
       "creado": "2026-08-03",
       "cierre": "2026-08-31",
       "ultima_actividad": "2026-08-19"
-    },
-    {
-      "id": "6748079994",
-      "nombre": "3eriza - Ducis",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "qualifiedtobuy",
-      "etapa_label": "Propuesta en elaboración",
-      "monto": 600.0,
-      "creado": "2021-10-25",
-      "cierre": "2021-10-31",
-      "ultima_actividad": "2026-08-18"
     },
     {
       "id": "53946000309",
