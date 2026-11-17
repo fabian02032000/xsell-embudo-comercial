@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-17T11:40:13.175932+00:00",
+  "generado": "2026-11-17T20:04:05.031168+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72845,7 +72845,98 @@
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
+          "contacto": "LukiCat",
+          "negocio": "LukiCat",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
+          "contacto": "Jonathan Vasquez",
+          "negocio": "NAVAS inmobiliaria",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
+          "contacto": "alexander yllescas",
+          "negocio": "Independiente",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
+          "contacto": "Edgardo Valer Pinto",
+          "negocio": "edvapi eirl",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
+          "contacto": "Luis Alberto Pineda Llerena",
+          "negocio": "Pineda Automotriz sac",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
+          "contacto": "Julio Cesar Vera Garcia",
+          "negocio": "Automotoresinka ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
+          "contacto": "Racacha Diego",
+          "negocio": "Bodega lina",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
+          "contacto": "Miguel Ángel Rodriguez eza",
+          "negocio": "Kuadrante",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
+          "contacto": "Antonio Orihuela",
+          "negocio": "Almajer global sac",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -81052,7 +81143,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 635,
-    "tasa_apertura": 52.9,
+    "tasa_apertura": 53.2,
     "tasa_clics": 0.0,
     "tasa_respuestas": 21.9,
     "cobertura_rubro": 5.8,
@@ -81245,7 +81336,7 @@
         "hora": "00:47",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -81709,7 +81800,7 @@
         "hora": "00:01",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -81789,7 +81880,7 @@
         "hora": "23:20",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
@@ -81805,7 +81896,7 @@
         "hora": "15:38",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 3
       },
@@ -81821,7 +81912,7 @@
         "hora": "15:09",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 3
       },
@@ -81837,7 +81928,7 @@
         "hora": "19:21",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 3
       },
@@ -92707,13 +92798,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2431,
+    "total_deals": 2440,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 395,
+        "cantidad": 404,
         "valor": 15874583.0
       },
       {
@@ -93404,6 +93495,20 @@
       "ultima_actividad": "2026-11-17"
     },
     {
+      "id": "67997080941",
+      "nombre": "Ricardo Enrique Montejo Castro",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-16",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-17"
+    },
+    {
       "id": "67997144331",
       "nombre": "Jack Leibniz",
       "pais": "Perú",
@@ -93414,6 +93519,132 @@
       "etapa_label": "Prospectos Contactados",
       "monto": 0.0,
       "creado": "2026-11-16",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-17"
+    },
+    {
+      "id": "67997174164",
+      "nombre": "LukiCat",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-17"
+    },
+    {
+      "id": "67997174390",
+      "nombre": "NAVAS inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-17"
+    },
+    {
+      "id": "67997174449",
+      "nombre": "Independiente",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-17"
+    },
+    {
+      "id": "68034134096",
+      "nombre": "edvapi eirl",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-17"
+    },
+    {
+      "id": "68034134149",
+      "nombre": "Pineda Automotriz sac",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-17"
+    },
+    {
+      "id": "68034134554",
+      "nombre": "Automotoresinka ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-17"
+    },
+    {
+      "id": "68034135966",
+      "nombre": "Bodega lina",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-17"
+    },
+    {
+      "id": "68034136108",
+      "nombre": "Kuadrante",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-17"
+    },
+    {
+      "id": "68035845702",
+      "nombre": "Almajer global sac",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
       "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-17"
     },
@@ -94059,20 +94290,6 @@
       "monto": 0.0,
       "creado": "2026-11-16",
       "cierre": "2026-11-16",
-      "ultima_actividad": "2026-11-16"
-    },
-    {
-      "id": "67997080941",
-      "nombre": "Ricardo Enrique Montejo Castro",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-16",
-      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-16"
     },
     {
@@ -126812,7 +127029,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 986,
     "notas": 372,
-    "llamadas": 335,
+    "llamadas": 337,
     "disponible": true
   }
 }
