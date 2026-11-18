@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-18T02:24:54.731551+00:00",
+  "generado": "2026-11-18T10:37:42.001508+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72947,7 +72947,7 @@
           "ventas": 0
         },
         "MKT Pauta": {
-          "contactos": 2,
+          "contactos": 5,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -72960,7 +72960,7 @@
         }
       },
       "total": {
-        "contactos": 2,
+        "contactos": 5,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -81172,7 +81172,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 635,
-    "tasa_apertura": 53.4,
+    "tasa_apertura": 53.5,
     "tasa_clics": 0.0,
     "tasa_respuestas": 21.9,
     "cobertura_rubro": 5.8,
@@ -81717,7 +81717,7 @@
         "hora": "00:13",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -92894,6 +92894,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "65294998415",
+      "nombre": "Imagina Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-28",
+      "cierre": "2026-09-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
       "id": "53946000259",
       "nombre": "Toyota del Perú ",
       "pais": "Perú",
@@ -93302,20 +93316,6 @@
     {
       "id": "65294946081",
       "nombre": "Morgenstern Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-28",
-      "cierre": "2026-09-30",
-      "ultima_actividad": "2026-11-17"
-    },
-    {
-      "id": "65294998415",
-      "nombre": "Imagina Inmobiliaria",
       "pais": "Perú",
       "pais_real": false,
       "tipo_negocio": "OTRO",
