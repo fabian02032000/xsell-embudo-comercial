@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-18T10:37:42.001508+00:00",
+  "generado": "2026-11-18T19:05:22.378721+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72965,7 +72965,58 @@
         "propuestas": 0,
         "ventas": 0
       },
-      "detalle": []
+      "detalle": [
+        {
+          "fecha": "2026-11-18",
+          "fuente": "MKT Pauta",
+          "contacto": "Freddy Saravia",
+          "negocio": "Neuma Perú ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-18",
+          "fuente": "MKT Pauta",
+          "contacto": "André",
+          "negocio": "Inversiones Yomaro",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-18",
+          "fuente": "MKT Pauta",
+          "contacto": "Jessica Pineda Llerena",
+          "negocio": "PINEDA AUTOMOTRIZ SAC",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-18",
+          "fuente": "MKT Pauta",
+          "contacto": "Marco Paul Garcia Galdo",
+          "negocio": "Indianorg ",
+          "etapa": "Prospectos Contactados",
+          "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-18",
+          "fuente": "MKT Pauta",
+          "contacto": "Anthony Diaz Vega",
+          "negocio": "Marketing E.S Perú",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        }
+      ]
     }
   },
   "metas_mensuales_default": {
@@ -81166,6 +81217,12 @@
       "negocio": "Maquimas",
       "contacto": "jasmin",
       "email": ""
+    },
+    {
+      "deal_id": "68147740467",
+      "negocio": "Marketing E.S Perú",
+      "contacto": "Anthony Diaz Vega",
+      "email": "adiazv@fonbienes.com.pe"
     }
   ],
   "correos_insight": {
@@ -92827,13 +92884,13 @@
     ]
   },
   "negocios_pipeline": {
-    "total_deals": 2440,
+    "total_deals": 2445,
     "pipeline_activo_valor": 185757789.6,
     "por_etapa": [
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 404,
+        "cantidad": 408,
         "valor": 15874583.0
       },
       {
@@ -92881,7 +92938,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1364,
+        "cantidad": 1365,
         "valor": 123067885.2
       },
       {
@@ -92905,6 +92962,76 @@
       "monto": 0.0,
       "creado": "2026-09-28",
       "cierre": "2026-09-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "68147677856",
+      "nombre": "Neuma Perú ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-18",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "68147740306",
+      "nombre": "Inversiones Yomaro",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-18",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "68147740467",
+      "nombre": "Marketing E.S Perú",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-18",
+      "cierre": "2026-11-18",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "68148112015",
+      "nombre": "PINEDA AUTOMOTRIZ SAC",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-18",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "68156697717",
+      "nombre": "Indianorg ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-18",
+      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-18"
     },
     {
@@ -127058,7 +127185,7 @@
     "desde_fecha": "2026-01-01",
     "correos": 986,
     "notas": 372,
-    "llamadas": 337,
+    "llamadas": 342,
     "disponible": true
   }
 }
