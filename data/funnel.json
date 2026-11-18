@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-17T20:04:05.031168+00:00",
+  "generado": "2026-11-18T02:24:54.731551+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72937,6 +72937,35 @@
           "motivo": null
         }
       ]
+    },
+    "2026-11-18": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 2,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 2,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -81143,7 +81172,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 635,
-    "tasa_apertura": 53.2,
+    "tasa_apertura": 53.4,
     "tasa_clics": 0.0,
     "tasa_respuestas": 21.9,
     "cobertura_rubro": 5.8,
@@ -82376,7 +82405,7 @@
         "hora": "10:00",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -92893,6 +92922,20 @@
       "ultima_actividad": "2026-11-17"
     },
     {
+      "id": "56645821185",
+      "nombre": "EUROPEAN OPEN BUSINESS SCHOOL",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
+      "etapa_label": "Stand By",
+      "monto": 0.0,
+      "creado": "2026-02-19",
+      "cierre": "2026-04-16",
+      "ultima_actividad": "2026-11-17"
+    },
+    {
       "id": "56709557539",
       "nombre": "Wigo Motors Perú Perfilamiento de Leads",
       "pais": "Perú",
@@ -95438,20 +95481,6 @@
       "monto": 456000.0,
       "creado": "2026-02-18",
       "cierre": "2026-02-28",
-      "ultima_actividad": "2026-11-05"
-    },
-    {
-      "id": "56645821185",
-      "nombre": "EUROPEAN OPEN BUSINESS SCHOOL",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "73fb3ceb-7619-4436-8e1a-7ed0d2d4e65a",
-      "etapa_label": "Stand By",
-      "monto": 0.0,
-      "creado": "2026-02-19",
-      "cierre": "2026-04-16",
       "ultima_actividad": "2026-11-05"
     },
     {
