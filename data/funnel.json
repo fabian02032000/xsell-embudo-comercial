@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-18T19:05:22.378721+00:00",
+  "generado": "2026-11-19T01:12:08.172161+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72869,16 +72869,6 @@
         {
           "fecha": "2026-11-17",
           "fuente": "MKT Pauta",
-          "contacto": "alexander yllescas",
-          "negocio": "Independiente",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-17",
-          "fuente": "MKT Pauta",
           "contacto": "Edgardo Valer Pinto",
           "negocio": "edvapi eirl",
           "etapa": "Prospectos Contactados",
@@ -72933,6 +72923,16 @@
           "negocio": "Almajer global sac",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
+          "contacto": "alexander yllescas",
+          "negocio": "Independiente",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         }
@@ -73017,6 +73017,35 @@
           "motivo": null
         }
       ]
+    },
+    "2026-11-19": {
+      "fuentes": {
+        "Comercial": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "MKT Pauta": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        },
+        "LinkedIn PACS": {
+          "contactos": 0,
+          "reuniones": 0,
+          "propuestas": 0,
+          "ventas": 0
+        }
+      },
+      "total": {
+        "contactos": 0,
+        "reuniones": 0,
+        "propuestas": 0,
+        "ventas": 0
+      },
+      "detalle": []
     }
   },
   "metas_mensuales_default": {
@@ -81195,6 +81224,12 @@
       "email": "dica1958@hotmail.com"
     },
     {
+      "deal_id": "67997174449",
+      "negocio": "Independiente",
+      "contacto": "alexander yllescas",
+      "email": "alexanderyllesc@gmail.com"
+    },
+    {
       "deal_id": "68026810182",
       "negocio": "Reynaldo Atoche",
       "contacto": "Reynaldo Atoche",
@@ -81228,12 +81263,28 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 635,
+    "total_enviados": 636,
     "tasa_apertura": 53.5,
     "tasa_clics": 0.0,
     "tasa_respuestas": 21.9,
     "cobertura_rubro": 5.8,
     "detalle": [
+      {
+        "id": "121528217192",
+        "destinatario_email": "rosa.carbajal@3eriza.com.pe;rosa.carbajal@3eriza.pe",
+        "destinatario_nombre": null,
+        "empresa": "3Eriza",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "\tRV: Propuesta Económica - Central de Citas Hyundai SportWagen",
+        "fecha": "2026-11-18",
+        "hora": "21:04",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "121257147527",
         "destinatario_email": "juan.salgado@motorysa.com",
@@ -82942,7 +82993,7 @@
         "hora": "15:46",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 10,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -83198,7 +83249,7 @@
         "hora": "17:12",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 10,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 1
       },
@@ -92890,7 +92941,7 @@
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 408,
+        "cantidad": 407,
         "valor": 15874583.0
       },
       {
@@ -92938,7 +92989,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1365,
+        "cantidad": 1366,
         "valor": 123067885.2
       },
       {
@@ -92951,6 +93002,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "51015843945",
+      "nombre": "SportWagen -Central de Citas ",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "CITAS",
+      "tipo_negocio_label": "Agendamiento de Citas",
+      "etapa": "44cdeaeb-93ef-4f46-a125-d47bfb1a7694",
+      "etapa_label": "Implementada",
+      "monto": 67392.0,
+      "creado": "2025-12-02",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
       "id": "65294998415",
       "nombre": "Imagina Inmobiliaria",
       "pais": "Perú",
@@ -92962,6 +93027,118 @@
       "monto": 0.0,
       "creado": "2026-09-28",
       "cierre": "2026-09-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "66316522031",
+      "nombre": "BL Corredores de Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-19",
+      "cierre": null,
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "67997174390",
+      "nombre": "NAVAS inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "67997174449",
+      "nombre": "Independiente",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-18",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "68034134149",
+      "nombre": "Pineda Automotriz sac",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "68034134554",
+      "nombre": "Automotoresinka ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "68034135966",
+      "nombre": "Bodega lina",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "68034136108",
+      "nombre": "Kuadrante",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-18"
+    },
+    {
+      "id": "68035845702",
+      "nombre": "Almajer global sac",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-18"
     },
     {
@@ -93707,106 +93884,8 @@
       "ultima_actividad": "2026-11-17"
     },
     {
-      "id": "67997174390",
-      "nombre": "NAVAS inmobiliaria",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-17",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-17"
-    },
-    {
-      "id": "67997174449",
-      "nombre": "Independiente",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-17",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-17"
-    },
-    {
       "id": "68034134096",
       "nombre": "edvapi eirl",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-17",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-17"
-    },
-    {
-      "id": "68034134149",
-      "nombre": "Pineda Automotriz sac",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-17",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-17"
-    },
-    {
-      "id": "68034134554",
-      "nombre": "Automotoresinka ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-17",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-17"
-    },
-    {
-      "id": "68034135966",
-      "nombre": "Bodega lina",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-17",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-17"
-    },
-    {
-      "id": "68034136108",
-      "nombre": "Kuadrante",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-17",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-17"
-    },
-    {
-      "id": "68035845702",
-      "nombre": "Almajer global sac",
       "pais": "Perú",
       "pais_real": true,
       "tipo_negocio": "OTRO",
@@ -96014,20 +96093,6 @@
       "monto": 0.0,
       "creado": "2026-10-16",
       "cierre": "2026-10-30",
-      "ultima_actividad": "2026-10-30"
-    },
-    {
-      "id": "66316522031",
-      "nombre": "BL Corredores de Seguros",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-19",
-      "cierre": null,
       "ultima_actividad": "2026-10-30"
     },
     {
@@ -112229,20 +112294,6 @@
       "ultima_actividad": "2026-07-17"
     },
     {
-      "id": "51015843945",
-      "nombre": "SportWagen -Central de Citas ",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "CITAS",
-      "tipo_negocio_label": "Agendamiento de Citas",
-      "etapa": "44cdeaeb-93ef-4f46-a125-d47bfb1a7694",
-      "etapa_label": "Implementada",
-      "monto": 67392.0,
-      "creado": "2025-12-02",
-      "cierre": "2026-04-30",
-      "ultima_actividad": "2026-07-17"
-    },
-    {
       "id": "51020287017",
       "nombre": "Claro Mercaderistas ",
       "pais": "Perú",
@@ -127183,9 +127234,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 986,
+    "correos": 987,
     "notas": 372,
-    "llamadas": 342,
+    "llamadas": 349,
     "disponible": true
   }
 }
