@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-19T08:54:44.754641+00:00",
+  "generado": "2026-11-19T18:09:13.403897+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -81264,7 +81264,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 636,
-    "tasa_apertura": 53.5,
+    "tasa_apertura": 53.8,
     "tasa_clics": 0.0,
     "tasa_respuestas": 21.9,
     "cobertura_rubro": 5.8,
@@ -81281,7 +81281,7 @@
         "hora": "21:04",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -82209,7 +82209,7 @@
         "hora": "23:08",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -82993,7 +82993,7 @@
         "hora": "15:46",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
@@ -83249,7 +83249,7 @@
         "hora": "17:12",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 1
       },
@@ -88737,7 +88737,7 @@
         "hora": "19:53",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 7,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -93002,6 +93002,34 @@
   },
   "negocios_detalle": [
     {
+      "id": "59963223397",
+      "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 30000.0,
+      "creado": "2026-05-04",
+      "cierre": "2026-06-23",
+      "ultima_actividad": "2026-11-19"
+    },
+    {
+      "id": "66316522031",
+      "nombre": "BL Corredores de Seguros",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-19",
+      "cierre": null,
+      "ultima_actividad": "2026-11-19"
+    },
+    {
       "id": "51015843945",
       "nombre": "SportWagen -Central de Citas ",
       "pais": "Perú",
@@ -93027,20 +93055,6 @@
       "monto": 0.0,
       "creado": "2026-09-28",
       "cierre": "2026-09-30",
-      "ultima_actividad": "2026-11-18"
-    },
-    {
-      "id": "66316522031",
-      "nombre": "BL Corredores de Seguros",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-19",
-      "cierre": null,
       "ultima_actividad": "2026-11-18"
     },
     {
@@ -95477,20 +95491,6 @@
       "monto": 60000.0,
       "creado": "2026-02-25",
       "cierre": "2026-03-23",
-      "ultima_actividad": "2026-11-06"
-    },
-    {
-      "id": "59963223397",
-      "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 30000.0,
-      "creado": "2026-05-04",
-      "cierre": "2026-06-23",
       "ultima_actividad": "2026-11-06"
     },
     {
