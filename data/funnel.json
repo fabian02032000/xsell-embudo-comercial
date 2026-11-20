@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-19T18:09:13.403897+00:00",
+  "generado": "2026-11-20T00:39:12.502156+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -73018,7 +73018,7 @@
         }
       ]
     },
-    "2026-11-19": {
+    "2026-11-20": {
       "fuentes": {
         "Comercial": {
           "contactos": 0,
@@ -81264,7 +81264,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 636,
-    "tasa_apertura": 53.8,
+    "tasa_apertura": 53.9,
     "tasa_clics": 0.0,
     "tasa_respuestas": 21.9,
     "cobertura_rubro": 5.8,
@@ -81297,7 +81297,7 @@
         "hora": "00:57",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -81937,7 +81937,7 @@
         "hora": "00:01",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 2,
         "clics": 0,
         "respuestas": 0
       },
@@ -82993,7 +82993,7 @@
         "hora": "15:46",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 2,
+        "aperturas": 3,
         "clics": 0,
         "respuestas": 0
       },
@@ -83249,7 +83249,7 @@
         "hora": "17:12",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 2,
+        "aperturas": 3,
         "clics": 0,
         "respuestas": 1
       },
@@ -85009,7 +85009,7 @@
         "hora": "01:41",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 2,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -93002,6 +93002,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "57830142734",
+      "nombre": "Motorysa Perú  Perfilamiento de Leads",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-03-09",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-11-19"
+    },
+    {
       "id": "59963223397",
       "nombre": "CAFAE-SE Perfilamiento de Leads Perú ",
       "pais": "Perú",
@@ -93013,6 +93027,20 @@
       "monto": 30000.0,
       "creado": "2026-05-04",
       "cierre": "2026-06-23",
+      "ultima_actividad": "2026-11-19"
+    },
+    {
+      "id": "65169269611",
+      "nombre": "JyM Grupo Inmobiliario",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-22",
+      "cierre": null,
       "ultima_actividad": "2026-11-19"
     },
     {
@@ -93282,20 +93310,6 @@
       "ultima_actividad": "2026-11-17"
     },
     {
-      "id": "57830142734",
-      "nombre": "Motorysa Perú  Perfilamiento de Leads",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-03-09",
-      "cierre": "2026-04-30",
-      "ultima_actividad": "2026-11-17"
-    },
-    {
       "id": "58332100412",
       "nombre": "Mitsui Automotriz Perfilamiento de Leads Perú",
       "pais": "Perú",
@@ -93349,20 +93363,6 @@
       "monto": 0.0,
       "creado": "2026-09-01",
       "cierre": "2026-09-08",
-      "ultima_actividad": "2026-11-17"
-    },
-    {
-      "id": "65169269611",
-      "nombre": "JyM Grupo Inmobiliario",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-22",
-      "cierre": null,
       "ultima_actividad": "2026-11-17"
     },
     {
