@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-21T11:47:17.159639+00:00",
+  "generado": "2026-11-21T18:18:27.390177+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -81937,7 +81937,7 @@
         "hora": "00:01",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 2,
+        "aperturas": 3,
         "clics": 0,
         "respuestas": 0
       },
@@ -93002,6 +93002,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "65169269611",
+      "nombre": "JyM Grupo Inmobiliario",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-22",
+      "cierre": null,
+      "ultima_actividad": "2026-11-21"
+    },
+    {
       "id": "57830142734",
       "nombre": "Motorysa Perú  Perfilamiento de Leads",
       "pais": "Perú",
@@ -93027,20 +93041,6 @@
       "monto": 30000.0,
       "creado": "2026-05-04",
       "cierre": "2026-06-23",
-      "ultima_actividad": "2026-11-19"
-    },
-    {
-      "id": "65169269611",
-      "nombre": "JyM Grupo Inmobiliario",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-22",
-      "cierre": null,
       "ultima_actividad": "2026-11-19"
     },
     {
