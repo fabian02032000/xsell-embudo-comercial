@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-21T18:18:27.390177+00:00",
+  "generado": "2026-11-21T23:29:50.983893+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -81264,7 +81264,7 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 636,
-    "tasa_apertura": 53.9,
+    "tasa_apertura": 54.1,
     "tasa_clics": 0.0,
     "tasa_respuestas": 21.9,
     "cobertura_rubro": 5.8,
@@ -81841,7 +81841,7 @@
         "hora": "00:11",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -93016,6 +93016,20 @@
       "ultima_actividad": "2026-11-21"
     },
     {
+      "id": "65183130910",
+      "nombre": "CP Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-22",
+      "cierre": null,
+      "ultima_actividad": "2026-11-21"
+    },
+    {
       "id": "57830142734",
       "nombre": "Motorysa Perú  Perfilamiento de Leads",
       "pais": "Perú",
@@ -93438,20 +93452,6 @@
     {
       "id": "65182336672",
       "nombre": "Inmobiliaria Urbalima",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-22",
-      "cierre": null,
-      "ultima_actividad": "2026-11-17"
-    },
-    {
-      "id": "65183130910",
-      "nombre": "CP Inmobiliaria",
       "pais": "Perú",
       "pais_real": false,
       "tipo_negocio": "OTRO",
