@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-23T20:10:56.906571+00:00",
+  "generado": "2026-11-24T04:51:44.152233+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -73018,7 +73018,7 @@
         }
       ]
     },
-    "2026-11-23": {
+    "2026-11-24": {
       "fuentes": {
         "Comercial": {
           "contactos": 0,
@@ -81264,9 +81264,9 @@
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
     "total_enviados": 636,
-    "tasa_apertura": 54.1,
+    "tasa_apertura": 54.2,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 21.9,
+    "tasa_respuestas": 22.0,
     "cobertura_rubro": 5.8,
     "detalle": [
       {
@@ -82689,9 +82689,9 @@
         "hora": "01:25",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 0,
+        "aperturas": 2,
         "clics": 0,
-        "respuestas": 0
+        "respuestas": 1
       },
       {
         "id": "119986361992",
@@ -89345,7 +89345,7 @@
         "hora": "16:47",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 115,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 0
       },
@@ -89361,7 +89361,7 @@
         "hora": "14:57",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 115,
+        "aperturas": 1,
         "clics": 0,
         "respuestas": 1
       },
@@ -93002,6 +93002,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "56709557539",
+      "nombre": "Wigo Motors Perú Perfilamiento de Leads",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-02-23",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-11-23"
+    },
+    {
       "id": "65169269611",
       "nombre": "JyM Grupo Inmobiliario",
       "pais": "Perú",
@@ -93307,20 +93321,6 @@
       "monto": 0.0,
       "creado": "2026-02-19",
       "cierre": "2026-04-16",
-      "ultima_actividad": "2026-11-17"
-    },
-    {
-      "id": "56709557539",
-      "nombre": "Wigo Motors Perú Perfilamiento de Leads",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-02-23",
-      "cierre": "2026-02-28",
       "ultima_actividad": "2026-11-17"
     },
     {
@@ -127234,7 +127234,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 987,
+    "correos": 988,
     "notas": 372,
     "llamadas": 349,
     "disponible": true
