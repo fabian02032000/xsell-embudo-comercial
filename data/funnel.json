@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-26T02:07:47.998591+00:00",
+  "generado": "2026-11-26T10:53:35.481128+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -72342,26 +72342,6 @@
         {
           "fecha": "2026-11-13",
           "fuente": "MKT Pauta",
-          "contacto": "Jackson Martin Vasquez Urbina",
-          "negocio": "Jackson Martin Vasquez Urbina",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-13",
-          "fuente": "MKT Pauta",
-          "contacto": "marcos poma",
-          "negocio": "marcos poma",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-13",
-          "fuente": "MKT Pauta",
           "contacto": "Keilla Milagros Caso Villalobos",
           "negocio": "Keilla Milagros Caso Villalobos",
           "etapa": "Descartada",
@@ -72414,6 +72394,26 @@
           "fuente": "MKT Pauta",
           "contacto": "Juan Zentner Carrillo",
           "negocio": "Juan Zentner Carrillo",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-13",
+          "fuente": "MKT Pauta",
+          "contacto": "Jackson Martin Vasquez Urbina",
+          "negocio": "Jackson Martin Vasquez Urbina",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-13",
+          "fuente": "MKT Pauta",
+          "contacto": "marcos poma",
+          "negocio": "marcos poma",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -72541,36 +72541,6 @@
         {
           "fecha": "2026-11-16",
           "fuente": "MKT Pauta",
-          "contacto": "Jorge Effio Coello",
-          "negocio": "AVITARE",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-16",
-          "fuente": "MKT Pauta",
-          "contacto": "Sergio Enrique Angulo Reátegui",
-          "negocio": "Sergio Enrique Angulo Reátegui",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-16",
-          "fuente": "MKT Pauta",
-          "contacto": "Javier Carrillo",
-          "negocio": "Javier Carrillo",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-16",
-          "fuente": "MKT Pauta",
           "contacto": "Rolando Chumbimune Gonzales",
           "negocio": "Rolando Chumbimune Gonzales",
           "etapa": "Descartada",
@@ -72691,6 +72661,16 @@
         {
           "fecha": "2026-11-16",
           "fuente": "MKT Pauta",
+          "contacto": "Jorge Effio Coello",
+          "negocio": "AVITARE",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-16",
+          "fuente": "MKT Pauta",
           "contacto": "Jack Leibniz",
           "negocio": "Jack Leibniz",
           "etapa": "Descartada",
@@ -72703,6 +72683,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Leonardo Salazar",
           "negocio": "MIXIONG S.A.C.",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-16",
+          "fuente": "MKT Pauta",
+          "contacto": "Sergio Enrique Angulo Reátegui",
+          "negocio": "Sergio Enrique Angulo Reátegui",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -72743,6 +72733,16 @@
           "fuente": "MKT Pauta",
           "contacto": "jasmin",
           "negocio": "Maquimas",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-16",
+          "fuente": "MKT Pauta",
+          "contacto": "Javier Carrillo",
+          "negocio": "Javier Carrillo",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -72801,28 +72801,8 @@
         {
           "fecha": "2026-11-17",
           "fuente": "MKT Pauta",
-          "contacto": "Jonathan Vasquez",
-          "negocio": "NAVAS inmobiliaria",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-17",
-          "fuente": "MKT Pauta",
           "contacto": "Edgardo Valer Pinto",
           "negocio": "edvapi eirl",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-17",
-          "fuente": "MKT Pauta",
-          "contacto": "Racacha Diego",
-          "negocio": "Bodega lina",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
           "origen": "HubSpot",
@@ -72851,6 +72831,16 @@
         {
           "fecha": "2026-11-17",
           "fuente": "MKT Pauta",
+          "contacto": "Jonathan Vasquez",
+          "negocio": "NAVAS inmobiliaria",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
           "contacto": "alexander yllescas",
           "negocio": "Independiente",
           "etapa": "Descartada",
@@ -72873,6 +72863,16 @@
           "fuente": "MKT Pauta",
           "contacto": "Julio Cesar Vera Garcia",
           "negocio": "Automotoresinka ",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-17",
+          "fuente": "MKT Pauta",
+          "contacto": "Racacha Diego",
+          "negocio": "Bodega lina",
           "etapa": "Descartada",
           "nivel": "Fuera del embudo",
           "origen": "HubSpot",
@@ -72921,16 +72921,6 @@
         {
           "fecha": "2026-11-18",
           "fuente": "MKT Pauta",
-          "contacto": "André",
-          "negocio": "Inversiones Yomaro",
-          "etapa": "Prospectos Contactados",
-          "nivel": "Contactos",
-          "origen": "HubSpot",
-          "motivo": null
-        },
-        {
-          "fecha": "2026-11-18",
-          "fuente": "MKT Pauta",
           "contacto": "Jessica Pineda Llerena",
           "negocio": "PINEDA AUTOMOTRIZ SAC",
           "etapa": "Prospectos Contactados",
@@ -72945,6 +72935,16 @@
           "negocio": "Indianorg ",
           "etapa": "Prospectos Contactados",
           "nivel": "Contactos",
+          "origen": "HubSpot",
+          "motivo": null
+        },
+        {
+          "fecha": "2026-11-18",
+          "fuente": "MKT Pauta",
+          "contacto": "André",
+          "negocio": "Inversiones Yomaro",
+          "etapa": "Descartada",
+          "nivel": "Fuera del embudo",
           "origen": "HubSpot",
           "motivo": null
         },
@@ -72992,7 +72992,7 @@
     "2026-11-26": {
       "fuentes": {
         "Comercial": {
-          "contactos": 0,
+          "contactos": 1,
           "reuniones": 0,
           "propuestas": 0,
           "ventas": 0
@@ -73011,7 +73011,7 @@
         }
       },
       "total": {
-        "contactos": 0,
+        "contactos": 1,
         "reuniones": 0,
         "propuestas": 0,
         "ventas": 0
@@ -81213,6 +81213,12 @@
       "email": "zentnercarrillo@gmail.com"
     },
     {
+      "deal_id": "67969936231",
+      "negocio": "Jackson Martin Vasquez Urbina",
+      "contacto": "Jackson Martin Vasquez Urbina",
+      "email": "jack_s09@hotmail.com"
+    },
+    {
       "deal_id": "67969983535",
       "negocio": "Rolando Chumbimune Gonzales",
       "contacto": "Rolando Chumbimune Gonzales",
@@ -81241,6 +81247,12 @@
       "negocio": "Jose Martin Villarreyes Manriquez",
       "contacto": "Jose Martin Villarreyes Manriquez",
       "email": "josemartinvillarreyes26@gmail.com"
+    },
+    {
+      "deal_id": "67984651565",
+      "negocio": "marcos poma",
+      "contacto": "marcos poma",
+      "email": "mpomatrelles@gmail.com"
     },
     {
       "deal_id": "67984671406",
@@ -81297,6 +81309,12 @@
       "email": "dica1958@hotmail.com"
     },
     {
+      "deal_id": "67997140149",
+      "negocio": "AVITARE",
+      "contacto": "Jorge Effio Coello",
+      "email": ""
+    },
+    {
       "deal_id": "67997144331",
       "negocio": "Jack Leibniz",
       "contacto": "Jack Leibniz",
@@ -81309,10 +81327,22 @@
       "email": "distribucionzonanorte@yadea.pe"
     },
     {
+      "deal_id": "67997174390",
+      "negocio": "NAVAS inmobiliaria",
+      "contacto": "Jonathan Vasquez",
+      "email": "jonathanvasquezflores2017@gmail.com"
+    },
+    {
       "deal_id": "67997174449",
       "negocio": "Independiente",
       "contacto": "alexander yllescas",
       "email": "alexanderyllesc@gmail.com"
+    },
+    {
+      "deal_id": "68026641004",
+      "negocio": "Sergio Enrique Angulo Reátegui",
+      "contacto": "Sergio Enrique Angulo Reátegui",
+      "email": ""
     },
     {
       "deal_id": "68026810182",
@@ -81339,6 +81369,12 @@
       "email": ""
     },
     {
+      "deal_id": "68033944999",
+      "negocio": "Javier Carrillo",
+      "contacto": "Javier Carrillo",
+      "email": "javiercarrilloperu@gmail.com"
+    },
+    {
       "deal_id": "68034134149",
       "negocio": "Pineda Automotriz sac",
       "contacto": "Luis Alberto Pineda Llerena",
@@ -81351,10 +81387,22 @@
       "email": "julio.vera@automotoresinka.com"
     },
     {
+      "deal_id": "68034135966",
+      "negocio": "Bodega lina",
+      "contacto": "Racacha Diego",
+      "email": "diegoarmando_10_11@hotmail.com"
+    },
+    {
       "deal_id": "68035790984",
       "negocio": "EL PERFIL",
       "contacto": "Rosmery Guizado",
       "email": ""
+    },
+    {
+      "deal_id": "68147740306",
+      "negocio": "Inversiones Yomaro",
+      "contacto": "André",
+      "email": "andreesce.aec@gmail.com"
     },
     {
       "deal_id": "68147740467",
@@ -81366,12 +81414,204 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 639,
-    "tasa_apertura": 54.1,
+    "total_enviados": 651,
+    "tasa_apertura": 53.6,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 21.9,
-    "cobertura_rubro": 5.8,
+    "tasa_respuestas": 21.5,
+    "cobertura_rubro": 6.1,
     "detalle": [
+      {
+        "id": "122140687714",
+        "destinatario_email": "ventas@odima.pe",
+        "destinatario_nombre": null,
+        "empresa": "Odima",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "El stock se agota en 20 meses",
+        "fecha": "2026-11-26",
+        "hora": "04:59",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "122139525774",
+        "destinatario_email": "atencionalcliente@jymgrupoinmobiliario.com",
+        "destinatario_nombre": null,
+        "empresa": "Jymgrupoinmobiliario",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Lima Moderna vendió 9,575 viviendas",
+        "fecha": "2026-11-26",
+        "hora": "04:56",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "122139930990",
+        "destinatario_email": "contactenos@inmobiliariaeureka.com",
+        "destinatario_nombre": null,
+        "empresa": "Inmobiliariaeureka",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "23,626 viviendas vendidas y 26% más",
+        "fecha": "2026-11-26",
+        "hora": "04:54",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "122139871497",
+        "destinatario_email": "juan.salgado@motorysa.com",
+        "destinatario_nombre": "Juan  Salgado",
+        "empresa": "Motorysa",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Híbridos, 44% de los electrificados",
+        "fecha": "2026-11-26",
+        "hora": "04:53",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "122139525241",
+        "destinatario_email": "juan.salgado@motorysa.com",
+        "destinatario_nombre": "Juan  Salgado",
+        "empresa": "Motorysa",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Híbridos, 44% de los electrificados",
+        "fecha": "2026-11-26",
+        "hora": "04:51",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "122139871079",
+        "destinatario_email": "walter.garcia@quatroinmobiliaria.pe",
+        "destinatario_nombre": "Walter García",
+        "empresa": "Quatro Inmobiliaria",
+        "empresa_adivinada": false,
+        "rubro": "Real Estate",
+        "asunto": "Más interesados y más seguimiento",
+        "fecha": "2026-11-26",
+        "hora": "04:50",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 1,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "122139870901",
+        "destinatario_email": "jporlles@lider.com.pe",
+        "destinatario_nombre": "Jackeline Porlles Quinones",
+        "empresa": "Líder Grupo Constructor",
+        "empresa_adivinada": false,
+        "rubro": "Real Estate",
+        "asunto": "El stock se agota en 20 meses",
+        "fecha": "2026-11-26",
+        "hora": "04:49",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "122139929968",
+        "destinatario_email": "valvarado@marcan.com.pe",
+        "destinatario_nombre": "Valeria Alvarado Castillo",
+        "empresa": "Marcan",
+        "empresa_adivinada": false,
+        "rubro": "Real Estate",
+        "asunto": "23,626 viviendas vendidas y 26% más",
+        "fecha": "2026-11-26",
+        "hora": "04:45",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "122139494040",
+        "destinatario_email": "rruizb@euromotors.com.pe",
+        "destinatario_nombre": "Renato Ruiz",
+        "empresa": "Euromotors",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Un máximo de 6.1% en electrificados",
+        "fecha": "2026-11-26",
+        "hora": "04:44",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 1,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "122139493949",
+        "destinatario_email": "cesar.ramirez@mannuccidiesel.com",
+        "destinatario_nombre": "Cesar  Ramirez Moya",
+        "empresa": "Mannuccidiesel",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Electrificados con 83.1% más de ventas",
+        "fecha": "2026-11-26",
+        "hora": "04:43",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 1,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "122139430455",
+        "destinatario_email": "smuttini@divemotor.com.pe",
+        "destinatario_nombre": "Stefano Muttini",
+        "empresa": "Divemotor",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "Electrificados con 83.1% más de ventas",
+        "fecha": "2026-11-26",
+        "hora": "04:41",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
+      {
+        "id": "122139430204",
+        "destinatario_email": "jazmin.gamarra@gacsa.pe;mercedes.ortiz@gacsa.pe",
+        "destinatario_nombre": null,
+        "empresa": "Gacsa",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "RE: Jazmín, me acordé de ustedes",
+        "fecha": "2026-11-26",
+        "hora": "04:39",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 0,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "121980942375",
         "destinatario_email": "comercial.ventas@grupodicon.com.pe",
@@ -93092,7 +93332,7 @@
       {
         "etapa": "1275439753",
         "etapa_label": "Prospectos Contactados",
-        "cantidad": 385,
+        "cantidad": 377,
         "valor": 15874583.0
       },
       {
@@ -93140,7 +93380,7 @@
       {
         "etapa": "closedlost",
         "etapa_label": "Descartada",
-        "cantidad": 1388,
+        "cantidad": 1396,
         "valor": 123067885.2
       },
       {
@@ -93164,7 +93404,287 @@
       "monto": 60000.0,
       "creado": "2026-01-15",
       "cierre": "2026-01-31",
-      "ultima_actividad": "2026-11-24"
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "56611198307",
+      "nombre": "Euromotors Perú Encuestas ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "ENCUESTA",
+      "tipo_negocio_label": "Encuestas / Aleatorias",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 456000.0,
+      "creado": "2026-02-18",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "56709557539",
+      "nombre": "Wigo Motors Perú Perfilamiento de Leads",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-02-23",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "56896657576",
+      "nombre": "Grupo Mannucci Perú Perfilamiento de Leads ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-02-24",
+      "cierre": "2026-02-28",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "57830142734",
+      "nombre": "Motorysa Perú  Perfilamiento de Leads",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "LEADS",
+      "tipo_negocio_label": "Perfilamiento de Leads",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 60000.0,
+      "creado": "2026-03-09",
+      "cierre": "2026-04-30",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "65169269611",
+      "nombre": "JyM Grupo Inmobiliario",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-22",
+      "cierre": null,
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "65175456947",
+      "nombre": "Inmobiliaria Eureka",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-22",
+      "cierre": null,
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "65198079119",
+      "nombre": "Odima Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": false,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-09-22",
+      "cierre": null,
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "65726660665",
+      "nombre": "Líder Grupo Constructor",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": null,
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "65731615281",
+      "nombre": "Marcan Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": null,
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "65748149412",
+      "nombre": "Quatro Inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-05",
+      "cierre": null,
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "66489808050",
+      "nombre": "Post venta Mannucci Diesel",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "VENTAS",
+      "tipo_negocio_label": "Ventas",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-21",
+      "cierre": null,
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "66949337730",
+      "nombre": "GACSA ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-10-29",
+      "cierre": "2026-10-31",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "67969936231",
+      "nombre": "Jackson Martin Vasquez Urbina",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-13",
+      "cierre": "2026-11-26",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "67984651565",
+      "nombre": "marcos poma",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-13",
+      "cierre": "2026-11-26",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "67997140149",
+      "nombre": "AVITARE",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-16",
+      "cierre": "2026-11-26",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "67997174390",
+      "nombre": "NAVAS inmobiliaria",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-26",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "68026641004",
+      "nombre": "Sergio Enrique Angulo Reátegui",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-16",
+      "cierre": "2026-11-26",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "68033944999",
+      "nombre": "Javier Carrillo",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-16",
+      "cierre": "2026-11-26",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "68034135966",
+      "nombre": "Bodega lina",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-17",
+      "cierre": "2026-11-26",
+      "ultima_actividad": "2026-11-26"
+    },
+    {
+      "id": "68147740306",
+      "nombre": "Inversiones Yomaro",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "closedlost",
+      "etapa_label": "Descartada",
+      "monto": 0.0,
+      "creado": "2026-11-18",
+      "cierre": "2026-11-26",
+      "ultima_actividad": "2026-11-26"
     },
     {
       "id": "56443197498",
@@ -93489,20 +94009,6 @@
       "ultima_actividad": "2026-11-24"
     },
     {
-      "id": "67997174390",
-      "nombre": "NAVAS inmobiliaria",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-17",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-24"
-    },
-    {
       "id": "68034134096",
       "nombre": "edvapi eirl",
       "pais": "Perú",
@@ -93629,34 +94135,6 @@
       "ultima_actividad": "2026-11-24"
     },
     {
-      "id": "56709557539",
-      "nombre": "Wigo Motors Perú Perfilamiento de Leads",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-02-23",
-      "cierre": "2026-02-28",
-      "ultima_actividad": "2026-11-23"
-    },
-    {
-      "id": "65169269611",
-      "nombre": "JyM Grupo Inmobiliario",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-22",
-      "cierre": null,
-      "ultima_actividad": "2026-11-21"
-    },
-    {
       "id": "65183130910",
       "nombre": "CP Inmobiliaria",
       "pais": "Perú",
@@ -93669,20 +94147,6 @@
       "creado": "2026-09-22",
       "cierre": null,
       "ultima_actividad": "2026-11-21"
-    },
-    {
-      "id": "57830142734",
-      "nombre": "Motorysa Perú  Perfilamiento de Leads",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-03-09",
-      "cierre": "2026-04-30",
-      "ultima_actividad": "2026-11-19"
     },
     {
       "id": "59963223397",
@@ -93752,34 +94216,6 @@
       "monto": 0.0,
       "creado": "2026-11-17",
       "cierre": "2026-11-18",
-      "ultima_actividad": "2026-11-18"
-    },
-    {
-      "id": "68034135966",
-      "nombre": "Bodega lina",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-17",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-18"
-    },
-    {
-      "id": "68147740306",
-      "nombre": "Inversiones Yomaro",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-18",
-      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-18"
     },
     {
@@ -93895,20 +94331,6 @@
       "ultima_actividad": "2026-11-17"
     },
     {
-      "id": "65175456947",
-      "nombre": "Inmobiliaria Eureka",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-22",
-      "cierre": null,
-      "ultima_actividad": "2026-11-17"
-    },
-    {
       "id": "65176223134",
       "nombre": "Grupo Zlatsu Inmobiliaria",
       "pais": "Perú",
@@ -93981,20 +94403,6 @@
     {
       "id": "65192558686",
       "nombre": "Armónica Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": false,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-09-22",
-      "cierre": null,
-      "ultima_actividad": "2026-11-17"
-    },
-    {
-      "id": "65198079119",
-      "nombre": "Odima Inmobiliaria",
       "pais": "Perú",
       "pais_real": false,
       "tipo_negocio": "OTRO",
@@ -94354,20 +94762,6 @@
       "monto": 600.0,
       "creado": "2021-10-25",
       "cierre": "2021-10-31",
-      "ultima_actividad": "2026-11-16"
-    },
-    {
-      "id": "66949337730",
-      "nombre": "GACSA ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-29",
-      "cierre": "2026-10-31",
       "ultima_actividad": "2026-11-16"
     },
     {
@@ -94791,20 +95185,6 @@
       "ultima_actividad": "2026-11-16"
     },
     {
-      "id": "67969936231",
-      "nombre": "Jackson Martin Vasquez Urbina",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-13",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-16"
-    },
-    {
       "id": "67969983535",
       "nombre": "Rolando Chumbimune Gonzales",
       "pais": "Perú",
@@ -94903,34 +95283,6 @@
       "ultima_actividad": "2026-11-16"
     },
     {
-      "id": "67997140149",
-      "nombre": "AVITARE",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-16",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-16"
-    },
-    {
-      "id": "68026641004",
-      "nombre": "Sergio Enrique Angulo Reátegui",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-16",
-      "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-16"
-    },
-    {
       "id": "68026810182",
       "nombre": "Reynaldo Atoche",
       "pais": "Perú",
@@ -94984,20 +95336,6 @@
       "monto": 0.0,
       "creado": "2026-11-16",
       "cierre": "2026-11-16",
-      "ultima_actividad": "2026-11-16"
-    },
-    {
-      "id": "68033944999",
-      "nombre": "Javier Carrillo",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-16",
-      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-16"
     },
     {
@@ -95082,20 +95420,6 @@
       "monto": 0.0,
       "creado": "2026-11-13",
       "cierre": "2026-11-13",
-      "ultima_actividad": "2026-11-13"
-    },
-    {
-      "id": "67984651565",
-      "nombre": "marcos poma",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-13",
-      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-13"
     },
     {
@@ -95701,20 +96025,6 @@
       "ultima_actividad": "2026-11-06"
     },
     {
-      "id": "66489808050",
-      "nombre": "Post venta Mannucci Diesel",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "VENTAS",
-      "tipo_negocio_label": "Ventas",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-21",
-      "cierre": null,
-      "ultima_actividad": "2026-11-06"
-    },
-    {
       "id": "67602248377",
       "nombre": "David Ríos ",
       "pais": "Perú",
@@ -95841,20 +96151,6 @@
       "ultima_actividad": "2026-11-05"
     },
     {
-      "id": "56611198307",
-      "nombre": "Euromotors Perú Encuestas ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "ENCUESTA",
-      "tipo_negocio_label": "Encuestas / Aleatorias",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 456000.0,
-      "creado": "2026-02-18",
-      "cierre": "2026-02-28",
-      "ultima_actividad": "2026-11-05"
-    },
-    {
       "id": "60083410487",
       "nombre": "Oechsle Perú Carritos Abondonados",
       "pais": "Perú",
@@ -95880,48 +96176,6 @@
       "monto": 60000.0,
       "creado": "2026-05-19",
       "cierre": "2026-05-31",
-      "ultima_actividad": "2026-11-05"
-    },
-    {
-      "id": "65726660665",
-      "nombre": "Líder Grupo Constructor",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": null,
-      "ultima_actividad": "2026-11-05"
-    },
-    {
-      "id": "65731615281",
-      "nombre": "Marcan Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": null,
-      "ultima_actividad": "2026-11-05"
-    },
-    {
-      "id": "65748149412",
-      "nombre": "Quatro Inmobiliaria",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-10-05",
-      "cierre": null,
       "ultima_actividad": "2026-11-05"
     },
     {
@@ -96132,20 +96386,6 @@
       "monto": 0.0,
       "creado": "2026-01-19",
       "cierre": "2026-02-01",
-      "ultima_actividad": "2026-10-30"
-    },
-    {
-      "id": "56896657576",
-      "nombre": "Grupo Mannucci Perú Perfilamiento de Leads ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "LEADS",
-      "tipo_negocio_label": "Perfilamiento de Leads",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 60000.0,
-      "creado": "2026-02-24",
-      "cierre": "2026-02-28",
       "ultima_actividad": "2026-10-30"
     },
     {
@@ -127385,9 +127625,9 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 991,
+    "correos": 1003,
     "notas": 372,
-    "llamadas": 385,
+    "llamadas": 397,
     "disponible": true
   }
 }
