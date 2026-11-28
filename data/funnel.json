@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-28T02:55:20.661901+00:00",
+  "generado": "2026-11-28T11:35:36.699327+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -81454,12 +81454,28 @@
   "correos_insight": {
     "remitente": "ingrid.mio@3eriza.com.pe",
     "desde_fecha": "2026-01-01",
-    "total_enviados": 652,
-    "tasa_apertura": 53.8,
+    "total_enviados": 653,
+    "tasa_apertura": 53.9,
     "tasa_clics": 0.0,
     "tasa_respuestas": 21.6,
     "cobertura_rubro": 6.1,
     "detalle": [
+      {
+        "id": "122186334872",
+        "destinatario_email": "mvilla@crp.com.pe;dgrajeda@crp.com.pe;czegarraq@crp.com.pe",
+        "destinatario_nombre": null,
+        "empresa": "Crp",
+        "empresa_adivinada": true,
+        "rubro": null,
+        "asunto": "\tRe: Propuesta económica Xsell - Clínica Ricardo Palma",
+        "fecha": "2026-11-28",
+        "hora": "04:21",
+        "estado": "Enviado",
+        "estado_raw": "SENT",
+        "aperturas": 8,
+        "clics": 0,
+        "respuestas": 0
+      },
       {
         "id": "122145263111",
         "destinatario_email": "czegarraq@crp.com.pe;dgrajeda@crp.com.pe",
@@ -81472,7 +81488,7 @@
         "hora": "17:21",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 4,
+        "aperturas": 8,
         "clics": 0,
         "respuestas": 1
       },
@@ -93460,7 +93476,7 @@
       "monto": 0.0,
       "creado": "2026-11-26",
       "cierre": "2026-11-30",
-      "ultima_actividad": "2026-11-27"
+      "ultima_actividad": "2026-11-28"
     },
     {
       "id": "4997156771",
@@ -127695,7 +127711,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 1005,
+    "correos": 1006,
     "notas": 372,
     "llamadas": 397,
     "disponible": true
