@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-27T20:21:07.547312+00:00",
+  "generado": "2026-11-28T02:55:20.661901+00:00",
   "dias": {
     "2018-08-02": {
       "fuentes": {
@@ -73029,7 +73029,7 @@
         }
       ]
     },
-    "2026-11-27": {
+    "2026-11-28": {
       "fuentes": {
         "Comercial": {
           "contactos": 0,
@@ -81457,7 +81457,7 @@
     "total_enviados": 652,
     "tasa_apertura": 53.8,
     "tasa_clics": 0.0,
-    "tasa_respuestas": 21.5,
+    "tasa_respuestas": 21.6,
     "cobertura_rubro": 6.1,
     "detalle": [
       {
@@ -81472,9 +81472,9 @@
         "hora": "17:21",
         "estado": "Enviado",
         "estado_raw": "SENT",
-        "aperturas": 1,
+        "aperturas": 4,
         "clics": 0,
-        "respuestas": 0
+        "respuestas": 1
       },
       {
         "id": "122140687714",
@@ -93449,6 +93449,20 @@
   },
   "negocios_detalle": [
     {
+      "id": "68715571312",
+      "nombre": "Clínica Ricardo Palma ",
+      "pais": "Perú",
+      "pais_real": true,
+      "tipo_negocio": "OTRO",
+      "tipo_negocio_label": "Otro",
+      "etapa": "1275439753",
+      "etapa_label": "Prospectos Contactados",
+      "monto": 0.0,
+      "creado": "2026-11-26",
+      "cierre": "2026-11-30",
+      "ultima_actividad": "2026-11-27"
+    },
+    {
       "id": "4997156771",
       "nombre": "CLÍNICA RICARDO PALMA: QNEXT+",
       "pais": "Perú",
@@ -93754,20 +93768,6 @@
       "monto": 0.0,
       "creado": "2026-11-18",
       "cierre": "2026-11-26",
-      "ultima_actividad": "2026-11-26"
-    },
-    {
-      "id": "68715571312",
-      "nombre": "Clínica Ricardo Palma ",
-      "pais": "Perú",
-      "pais_real": true,
-      "tipo_negocio": "OTRO",
-      "tipo_negocio_label": "Otro",
-      "etapa": "1275439753",
-      "etapa_label": "Prospectos Contactados",
-      "monto": 0.0,
-      "creado": "2026-11-26",
-      "cierre": "2026-11-30",
       "ultima_actividad": "2026-11-26"
     },
     {
@@ -127695,7 +127695,7 @@
   ],
   "actividades": {
     "desde_fecha": "2026-01-01",
-    "correos": 1004,
+    "correos": 1005,
     "notas": 372,
     "llamadas": 397,
     "disponible": true
